@@ -14,31 +14,35 @@
     "tax_mode": "exclusive",
     "cross_border": false,
     "language_mode": "native",
-    "template": "de_a"
+    "template": "de_a",
+    "withholding": false,
+    "ambiguous_date": false
   },
   "fields": {
     "vendor_name": "Rhein Main Consulting GmbH",
     "vendor_tax_id": "DE545419853",
-    "invoice_number": "RE-2025-9207",
+    "invoice_number": "RE-2025-9327",
     "invoice_date": "2025-09-07",
     "due_date": "2025-09-22",
     "currency": "EUR",
-    "subtotal": "36678.35",
-    "tax_total": "6968.88",
-    "total": "43647.23",
+    "subtotal": "32107.89",
+    "tax_total": "6100.49",
+    "withholding_total": null,
+    "total": "38208.38",
     "tax_rates": [
       "19"
     ],
-    "payment_account": null,
+    "payment_account": "DE61696999181250339257",
     "line_item_count": 9
   },
+  "unscored_fields": [],
   "line_items": [
     {
       "description": "IT-Support-Stunden, remote",
-      "quantity": "1",
-      "unit": "kg",
-      "unit_price": "1067.00",
-      "amount": "1067.00",
+      "quantity": "12.5",
+      "unit": "Std.",
+      "unit_price": "756.00",
+      "amount": "9450.00",
       "tax_rate": "19"
     },
     {
@@ -51,67 +55,67 @@
     },
     {
       "description": "Elektroinstallation — Objekt 12, GruppeVerteilung und Zählerplatz",
-      "quantity": "1",
-      "unit": "Pauschale",
-      "unit_price": "704.00",
-      "amount": "704.00",
+      "quantity": "12",
+      "unit": "Stk.",
+      "unit_price": "909.00",
+      "amount": "10908.00",
       "tax_rate": "19"
     },
     {
       "description": "Brötchen und Backwaren, Lieferung wöchentlich",
-      "quantity": "10",
+      "quantity": "3",
       "unit": "Stk.",
-      "unit_price": "1152.00",
-      "amount": "11520.00",
+      "unit_price": "216.95",
+      "amount": "650.85",
       "tax_rate": "19"
     },
     {
       "description": "Transport Hamburg → München, 2 Paletten, Kombi-Verkehr",
-      "quantity": "8",
+      "quantity": "1",
       "unit": "Stk.",
-      "unit_price": "340.93",
-      "amount": "2727.44",
+      "unit_price": "1060.00",
+      "amount": "1060.00",
       "tax_rate": "19"
     },
     {
       "description": "Steuerberatung — Quartalsabschluss",
-      "quantity": "2",
+      "quantity": "8.5",
       "unit": "Std.",
-      "unit_price": "744.63",
-      "amount": "1489.26",
+      "unit_price": "340.93",
+      "amount": "2897.91",
       "tax_rate": "19"
     },
     {
       "description": "Monatliche Wartung — Klimaanlage, inklusive Ersatzteilen und Notdienst",
       "quantity": "4",
-      "unit": "kg",
-      "unit_price": "1178.00",
-      "amount": "4712.00",
+      "unit": "Std.",
+      "unit_price": "385.32",
+      "amount": "1541.28",
       "tax_rate": "19"
     },
     {
       "description": "Bürostuhl, Netzstoff, ergonomisch",
-      "quantity": "10",
+      "quantity": "4",
       "unit": "Stk.",
-      "unit_price": "49.58",
-      "amount": "495.80",
+      "unit_price": "643.00",
+      "amount": "2572.00",
       "tax_rate": "19"
     },
     {
       "description": "Fachbuch: Grundlagen der Buchführung, 3. Auflage",
-      "quantity": "10",
-      "unit": "Pauschale",
-      "unit_price": "1171.00",
-      "amount": "11710.00",
+      "quantity": "1",
+      "unit": "Stk.",
+      "unit_price": "775.00",
+      "amount": "775.00",
       "tax_rate": "19"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "RE-2025-9207",
+    "invoice_number": "RE-2025-9327",
     "invoice_date": "07.09.2025",
     "due_date": "22.09.2025",
-    "subtotal": "36.678,35 €",
-    "tax_total": "6.968,88",
-    "total": "43.647,23 €"
+    "subtotal": "32.107,89 €",
+    "tax_total": "6.100,49",
+    "total": "38.208,38 €"
   }
 }

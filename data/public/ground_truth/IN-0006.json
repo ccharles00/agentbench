@@ -14,80 +14,44 @@
     "tax_mode": "exclusive",
     "cross_border": false,
     "language_mode": "native",
-    "template": "in_b"
+    "template": "in_b",
+    "withholding": false,
+    "ambiguous_date": false
   },
   "fields": {
     "vendor_name": "चेन्नई फूड्स प्राइवेट लिमिटेड",
-    "vendor_tax_id": "19TPMYW6058M8ZH",
-    "invoice_number": "INV/25/26/649",
-    "invoice_date": "2026-02-07",
-    "due_date": "2026-03-09",
+    "vendor_tax_id": "24SWDPL9121V6Z8",
+    "invoice_number": "GST/26/27/971",
+    "invoice_date": "2026-12-21",
+    "due_date": "2027-01-20",
     "currency": "INR",
-    "subtotal": "726363.21",
-    "tax_total": "36318.16",
-    "total": "762681.37",
+    "subtotal": "188880.00",
+    "tax_total": "9444.00",
+    "withholding_total": null,
+    "total": "198324.00",
     "tax_rates": [
       "5"
     ],
     "payment_account": null,
-    "line_item_count": 6
+    "line_item_count": 1
   },
+  "unscored_fields": [],
   "line_items": [
     {
-      "description": "Catering staff — corporate event, 50 guests",
-      "quantity": "20",
-      "unit": "Nos.",
-      "unit_price": "18060.30",
-      "amount": "361206.00",
-      "tax_rate": "5"
-    },
-    {
-      "description": "मसाला पैकेजिंग सेवा — 2 टन",
-      "quantity": "3",
-      "unit": "Nos.",
-      "unit_price": "6170.99",
-      "amount": "18512.97",
-      "tax_rate": "5"
-    },
-    {
-      "description": "कपड़ा ढेर: सूती कपड़े, 500 मीटर",
-      "quantity": "20",
-      "unit": "kg",
-      "unit_price": "890.19",
-      "amount": "17803.80",
-      "tax_rate": "5"
-    },
-    {
-      "description": "Freight: Mumbai → Delhi, 3 pallets, FTL",
+      "description": "LED bulbs 9W (box of 100)",
       "quantity": "8",
-      "unit": "Box",
-      "unit_price": "10360.00",
-      "amount": "82880.00",
-      "tax_rate": "5"
-    },
-    {
-      "description": "ऑफिस कुर्सी, जाली, एर्गोनोमिक",
-      "quantity": "8",
-      "unit": "Box",
-      "unit_price": "19690.00",
-      "amount": "157520.00",
-      "tax_rate": "5"
-    },
-    {
-      "description": "Network switches — 24 port, gigabit (5 units)",
-      "quantity": "4",
-      "unit": "Nos.",
-      "unit_price": "22110.11",
-      "amount": "88440.44",
+      "unit": "pcs",
+      "unit_price": "23610.00",
+      "amount": "188880.00",
       "tax_rate": "5"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "INV/25/26/649",
-    "invoice_date": "07/02/2026",
-    "due_date": "09/03/2026",
-    "subtotal": "₹7,26,363.21",
-    "tax_total": "36,318.16",
-    "total": "₹7,62,681.37"
+    "invoice_number": "GST/26/27/971",
+    "invoice_date": "21/12/2026",
+    "due_date": "20/01/2027",
+    "subtotal": "₹1,88,880.00",
+    "tax_total": "9,444.00",
+    "total": "₹1,98,324.00"
   }
 }

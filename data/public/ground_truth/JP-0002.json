@@ -14,80 +14,84 @@
     "tax_mode": "exclusive",
     "cross_border": false,
     "language_mode": "native",
-    "template": "jp_b"
+    "template": "jp_b",
+    "withholding": false,
+    "ambiguous_date": false
   },
   "fields": {
     "vendor_name": "横浜貿易株式会社",
     "vendor_tax_id": "T7227956255853",
-    "invoice_number": "INV-2025-87023",
+    "invoice_number": "INV-2025-36353",
     "invoice_date": "2025-10-25",
     "due_date": "2025-12-24",
     "currency": "JPY",
-    "subtotal": "2430300",
-    "tax_total": "243030",
-    "total": "2673330",
+    "subtotal": "756200",
+    "tax_total": "75620",
+    "withholding_total": null,
+    "total": "831820",
     "tax_rates": [
       "10"
     ],
     "payment_account": null,
     "line_item_count": 6
   },
+  "unscored_fields": [],
   "line_items": [
     {
       "description": "翻訳サービス 日本語 → 英語",
-      "quantity": "8",
-      "unit": "台",
-      "unit_price": "85800",
-      "amount": "686400",
+      "quantity": "12",
+      "unit": "時間",
+      "unit_price": "1900",
+      "amount": "22800",
       "tax_rate": "10"
     },
     {
       "description": "ケータリング — 役員会議 20 名",
-      "quantity": "5",
-      "unit": "台",
-      "unit_price": "23000",
-      "amount": "115000",
+      "quantity": "1.5",
+      "unit": "時間",
+      "unit_price": "72600",
+      "amount": "108900",
       "tax_rate": "10"
     },
     {
       "description": "清掃サービス — オフィス月次",
+      "quantity": "2",
+      "unit": "台",
+      "unit_price": "50100",
+      "amount": "100200",
+      "tax_rate": "10"
+    },
+    {
+      "description": "ソフトウェアライセンス（年間）",
       "quantity": "1",
-      "unit": "個",
+      "unit": "台",
       "unit_price": "72300",
       "amount": "72300",
       "tax_rate": "10"
     },
     {
-      "description": "ソフトウェアライセンス（年間）",
-      "quantity": "6",
-      "unit": "個",
-      "unit_price": "73100",
-      "amount": "438600",
-      "tax_rate": "10"
-    },
-    {
       "description": "書籍：会計実務の手引き（軽減税率対象）",
-      "quantity": "3",
-      "unit": "式",
-      "unit_price": "36000",
-      "amount": "108000",
+      "quantity": "8",
+      "unit": "台",
+      "unit_price": "31900",
+      "amount": "255200",
       "tax_rate": "10"
     },
     {
       "description": "包装資材 — 段ボール 60 サイズ（100 枚）",
-      "quantity": "20",
-      "unit": "冊",
-      "unit_price": "50500",
-      "amount": "1010000",
+      "quantity": "3",
+      "unit": "個",
+      "unit_price": "65600",
+      "amount": "196800",
       "tax_rate": "10"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "INV-2025-87023",
+    "invoice_number": "INV-2025-36353",
     "invoice_date": "令和7年10月25日",
     "due_date": "令和7年12月24日",
-    "subtotal": "¥2,430,300 (JPY)",
-    "tax_total": "243,030",
-    "total": "¥2,673,330 (JPY)"
+    "subtotal": "¥756,200 (JPY)",
+    "tax_total": "75,620",
+    "total": "¥831,820 (JPY)"
   }
 }

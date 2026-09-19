@@ -14,120 +14,124 @@
     "tax_mode": "exclusive",
     "cross_border": false,
     "language_mode": "native",
-    "template": "th_c"
+    "template": "th_c",
+    "withholding": false,
+    "ambiguous_date": false
   },
   "fields": {
     "vendor_name": "บริษัท เชียงใหม่ อิเล็กทรอนิกส์ จำกัด",
     "vendor_tax_id": "7673593504368",
-    "invoice_number": "INV-2569-0795",
+    "invoice_number": "INV-2569-1110",
     "invoice_date": "2026-03-08",
     "due_date": "2026-04-07",
     "currency": "THB",
-    "subtotal": "215408.07",
-    "tax_total": "15078.57",
-    "total": "230486.64",
+    "subtotal": "221773.26",
+    "tax_total": "15524.13",
+    "withholding_total": null,
+    "total": "237297.39",
     "tax_rates": [
       "7"
     ],
     "payment_account": null,
     "line_item_count": 11
   },
+  "unscored_fields": [],
   "line_items": [
     {
       "description": "บริการบำรุงรักษาประจำเดือน — เซิร์ฟเวอร์ รวมการดูแลระยะไกล",
-      "quantity": "1",
-      "unit": "รีม",
-      "unit_price": "8458.00",
-      "amount": "8458.00",
+      "quantity": "8.5",
+      "unit": "ชั่วโมง",
+      "unit_price": "5335.00",
+      "amount": "45347.50",
       "tax_rate": "7"
     },
     {
       "description": "ค่าลิขสิทธิ์ซอฟต์แวร์ — รายปี",
-      "quantity": "12",
-      "unit": "หน่วย",
-      "unit_price": "3143.00",
-      "amount": "37716.00",
+      "quantity": "5",
+      "unit": "ชิ้น",
+      "unit_price": "2263.00",
+      "amount": "11315.00",
       "tax_rate": "7"
     },
     {
       "description": "บริการบัญชี — รายเดือน",
-      "quantity": "10",
-      "unit": "ชิ้น",
-      "unit_price": "4163.00",
-      "amount": "41630.00",
+      "quantity": "2",
+      "unit": "ชั่วโมง",
+      "unit_price": "10626.00",
+      "amount": "21252.00",
       "tax_rate": "7"
     },
     {
       "description": "ขนส่งสินค้า: กรุงเทพ → ภูเก็ต 2 พาเลท",
-      "quantity": "2",
-      "unit": "รีม",
-      "unit_price": "7587.81",
-      "amount": "15175.62",
+      "quantity": "6",
+      "unit": "พาเลท",
+      "unit_price": "10282.00",
+      "amount": "61692.00",
       "tax_rate": "7"
     },
     {
       "description": "จัดเลี้ยงสำนักงาน — 20 ท่าน",
-      "quantity": "5",
-      "unit": "รีม",
-      "unit_price": "9223.10",
-      "amount": "46115.50",
+      "quantity": "2",
+      "unit": "ชั่วโมง",
+      "unit_price": "2243.00",
+      "amount": "4486.00",
       "tax_rate": "7"
     },
     {
       "description": "วัสดุบรรจุภัณฑ์ — กล่องลูกฟูก (500 ใบ)",
       "quantity": "1",
-      "unit": "หน่วย",
-      "unit_price": "2450.00",
-      "amount": "2450.00",
+      "unit": "ชิ้น",
+      "unit_price": "5088.00",
+      "amount": "5088.00",
       "tax_rate": "7"
     },
     {
       "description": "โต๊ะประชุม 240 ซม. ไม้วอลนัท",
       "quantity": "1",
-      "unit": "พาเลท",
-      "unit_price": "3046.00",
-      "amount": "3046.00",
+      "unit": "ชิ้น",
+      "unit_price": "7085.76",
+      "amount": "7085.76",
       "tax_rate": "7"
     },
     {
       "description": "กระดาษ A4 70 แกรม (1 ลัง 10 รีม)",
-      "quantity": "4",
-      "unit": "พาเลท",
-      "unit_price": "11618.00",
-      "amount": "46472.00",
+      "quantity": "2",
+      "unit": "รีม",
+      "unit_price": "7149.00",
+      "amount": "14298.00",
       "tax_rate": "7"
     },
     {
       "description": "เก้าอี้สำนักงาน ผ้าตาข่าย",
+      "quantity": "1",
+      "unit": "ชิ้น",
+      "unit_price": "8026.00",
+      "amount": "8026.00",
+      "tax_rate": "7"
+    },
+    {
+      "description": "งานแปล — ไทย → อังกฤษ",
+      "quantity": "4",
+      "unit": "ชั่วโมง",
+      "unit_price": "8147.00",
+      "amount": "32588.00",
+      "tax_rate": "7"
+    },
+    {
+      "description": "ขนส่งสินค้า: กรุงเทพ → ภูเก็ต 2 พาเลท",
       "quantity": "5",
       "unit": "พาเลท",
       "unit_price": "2119.00",
       "amount": "10595.00",
       "tax_rate": "7"
-    },
-    {
-      "description": "งานแปล — ไทย → อังกฤษ",
-      "quantity": "1",
-      "unit": "รีม",
-      "unit_price": "1259.95",
-      "amount": "1259.95",
-      "tax_rate": "7"
-    },
-    {
-      "description": "ขนส่งสินค้า: กรุงเทพ → ภูเก็ต 2 พาเลท",
-      "quantity": "1",
-      "unit": "ชิ้น",
-      "unit_price": "2490.00",
-      "amount": "2490.00",
-      "tax_rate": "7"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "INV-2569-0795",
+    "invoice_number": "INV-2569-1110",
     "invoice_date": "8 มี.ค. 2569",
     "due_date": "7 เม.ย. 2569",
-    "subtotal": "฿215,408.07",
-    "tax_total": "15,078.57",
-    "total": "฿230,486.64"
+    "subtotal": "฿221,773.26",
+    "tax_total": "15,524.13",
+    "total": "฿237,297.39"
   }
 }

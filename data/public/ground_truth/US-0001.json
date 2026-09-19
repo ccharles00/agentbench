@@ -14,7 +14,9 @@
     "tax_mode": "exclusive",
     "cross_border": false,
     "language_mode": "native",
-    "template": "us_a"
+    "template": "us_a",
+    "withholding": false,
+    "ambiguous_date": false
   },
   "fields": {
     "vendor_name": "Cascade Office Supply LLC",
@@ -23,28 +25,32 @@
     "invoice_date": "2025-05-28",
     "due_date": "2025-06-27",
     "currency": "USD",
-    "subtotal": "2794.36",
-    "tax_total": "167.66",
-    "total": "2962.02",
+    "subtotal": "9133.59",
+    "tax_total": "548.01",
+    "withholding_total": null,
+    "total": "9681.60",
     "tax_rates": [
       "6"
     ],
     "payment_account": null,
     "line_item_count": 2
   },
+  "unscored_fields": [
+    "payment_account"
+  ],
   "line_items": [
     {
       "description": "Monthly retainer — analytics dashboard maintenance and support",
-      "quantity": "2",
-      "unit": "ea",
-      "unit_price": "251.00",
-      "amount": "502.00",
+      "quantity": "8.5",
+      "unit": "hrs",
+      "unit_price": "804.85",
+      "amount": "6841.23",
       "tax_rate": "6"
     },
     {
       "description": "Software license — annual subscription, 25 seats",
       "quantity": "4",
-      "unit": "ea",
+      "unit": "pcs",
       "unit_price": "573.09",
       "amount": "2292.36",
       "tax_rate": "6"
@@ -54,8 +60,8 @@
     "invoice_number": "SI-202505-179",
     "invoice_date": "05/28/2025",
     "due_date": "06/27/2025",
-    "subtotal": "$2,794.36",
-    "tax_total": "167.66",
-    "total": "$2,962.02"
+    "subtotal": "$9,133.59",
+    "tax_total": "548.01",
+    "total": "$9,681.60"
   }
 }

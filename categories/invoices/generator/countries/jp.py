@@ -10,7 +10,7 @@ from .. import calendars, ids
 from ..build import CountrySpec
 
 
-def _tax_id(rng: random.Random) -> tuple[str, str]:
+def _tax_id(rng: random.Random, name: str) -> tuple[str, str]:
     t = "T" + ids.random_digits(rng, 13)
     return t, t
 
@@ -127,12 +127,14 @@ SPEC = CountrySpec(
     date_render=_date,
     doc_plan=(
         {"tax": "std10", "layout": "a", "lang": "native"},
-        {"tax": "std10", "layout": "b", "lang": "native", "symbol_mode": "both"},
+        {"tax": "std10", "layout": "b", "lang": "native", "symbol_mode": "both",
+         "show_account": False},
         {"tax": "food8", "layout": "a", "lang": "bilingual"},
         {"tax": "std10_incl", "layout": "b", "lang": "native", "ambiguous_date": True},
         {"tax": "std10", "layout": "a", "lang": "english", "cross_border": True,
          "currency": "USD", "symbol_mode": "code"},
-        {"tax": "mixed", "layout": "b", "lang": "native", "many_items": True},
+        {"tax": "mixed", "layout": "b", "lang": "native", "many_items": True,
+         "show_account": False},
         {"tax": "food8_incl", "layout": "a", "lang": "native", "ambiguous_date": True},
         {"tax": "std10", "layout": "c", "lang": "native"},
     ),

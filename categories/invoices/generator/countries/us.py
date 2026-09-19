@@ -12,7 +12,7 @@ from .. import ids
 from ..build import CountrySpec
 
 
-def _tax_id(rng: random.Random) -> tuple[str, str]:
+def _tax_id(rng: random.Random, name: str) -> tuple[str, str]:
     ein = f"{rng.randrange(10, 99)}-{ids.random_digits(rng, 7)}"
     return ein, ein.replace("-", "")
 
@@ -44,6 +44,7 @@ SPEC = CountrySpec(
     code="US", name="United States", currency="USD",
     native_lang="en", scripts=("Latn",), font_stack=("Noto Sans",),
     page_size="Letter",
+    numeric_dates=True,
     tax_label="Sales Tax",
     vendors=(
         "Cascade Office Supply LLC", "Redwood Analytics Inc.", "Great Plains Logistics Co.",
@@ -96,10 +97,11 @@ SPEC = CountrySpec(
     doc_plan=(
         {"tax": "sales_tax", "layout": "a", "lang": "native"},
         {"tax": "sales_tax", "layout": "b", "lang": "native", "symbol_mode": "both"},
-        {"tax": "sales_tax", "layout": "a", "lang": "native"},
+        {"tax": "sales_tax", "layout": "a", "lang": "native", "show_account": False},
         {"tax": "sales_tax", "layout": "c", "lang": "native", "ambiguous_date": True},
         {"tax": "sales_tax", "layout": "b", "lang": "native"},
-        {"tax": "sales_tax", "layout": "a", "lang": "native", "many_items": True},
+        {"tax": "sales_tax", "layout": "a", "lang": "native", "many_items": True,
+         "show_account": False},
         {"tax": "sales_tax", "layout": "c", "lang": "native", "ambiguous_date": True},
         {"tax": "sales_tax", "layout": "b", "lang": "native", "symbol_mode": "both"},
     ),

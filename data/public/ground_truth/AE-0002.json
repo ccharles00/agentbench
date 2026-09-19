@@ -16,59 +16,71 @@
     "tax_mode": "exclusive",
     "cross_border": false,
     "language_mode": "bilingual",
-    "template": "ae_b"
+    "template": "ae_b",
+    "withholding": false,
+    "ambiguous_date": false
   },
   "fields": {
     "vendor_name": "رأس الخيمة للتجارة ذ.م.م",
     "vendor_tax_id": "146191353263479",
-    "invoice_number": "TINV/2026/1637",
+    "invoice_number": "TINV/2026/7211",
     "invoice_date": "2026-02-16",
     "due_date": "2026-03-18",
     "currency": "AED",
-    "subtotal": "94899.20",
-    "tax_total": "4744.96",
-    "total": "99644.16",
+    "subtotal": "104764.16",
+    "tax_total": "5238.20",
+    "withholding_total": null,
+    "total": "110002.36",
     "tax_rates": [
       "5"
     ],
-    "payment_account": "AE776302287960971270735",
+    "payment_account": "AE210460773226302287960",
     "line_item_count": 12
   },
+  "unscored_fields": [],
   "line_items": [
     {
       "description": "Software license — annual / ترخيص برمجيات سنوي",
-      "quantity": "2",
-      "unit": "carton",
-      "unit_price": "1948.00",
-      "amount": "3896.00",
+      "quantity": "6",
+      "unit": "pcs",
+      "unit_price": "2721.00",
+      "amount": "16326.00",
       "tax_rate": "5"
     },
     {
       "description": "Office desks, 160 cm, walnut / مكاتب خشبية",
       "quantity": "6",
-      "unit": "pallet",
-      "unit_price": "1901.00",
-      "amount": "11406.00",
+      "unit": "pcs",
+      "unit_price": "666.63",
+      "amount": "3999.78",
       "tax_rate": "5"
     },
     {
       "description": "Freight Jebel Ali → Abu Dhabi, 2 pallets / شحن جبل علي → أبوظبي",
+      "quantity": "1",
+      "unit": "pallet",
+      "unit_price": "2043.00",
+      "amount": "2043.00",
+      "tax_rate": "5"
+    },
+    {
+      "description": "Accounting services — monthly",
       "quantity": "8",
-      "unit": "pcs",
+      "unit": "hrs",
       "unit_price": "2353.00",
       "amount": "18824.00",
       "tax_rate": "5"
     },
     {
-      "description": "Accounting services — monthly",
-      "quantity": "4.5",
+      "description": "Accounting services — monthly / خدمات محاسبية شهرية",
+      "quantity": "1",
       "unit": "hrs",
-      "unit_price": "1695.00",
-      "amount": "7627.50",
+      "unit_price": "2824.46",
+      "amount": "2824.46",
       "tax_rate": "5"
     },
     {
-      "description": "Accounting services — monthly / خدمات محاسبية شهرية",
+      "description": "Office chairs, mesh, ergonomic",
       "quantity": "10",
       "unit": "pcs",
       "unit_price": "1674.00",
@@ -76,68 +88,60 @@
       "tax_rate": "5"
     },
     {
-      "description": "Office chairs, mesh, ergonomic",
-      "quantity": "5",
-      "unit": "pallet",
-      "unit_price": "1516.00",
-      "amount": "7580.00",
-      "tax_rate": "5"
-    },
-    {
       "description": "Paper A4, carton of 10 reams",
-      "quantity": "1",
-      "unit": "hrs",
-      "unit_price": "1179.00",
-      "amount": "1179.00",
+      "quantity": "5",
+      "unit": "carton",
+      "unit_price": "1940.00",
+      "amount": "9700.00",
       "tax_rate": "5"
     },
     {
       "description": "Monthly IT maintenance — servers and network",
-      "quantity": "12",
-      "unit": "carton",
-      "unit_price": "1380.00",
-      "amount": "16560.00",
+      "quantity": "4",
+      "unit": "hrs",
+      "unit_price": "2763.16",
+      "amount": "11052.64",
       "tax_rate": "5"
     },
     {
       "description": "Software license — annual",
+      "quantity": "5",
+      "unit": "pcs",
+      "unit_price": "2705.00",
+      "amount": "13525.00",
+      "tax_rate": "5"
+    },
+    {
+      "description": "Monthly IT maintenance — servers and network / صيانة شهرية للخوادم",
       "quantity": "3",
-      "unit": "pallet",
+      "unit": "hrs",
       "unit_price": "2169.76",
       "amount": "6509.28",
       "tax_rate": "5"
     },
     {
-      "description": "Monthly IT maintenance — servers and network / صيانة شهرية للخوادم",
+      "description": "Freight Jebel Ali → Abu Dhabi, 2 pallets",
       "quantity": "4",
-      "unit": "pcs",
+      "unit": "pallet",
       "unit_price": "410.00",
       "amount": "1640.00",
       "tax_rate": "5"
     },
     {
-      "description": "Freight Jebel Ali → Abu Dhabi, 2 pallets",
-      "quantity": "1",
-      "unit": "hrs",
-      "unit_price": "1755.00",
-      "amount": "1755.00",
-      "tax_rate": "5"
-    },
-    {
       "description": "Translation AR → EN / ترجمة عربي → إنجليزي",
-      "quantity": "6",
+      "quantity": "2.5",
       "unit": "hrs",
-      "unit_price": "197.07",
-      "amount": "1182.42",
+      "unit_price": "632.00",
+      "amount": "1580.00",
       "tax_rate": "5"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "TINV/2026/1637",
+    "invoice_number": "TINV/2026/7211",
     "invoice_date": "16/02/2026",
     "due_date": "18/03/2026",
-    "subtotal": "94,899.20 د.إ (AED)",
-    "tax_total": "4,744.96",
-    "total": "99,644.16 د.إ (AED)"
+    "subtotal": "104,764.16 د.إ (AED)",
+    "tax_total": "5,238.20",
+    "total": "110,002.36 د.إ (AED)"
   }
 }

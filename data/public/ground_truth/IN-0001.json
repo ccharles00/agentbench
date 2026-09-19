@@ -14,72 +14,52 @@
     "tax_mode": "exclusive",
     "cross_border": false,
     "language_mode": "native",
-    "template": "in_a"
+    "template": "in_a",
+    "withholding": false,
+    "ambiguous_date": false
   },
   "fields": {
     "vendor_name": "चेन्नई फूड्स प्राइवेट लिमिटेड",
-    "vendor_tax_id": "07EKNSG8193K1ZQ",
-    "invoice_number": "INV/25/26/439",
-    "invoice_date": "2025-04-24",
-    "due_date": "2025-06-08",
+    "vendor_tax_id": "24SWDPL9121V6Z8",
+    "invoice_number": "TAX/26/27/644",
+    "invoice_date": "2026-09-07",
+    "due_date": "2026-10-22",
     "currency": "INR",
-    "subtotal": "5977950.00",
-    "tax_total": "1076031.00",
-    "total": "7053981.00",
+    "subtotal": "1075950.00",
+    "tax_total": "193671.00",
+    "withholding_total": null,
+    "total": "1269621.00",
     "tax_rates": [
       "18"
     ],
     "payment_account": null,
-    "line_item_count": 5
+    "line_item_count": 2
   },
+  "unscored_fields": [],
   "line_items": [
     {
-      "description": "मसाला पैकेजिंग सेवा — 2 टन",
-      "quantity": "20",
-      "unit": "hrs",
-      "unit_price": "208170.00",
-      "amount": "4163400.00",
+      "description": "Network switches — 24 port, gigabit (5 units)",
+      "quantity": "8",
+      "unit": "pcs",
+      "unit_price": "124280.00",
+      "amount": "994240.00",
       "tax_rate": "18"
     },
     {
-      "description": "Freight: Mumbai → Delhi, 3 pallets, FTL",
+      "description": "Bulk notebook supply — A4, 200 pages (pack of 50)",
       "quantity": "1",
       "unit": "Box",
-      "unit_price": "154330.00",
-      "amount": "154330.00",
-      "tax_rate": "18"
-    },
-    {
-      "description": "कपड़ा ढेर: सूती कपड़े, 500 मीटर",
-      "quantity": "1.5",
-      "unit": "hrs",
-      "unit_price": "66180.00",
-      "amount": "99270.00",
-      "tax_rate": "18"
-    },
-    {
-      "description": "Handicraft export packing and documentation services",
-      "quantity": "12.5",
-      "unit": "hrs",
-      "unit_price": "101060.00",
-      "amount": "1263250.00",
-      "tax_rate": "18"
-    },
-    {
-      "description": "GST registration and compliance consultancy",
-      "quantity": "5",
-      "unit": "kg",
-      "unit_price": "59540.00",
-      "amount": "297700.00",
+      "unit_price": "81710.00",
+      "amount": "81710.00",
       "tax_rate": "18"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "INV/25/26/439",
-    "invoice_date": "24/04/2025",
-    "due_date": "08/06/2025",
-    "subtotal": "₹59,77,950.00",
-    "tax_total": "10,76,031.00",
-    "total": "₹70,53,981.00"
+    "invoice_number": "TAX/26/27/644",
+    "invoice_date": "07/09/2026",
+    "due_date": "22/10/2026",
+    "subtotal": "₹10,75,950.00",
+    "tax_total": "1,93,671.00",
+    "total": "₹12,69,621.00"
   }
 }

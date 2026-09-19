@@ -14,64 +14,44 @@
     "tax_mode": "exclusive",
     "cross_border": false,
     "language_mode": "native",
-    "template": "in_c"
+    "template": "in_c",
+    "withholding": false,
+    "ambiguous_date": true
   },
   "fields": {
     "vendor_name": "Jaipur Handicrafts Emporium Pvt. Ltd.",
-    "vendor_tax_id": "06YLMWP8940B6ZE",
-    "invoice_number": "TAX/25/26/364",
-    "invoice_date": "2025-12-09",
-    "due_date": "2026-02-07",
+    "vendor_tax_id": "27XSEVB2968C3ZZ",
+    "invoice_number": "GST/26/27/166",
+    "invoice_date": "2026-09-10",
+    "due_date": "2026-10-10",
     "currency": "INR",
-    "subtotal": "776405.00",
-    "tax_total": "217393.40",
-    "total": "993798.40",
+    "subtotal": "66240.69",
+    "tax_total": "18547.39",
+    "withholding_total": null,
+    "total": "84788.08",
     "tax_rates": [
       "28"
     ],
     "payment_account": null,
-    "line_item_count": 4
+    "line_item_count": 1
   },
+  "unscored_fields": [],
   "line_items": [
     {
-      "description": "Catering staff — corporate event, 50 guests",
-      "quantity": "2",
-      "unit": "Box",
-      "unit_price": "15720.00",
-      "amount": "31440.00",
-      "tax_rate": "28"
-    },
-    {
-      "description": "Software subscription — annual, cloud hosted",
-      "quantity": "1",
+      "description": "ऑफिस कुर्सी, जाली, एर्गोनोमिक",
+      "quantity": "3",
       "unit": "pcs",
-      "unit_price": "24210.00",
-      "amount": "24210.00",
-      "tax_rate": "28"
-    },
-    {
-      "description": "Freight: Mumbai → Delhi, 3 pallets, FTL",
-      "quantity": "20",
-      "unit": "pcs",
-      "unit_price": "20140.00",
-      "amount": "402800.00",
-      "tax_rate": "28"
-    },
-    {
-      "description": "Handicraft export packing and documentation services",
-      "quantity": "20.5",
-      "unit": "hrs",
-      "unit_price": "15510.00",
-      "amount": "317955.00",
+      "unit_price": "22080.23",
+      "amount": "66240.69",
       "tax_rate": "28"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "TAX/25/26/364",
-    "invoice_date": "09/12/2025",
-    "due_date": "07/02/2026",
-    "subtotal": "₹7,76,405.00",
-    "tax_total": "2,17,393.40",
-    "total": "₹9,93,798.40"
+    "invoice_number": "GST/26/27/166",
+    "invoice_date": "10/09/2026",
+    "due_date": "10/10/2026",
+    "subtotal": "₹66,240.69",
+    "tax_total": "18,547.39",
+    "total": "₹84,788.08"
   }
 }

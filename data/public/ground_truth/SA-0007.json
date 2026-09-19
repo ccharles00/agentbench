@@ -14,48 +14,52 @@
     "tax_mode": "exclusive",
     "cross_border": false,
     "language_mode": "native",
-    "template": "sa_c"
+    "template": "sa_c",
+    "withholding": false,
+    "ambiguous_date": true
   },
   "fields": {
     "vendor_name": "شركة الخليج للمقاولات",
     "vendor_tax_id": "354376180149609",
-    "invoice_number": "INV-2026-3802",
+    "invoice_number": "INV-2026-6951",
     "invoice_date": "2026-04-12",
     "due_date": "2026-05-12",
     "currency": "SAR",
-    "subtotal": "27026.46",
-    "tax_total": "4053.97",
-    "total": "31080.43",
+    "subtotal": "8314.00",
+    "tax_total": "1247.10",
+    "withholding_total": null,
+    "total": "9561.10",
     "tax_rates": [
       "15"
     ],
-    "payment_account": "SA049743368218082737973655",
+    "payment_account": "SA169369743368218082737973",
     "line_item_count": 2
   },
+  "unscored_fields": [],
   "line_items": [
     {
       "description": "ورق A4 (كرتون 10 رزم)",
-      "quantity": "8",
-      "unit": "منصة",
-      "unit_price": "2927.61",
-      "amount": "23420.88",
+      "quantity": "3",
+      "unit": "كرتون",
+      "unit_price": "2257.00",
+      "amount": "6771.00",
       "tax_rate": "15"
     },
     {
       "description": "خدمات محاسبية — شهرية",
-      "quantity": "2",
-      "unit": "حبة",
-      "unit_price": "1802.79",
-      "amount": "3605.58",
+      "quantity": "1",
+      "unit": "ساعة",
+      "unit_price": "1543.00",
+      "amount": "1543.00",
       "tax_rate": "15"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "INV-2026-3802",
+    "invoice_number": "INV-2026-6951",
     "invoice_date": "12/04/2026",
     "due_date": "12/05/2026",
-    "subtotal": "27,026.46 ر.س",
-    "tax_total": "4,053.97",
-    "total": "31,080.43 ر.س"
+    "subtotal": "8,314.00 ر.س",
+    "tax_total": "1,247.10",
+    "total": "9,561.10 ر.س"
   }
 }

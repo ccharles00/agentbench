@@ -22,6 +22,11 @@ it — never delete history here.
    display convention stays realistic. Vendors returning whole-rupiah integers
    without decimals must normalize to the canonical form — same rule as
    trailing-zero handling for any currency.
+   *Amended 2026-09-19 (handoff item 4): the generator now produces whole-rupiah
+   amounts on ID documents (integral amounts, PPN rounded to whole rupiah) —
+   Indonesian invoices don't show sen. Canonical ground-truth strings still
+   carry `.00` at ISO 4217 precision, so the original decision's scoring rule
+   is unchanged; only generation was corrected to match it.*
 
 4. **`payment_account` only stores IBANs and CLABEs (spec B2.5).** US routing +
    account numbers and Japanese bank lines are printed on documents for realism

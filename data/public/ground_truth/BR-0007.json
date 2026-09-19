@@ -14,95 +14,99 @@
     "tax_mode": "inclusive",
     "cross_border": false,
     "language_mode": "native",
-    "template": "br_c"
+    "template": "br_c",
+    "withholding": false,
+    "ambiguous_date": true
   },
   "fields": {
     "vendor_name": "Curitiba Serviços de TI Ltda.",
     "vendor_tax_id": "33637151000104",
-    "invoice_number": "NF-e nº 309114",
+    "invoice_number": "NF-e nº 951607",
     "invoice_date": "2026-04-03",
     "due_date": "2026-06-02",
     "currency": "BRL",
-    "subtotal": "35505.13",
-    "tax_total": "6390.91",
-    "total": "41896.04",
+    "subtotal": "50893.16",
+    "tax_total": "6107.18",
+    "withholding_total": null,
+    "total": "57000.34",
     "tax_rates": [
-      "18"
+      "12"
     ],
     "payment_account": null,
     "line_item_count": 8
   },
+  "unscored_fields": [],
   "line_items": [
     {
       "description": "Notebook i5, 16GB RAM, 512GB SSD",
-      "quantity": "20",
-      "unit": "h",
-      "unit_price": "194.96",
-      "amount": "3899.20",
-      "tax_rate": "18"
+      "quantity": "4",
+      "unit": "un",
+      "unit_price": "2135.26",
+      "amount": "8541.04",
+      "tax_rate": "12"
     },
     {
       "description": "Embalagens de papelão, caixa nº 4 (500 un.)",
-      "quantity": "1",
-      "unit": "palete",
-      "unit_price": "649.00",
-      "amount": "649.00",
-      "tax_rate": "18"
+      "quantity": "2",
+      "unit": "cx",
+      "unit_price": "1510.00",
+      "amount": "3020.00",
+      "tax_rate": "12"
     },
     {
       "description": "Papel A4 75g (caixa com 10 resmas)",
-      "quantity": "1",
-      "unit": "palete",
-      "unit_price": "1487.53",
-      "amount": "1487.53",
-      "tax_rate": "18"
+      "quantity": "12",
+      "unit": "cx",
+      "unit_price": "1610.00",
+      "amount": "19320.00",
+      "tax_rate": "12"
     },
     {
       "description": "Tradução — português → inglês",
-      "quantity": "1",
+      "quantity": "4.5",
       "unit": "h",
-      "unit_price": "1275.41",
-      "amount": "1275.41",
-      "tax_rate": "18"
+      "unit_price": "2015.00",
+      "amount": "9067.50",
+      "tax_rate": "12"
     },
     {
       "description": "Cadeira de escritório, tela, ergonômica",
-      "quantity": "3",
-      "unit": "cx",
-      "unit_price": "2201.63",
-      "amount": "6604.89",
-      "tax_rate": "18"
+      "quantity": "1",
+      "unit": "un",
+      "unit_price": "1560.00",
+      "amount": "1560.00",
+      "tax_rate": "12"
     },
     {
       "description": "Licença de software — anual",
-      "quantity": "6",
-      "unit": "palete",
-      "unit_price": "1630.00",
-      "amount": "9780.00",
-      "tax_rate": "18"
+      "quantity": "2",
+      "unit": "un",
+      "unit_price": "602.00",
+      "amount": "1204.00",
+      "tax_rate": "12"
     },
     {
       "description": "Catering corporativo — 20 pessoas",
-      "quantity": "1",
-      "unit": "cx",
-      "unit_price": "537.85",
-      "amount": "537.85",
-      "tax_rate": "18"
+      "quantity": "10",
+      "unit": "h",
+      "unit_price": "1171.38",
+      "amount": "11713.80",
+      "tax_rate": "12"
     },
     {
       "description": "Serviços de contabilidade — mensal",
-      "quantity": "8",
-      "unit": "un",
-      "unit_price": "2207.77",
-      "amount": "17662.16",
-      "tax_rate": "18"
+      "quantity": "2",
+      "unit": "h",
+      "unit_price": "1287.00",
+      "amount": "2574.00",
+      "tax_rate": "12"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "NF-e nº 309114",
+    "invoice_number": "NF-e nº 951607",
     "invoice_date": "03/04/2026",
     "due_date": "02/06/2026",
-    "tax_total": "6.390,91",
-    "total": "R$41.896,04"
+    "tax_total": "6.107,18",
+    "total": "R$57.000,34"
   }
 }

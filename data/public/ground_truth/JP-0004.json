@@ -14,35 +14,49 @@
     "tax_mode": "inclusive",
     "cross_border": false,
     "language_mode": "native",
-    "template": "jp_b"
+    "template": "jp_b",
+    "withholding": false,
+    "ambiguous_date": false
   },
   "fields": {
     "vendor_name": "大阪物流株式会社",
     "vendor_tax_id": "T7761947062622",
-    "invoice_number": "INV-2026-03287",
+    "invoice_number": "INV-2026-96835",
     "invoice_date": "2026-03-09",
     "due_date": "2026-03-24",
     "currency": "JPY",
-    "subtotal": "299272",
-    "tax_total": "29928",
-    "total": "329200",
+    "subtotal": "304818",
+    "tax_total": "30482",
+    "withholding_total": null,
+    "total": "335300",
     "tax_rates": [
       "10"
     ],
     "payment_account": null,
     "line_item_count": 6
   },
+  "unscored_fields": [
+    "payment_account"
+  ],
   "line_items": [
     {
       "description": "ネットワーク機器 24 ポートスイッチ",
       "quantity": "1",
       "unit": "台",
+      "unit_price": "87400",
+      "amount": "87400",
+      "tax_rate": "10"
+    },
+    {
+      "description": "翻訳サービス 日本語 → 英語",
+      "quantity": "1",
+      "unit": "時間",
       "unit_price": "32900",
       "amount": "32900",
       "tax_rate": "10"
     },
     {
-      "description": "翻訳サービス 日本語 → 英語",
+      "description": "清掃サービス — オフィス月次",
       "quantity": "1",
       "unit": "台",
       "unit_price": "41900",
@@ -50,43 +64,35 @@
       "tax_rate": "10"
     },
     {
-      "description": "清掃サービス — オフィス月次",
-      "quantity": "3",
-      "unit": "個",
-      "unit_price": "39500",
-      "amount": "118500",
-      "tax_rate": "10"
-    },
-    {
       "description": "月額保守サポート — サーバー 3 台、リモート監視込み",
-      "quantity": "5",
-      "unit": "式",
-      "unit_price": "4400",
-      "amount": "22000",
+      "quantity": "3",
+      "unit": "時間",
+      "unit_price": "28500",
+      "amount": "85500",
       "tax_rate": "10"
     },
     {
       "description": "事務用品一式（文房具、ファイル等）",
-      "quantity": "2",
+      "quantity": "1",
       "unit": "台",
-      "unit_price": "18600",
-      "amount": "37200",
+      "unit_price": "33600",
+      "amount": "33600",
       "tax_rate": "10"
     },
     {
       "description": "書籍：会計実務の手引き（軽減税率対象）",
       "quantity": "1",
       "unit": "台",
-      "unit_price": "76700",
-      "amount": "76700",
+      "unit_price": "54000",
+      "amount": "54000",
       "tax_rate": "10"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "INV-2026-03287",
+    "invoice_number": "INV-2026-96835",
     "invoice_date": "令和8年3月9日",
     "due_date": "令和8年3月24日",
-    "tax_total": "29,928",
-    "total": "¥329,200"
+    "tax_total": "30,482",
+    "total": "¥335,300"
   }
 }

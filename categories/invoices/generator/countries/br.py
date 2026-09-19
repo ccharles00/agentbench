@@ -13,7 +13,7 @@ _CNPJ_WEIGHTS1 = (5, 4, 3, 2, 9, 8, 7, 6, 5, 4, 3, 2)
 _CNPJ_WEIGHTS2 = (6, 5, 4, 3, 2, 9, 8, 7, 6, 5, 4, 3, 2)
 
 
-def _cnpj(rng: random.Random) -> tuple[str, str]:
+def _cnpj(rng: random.Random, name: str) -> tuple[str, str]:
     base = [rng.randrange(10) for _ in range(8)] + [0, 0, 0, 1]
     def check(weights):
         s = sum(d * w for d, w in zip(base, weights))
@@ -51,6 +51,7 @@ SPEC = CountrySpec(
     code="BR", name="Brazil", currency="BRL",
     native_lang="pt", scripts=("Latn",), font_stack=("Noto Sans",),
     number_style="european",
+    numeric_dates=True,
     tax_label="ICMS",
     vendors=(
         "Comercial Andrade Ltda.", "São Paulo Distribuidora S.A.", "Transporte Amazonia Ltda.",

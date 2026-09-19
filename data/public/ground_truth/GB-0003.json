@@ -14,192 +14,196 @@
     "tax_mode": "exclusive",
     "cross_border": false,
     "language_mode": "native",
-    "template": "gb_a"
+    "template": "gb_a",
+    "withholding": false,
+    "ambiguous_date": false
   },
   "fields": {
     "vendor_name": "Cotswold IT Services Ltd",
     "vendor_tax_id": "GB055711940",
-    "invoice_number": "INV/2025/9369",
+    "invoice_number": "INV/2025/6920",
     "invoice_date": "2025-05-24",
     "due_date": "2025-06-23",
     "currency": "GBP",
-    "subtotal": "79652.37",
-    "tax_total": "15930.48",
-    "total": "95582.85",
+    "subtotal": "48869.05",
+    "tax_total": "9773.81",
+    "withholding_total": null,
+    "total": "58642.86",
     "tax_rates": [
       "20"
     ],
-    "payment_account": "GB67BDDUC852A44QV7SHN2",
+    "payment_account": "GB229AQ4GIU2GT74P4P5GI",
     "line_item_count": 20
   },
+  "unscored_fields": [],
   "line_items": [
     {
       "description": "Office chairs, mesh back (pack of 4)",
-      "quantity": "6",
+      "quantity": "1",
+      "unit": "pcs",
+      "unit_price": "321.00",
+      "amount": "321.00",
+      "tax_rate": "20"
+    },
+    {
+      "description": "Website maintenance retainer — monthly, includes hosting and minor updates",
+      "quantity": "8.5",
       "unit": "hrs",
-      "unit_price": "639.57",
-      "amount": "3837.42",
+      "unit_price": "431.00",
+      "amount": "3663.50",
       "tax_rate": "20"
     },
     {
       "description": "Website maintenance retainer — monthly, includes hosting and minor updates",
       "quantity": "2",
-      "unit": "pcs",
-      "unit_price": "106.00",
-      "amount": "212.00",
+      "unit": "hrs",
+      "unit_price": "736.00",
+      "amount": "1472.00",
       "tax_rate": "20"
     },
     {
-      "description": "Website maintenance retainer — monthly, includes hosting and minor updates",
+      "description": "Safety audit — warehouse, on-site, full report",
       "quantity": "3",
-      "unit": "items",
+      "unit": "pcs",
       "unit_price": "701.00",
       "amount": "2103.00",
       "tax_rate": "20"
     },
     {
-      "description": "Safety audit — warehouse, on-site, full report",
-      "quantity": "20",
-      "unit": "kg",
-      "unit_price": "473.00",
-      "amount": "9460.00",
+      "description": "Packaging film roll 500mm x 300m",
+      "quantity": "6",
+      "unit": "pcs",
+      "unit_price": "799.00",
+      "amount": "4794.00",
       "tax_rate": "20"
     },
     {
-      "description": "Packaging film roll 500mm x 300m",
+      "description": "Staff training — manual handling, half day session",
+      "quantity": "2",
+      "unit": "pcs",
+      "unit_price": "687.00",
+      "amount": "1374.00",
+      "tax_rate": "20"
+    },
+    {
+      "description": "Translation — EN to DE, technical manual, 60 pages",
       "quantity": "12",
-      "unit": "items",
+      "unit": "hrs",
       "unit_price": "427.05",
       "amount": "5124.60",
       "tax_rate": "20"
     },
     {
-      "description": "Staff training — manual handling, half day session",
-      "quantity": "20",
-      "unit": "items",
-      "unit_price": "340.00",
-      "amount": "6800.00",
-      "tax_rate": "20"
-    },
-    {
-      "description": "Translation — EN to DE, technical manual, 60 pages",
-      "quantity": "6.5",
-      "unit": "hrs",
-      "unit_price": "615.09",
-      "amount": "3998.09",
-      "tax_rate": "20"
-    },
-    {
       "description": "Oak plywood sheets 18mm, 2440x1220 (pack of 10)",
-      "quantity": "10",
-      "unit": "kg",
-      "unit_price": "401.00",
-      "amount": "4010.00",
+      "quantity": "20",
+      "unit": "pcs",
+      "unit_price": "263.00",
+      "amount": "5260.00",
       "tax_rate": "20"
     },
     {
       "description": "Accounting services — quarterly VAT return preparation",
-      "quantity": "12.5",
+      "quantity": "10",
       "unit": "hrs",
-      "unit_price": "754.00",
-      "amount": "9425.00",
+      "unit_price": "26.00",
+      "amount": "260.00",
       "tax_rate": "20"
     },
     {
       "description": "Server hosting — rack unit, monthly, includes remote hands",
-      "quantity": "1",
-      "unit": "items",
-      "unit_price": "511.50",
-      "amount": "511.50",
+      "quantity": "5",
+      "unit": "pcs",
+      "unit_price": "45.00",
+      "amount": "225.00",
       "tax_rate": "20"
     },
     {
       "description": "Courier — next day service, 12 parcels",
-      "quantity": "2",
-      "unit": "pcs",
-      "unit_price": "598.95",
-      "amount": "1197.90",
+      "quantity": "5",
+      "unit": "hrs",
+      "unit_price": "651.00",
+      "amount": "3255.00",
       "tax_rate": "20"
     },
     {
       "description": "Marketing consulting — half day, includes campaign review and written recommendations",
-      "quantity": "8",
-      "unit": "kg",
-      "unit_price": "840.00",
-      "amount": "6720.00",
+      "quantity": "12.5",
+      "unit": "hrs",
+      "unit_price": "610.78",
+      "amount": "7634.75",
       "tax_rate": "20"
     },
     {
       "description": "Safety audit — warehouse, on-site, full report",
-      "quantity": "12.5",
-      "unit": "hrs",
-      "unit_price": "554.37",
-      "amount": "6929.63",
+      "quantity": "5",
+      "unit": "pcs",
+      "unit_price": "222.00",
+      "amount": "1110.00",
       "tax_rate": "20"
     },
     {
       "description": "Marketing consulting — half day, includes campaign review and written recommendations",
-      "quantity": "3",
+      "quantity": "1",
       "unit": "hrs",
-      "unit_price": "15.56",
-      "amount": "46.68",
+      "unit_price": "374.78",
+      "amount": "374.78",
       "tax_rate": "20"
     },
     {
       "description": "Courier — next day service, 12 parcels",
-      "quantity": "2.5",
+      "quantity": "12",
       "unit": "hrs",
-      "unit_price": "462.00",
-      "amount": "1155.00",
+      "unit_price": "258.00",
+      "amount": "3096.00",
       "tax_rate": "20"
     },
     {
       "description": "Translation — EN to DE, technical manual, 60 pages",
-      "quantity": "20",
+      "quantity": "1.5",
       "unit": "hrs",
-      "unit_price": "126.66",
-      "amount": "2533.20",
+      "unit_price": "305.00",
+      "amount": "457.50",
       "tax_rate": "20"
     },
     {
       "description": "Courier — next day service, 12 parcels",
-      "quantity": "20",
-      "unit": "items",
-      "unit_price": "441.00",
-      "amount": "8820.00",
+      "quantity": "4.5",
+      "unit": "hrs",
+      "unit_price": "127.00",
+      "amount": "571.50",
       "tax_rate": "20"
     },
     {
       "description": "Staff training — manual handling, half day session",
-      "quantity": "20.5",
-      "unit": "hrs",
-      "unit_price": "301.00",
-      "amount": "6170.50",
+      "quantity": "6",
+      "unit": "pcs",
+      "unit_price": "421.50",
+      "amount": "2529.00",
       "tax_rate": "20"
     },
     {
       "description": "Safety audit — warehouse, on-site, full report",
-      "quantity": "1",
+      "quantity": "2",
       "unit": "pcs",
-      "unit_price": "90.00",
-      "amount": "90.00",
+      "unit_price": "736.21",
+      "amount": "1472.42",
       "tax_rate": "20"
     },
     {
       "description": "Website maintenance retainer — monthly, includes hosting and minor updates",
-      "quantity": "5",
-      "unit": "kg",
-      "unit_price": "101.57",
-      "amount": "507.85",
+      "quantity": "4.5",
+      "unit": "hrs",
+      "unit_price": "838.00",
+      "amount": "3771.00",
       "tax_rate": "20"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "INV/2025/9369",
+    "invoice_number": "INV/2025/6920",
     "invoice_date": "24/05/2025",
     "due_date": "23/06/2025",
-    "subtotal": "£79,652.37",
-    "tax_total": "15,930.48",
-    "total": "£95,582.85"
+    "subtotal": "£48,869.05",
+    "tax_total": "9,773.81",
+    "total": "£58,642.86"
   }
 }

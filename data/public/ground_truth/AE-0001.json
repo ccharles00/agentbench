@@ -16,96 +16,100 @@
     "tax_mode": "exclusive",
     "cross_border": false,
     "language_mode": "bilingual",
-    "template": "ae_a"
+    "template": "ae_a",
+    "withholding": false,
+    "ambiguous_date": false
   },
   "fields": {
     "vendor_name": "عجمان للطباعة والإعلان ذ.م.م",
     "vendor_tax_id": "151450357719435",
-    "invoice_number": "TINV/2025/1866",
+    "invoice_number": "TINV/2025/0307",
     "invoice_date": "2025-10-02",
     "due_date": "2025-11-16",
     "currency": "AED",
-    "subtotal": "98767.51",
-    "tax_total": "4938.38",
-    "total": "103705.89",
+    "subtotal": "94986.68",
+    "tax_total": "4749.33",
+    "withholding_total": null,
+    "total": "99736.01",
     "tax_rates": [
       "5"
     ],
-    "payment_account": "AE208545394131870625323",
+    "payment_account": null,
     "line_item_count": 8
   },
+  "unscored_fields": [],
   "line_items": [
     {
       "description": "Office chairs, mesh, ergonomic / كراسي مكتبية",
       "quantity": "2",
-      "unit": "carton",
-      "unit_price": "2846.00",
-      "amount": "5692.00",
+      "unit": "pcs",
+      "unit_price": "1059.00",
+      "amount": "2118.00",
       "tax_rate": "5"
     },
     {
       "description": "Monthly IT maintenance — servers and network",
       "quantity": "2.5",
       "unit": "hrs",
-      "unit_price": "2646.00",
-      "amount": "6615.00",
+      "unit_price": "567.87",
+      "amount": "1419.68",
       "tax_rate": "5"
     },
     {
       "description": "Software license — annual",
       "quantity": "6",
-      "unit": "carton",
-      "unit_price": "1053.67",
-      "amount": "6322.02",
+      "unit": "pcs",
+      "unit_price": "1058.87",
+      "amount": "6353.22",
       "tax_rate": "5"
     },
     {
       "description": "Paper A4, carton of 10 reams / ورق A4 (كرتون)",
-      "quantity": "20",
-      "unit": "pcs",
-      "unit_price": "2453.00",
-      "amount": "49060.00",
+      "quantity": "1",
+      "unit": "carton",
+      "unit_price": "1818.00",
+      "amount": "1818.00",
       "tax_rate": "5"
     },
     {
       "description": "Accounting services — monthly / خدمات محاسبية شهرية",
       "quantity": "20",
-      "unit": "pallet",
+      "unit": "hrs",
+      "unit_price": "2453.00",
+      "amount": "49060.00",
+      "tax_rate": "5"
+    },
+    {
+      "description": "Monthly IT maintenance — servers and network / صيانة شهرية للخوادم",
+      "quantity": "20",
+      "unit": "hrs",
       "unit_price": "1247.29",
       "amount": "24945.80",
       "tax_rate": "5"
     },
     {
-      "description": "Monthly IT maintenance — servers and network / صيانة شهرية للخوادم",
+      "description": "Freight Jebel Ali → Abu Dhabi, 2 pallets / شحن جبل علي → أبوظبي",
       "quantity": "2",
       "unit": "pallet",
-      "unit_price": "2195.99",
-      "amount": "4391.98",
-      "tax_rate": "5"
-    },
-    {
-      "description": "Freight Jebel Ali → Abu Dhabi, 2 pallets / شحن جبل علي → أبوظبي",
-      "quantity": "4",
-      "unit": "hrs",
-      "unit_price": "411.00",
-      "amount": "1644.00",
+      "unit_price": "1227.99",
+      "amount": "2455.98",
       "tax_rate": "5"
     },
     {
       "description": "Translation AR → EN / ترجمة عربي → إنجليزي",
-      "quantity": "1",
-      "unit": "pallet",
-      "unit_price": "96.71",
-      "amount": "96.71",
+      "quantity": "8",
+      "unit": "hrs",
+      "unit_price": "852.00",
+      "amount": "6816.00",
       "tax_rate": "5"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "TINV/2025/1866",
+    "invoice_number": "TINV/2025/0307",
     "invoice_date": "02/10/2025",
     "due_date": "16/11/2025",
-    "subtotal": "98,767.51 د.إ",
-    "tax_total": "4,938.38",
-    "total": "103,705.89 د.إ"
+    "subtotal": "94,986.68 د.إ",
+    "tax_total": "4,749.33",
+    "total": "99,736.01 د.إ"
   }
 }

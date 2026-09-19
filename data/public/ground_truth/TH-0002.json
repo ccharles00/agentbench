@@ -14,128 +14,132 @@
     "tax_mode": "exclusive",
     "cross_border": false,
     "language_mode": "native",
-    "template": "th_b"
+    "template": "th_b",
+    "withholding": false,
+    "ambiguous_date": false
   },
   "fields": {
     "vendor_name": "บริษัท สงขลา เพเพอร์ จำกัด",
     "vendor_tax_id": "8064307661808",
-    "invoice_number": "INV-2569-1695",
+    "invoice_number": "INV-2569-4496",
     "invoice_date": "2026-04-10",
     "due_date": "2026-04-25",
     "currency": "THB",
-    "subtotal": "346691.82",
-    "tax_total": "24268.42",
-    "total": "370960.24",
+    "subtotal": "372777.43",
+    "tax_total": "26094.43",
+    "withholding_total": null,
+    "total": "398871.86",
     "tax_rates": [
       "7"
     ],
     "payment_account": null,
     "line_item_count": 12
   },
+  "unscored_fields": [],
   "line_items": [
     {
       "description": "ค่าลิขสิทธิ์ซอฟต์แวร์ — รายปี",
-      "quantity": "2.5",
-      "unit": "ชั่วโมง",
-      "unit_price": "11406.00",
-      "amount": "28515.00",
+      "quantity": "4",
+      "unit": "ชิ้น",
+      "unit_price": "8569.00",
+      "amount": "34276.00",
       "tax_rate": "7"
     },
     {
       "description": "ขนส่งสินค้า: กรุงเทพ → ภูเก็ต 2 พาเลท",
-      "quantity": "3",
-      "unit": "หน่วย",
-      "unit_price": "10417.00",
-      "amount": "31251.00",
+      "quantity": "12",
+      "unit": "พาเลท",
+      "unit_price": "3542.24",
+      "amount": "42506.88",
       "tax_rate": "7"
     },
     {
       "description": "งานแปล — ไทย → อังกฤษ",
-      "quantity": "3",
-      "unit": "พาเลท",
-      "unit_price": "3858.70",
-      "amount": "11576.10",
+      "quantity": "2",
+      "unit": "ชั่วโมง",
+      "unit_price": "8205.33",
+      "amount": "16410.66",
       "tax_rate": "7"
     },
     {
       "description": "เก้าอี้สำนักงาน ผ้าตาข่าย",
-      "quantity": "1",
+      "quantity": "6",
       "unit": "ชิ้น",
-      "unit_price": "4609.00",
-      "amount": "4609.00",
+      "unit_price": "8495.39",
+      "amount": "50972.34",
       "tax_rate": "7"
     },
     {
       "description": "วัสดุบรรจุภัณฑ์ — กล่องลูกฟูก (500 ใบ)",
-      "quantity": "4",
-      "unit": "หน่วย",
-      "unit_price": "774.00",
-      "amount": "3096.00",
+      "quantity": "6",
+      "unit": "ชิ้น",
+      "unit_price": "740.59",
+      "amount": "4443.54",
       "tax_rate": "7"
     },
     {
       "description": "บริการบำรุงรักษาประจำเดือน — เซิร์ฟเวอร์ รวมการดูแลระยะไกล",
-      "quantity": "1",
-      "unit": "รีม",
-      "unit_price": "10954.00",
-      "amount": "10954.00",
+      "quantity": "12",
+      "unit": "ชั่วโมง",
+      "unit_price": "6115.00",
+      "amount": "73380.00",
       "tax_rate": "7"
     },
     {
       "description": "จัดเลี้ยงสำนักงาน — 20 ท่าน",
-      "quantity": "3",
-      "unit": "ชิ้น",
-      "unit_price": "3033.00",
-      "amount": "9099.00",
+      "quantity": "8.5",
+      "unit": "ชั่วโมง",
+      "unit_price": "1541.27",
+      "amount": "13100.80",
       "tax_rate": "7"
     },
     {
       "description": "โต๊ะประชุม 240 ซม. ไม้วอลนัท",
       "quantity": "2",
       "unit": "ชิ้น",
-      "unit_price": "3064.87",
-      "amount": "6129.74",
+      "unit_price": "767.87",
+      "amount": "1535.74",
       "tax_rate": "7"
     },
     {
       "description": "กระดาษ A4 70 แกรม (1 ลัง 10 รีม)",
-      "quantity": "12",
-      "unit": "ชิ้น",
-      "unit_price": "3569.37",
-      "amount": "42832.44",
+      "quantity": "3",
+      "unit": "รีม",
+      "unit_price": "1904.37",
+      "amount": "5713.11",
       "tax_rate": "7"
     },
     {
       "description": "บริการบัญชี — รายเดือน",
-      "quantity": "4",
-      "unit": "พาเลท",
-      "unit_price": "10284.66",
-      "amount": "41138.64",
+      "quantity": "10.5",
+      "unit": "ชั่วโมง",
+      "unit_price": "10839.00",
+      "amount": "113809.50",
       "tax_rate": "7"
     },
     {
       "description": "บริการบัญชี — รายเดือน",
-      "quantity": "20",
-      "unit": "หน่วย",
-      "unit_price": "6823.40",
-      "amount": "136468.00",
+      "quantity": "1.5",
+      "unit": "ชั่วโมง",
+      "unit_price": "7978.57",
+      "amount": "11967.86",
       "tax_rate": "7"
     },
     {
       "description": "โต๊ะประชุม 240 ซม. ไม้วอลนัท",
-      "quantity": "2",
+      "quantity": "1",
       "unit": "ชิ้น",
-      "unit_price": "10511.45",
-      "amount": "21022.90",
+      "unit_price": "4661.00",
+      "amount": "4661.00",
       "tax_rate": "7"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "INV-2569-1695",
+    "invoice_number": "INV-2569-4496",
     "invoice_date": "10 เม.ย. 2569",
     "due_date": "25 เมษายน 2569",
-    "subtotal": "฿346,691.82 (THB)",
-    "tax_total": "24,268.42",
-    "total": "฿370,960.24 (THB)"
+    "subtotal": "฿372,777.43 (THB)",
+    "tax_total": "26,094.43",
+    "total": "฿398,871.86 (THB)"
   }
 }

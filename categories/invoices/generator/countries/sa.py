@@ -10,7 +10,7 @@ from .. import ids, money
 from ..build import CountrySpec
 
 
-def _tax_id(rng: random.Random) -> tuple[str, str]:
+def _tax_id(rng: random.Random, name: str) -> tuple[str, str]:
     n = "3" + ids.random_digits(rng, 14)
     return n, n
 
@@ -32,6 +32,7 @@ SPEC = CountrySpec(
     code="SA", name="Saudi Arabia", currency="SAR",
     native_lang="ar", scripts=("Arab",), font_stack=("Noto Naskh Arabic", "Noto Sans"),
     direction="rtl",
+    numeric_dates=True,
     tax_label="ضريبة القيمة المضافة",
     vendors=(
         "شركة الرياض للتجارة المحدودة", "مؤسسة جدة للإلكترونيات", "شركة الخليج للمقاولات",

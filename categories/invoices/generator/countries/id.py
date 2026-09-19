@@ -12,7 +12,7 @@ from ..build import CountrySpec
 _ROMAN = ("I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII")
 
 
-def _tax_id(rng: random.Random) -> tuple[str, str]:
+def _tax_id(rng: random.Random, name: str) -> tuple[str, str]:
     body = (f"{ids.random_digits(rng, 2)}.{ids.random_digits(rng, 3)}."
             f"{ids.random_digits(rng, 3)}.{ids.random_digits(rng, 1)}-"
             f"{ids.random_digits(rng, 3)}.{ids.random_digits(rng, 3)}")
@@ -35,6 +35,8 @@ SPEC = CountrySpec(
     code="ID", name="Indonesia", currency="IDR",
     native_lang="id", scripts=("Latn",), font_stack=("Noto Sans",),
     number_style="european",
+    numeric_dates=True,
+    integral_amounts=True,   # Indonesian practice: whole rupiah (DECISIONS #3 fix)
     tax_label="PPN",
     vendors=(
         "PT Nusantara Elektronik", "PT Surya Kencana Logistik", "PT Jaya Abadi Komputer",

@@ -14,56 +14,52 @@
     "tax_mode": "exclusive",
     "cross_border": false,
     "language_mode": "native",
-    "template": "mx_c"
+    "template": "mx_c",
+    "withholding": false,
+    "ambiguous_date": true
   },
   "fields": {
     "vendor_name": "Distribuidora del Norte S.A. de C.V.",
-    "vendor_tax_id": "VWH527641YL2",
-    "invoice_number": "FOLIO-0719",
-    "invoice_date": "2026-01-05",
-    "due_date": "2026-02-19",
+    "vendor_tax_id": "DST150217C8N",
+    "invoice_number": "FOLIO-7342",
+    "invoice_date": "2025-08-07",
+    "due_date": "2025-09-06",
     "currency": "MXN",
-    "subtotal": "46300.80",
-    "tax_total": "7408.12",
-    "total": "53708.92",
+    "subtotal": "47501.10",
+    "tax_total": "7600.17",
+    "withholding_total": null,
+    "total": "55101.27",
     "tax_rates": [
       "16"
     ],
-    "payment_account": "137665962666776373",
-    "line_item_count": 3
+    "payment_account": "002101695319655953",
+    "line_item_count": 2
   },
+  "unscored_fields": [],
   "line_items": [
     {
-      "description": "Papel bond carta (caja de 10 resmas)",
-      "quantity": "10",
+      "description": "Servicios de contabilidad — mensual",
+      "quantity": "6",
       "unit": "pza",
-      "unit_price": "177.89",
-      "amount": "1778.90",
+      "unit_price": "7668.71",
+      "amount": "46012.26",
       "tax_rate": "16"
     },
     {
-      "description": "Equipo de cómputo, laptop i5, 16GB RAM",
-      "quantity": "5",
-      "unit": "caja",
-      "unit_price": "6718.78",
-      "amount": "33593.90",
-      "tax_rate": "16"
-    },
-    {
-      "description": "Silla de oficina, malla, ergonómica",
-      "quantity": "4",
-      "unit": "caja",
-      "unit_price": "2732.00",
-      "amount": "10928.00",
+      "description": "Flete: CDMX → Monterrey, 2 tarimas",
+      "quantity": "3",
+      "unit": "tarima",
+      "unit_price": "496.28",
+      "amount": "1488.84",
       "tax_rate": "16"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "FOLIO-0719",
-    "invoice_date": "05/01/2026",
-    "due_date": "19/02/2026",
-    "subtotal": "$46,300.80",
-    "tax_total": "7,408.12",
-    "total": "$53,708.92"
+    "invoice_number": "FOLIO-7342",
+    "invoice_date": "07/08/2025",
+    "due_date": "06/09/2025",
+    "subtotal": "$47,501.10",
+    "tax_total": "7,600.17",
+    "total": "$55,101.27"
   }
 }

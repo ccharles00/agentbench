@@ -14,18 +14,21 @@
     "tax_mode": "exclusive",
     "cross_border": false,
     "language_mode": "native",
-    "template": "br_c"
+    "template": "br_c",
+    "withholding": false,
+    "ambiguous_date": true
   },
   "fields": {
     "vendor_name": "Comercial Andrade Ltda.",
     "vendor_tax_id": "80480622000101",
-    "invoice_number": "NF-e nº 246454",
+    "invoice_number": "NF-e nº 006803",
     "invoice_date": "2025-02-11",
     "due_date": "2025-02-26",
     "currency": "BRL",
-    "subtotal": "38036.20",
-    "tax_total": "10364.87",
-    "total": "48401.07",
+    "subtotal": "21480.83",
+    "tax_total": "5853.52",
+    "withholding_total": null,
+    "total": "27334.35",
     "tax_rates": [
       "18",
       "1.65",
@@ -34,45 +37,46 @@
     "payment_account": null,
     "line_item_count": 4
   },
+  "unscored_fields": [],
   "line_items": [
     {
       "description": "Catering corporativo — 20 pessoas",
       "quantity": "1",
-      "unit": "cx",
-      "unit_price": "1382.00",
-      "amount": "1382.00",
+      "unit": "h",
+      "unit_price": "1141.52",
+      "amount": "1141.52",
       "tax_rate": "18"
     },
     {
       "description": "Cadeira de escritório, tela, ergonômica",
       "quantity": "8",
-      "unit": "h",
+      "unit": "un",
       "unit_price": "1732.00",
       "amount": "13856.00",
       "tax_rate": "18"
     },
     {
       "description": "Papel A4 75g (caixa com 10 resmas)",
-      "quantity": "20",
+      "quantity": "3",
       "unit": "cx",
-      "unit_price": "1118.08",
-      "amount": "22361.60",
+      "unit_price": "690.00",
+      "amount": "2070.00",
       "tax_rate": "18"
     },
     {
       "description": "Tradução — português → inglês",
-      "quantity": "1",
-      "unit": "palete",
-      "unit_price": "436.60",
-      "amount": "436.60",
+      "quantity": "6.5",
+      "unit": "h",
+      "unit_price": "678.97",
+      "amount": "4413.31",
       "tax_rate": "18"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "NF-e nº 246454",
+    "invoice_number": "NF-e nº 006803",
     "invoice_date": "11/02/2025",
     "due_date": "26/02/2025",
-    "subtotal": "R$38.036,20",
-    "total": "R$48.401,07"
+    "subtotal": "R$21.480,83",
+    "total": "R$27.334,35"
   }
 }

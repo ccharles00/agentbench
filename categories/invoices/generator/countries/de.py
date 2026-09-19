@@ -9,7 +9,7 @@ from .. import ids, money
 from ..build import CountrySpec
 
 
-def _tax_id(rng: random.Random) -> tuple[str, str]:
+def _tax_id(rng: random.Random, name: str) -> tuple[str, str]:
     digits = ids.random_digits(rng, 9)
     return f"DE {digits[:3]} {digits[3:6]} {digits[6:]}", f"DE{digits}"
 
@@ -39,6 +39,7 @@ SPEC = CountrySpec(
     code="DE", name="Germany", currency="EUR",
     native_lang="de", scripts=("Latn",), font_stack=("Noto Sans",),
     number_style="european",
+    numeric_dates=True,
     tax_label="USt",
     vendors=(
         "Müller & Schulze GmbH", "Berliner Bürobedarf e.K.", "Hanseatische Logistik AG",

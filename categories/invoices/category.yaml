@@ -36,6 +36,9 @@ dimensions:
   - digits
   - tax_mode
   - cross_border
+  - language_mode
+  - ambiguous_date
+  - withholding
   - template
   - variant   # degradation level of the file the tool actually saw
 

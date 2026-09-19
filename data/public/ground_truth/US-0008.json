@@ -14,104 +14,110 @@
     "tax_mode": "exclusive",
     "cross_border": false,
     "language_mode": "native",
-    "template": "us_b"
+    "template": "us_b",
+    "withholding": false,
+    "ambiguous_date": false
   },
   "fields": {
     "vendor_name": "Lakeside Catering Services",
     "vendor_tax_id": "689317298",
-    "invoice_number": "SI-202510-928",
+    "invoice_number": "#7925",
     "invoice_date": "2025-10-22",
     "due_date": "2025-12-21",
     "currency": "USD",
-    "subtotal": "16686.69",
-    "tax_total": "1001.21",
-    "total": "17687.90",
+    "subtotal": "34579.56",
+    "tax_total": "3492.54",
+    "withholding_total": null,
+    "total": "38072.10",
     "tax_rates": [
-      "6"
+      "10.1"
     ],
     "payment_account": null,
     "line_item_count": 9
   },
+  "unscored_fields": [
+    "payment_account"
+  ],
   "line_items": [
     {
       "description": "Translation services — EN to ES, 24 pages, certified",
-      "quantity": "3",
-      "unit": "lbs",
-      "unit_price": "358.00",
-      "amount": "1074.00",
-      "tax_rate": "6"
+      "quantity": "12",
+      "unit": "hrs",
+      "unit_price": "783.00",
+      "amount": "9396.00",
+      "tax_rate": "10.1"
     },
     {
       "description": "Printer toner, black, high-yield (pack of 4)",
-      "quantity": "1",
-      "unit": "mo",
-      "unit_price": "144.00",
-      "amount": "144.00",
-      "tax_rate": "6"
+      "quantity": "20",
+      "unit": "pcs",
+      "unit_price": "468.00",
+      "amount": "9360.00",
+      "tax_rate": "10.1"
     },
     {
       "description": "Safety gloves, cut-resistant, size L (12 pairs)",
-      "quantity": "8",
-      "unit": "mo",
-      "unit_price": "182.00",
-      "amount": "1456.00",
-      "tax_rate": "6"
+      "quantity": "6",
+      "unit": "pcs",
+      "unit_price": "848.00",
+      "amount": "5088.00",
+      "tax_rate": "10.1"
     },
     {
       "description": "Office chair, ergonomic mesh, adjustable arms",
-      "quantity": "2",
-      "unit": "lbs",
-      "unit_price": "310.00",
-      "amount": "620.00",
-      "tax_rate": "6"
+      "quantity": "8",
+      "unit": "pcs",
+      "unit_price": "182.00",
+      "amount": "1456.00",
+      "tax_rate": "10.1"
     },
     {
       "description": "Monthly retainer — analytics dashboard maintenance and support",
-      "quantity": "1",
-      "unit": "mo",
-      "unit_price": "263.33",
-      "amount": "263.33",
-      "tax_rate": "6"
+      "quantity": "6.5",
+      "unit": "hrs",
+      "unit_price": "530.36",
+      "amount": "3447.34",
+      "tax_rate": "10.1"
     },
     {
       "description": "Warehouse storage — Q3, climate-controlled",
       "quantity": "2",
-      "unit": "mo",
-      "unit_price": "165.00",
-      "amount": "330.00",
-      "tax_rate": "6"
+      "unit": "pcs",
+      "unit_price": "179.61",
+      "amount": "359.22",
+      "tax_rate": "10.1"
     },
     {
       "description": "Consulting hours — ERP migration, senior consultant",
-      "quantity": "12",
-      "unit": "ea",
-      "unit_price": "746.80",
-      "amount": "8961.60",
-      "tax_rate": "6"
+      "quantity": "2",
+      "unit": "hrs",
+      "unit_price": "580.00",
+      "amount": "1160.00",
+      "tax_rate": "10.1"
     },
     {
       "description": "Software license — annual subscription, 25 seats",
-      "quantity": "8",
-      "unit": "mo",
-      "unit_price": "436.72",
-      "amount": "3493.76",
-      "tax_rate": "6"
+      "quantity": "12",
+      "unit": "pcs",
+      "unit_price": "320.00",
+      "amount": "3840.00",
+      "tax_rate": "10.1"
     },
     {
       "description": "Custom rack enclosure, 42U, with cable management and thermal kit",
-      "quantity": "4",
-      "unit": "lbs",
-      "unit_price": "86.00",
-      "amount": "344.00",
-      "tax_rate": "6"
+      "quantity": "1",
+      "unit": "pcs",
+      "unit_price": "473.00",
+      "amount": "473.00",
+      "tax_rate": "10.1"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "SI-202510-928",
+    "invoice_number": "#7925",
     "invoice_date": "10/22/2025",
     "due_date": "12/21/2025",
-    "subtotal": "$16,686.69 (USD)",
-    "tax_total": "1,001.21",
-    "total": "$17,687.90 (USD)"
+    "subtotal": "$34,579.56 (USD)",
+    "tax_total": "3,492.54",
+    "total": "$38,072.10 (USD)"
   }
 }

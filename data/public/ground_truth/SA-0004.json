@@ -16,120 +16,124 @@
     "tax_mode": "exclusive",
     "cross_border": false,
     "language_mode": "bilingual",
-    "template": "sa_c"
+    "template": "sa_c",
+    "withholding": false,
+    "ambiguous_date": true
   },
   "fields": {
     "vendor_name": "شركة الخليج للمقاولات",
     "vendor_tax_id": "334449375480967",
-    "invoice_number": "INV-2026-0552",
+    "invoice_number": "INV-2026-4405",
     "invoice_date": "2026-10-08",
     "due_date": "2026-11-22",
     "currency": "SAR",
-    "subtotal": "132062.40",
-    "tax_total": "19809.37",
-    "total": "151871.77",
+    "subtotal": "120950.83",
+    "tax_total": "18142.63",
+    "withholding_total": null,
+    "total": "139093.46",
     "tax_rates": [
       "15"
     ],
-    "payment_account": "SA983144489788761263075949",
+    "payment_account": "SA159012769284783875384331",
     "line_item_count": 11
   },
+  "unscored_fields": [],
   "line_items": [
     {
       "description": "مكتب خشبي، 180 سم، مع أدراج",
-      "quantity": "12",
-      "unit": "ساعة",
-      "unit_price": "2210.14",
-      "amount": "26521.68",
+      "quantity": "2",
+      "unit": "حبة",
+      "unit_price": "2542.37",
+      "amount": "5084.74",
       "tax_rate": "15"
     },
     {
       "description": "ترجمة — عربي → إنجليزي",
-      "quantity": "4.5",
+      "quantity": "6.5",
       "unit": "ساعة",
-      "unit_price": "569.00",
-      "amount": "2560.50",
+      "unit_price": "336.00",
+      "amount": "2184.00",
       "tax_rate": "15"
     },
     {
       "description": "نقل البضائع: الرياض → جدة، 2 منصات",
-      "quantity": "3",
-      "unit": "كرتون",
-      "unit_price": "1294.00",
-      "amount": "3882.00",
+      "quantity": "2",
+      "unit": "حبة",
+      "unit_price": "1689.00",
+      "amount": "3378.00",
       "tax_rate": "15"
     },
     {
       "description": "ورق A4 (كرتون 10 رزم)",
+      "quantity": "3",
+      "unit": "كرتون",
+      "unit_price": "1964.00",
+      "amount": "5892.00",
+      "tax_rate": "15"
+    },
+    {
+      "description": "ترخيص برمجيات — سنوي",
+      "quantity": "6",
+      "unit": "حبة",
+      "unit_price": "2564.00",
+      "amount": "15384.00",
+      "tax_rate": "15"
+    },
+    {
+      "description": "تغذية مكتبية — 20 شخص",
       "quantity": "4",
-      "unit": "منصة",
+      "unit": "حبة",
       "unit_price": "721.48",
       "amount": "2885.92",
       "tax_rate": "15"
     },
     {
-      "description": "ترخيص برمجيات — سنوي",
-      "quantity": "20",
-      "unit": "ساعة",
-      "unit_price": "2186.00",
-      "amount": "43720.00",
-      "tax_rate": "15"
-    },
-    {
-      "description": "تغذية مكتبية — 20 شخص",
-      "quantity": "20",
-      "unit": "حبة",
-      "unit_price": "1053.00",
-      "amount": "21060.00",
-      "tax_rate": "15"
-    },
-    {
       "description": "Office chairs, mesh, ergonomic",
-      "quantity": "5",
-      "unit": "كرتون",
-      "unit_price": "514.00",
-      "amount": "2570.00",
+      "quantity": "2",
+      "unit": "حبة",
+      "unit_price": "910.00",
+      "amount": "1820.00",
       "tax_rate": "15"
     },
     {
       "description": "مواد تغليف — صناديق كرتون (500 حبة)",
-      "quantity": "6",
-      "unit": "منصة",
-      "unit_price": "2047.00",
-      "amount": "12282.00",
+      "quantity": "20",
+      "unit": "حبة",
+      "unit_price": "2862.00",
+      "amount": "57240.00",
       "tax_rate": "15"
     },
     {
       "description": "Paper A4 (carton of 10 reams)",
-      "quantity": "10",
-      "unit": "حبة",
-      "unit_price": "294.53",
-      "amount": "2945.30",
+      "quantity": "3",
+      "unit": "كرتون",
+      "unit_price": "2163.00",
+      "amount": "6489.00",
       "tax_rate": "15"
     },
     {
       "description": "Freight Riyadh → Jeddah, 2 pallets",
-      "quantity": "3",
-      "unit": "ساعة",
-      "unit_price": "3143.00",
-      "amount": "9429.00",
+      "quantity": "1",
+      "unit": "منصة",
+      "unit_price": "2919.45",
+      "amount": "2919.45",
       "tax_rate": "15"
     },
     {
       "description": "خدمات محاسبية — شهرية",
-      "quantity": "2",
+      "quantity": "6",
       "unit": "ساعة",
-      "unit_price": "2103.00",
-      "amount": "4206.00",
+      "unit_price": "2945.62",
+      "amount": "17673.72",
       "tax_rate": "15"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "INV-2026-0552",
+    "invoice_number": "INV-2026-4405",
     "invoice_date": "08/10/2026",
     "due_date": "22/11/2026",
-    "subtotal": "132,062.40 ر.س",
-    "tax_total": "19,809.37",
-    "total": "151,871.77 ر.س"
+    "subtotal": "120,950.83 ر.س",
+    "tax_total": "18,142.63",
+    "total": "139,093.46 ر.س"
   }
 }

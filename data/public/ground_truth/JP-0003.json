@@ -16,35 +16,49 @@
     "tax_mode": "exclusive",
     "cross_border": false,
     "language_mode": "bilingual",
-    "template": "jp_a"
+    "template": "jp_a",
+    "withholding": false,
+    "ambiguous_date": false
   },
   "fields": {
     "vendor_name": "札幌フーズ株式会社",
     "vendor_tax_id": "T0118913068409",
-    "invoice_number": "INV-2026-56260",
+    "invoice_number": "INV-2026-52337",
     "invoice_date": "2026-05-05",
     "due_date": "2026-07-04",
     "currency": "JPY",
-    "subtotal": "1790000",
-    "tax_total": "143200",
-    "total": "1933200",
+    "subtotal": "1731000",
+    "tax_total": "138480",
+    "withholding_total": null,
+    "total": "1869480",
     "tax_rates": [
       "8"
     ],
     "payment_account": null,
     "line_item_count": 8
   },
+  "unscored_fields": [
+    "payment_account"
+  ],
   "line_items": [
     {
       "description": "Office chairs, mesh, with arms",
-      "quantity": "1",
-      "unit": "個",
-      "unit_price": "45700",
-      "amount": "45700",
+      "quantity": "4",
+      "unit": "台",
+      "unit_price": "27800",
+      "amount": "111200",
       "tax_rate": "8"
     },
     {
       "description": "ネットワーク機器 24 ポートスイッチ",
+      "quantity": "10",
+      "unit": "台",
+      "unit_price": "2500",
+      "amount": "25000",
+      "tax_rate": "8"
+    },
+    {
+      "description": "翻訳サービス 日本語 → 英語",
       "quantity": "1",
       "unit": "時間",
       "unit_price": "40000",
@@ -52,60 +66,52 @@
       "tax_rate": "8"
     },
     {
-      "description": "翻訳サービス 日本語 → 英語",
-      "quantity": "6",
-      "unit": "個",
-      "unit_price": "61200",
-      "amount": "367200",
-      "tax_rate": "8"
-    },
-    {
       "description": "事務用品一式（文房具、ファイル等）",
-      "quantity": "2",
-      "unit": "時間",
-      "unit_price": "68900",
-      "amount": "137800",
+      "quantity": "6",
+      "unit": "台",
+      "unit_price": "23000",
+      "amount": "138000",
       "tax_rate": "8"
     },
     {
       "description": "Monthly maintenance — 3 servers, remote monitoring",
-      "quantity": "8",
-      "unit": "個",
-      "unit_price": "53200",
-      "amount": "425600",
+      "quantity": "10",
+      "unit": "時間",
+      "unit_price": "59300",
+      "amount": "593000",
       "tax_rate": "8"
     },
     {
       "description": "ケータリング — 役員会議 20 名",
-      "quantity": "6.5",
+      "quantity": "8",
       "unit": "時間",
-      "unit_price": "20200",
-      "amount": "131300",
+      "unit_price": "32300",
+      "amount": "258400",
       "tax_rate": "8"
     },
     {
       "description": "Freight Osaka → Tokyo, 2 pallets",
       "quantity": "8",
-      "unit": "時間",
-      "unit_price": "14000",
-      "amount": "112000",
+      "unit": "台",
+      "unit_price": "53200",
+      "amount": "425600",
       "tax_rate": "8"
     },
     {
       "description": "月額保守サポート — サーバー 3 台、リモート監視込み",
-      "quantity": "8",
-      "unit": "台",
-      "unit_price": "66300",
-      "amount": "530400",
+      "quantity": "2",
+      "unit": "時間",
+      "unit_price": "69900",
+      "amount": "139800",
       "tax_rate": "8"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "INV-2026-56260",
+    "invoice_number": "INV-2026-52337",
     "invoice_date": "令和8年5月5日",
     "due_date": "令和8年7月4日",
-    "subtotal": "¥1,790,000",
-    "tax_total": "143,200",
-    "total": "¥1,933,200"
+    "subtotal": "¥1,731,000",
+    "tax_total": "138,480",
+    "total": "¥1,869,480"
   }
 }

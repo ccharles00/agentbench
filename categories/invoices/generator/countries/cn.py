@@ -1,20 +1,28 @@
 """CN invoices: Chinese script, simplified fapiao style, ¥ ambiguity (CNY),
-18-char unified social credit code."""
+18-char unified social credit code with a real mod-31 check character (#20)."""
 from __future__ import annotations
 
 import random
 from datetime import date
 from decimal import Decimal
 
+from .. import ids
 from ..build import CountrySpec
 
-# USCC alphabet excludes I, O, S, V, Z per GB 32100-2015
-_USCC_POOL = "0123456789ABCDEFGHJKLMNPQRTUWXY"
 
+def _structural_uscc(name: str) -> tuple[str, str]:
+    """USCC per GB 32100-2015, stable per vendor name.
 
-def _tax_id(rng: random.Random) -> tuple[str, str]:
-    uscc = "".join(rng.choice(_USCC_POOL) for _ in range(18))
-    return uscc, uscc
+    char 0: registration authority (1/5/9/Y); char 1: entity type; chars 2-7:
+    6-digit division code; chars 8-16: organization code; char 17: mod-31 check.
+    """
+    rng = ids.stable_rng("USCC:" + name)
+    body = (rng.choice("159")
+            + rng.choice(ids.USCC_ALPHABET)
+            + "".join(rng.choice("0123456789") for _ in range(6))
+            + "".join(rng.choice(ids.USCC_ALPHABET) for _ in range(9)))
+    code = body + ids.uscc_check_char(body)
+    return code, code
 
 
 def _invoice_no(rng: random.Random, d: date) -> str:
@@ -32,7 +40,6 @@ def _date(d: date, lang_mode: str, digits: str) -> str:
 
 
 def make_scenarios(cfg) -> dict:
-    # cfg: [13, 9, 6]
     goods = Decimal(str(cfg[0]))
     transport = Decimal(str(cfg[1]))
     services = Decimal(str(cfg[2]))
@@ -119,7 +126,7 @@ SPEC = CountrySpec(
     units=(("个", "pcs"), ("件", "pcs"), ("托", "pallets"), ("小时", "hours"), ("册", "copies")),
     price_range=(25, 6000),
     price_step=1,
-    tax_id_gen=_tax_id,
+    structural_tax_id=_structural_uscc,
     invoice_no_gen=_invoice_no,
     date_render=_date,
     doc_plan=(

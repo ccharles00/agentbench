@@ -14,112 +14,116 @@
     "tax_mode": "exclusive",
     "cross_border": false,
     "language_mode": "native",
-    "template": "id_b"
+    "template": "id_b",
+    "withholding": false,
+    "ambiguous_date": false
   },
   "fields": {
     "vendor_name": "PT Jaya Abadi Komputer",
     "vendor_tax_id": "031940796462772",
-    "invoice_number": "INV/2025/X/5675",
+    "invoice_number": "INV/2025/X/3222",
     "invoice_date": "2025-10-21",
     "due_date": "2025-12-20",
     "currency": "IDR",
-    "subtotal": "79721004.24",
-    "tax_total": "8769310.47",
-    "total": "88490314.71",
+    "subtotal": "68859000.00",
+    "tax_total": "7574490.00",
+    "withholding_total": null,
+    "total": "76433490.00",
     "tax_rates": [
       "11"
     ],
     "payment_account": null,
     "line_item_count": 10
   },
+  "unscored_fields": [],
   "line_items": [
     {
       "description": "Kursi kantor, jaring, ergonomis",
-      "quantity": "1",
+      "quantity": "4",
       "unit": "pcs",
-      "unit_price": "3351000.06",
-      "amount": "3351000.06",
+      "unit_price": "285500.00",
+      "amount": "1142000.00",
       "tax_rate": "11"
     },
     {
       "description": "Kertas A4 70 gram (1 dus isi 10 rim)",
-      "quantity": "12",
-      "unit": "pcs",
-      "unit_price": "980500.00",
-      "amount": "11766000.00",
+      "quantity": "1",
+      "unit": "dus",
+      "unit_price": "2640500.00",
+      "amount": "2640500.00",
       "tax_rate": "11"
     },
     {
       "description": "Perawatan bulanan — server dan jaringan, termasuk dukungan jarak jauh",
-      "quantity": "2",
+      "quantity": "1",
       "unit": "jam",
-      "unit_price": "405000.17",
-      "amount": "810000.34",
+      "unit_price": "373000.00",
+      "amount": "373000.00",
       "tax_rate": "11"
     },
     {
       "description": "Lisensi perangkat lunak — tahunan",
-      "quantity": "12",
+      "quantity": "6",
       "unit": "pcs",
-      "unit_price": "115000.28",
-      "amount": "1380003.36",
+      "unit_price": "980500.00",
+      "amount": "5883000.00",
       "tax_rate": "11"
     },
     {
       "description": "Katering kantor — 20 orang",
-      "quantity": "10.5",
-      "unit": "jam",
-      "unit_price": "1634500.00",
-      "amount": "17162250.00",
+      "quantity": "12",
+      "unit": "pcs",
+      "unit_price": "763500.00",
+      "amount": "9162000.00",
       "tax_rate": "11"
     },
     {
       "description": "Layanan terjemahan — Indonesia → Inggris",
-      "quantity": "10.5",
+      "quantity": "10",
       "unit": "jam",
-      "unit_price": "2299500.00",
-      "amount": "24144750.00",
+      "unit_price": "3431000.00",
+      "amount": "34310000.00",
       "tax_rate": "11"
     },
     {
       "description": "Bahan kemasan — kardus kopling (500 pcs)",
-      "quantity": "20",
+      "quantity": "1",
       "unit": "pcs",
-      "unit_price": "586500.00",
-      "amount": "11730000.00",
+      "unit_price": "405000.00",
+      "amount": "405000.00",
       "tax_rate": "11"
     },
     {
       "description": "Jasa akuntansi — bulanan",
-      "quantity": "2",
-      "unit": "unit",
-      "unit_price": "1591000.24",
-      "amount": "3182000.48",
+      "quantity": "1",
+      "unit": "jam",
+      "unit_price": "2778000.00",
+      "amount": "2778000.00",
       "tax_rate": "11"
     },
     {
       "description": "Switch jaringan 24 port",
-      "quantity": "1",
+      "quantity": "12",
       "unit": "pcs",
-      "unit_price": "3844000.00",
-      "amount": "3844000.00",
+      "unit_price": "877000.00",
+      "amount": "10524000.00",
       "tax_rate": "11"
     },
     {
       "description": "Pengiriman: Jakarta → Surabaya, 2 palet",
       "quantity": "1",
-      "unit": "dus",
-      "unit_price": "2351000.00",
-      "amount": "2351000.00",
+      "unit": "pcs",
+      "unit_price": "1641500.00",
+      "amount": "1641500.00",
       "tax_rate": "11"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "INV/2025/X/5675",
+    "invoice_number": "INV/2025/X/3222",
     "invoice_date": "21/10/2025",
     "due_date": "20/12/2025",
-    "subtotal": "Rp79 721 004.24",
-    "tax_total": "8 769 310.47",
-    "total": "Rp88 490 314.71"
+    "subtotal": "Rp68 859 000.00",
+    "tax_total": "7 574 490.00",
+    "total": "Rp76 433 490.00"
   }
 }

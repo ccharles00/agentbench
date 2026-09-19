@@ -14,96 +14,100 @@
     "tax_mode": "exclusive",
     "cross_border": false,
     "language_mode": "native",
-    "template": "de_c"
+    "template": "de_c",
+    "withholding": false,
+    "ambiguous_date": true
   },
   "fields": {
     "vendor_name": "Alpen Tech Solutions KG",
     "vendor_tax_id": "DE092881955",
-    "invoice_number": "RE-2026-7510",
+    "invoice_number": "RE-2026-8174",
     "invoice_date": "2026-09-03",
     "due_date": "2026-10-03",
     "currency": "EUR",
-    "subtotal": "24722.38",
-    "tax_total": "4697.25",
-    "total": "29419.63",
+    "subtotal": "45775.67",
+    "tax_total": "8697.37",
+    "withholding_total": null,
+    "total": "54473.04",
     "tax_rates": [
       "19"
     ],
-    "payment_account": "DE61432549046157837414",
+    "payment_account": "DE98087118284325490461",
     "line_item_count": 8
   },
+  "unscored_fields": [],
   "line_items": [
     {
       "description": "IT-Support-Stunden, remote",
-      "quantity": "8",
-      "unit": "Pauschale",
-      "unit_price": "551.00",
-      "amount": "4408.00",
+      "quantity": "8.5",
+      "unit": "Std.",
+      "unit_price": "779.37",
+      "amount": "6624.65",
       "tax_rate": "19"
     },
     {
       "description": "Elektroinstallation — Objekt 12, GruppeVerteilung und Zählerplatz",
-      "quantity": "20.5",
-      "unit": "Std.",
+      "quantity": "20",
+      "unit": "Stk.",
       "unit_price": "22.00",
-      "amount": "451.00",
+      "amount": "440.00",
       "tax_rate": "19"
     },
     {
       "description": "Fachbuch: Grundlagen der Buchführung, 3. Auflage",
-      "quantity": "8",
+      "quantity": "1",
       "unit": "Stk.",
+      "unit_price": "391.00",
+      "amount": "391.00",
+      "tax_rate": "19"
+    },
+    {
+      "description": "Monatliche Wartung — Klimaanlage, inklusive Ersatzteilen und Notdienst",
+      "quantity": "8",
+      "unit": "Std.",
       "unit_price": "842.00",
       "amount": "6736.00",
       "tax_rate": "19"
     },
     {
-      "description": "Monatliche Wartung — Klimaanlage, inklusive Ersatzteilen und Notdienst",
-      "quantity": "2",
-      "unit": "kg",
-      "unit_price": "713.00",
-      "amount": "1426.00",
-      "tax_rate": "19"
-    },
-    {
       "description": "Steuerberatung — Quartalsabschluss",
-      "quantity": "10",
-      "unit": "Stk.",
-      "unit_price": "1021.00",
-      "amount": "10210.00",
+      "quantity": "20",
+      "unit": "Std.",
+      "unit_price": "1059.00",
+      "amount": "21180.00",
       "tax_rate": "19"
     },
     {
       "description": "Softwarelizenz, Jahresabo, 5 Arbeitsplätze",
-      "quantity": "1",
-      "unit": "Pauschale",
-      "unit_price": "209.00",
-      "amount": "209.00",
+      "quantity": "6",
+      "unit": "Stk.",
+      "unit_price": "583.17",
+      "amount": "3499.02",
       "tax_rate": "19"
     },
     {
       "description": "Lagerservice — Kommissionierung, 3 Monate",
-      "quantity": "1",
+      "quantity": "6",
       "unit": "Std.",
-      "unit_price": "759.00",
-      "amount": "759.00",
+      "unit_price": "1116.00",
+      "amount": "6696.00",
       "tax_rate": "19"
     },
     {
       "description": "Druck: Produktkatalog, 4-farbig, 500 Stück, Rückenklebung",
-      "quantity": "2",
-      "unit": "Pauschale",
-      "unit_price": "261.69",
-      "amount": "523.38",
+      "quantity": "1",
+      "unit": "Stk.",
+      "unit_price": "209.00",
+      "amount": "209.00",
       "tax_rate": "19"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "RE-2026-7510",
+    "invoice_number": "RE-2026-8174",
     "invoice_date": "03.09.2026",
     "due_date": "03.10.2026",
-    "subtotal": "24.722,38 €",
-    "tax_total": "4.697,25",
-    "total": "29.419,63 €"
+    "subtotal": "45.775,67 €",
+    "tax_total": "8.697,37",
+    "total": "54.473,04 €"
   }
 }

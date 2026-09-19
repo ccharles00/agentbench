@@ -14,104 +14,110 @@
     "tax_mode": "exclusive",
     "cross_border": true,
     "language_mode": "english",
-    "template": "jp_a"
+    "template": "jp_a",
+    "withholding": false,
+    "ambiguous_date": false
   },
   "fields": {
     "vendor_name": "Yokohama Trading K.K.",
     "vendor_tax_id": "T1291258345853",
-    "invoice_number": "INV-2026-69551",
+    "invoice_number": "INV-2026-40138",
     "invoice_date": "2026-07-11",
     "due_date": "2026-08-10",
     "currency": "USD",
-    "subtotal": "5118908.96",
-    "tax_total": "511890.89",
-    "total": "5630799.85",
+    "subtotal": "2590150.92",
+    "tax_total": "259015.09",
+    "withholding_total": null,
+    "total": "2849166.01",
     "tax_rates": [
       "10"
     ],
     "payment_account": null,
     "line_item_count": 9
   },
+  "unscored_fields": [
+    "payment_account"
+  ],
   "line_items": [
     {
       "description": "Software license (annual)",
-      "quantity": "20",
-      "unit": "個",
-      "unit_price": "82900.00",
-      "amount": "1658000.00",
+      "quantity": "12",
+      "unit": "units",
+      "unit_price": "26200.00",
+      "amount": "314400.00",
       "tax_rate": "10"
     },
     {
       "description": "Cleaning service — office, monthly",
-      "quantity": "2",
-      "unit": "時間",
-      "unit_price": "36000.35",
-      "amount": "72000.70",
+      "quantity": "4.5",
+      "unit": "hours",
+      "unit_price": "71900.00",
+      "amount": "323550.00",
       "tax_rate": "10"
     },
     {
       "description": "Monthly maintenance — 3 servers, remote monitoring",
-      "quantity": "4",
-      "unit": "冊",
-      "unit_price": "300.18",
-      "amount": "1200.72",
+      "quantity": "20",
+      "unit": "hours",
+      "unit_price": "23200.00",
+      "amount": "464000.00",
       "tax_rate": "10"
     },
     {
       "description": "Freight Osaka → Tokyo, 2 pallets",
+      "quantity": "1",
+      "unit": "units",
+      "unit_price": "53800.00",
+      "amount": "53800.00",
+      "tax_rate": "10"
+    },
+    {
+      "description": "Office supplies — stationery and files",
+      "quantity": "2",
+      "unit": "units",
+      "unit_price": "27100.46",
+      "amount": "54200.92",
+      "tax_rate": "10"
+    },
+    {
+      "description": "Office chairs, mesh, with arms",
       "quantity": "8",
-      "unit": "個",
+      "unit": "units",
       "unit_price": "73000.00",
       "amount": "584000.00",
       "tax_rate": "10"
     },
     {
-      "description": "Office supplies — stationery and files",
-      "quantity": "6.5",
-      "unit": "時間",
-      "unit_price": "57100.16",
-      "amount": "371151.04",
-      "tax_rate": "10"
-    },
-    {
-      "description": "Office chairs, mesh, with arms",
-      "quantity": "6",
-      "unit": "時間",
-      "unit_price": "47700.00",
-      "amount": "286200.00",
-      "tax_rate": "10"
-    },
-    {
       "description": "Freight Osaka → Tokyo, 2 pallets",
+      "quantity": "8",
+      "unit": "units",
+      "unit_price": "76400.00",
+      "amount": "611200.00",
+      "tax_rate": "10"
+    },
+    {
+      "description": "Software license (annual)",
       "quantity": "2",
-      "unit": "台",
-      "unit_price": "40500.94",
-      "amount": "81001.88",
+      "unit": "units",
+      "unit_price": "11700.00",
+      "amount": "23400.00",
       "tax_rate": "10"
     },
     {
       "description": "Software license (annual)",
-      "quantity": "10.5",
-      "unit": "時間",
-      "unit_price": "80700.44",
-      "amount": "847354.62",
-      "tax_rate": "10"
-    },
-    {
-      "description": "Software license (annual)",
-      "quantity": "20",
-      "unit": "個",
-      "unit_price": "60900.00",
-      "amount": "1218000.00",
+      "quantity": "2",
+      "unit": "units",
+      "unit_price": "80800.00",
+      "amount": "161600.00",
       "tax_rate": "10"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "INV-2026-69551",
+    "invoice_number": "INV-2026-40138",
     "invoice_date": "Jul 11, 2026",
     "due_date": "Aug 10, 2026",
-    "subtotal": "USD 5,118,908.96",
-    "tax_total": "511,890.89",
-    "total": "USD 5,630,799.85"
+    "subtotal": "USD 2,590,150.92",
+    "tax_total": "259,015.09",
+    "total": "USD 2,849,166.01"
   }
 }

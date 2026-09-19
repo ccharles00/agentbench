@@ -14,200 +14,188 @@
     "tax_mode": "exclusive",
     "cross_border": false,
     "language_mode": "native",
-    "template": "cn_b"
+    "template": "cn_b",
+    "withholding": false,
+    "ambiguous_date": false
   },
   "fields": {
     "vendor_name": "上海东方贸易有限公司",
-    "vendor_tax_id": "WBPQGH97LB3A3972DT",
-    "invoice_number": "54174669",
-    "invoice_date": "2026-12-11",
-    "due_date": "2027-01-25",
+    "vendor_tax_id": "5E220087WYACLXDM9N",
+    "invoice_number": "INV202604301",
+    "invoice_date": "2026-04-21",
+    "due_date": "2026-05-21",
     "currency": "CNY",
-    "subtotal": "329863.09",
-    "tax_total": "33542.46",
-    "total": "363405.55",
+    "subtotal": "469541.17",
+    "tax_total": "51617.77",
+    "withholding_total": null,
+    "total": "521158.94",
     "tax_rates": [
-      "6",
-      "13"
+      "13",
+      "6"
     ],
     "payment_account": null,
-    "line_item_count": 21
+    "line_item_count": 19
   },
+  "unscored_fields": [],
   "line_items": [
     {
-      "description": "LED 显示屏模组 P2.5，含控制系统",
-      "quantity": "1",
-      "unit": "托",
-      "unit_price": "2244.00",
-      "amount": "2244.00",
-      "tax_rate": "6"
-    },
-    {
       "description": "印刷品：产品手册，500 册，铜版纸",
-      "quantity": "6",
-      "unit": "小时",
-      "unit_price": "4469.00",
-      "amount": "26814.00",
-      "tax_rate": "13"
-    },
-    {
-      "description": "电子元器件 — 电阻 10kΩ ±1%（1000 个/盘）",
-      "quantity": "1",
-      "unit": "小时",
-      "unit_price": "4130.00",
-      "amount": "4130.00",
-      "tax_rate": "6"
-    },
-    {
-      "description": "会议桌，1.8 米，胡桃木色",
-      "quantity": "1",
-      "unit": "小时",
-      "unit_price": "3940.00",
-      "amount": "3940.00",
-      "tax_rate": "6"
-    },
-    {
-      "description": "财务咨询服务 — 月度报表及税务申报",
-      "quantity": "2",
-      "unit": "托",
-      "unit_price": "760.00",
-      "amount": "1520.00",
-      "tax_rate": "6"
-    },
-    {
-      "description": "包装材料 — 瓦楞纸箱 5 号（1000 只）",
-      "quantity": "12",
-      "unit": "小时",
-      "unit_price": "4591.39",
-      "amount": "55096.68",
-      "tax_rate": "13"
-    },
-    {
-      "description": "办公椅，网布，人体工学",
       "quantity": "1",
       "unit": "个",
-      "unit_price": "109.31",
-      "amount": "109.31",
-      "tax_rate": "13"
-    },
-    {
-      "description": "软件许可 — 年度订阅，20 用户",
-      "quantity": "10",
-      "unit": "小时",
-      "unit_price": "4859.00",
-      "amount": "48590.00",
-      "tax_rate": "6"
-    },
-    {
-      "description": "翻译服务 — 中文译英文，技术文档 40 页",
-      "quantity": "2",
-      "unit": "册",
-      "unit_price": "5630.30",
-      "amount": "11260.60",
-      "tax_rate": "13"
-    },
-    {
-      "description": "月饼礼盒装（食品，含税）",
-      "quantity": "2.5",
-      "unit": "小时",
-      "unit_price": "5731.22",
-      "amount": "14328.05",
-      "tax_rate": "6"
-    },
-    {
-      "description": "货运：深圳 → 上海，2 托，汽运",
-      "quantity": "8",
-      "unit": "册",
-      "unit_price": "5717.00",
-      "amount": "45736.00",
+      "unit_price": "1466.00",
+      "amount": "1466.00",
       "tax_rate": "13"
     },
     {
       "description": "服务器托管服务 — 一年，含带宽与运维值守",
-      "quantity": "2",
-      "unit": "册",
-      "unit_price": "4508.00",
-      "amount": "9016.00",
+      "quantity": "3.5",
+      "unit": "小时",
+      "unit_price": "399.22",
+      "amount": "1397.27",
+      "tax_rate": "13"
+    },
+    {
+      "description": "财务咨询服务 — 月度报表及税务申报",
+      "quantity": "12",
+      "unit": "小时",
+      "unit_price": "4684.95",
+      "amount": "56219.40",
+      "tax_rate": "13"
+    },
+    {
+      "description": "货运：深圳 → 上海，2 托，汽运",
+      "quantity": "20",
+      "unit": "托",
+      "unit_price": "4300.74",
+      "amount": "86014.80",
+      "tax_rate": "13"
+    },
+    {
+      "description": "LED 显示屏模组 P2.5，含控制系统",
+      "quantity": "1",
+      "unit": "个",
+      "unit_price": "5606.00",
+      "amount": "5606.00",
       "tax_rate": "6"
     },
     {
-      "description": "翻译服务 — 中文译英文，技术文档 40 页",
-      "quantity": "2",
+      "description": "会议桌，1.8 米，胡桃木色",
+      "quantity": "3",
       "unit": "个",
-      "unit_price": "4724.00",
-      "amount": "9448.00",
+      "unit_price": "3364.00",
+      "amount": "10092.00",
+      "tax_rate": "13"
+    },
+    {
+      "description": "电子元器件 — 电阻 10kΩ ±1%（1000 个/盘）",
+      "quantity": "6",
+      "unit": "个",
+      "unit_price": "574.62",
+      "amount": "3447.72",
       "tax_rate": "13"
     },
     {
       "description": "包装材料 — 瓦楞纸箱 5 号（1000 只）",
       "quantity": "4",
-      "unit": "小时",
-      "unit_price": "1292.76",
-      "amount": "5171.04",
+      "unit": "个",
+      "unit_price": "693.00",
+      "amount": "2772.00",
       "tax_rate": "6"
     },
     {
-      "description": "LED 显示屏模组 P2.5，含控制系统",
-      "quantity": "6",
-      "unit": "册",
-      "unit_price": "3431.62",
-      "amount": "20589.72",
-      "tax_rate": "13"
+      "description": "翻译服务 — 中文译英文，技术文档 40 页",
+      "quantity": "2",
+      "unit": "小时",
+      "unit_price": "760.00",
+      "amount": "1520.00",
+      "tax_rate": "6"
+    },
+    {
+      "description": "月饼礼盒装（食品，含税）",
+      "quantity": "10",
+      "unit": "个",
+      "unit_price": "1829.88",
+      "amount": "18298.80",
+      "tax_rate": "6"
+    },
+    {
+      "description": "软件许可 — 年度订阅，20 用户",
+      "quantity": "1",
+      "unit": "个",
+      "unit_price": "4881.00",
+      "amount": "4881.00",
+      "tax_rate": "6"
     },
     {
       "description": "办公椅，网布，人体工学",
-      "quantity": "5",
+      "quantity": "1",
       "unit": "个",
-      "unit_price": "5011.00",
-      "amount": "25055.00",
+      "unit_price": "690.00",
+      "amount": "690.00",
       "tax_rate": "6"
     },
     {
-      "description": "服务器托管服务 — 一年，含带宽与运维值守",
-      "quantity": "20",
-      "unit": "件",
-      "unit_price": "311.54",
-      "amount": "6230.80",
-      "tax_rate": "6"
-    },
-    {
-      "description": "服务器托管服务 — 一年，含带宽与运维值守",
+      "description": "软件许可 — 年度订阅，20 用户",
       "quantity": "12",
-      "unit": "托",
-      "unit_price": "1100.00",
-      "amount": "13200.00",
+      "unit": "个",
+      "unit_price": "3270.00",
+      "amount": "39240.00",
       "tax_rate": "6"
     },
     {
-      "description": "电子元器件 — 电阻 10kΩ ±1%（1000 个/盘）",
-      "quantity": "5",
-      "unit": "件",
-      "unit_price": "2147.00",
-      "amount": "10735.00",
+      "description": "会议桌，1.8 米，胡桃木色",
+      "quantity": "10",
+      "unit": "个",
+      "unit_price": "4662.00",
+      "amount": "46620.00",
       "tax_rate": "13"
     },
     {
-      "description": "LED 显示屏模组 P2.5，含控制系统",
-      "quantity": "10",
-      "unit": "托",
-      "unit_price": "1327.76",
-      "amount": "13277.60",
+      "description": "电子元器件 — 电阻 10kΩ ±1%（1000 个/盘）",
+      "quantity": "2",
+      "unit": "个",
+      "unit_price": "5630.30",
+      "amount": "11260.60",
+      "tax_rate": "6"
+    },
+    {
+      "description": "月饼礼盒装（食品，含税）",
+      "quantity": "20",
+      "unit": "个",
+      "unit_price": "5715.00",
+      "amount": "114300.00",
       "tax_rate": "13"
     },
     {
       "description": "货运：深圳 → 上海，2 托，汽运",
-      "quantity": "1",
-      "unit": "个",
-      "unit_price": "3371.29",
-      "amount": "3371.29",
+      "quantity": "2",
+      "unit": "托",
+      "unit_price": "1478.00",
+      "amount": "2956.00",
       "tax_rate": "13"
+    },
+    {
+      "description": "服务器托管服务 — 一年，含带宽与运维值守",
+      "quantity": "6",
+      "unit": "小时",
+      "unit_price": "2069.93",
+      "amount": "12419.58",
+      "tax_rate": "13"
+    },
+    {
+      "description": "月饼礼盒装（食品，含税）",
+      "quantity": "12",
+      "unit": "个",
+      "unit_price": "4195.00",
+      "amount": "50340.00",
+      "tax_rate": "6"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "54174669",
-    "invoice_date": "2026年12月11日",
-    "due_date": "2027年1月25日",
-    "subtotal": "¥329,863.09",
-    "total": "¥363,405.55"
+    "invoice_number": "INV202604301",
+    "invoice_date": "2026年4月21日",
+    "due_date": "2026年5月21日",
+    "subtotal": "¥469,541.17",
+    "total": "¥521,158.94"
   }
 }

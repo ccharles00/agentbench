@@ -14,96 +14,100 @@
     "tax_mode": "exclusive",
     "cross_border": false,
     "language_mode": "native",
-    "template": "us_a"
+    "template": "us_a",
+    "withholding": false,
+    "ambiguous_date": false
   },
   "fields": {
     "vendor_name": "Redwood Analytics Inc.",
     "vendor_tax_id": "767012815",
-    "invoice_number": "#8820",
+    "invoice_number": "#1908",
     "invoice_date": "2025-09-21",
     "due_date": "2025-11-20",
     "currency": "USD",
-    "subtotal": "12101.71",
-    "tax_total": "998.39",
-    "total": "13100.10",
+    "subtotal": "27722.99",
+    "tax_total": "2460.43",
+    "withholding_total": null,
+    "total": "30183.42",
     "tax_rates": [
-      "8.25"
+      "8.875"
     ],
     "payment_account": null,
     "line_item_count": 8
   },
+  "unscored_fields": [],
   "line_items": [
     {
       "description": "Freight — Seattle to Denver, 2 pallets, liftgate delivery",
-      "quantity": "2",
-      "unit": "lbs",
-      "unit_price": "705.00",
-      "amount": "1410.00",
-      "tax_rate": "8.25"
+      "quantity": "10",
+      "unit": "pcs",
+      "unit_price": "669.00",
+      "amount": "6690.00",
+      "tax_rate": "8.875"
     },
     {
       "description": "Printer toner, black, high-yield (pack of 4)",
-      "quantity": "3",
-      "unit": "ea",
-      "unit_price": "450.87",
-      "amount": "1352.61",
-      "tax_rate": "8.25"
+      "quantity": "2",
+      "unit": "pcs",
+      "unit_price": "705.00",
+      "amount": "1410.00",
+      "tax_rate": "8.875"
     },
     {
       "description": "Safety gloves, cut-resistant, size L (12 pairs)",
       "quantity": "6",
-      "unit": "lbs",
-      "unit_price": "479.52",
-      "amount": "2877.12",
-      "tax_rate": "8.25"
+      "unit": "pcs",
+      "unit_price": "155.00",
+      "amount": "930.00",
+      "tax_rate": "8.875"
     },
     {
       "description": "Catering — board meeting, 12 people, full service",
-      "quantity": "4",
+      "quantity": "10",
       "unit": "hrs",
-      "unit_price": "25.00",
-      "amount": "100.00",
-      "tax_rate": "8.25"
+      "unit_price": "677.93",
+      "amount": "6779.30",
+      "tax_rate": "8.875"
     },
     {
       "description": "Cloud hosting — compute and storage, monthly",
-      "quantity": "1",
+      "quantity": "4",
       "unit": "pcs",
-      "unit_price": "533.00",
-      "amount": "533.00",
-      "tax_rate": "8.25"
+      "unit_price": "335.00",
+      "amount": "1340.00",
+      "tax_rate": "8.875"
     },
     {
       "description": "Software license — annual subscription, 25 seats",
-      "quantity": "2",
-      "unit": "ea",
-      "unit_price": "668.91",
-      "amount": "1337.82",
-      "tax_rate": "8.25"
+      "quantity": "4",
+      "unit": "pcs",
+      "unit_price": "25.00",
+      "amount": "100.00",
+      "tax_rate": "8.875"
     },
     {
       "description": "Custom rack enclosure, 42U, with cable management and thermal kit",
-      "quantity": "2",
-      "unit": "lbs",
-      "unit_price": "478.00",
-      "amount": "956.00",
-      "tax_rate": "8.25"
+      "quantity": "1",
+      "unit": "pcs",
+      "unit_price": "598.69",
+      "amount": "598.69",
+      "tax_rate": "8.875"
     },
     {
       "description": "Monthly retainer — analytics dashboard maintenance and support",
-      "quantity": "4.5",
+      "quantity": "12.5",
       "unit": "hrs",
-      "unit_price": "785.59",
-      "amount": "3535.16",
-      "tax_rate": "8.25"
+      "unit_price": "790.00",
+      "amount": "9875.00",
+      "tax_rate": "8.875"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "#8820",
+    "invoice_number": "#1908",
     "invoice_date": "09/21/2025",
     "due_date": "11/20/2025",
-    "subtotal": "$12,101.71",
-    "tax_total": "998.39",
-    "total": "$13,100.10"
+    "subtotal": "$27,722.99",
+    "tax_total": "2,460.43",
+    "total": "$30,183.42"
   }
 }

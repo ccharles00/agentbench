@@ -1,16 +1,18 @@
-"""Self-checks for a generated split — fail loudly (spec B2.8).
+"""Self-checks for a generated split — fail loudly (spec B2.8, #18-#20).
 
 Checks, per document:
-  1. schema: required keys present, scored fields exactly per B2.6
+  1. schema: required keys present; fields = scored fields + withholding_total
   2. amounts: decimal strings at exactly the currency's minor-unit precision
-  3. identity: subtotal + tax_total == total (inclusive pricing handled by
-     construction — items are gross and subtotal = total - tax_total)
+  3. identity: subtotal + tax_total − (withholding_total or 0) == total
   4. line items sum to the right total for the tax mode
-  5. dates: valid ISO, round-trip through the native calendar
+  5. dates: valid ISO, round-trip through the native calendar (null allowed)
   6. tax rates parse and are plausible for the country's config table
+     (charged taxes only; withholding rates never appear — #18)
   7. payment_account: valid IBAN (mod-97) or CLABE where present
-  8. clean_pdf text layer contains every rendered_strings value
-  9. every variant file listed in the manifest exists and is non-empty
+  8. unscored_fields consistency (#19)
+  9. CN/IN/MX tax IDs pass their structural check-character validation (#20)
+ 10. clean_pdf text layer contains every rendered_strings value
+ 11. every variant file listed in the manifest exists and is non-empty
 Plus: manifest/ground-truth agreement and contact sheets present.
 """
 from __future__ import annotations
@@ -25,9 +27,14 @@ from core.config import data_dir
 
 from . import ids, money
 from .calendars import round_trip as calendar_round_trip
-from .model import GT_FIELDS
+from .model import GT_FIELDS, GT_META_FIELDS
 
-_KNOWN_EXTRA_RATES = {"0", "1.65", "7.6", "10"}  # reverse charge, PIS, COFINS, MX retención
+# Charged-tax rates that are legal on documents but missing from a country's
+# config table, scoped per country (handoff item 6). "0" is legal everywhere:
+# reverse-charge documents print a 0% line.
+_COUNTRY_EXTRA_RATES: dict[str, set[str]] = {
+    "BR": {"1.65", "7.6"},        # PIS / COFINS
+}
 MAX_REPORTED = 25
 
 
@@ -70,10 +77,10 @@ def text_contains(haystack: str, needle: str) -> bool:
     Chromium renders Arabic correctly but PDF text extraction returns RTL runs
     in scrambled visual order — Arabic-Indic digit runs come out reversed, and
     attached Arabic abbreviations get split. So after exact / reversed /
-    diacritic-loose matching fails, fall back to: every numeric token of the
-    value has its digit sequence present (forwards or reversed) on a single
-    extracted line, and at least one letter of the value exists at all (catches
-    tofu/dropped glyphs). See DECISIONS.md.
+    diacritic-loose matching fails, fall back to: every numeric token's digit
+    sequence present on a single extracted line (forward or reversed), plus at
+    least one letter of the value present (tofu detector). LTR documents still
+    require exact matches. See DECISIONS.md #12.
     """
     n, h = _norm(needle), _norm(haystack)
     if n in h or n[::-1] in h:          # exact, or simple RTL visual order
@@ -102,18 +109,24 @@ def text_contains(haystack: str, needle: str) -> bool:
 
 def check_gt_schema(gt: dict) -> None:
     missing = [k for k in ("doc_id", "country", "language", "script", "dimensions",
-                           "fields", "line_items", "rendered_strings") if k not in gt]
+                           "fields", "unscored_fields", "line_items",
+                           "rendered_strings") if k not in gt]
     if missing:
         raise ValueError(f"ground truth missing keys: {missing}")
-    if set(gt["fields"]) != set(GT_FIELDS):
-        raise ValueError(f"fields must be exactly {GT_FIELDS}, got {sorted(gt['fields'])}")
+    expected = set(GT_FIELDS) | set(GT_META_FIELDS)
+    if set(gt["fields"]) != expected:
+        raise ValueError(f"fields must be exactly {sorted(expected)}, "
+                         f"got {sorted(gt['fields'])}")
 
 
 def check_amounts(gt: dict, doc_id: str, problems: Problems) -> None:
     currency = gt["fields"]["currency"]
     minor = money.MINOR_UNITS[currency]
-    for key in ("subtotal", "tax_total", "total"):
-        raw = gt["fields"][key]
+    keys = ("subtotal", "tax_total", "withholding_total", "total")
+    for key in keys:
+        raw = gt["fields"].get(key)
+        if raw is None:
+            continue
         try:
             d = Decimal(raw)
         except InvalidOperation:
@@ -124,24 +137,33 @@ def check_amounts(gt: dict, doc_id: str, problems: Problems) -> None:
         elif minor > 0 and len(raw.partition(".")[2]) != minor:
             problems.add(doc_id,
                          f"{key}={raw!r} must have exactly {minor} decimals for {currency}")
+        if d < 0:
+            problems.add(doc_id, f"{key} is negative: {raw!r}")
 
 
 def check_identity(gt: dict, doc_id: str, problems: Problems) -> None:
     f = gt["fields"]
     try:
-        subtotal, tax_total, total = (Decimal(f[k]) for k in ("subtotal", "tax_total", "total"))
+        subtotal = Decimal(f["subtotal"])
+        tax_total = Decimal(f["tax_total"])
+        total = Decimal(f["total"])
+        withholding = (Decimal(f["withholding_total"])
+                       if f["withholding_total"] is not None else Decimal(0))
     except InvalidOperation:
         return
-    if subtotal + tax_total != total:
-        problems.add(doc_id, f"identity fails: {subtotal} + {tax_total} != {total}")
+    if subtotal + tax_total - withholding != total:
+        problems.add(doc_id,
+                     f"identity fails: {subtotal} + {tax_total} − {withholding} != {total}")
     items_sum = sum(Decimal(li["amount"]) for li in gt["line_items"])
     mode = gt["dimensions"]["tax_mode"]
-    expected = total if mode in ("inclusive",) else subtotal
+    expected = total if mode == "inclusive" else subtotal
     if items_sum != expected:
         problems.add(doc_id,
                      f"line items sum {items_sum} != {expected} (tax_mode={mode})")
     if mode == "reverse_charge" and tax_total != 0:
         problems.add(doc_id, "reverse charge doc must have tax_total 0")
+    if f["withholding_total"] is not None and not gt["dimensions"].get("withholding"):
+        problems.add(doc_id, "withholding_total set but dimensions.withholding is false")
     if len(gt["line_items"]) != f["line_item_count"]:
         problems.add(doc_id, "line_item_count does not match line_items length")
 
@@ -151,6 +173,8 @@ def check_dates(gt: dict, doc_id: str, problems: Problems) -> None:
     calendar = gt["dimensions"]["calendar"]
     for key in ("invoice_date", "due_date"):
         raw = gt["fields"][key]
+        if raw is None:            # e.g. fapiao due dates (DECISIONS.md #20)
+            continue
         try:
             d = date_cls.fromisoformat(raw)
         except ValueError:
@@ -171,8 +195,8 @@ def check_tax_rates(gt: dict, doc_id: str, tax_table: dict, problems: Problems) 
         allowed |= {Decimal(str(v)) for v in table.values()}
     else:
         allowed |= {Decimal(str(v)) for v in table}
-    for extra in _KNOWN_EXTRA_RATES:
-        allowed.add(Decimal(extra))
+    allowed |= {Decimal("0")}
+    allowed |= {Decimal(s) for s in _COUNTRY_EXTRA_RATES.get(country, ())}
     for rate_str in gt["fields"]["tax_rates"]:
         try:
             rate = Decimal(rate_str)
@@ -193,6 +217,32 @@ def check_payment_account(gt: dict, doc_id: str, problems: Problems) -> None:
     if len(acct) == 18 and acct.isdigit() and ids.clabe_check_digit(acct[:17]) == acct[17]:
         return
     problems.add(doc_id, f"payment_account {acct!r} is neither a valid IBAN nor a valid CLABE")
+
+
+def check_unscored(gt: dict, doc_id: str, problems: Problems) -> None:
+    unscored = gt.get("unscored_fields")
+    if not isinstance(unscored, list):
+        problems.add(doc_id, "unscored_fields must be a list")
+        return
+    known = {"payment_account"}
+    unknown = [f for f in unscored if f not in known]
+    if unknown:
+        problems.add(doc_id, f"unscored_fields has unknown entries: {unknown}")
+    if "payment_account" in unscored and gt["fields"]["payment_account"] is not None:
+        problems.add(doc_id,
+                     "payment_account listed unscored but has a normalized value")
+
+
+def check_structural_ids(gt: dict, doc_id: str, problems: Problems) -> None:
+    tid = gt["fields"]["vendor_tax_id"]
+    if tid is None:
+        return
+    validators = {"CN": ids.uscc_is_valid, "IN": ids.gstin_is_valid,
+                  "MX": ids.rfc_is_valid}
+    fn = validators.get(gt["country"])
+    if fn and not fn(tid):
+        problems.add(doc_id,
+                     f"vendor_tax_id {tid!r} fails structural validation for {gt['country']}")
 
 
 def check_rendered_strings(gt: dict, pdf_path: Path, doc_id: str, problems: Problems) -> None:
@@ -247,6 +297,8 @@ def run(config: dict, split: str = "public") -> None:
         check_dates(gt, doc_id, problems)
         check_tax_rates(gt, doc_id, config["tax_rates"], problems)
         check_payment_account(gt, doc_id, problems)
+        check_unscored(gt, doc_id, problems)
+        check_structural_ids(gt, doc_id, problems)
         check_files(entry, base, doc_id, problems)
         pdf_path = base / entry["variants"]["clean_pdf"][0]
         if pdf_path.exists():

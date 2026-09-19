@@ -16,88 +16,92 @@
     "tax_mode": "exclusive",
     "cross_border": false,
     "language_mode": "bilingual",
-    "template": "kr_a"
+    "template": "kr_a",
+    "withholding": false,
+    "ambiguous_date": false
   },
   "fields": {
     "vendor_name": "대전전자 주식회사",
     "vendor_tax_id": "1016358213",
-    "invoice_number": "2026-6022",
+    "invoice_number": "2026-2495",
     "invoice_date": "2026-08-05",
     "due_date": "2026-09-19",
     "currency": "KRW",
-    "subtotal": "13770500",
-    "tax_total": "1377050",
-    "total": "15147550",
+    "subtotal": "28195400",
+    "tax_total": "2819540",
+    "withholding_total": null,
+    "total": "31014940",
     "tax_rates": [
       "10"
     ],
     "payment_account": null,
     "line_item_count": 7
   },
+  "unscored_fields": [],
   "line_items": [
     {
       "description": "화물 운송: 부산 → 서울, 2팔레트",
+      "quantity": "20",
+      "unit": "개",
+      "unit_price": "729600",
+      "amount": "14592000",
+      "tax_rate": "10"
+    },
+    {
+      "description": "Office chairs, mesh, ergonomic",
+      "quantity": "6",
+      "unit": "개",
+      "unit_price": "728000",
+      "amount": "4368000",
+      "tax_rate": "10"
+    },
+    {
+      "description": "Software license — annual",
       "quantity": "10",
-      "unit": "시간",
+      "unit": "개",
       "unit_price": "491300",
       "amount": "4913000",
       "tax_rate": "10"
     },
     {
-      "description": "Office chairs, mesh, ergonomic",
+      "description": "번역 서비스 — 한국어→영어",
+      "quantity": "1",
+      "unit": "시간",
+      "unit_price": "562800",
+      "amount": "562800",
+      "tax_rate": "10"
+    },
+    {
+      "description": "서버 유지보수 — 월간, 원격 모니터링 포함",
       "quantity": "2",
-      "unit": "대",
+      "unit": "시간",
       "unit_price": "465000",
       "amount": "930000",
       "tax_rate": "10"
     },
     {
-      "description": "Software license — annual",
-      "quantity": "6",
-      "unit": "식",
-      "unit_price": "75700",
-      "amount": "454200",
-      "tax_rate": "10"
-    },
-    {
-      "description": "번역 서비스 — 한국어→영어",
-      "quantity": "2",
-      "unit": "개",
-      "unit_price": "874800",
-      "amount": "1749600",
-      "tax_rate": "10"
-    },
-    {
-      "description": "서버 유지보수 — 월간, 원격 모니터링 포함",
-      "quantity": "1",
-      "unit": "개",
-      "unit_price": "666300",
-      "amount": "666300",
-      "tax_rate": "10"
-    },
-    {
       "description": "Freight Busan → Seoul, 2 pallets",
-      "quantity": "4",
-      "unit": "시간",
-      "unit_price": "860300",
-      "amount": "3441200",
+      "quantity": "3",
+      "unit": "개",
+      "unit_price": "791800",
+      "amount": "2375400",
       "tax_rate": "10"
     },
     {
       "description": "소프트웨어 라이선스 — 연간",
-      "quantity": "2",
-      "unit": "대",
-      "unit_price": "808100",
-      "amount": "1616200",
+      "quantity": "6",
+      "unit": "개",
+      "unit_price": "75700",
+      "amount": "454200",
       "tax_rate": "10"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "2026-6022",
+    "invoice_number": "2026-2495",
     "invoice_date": "2026. 08. 05.",
     "due_date": "2026. 09. 19.",
-    "subtotal": "₩13,770,500",
-    "tax_total": "1,377,050",
-    "total": "₩15,147,550"
+    "subtotal": "₩28,195,400",
+    "tax_total": "2,819,540",
+    "total": "₩31,014,940"
   }
 }

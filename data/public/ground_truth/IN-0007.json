@@ -14,128 +14,108 @@
     "tax_mode": "exclusive",
     "cross_border": false,
     "language_mode": "native",
-    "template": "in_c"
+    "template": "in_c",
+    "withholding": false,
+    "ambiguous_date": true
   },
   "fields": {
     "vendor_name": "Jaipur Handicrafts Emporium Pvt. Ltd.",
-    "vendor_tax_id": "08VNLGA2822U2ZZ",
-    "invoice_number": "GST/26/27/101",
-    "invoice_date": "2026-06-12",
-    "due_date": "2026-07-12",
+    "vendor_tax_id": "27XSEVB2968C3ZZ",
+    "invoice_number": "TAX/26/27/376",
+    "invoice_date": "2026-04-01",
+    "due_date": "2026-04-16",
     "currency": "INR",
-    "subtotal": "1213126.58",
-    "tax_total": "145575.19",
-    "total": "1358701.77",
+    "subtotal": "918685.63",
+    "tax_total": "110242.28",
+    "withholding_total": null,
+    "total": "1028927.91",
     "tax_rates": [
       "6",
       "6"
     ],
     "payment_account": null,
-    "line_item_count": 12
+    "line_item_count": 9
   },
+  "unscored_fields": [],
   "line_items": [
     {
-      "description": "Bulk notebook supply — A4, 200 pages (pack of 50)",
+      "description": "GST registration and compliance consultancy",
       "quantity": "5",
-      "unit": "pcs",
-      "unit_price": "7430.51",
-      "amount": "37152.55",
+      "unit": "hrs",
+      "unit_price": "11130.00",
+      "amount": "55650.00",
       "tax_rate": "12"
     },
     {
-      "description": "LED bulbs 9W (box of 100)",
-      "quantity": "20.5",
-      "unit": "hrs",
-      "unit_price": "11210.00",
-      "amount": "229805.00",
+      "description": "मसाला पैकेजिंग सेवा — 2 टन",
+      "quantity": "5",
+      "unit": "pcs",
+      "unit_price": "11920.00",
+      "amount": "59600.00",
       "tax_rate": "12"
     },
     {
       "description": "Network switches — 24 port, gigabit (5 units)",
       "quantity": "5",
       "unit": "pcs",
-      "unit_price": "20000.39",
-      "amount": "100001.95",
-      "tax_rate": "12"
-    },
-    {
-      "description": "ऑफिस कुर्सी, जाली, एर्गोनोमिक",
-      "quantity": "4",
-      "unit": "Box",
-      "unit_price": "12540.00",
-      "amount": "50160.00",
-      "tax_rate": "12"
-    },
-    {
-      "description": "Software subscription — annual, cloud hosted",
-      "quantity": "20",
-      "unit": "Box",
-      "unit_price": "17150.00",
-      "amount": "343000.00",
-      "tax_rate": "12"
-    },
-    {
-      "description": "Freight: Mumbai → Delhi, 3 pallets, FTL",
-      "quantity": "2",
-      "unit": "Box",
-      "unit_price": "19550.73",
-      "amount": "39101.46",
-      "tax_rate": "12"
-    },
-    {
-      "description": "मसाला पैकेजिंग सेवा — 2 टन",
-      "quantity": "8",
-      "unit": "kg",
-      "unit_price": "11240.00",
-      "amount": "89920.00",
-      "tax_rate": "12"
-    },
-    {
-      "description": "कपड़ा ढेर: सूती कपड़े, 500 मीटर",
-      "quantity": "6",
-      "unit": "Nos.",
-      "unit_price": "6530.00",
-      "amount": "39180.00",
-      "tax_rate": "12"
-    },
-    {
-      "description": "Catering staff — corporate event, 50 guests",
-      "quantity": "8",
-      "unit": "Nos.",
-      "unit_price": "13640.23",
-      "amount": "109121.84",
-      "tax_rate": "12"
-    },
-    {
-      "description": "Monthly IT AMC — 40 workstations, on-site support every week",
-      "quantity": "6",
-      "unit": "Nos.",
-      "unit_price": "1180.00",
-      "amount": "7080.00",
+      "unit_price": "16520.00",
+      "amount": "82600.00",
       "tax_rate": "12"
     },
     {
       "description": "Handicraft export packing and documentation services",
-      "quantity": "6",
-      "unit": "Nos.",
-      "unit_price": "21670.63",
-      "amount": "130023.78",
+      "quantity": "1",
+      "unit": "hrs",
+      "unit_price": "1340.00",
+      "amount": "1340.00",
       "tax_rate": "12"
     },
     {
-      "description": "GST registration and compliance consultancy",
-      "quantity": "6",
+      "description": "Monthly IT AMC — 40 workstations, on-site support every week",
+      "quantity": "4",
+      "unit": "hrs",
+      "unit_price": "21990.33",
+      "amount": "87961.32",
+      "tax_rate": "12"
+    },
+    {
+      "description": "LED bulbs 9W (box of 100)",
+      "quantity": "20",
+      "unit": "pcs",
+      "unit_price": "13900.00",
+      "amount": "278000.00",
+      "tax_rate": "12"
+    },
+    {
+      "description": "कपड़ा ढेर: सूती कपड़े, 500 मीटर",
+      "quantity": "20",
+      "unit": "pcs",
+      "unit_price": "11890.46",
+      "amount": "237809.20",
+      "tax_rate": "12"
+    },
+    {
+      "description": "ऑफिस कुर्सी, जाली, एर्गोनोमिक",
+      "quantity": "3",
+      "unit": "pcs",
+      "unit_price": "6640.82",
+      "amount": "19922.46",
+      "tax_rate": "12"
+    },
+    {
+      "description": "Bulk notebook supply — A4, 200 pages (pack of 50)",
+      "quantity": "5",
       "unit": "Box",
-      "unit_price": "6430.00",
-      "amount": "38580.00",
+      "unit_price": "19160.53",
+      "amount": "95802.65",
       "tax_rate": "12"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "GST/26/27/101",
-    "invoice_date": "12/06/2026",
-    "due_date": "12/07/2026",
-    "subtotal": "₹12,13,126.58",
-    "total": "₹13,58,701.77"
+    "invoice_number": "TAX/26/27/376",
+    "invoice_date": "01/04/2026",
+    "due_date": "16/04/2026",
+    "subtotal": "₹9,18,685.63",
+    "total": "₹10,28,927.91"
   }
 }

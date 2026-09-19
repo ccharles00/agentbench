@@ -14,64 +14,43 @@
     "tax_mode": "exclusive",
     "cross_border": false,
     "language_mode": "native",
-    "template": "cn_c"
+    "template": "cn_c",
+    "withholding": false,
+    "ambiguous_date": false
   },
   "fields": {
     "vendor_name": "上海东方贸易有限公司",
-    "vendor_tax_id": "3DYJUEUW78A14GPHB4",
-    "invoice_number": "INV202607215",
-    "invoice_date": "2026-07-13",
-    "due_date": "2026-08-12",
+    "vendor_tax_id": "5E220087WYACLXDM9N",
+    "invoice_number": "INV202604641",
+    "invoice_date": "2026-04-09",
+    "due_date": null,
     "currency": "CNY",
-    "subtotal": "80334.80",
-    "tax_total": "10443.52",
-    "total": "90778.32",
+    "subtotal": "16564.00",
+    "tax_total": "2153.32",
+    "withholding_total": null,
+    "total": "18717.32",
     "tax_rates": [
       "13"
     ],
     "payment_account": null,
-    "line_item_count": 4
+    "line_item_count": 1
   },
+  "unscored_fields": [],
   "line_items": [
     {
-      "description": "货运：深圳 → 上海，2 托，汽运",
-      "quantity": "5",
-      "unit": "册",
-      "unit_price": "4713.56",
-      "amount": "23567.80",
-      "tax_rate": "13"
-    },
-    {
-      "description": "包装材料 — 瓦楞纸箱 5 号（1000 只）",
-      "quantity": "2",
+      "description": "电子元器件 — 电阻 10kΩ ±1%（1000 个/盘）",
+      "quantity": "4",
       "unit": "个",
-      "unit_price": "3886.00",
-      "amount": "7772.00",
-      "tax_rate": "13"
-    },
-    {
-      "description": "服务器托管服务 — 一年，含带宽与运维值守",
-      "quantity": "1",
-      "unit": "册",
-      "unit_price": "5845.00",
-      "amount": "5845.00",
-      "tax_rate": "13"
-    },
-    {
-      "description": "翻译服务 — 中文译英文，技术文档 40 页",
-      "quantity": "10",
-      "unit": "小时",
-      "unit_price": "4315.00",
-      "amount": "43150.00",
+      "unit_price": "4141.00",
+      "amount": "16564.00",
       "tax_rate": "13"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "INV202607215",
-    "invoice_date": "2026年7月13日",
-    "due_date": "2026年8月12日",
-    "subtotal": "¥80,334.80",
-    "tax_total": "10,443.52",
-    "total": "¥90,778.32"
+    "invoice_number": "INV202604641",
+    "invoice_date": "2026年4月9日",
+    "subtotal": "¥16,564.00",
+    "tax_total": "2,153.32",
+    "total": "¥18,717.32"
   }
 }

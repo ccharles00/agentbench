@@ -14,64 +14,68 @@
     "tax_mode": "exclusive",
     "cross_border": false,
     "language_mode": "native",
-    "template": "de_c"
+    "template": "de_c",
+    "withholding": false,
+    "ambiguous_date": true
   },
   "fields": {
     "vendor_name": "Rhein Main Consulting GmbH",
     "vendor_tax_id": "DE402632305",
-    "invoice_number": "RE-2025-5315",
+    "invoice_number": "RE-2025-5864",
     "invoice_date": "2025-01-05",
     "due_date": "2025-03-06",
     "currency": "EUR",
-    "subtotal": "26832.00",
-    "tax_total": "2983.20",
-    "total": "29815.20",
+    "subtotal": "11753.10",
+    "tax_total": "1348.08",
+    "withholding_total": null,
+    "total": "13101.18",
     "tax_rates": [
       "19",
       "7"
     ],
-    "payment_account": "DE34543064843251524782",
+    "payment_account": null,
     "line_item_count": 4
   },
+  "unscored_fields": [],
   "line_items": [
     {
       "description": "Monatliche Wartung — Klimaanlage, inklusive Ersatzteilen und Notdienst",
       "quantity": "12",
-      "unit": "Stk.",
-      "unit_price": "554.70",
-      "amount": "6656.40",
+      "unit": "Std.",
+      "unit_price": "124.70",
+      "amount": "1496.40",
       "tax_rate": "19"
     },
     {
       "description": "Transport Hamburg → München, 2 Paletten, Kombi-Verkehr",
       "quantity": "10",
-      "unit": "kg",
+      "unit": "Stk.",
       "unit_price": "255.16",
       "amount": "2551.60",
       "tax_rate": "19"
     },
     {
       "description": "IT-Support-Stunden, remote",
-      "quantity": "4",
-      "unit": "Stk.",
-      "unit_price": "621.00",
-      "amount": "2484.00",
-      "tax_rate": "7"
+      "quantity": "3",
+      "unit": "Std.",
+      "unit_price": "110.00",
+      "amount": "330.00",
+      "tax_rate": "19"
     },
     {
       "description": "Brötchen und Backwaren, Lieferung wöchentlich",
-      "quantity": "20",
-      "unit": "kg",
-      "unit_price": "757.00",
-      "amount": "15140.00",
+      "quantity": "10",
+      "unit": "Stk.",
+      "unit_price": "737.51",
+      "amount": "7375.10",
       "tax_rate": "7"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "RE-2025-5315",
+    "invoice_number": "RE-2025-5864",
     "invoice_date": "05.01.2025",
     "due_date": "06.03.2025",
-    "subtotal": "26.832,00 €",
-    "total": "29.815,20 €"
+    "subtotal": "11.753,10 €",
+    "total": "13.101,18 €"
   }
 }

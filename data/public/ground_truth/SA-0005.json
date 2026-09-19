@@ -16,59 +16,79 @@
     "tax_mode": "exclusive",
     "cross_border": false,
     "language_mode": "bilingual",
-    "template": "sa_a"
+    "template": "sa_a",
+    "withholding": false,
+    "ambiguous_date": false
   },
   "fields": {
     "vendor_name": "شركة الرياض للتجارة المحدودة",
     "vendor_tax_id": "304717301078408",
-    "invoice_number": "INV-2025-1462",
+    "invoice_number": "INV-2025-6259",
     "invoice_date": "2025-02-03",
     "due_date": "2025-03-05",
     "currency": "SAR",
-    "subtotal": "138580.03",
-    "tax_total": "20787.00",
-    "total": "159367.03",
+    "subtotal": "103062.54",
+    "tax_total": "15459.38",
+    "withholding_total": null,
+    "total": "118521.92",
     "tax_rates": [
       "15"
     ],
-    "payment_account": null,
+    "payment_account": "SA734836514314111661686270",
     "line_item_count": 8
   },
+  "unscored_fields": [],
   "line_items": [
     {
       "description": "Freight Riyadh → Jeddah, 2 pallets",
-      "quantity": "20",
-      "unit": "حبة",
-      "unit_price": "368.71",
-      "amount": "7374.20",
+      "quantity": "1",
+      "unit": "منصة",
+      "unit_price": "3017.00",
+      "amount": "3017.00",
       "tax_rate": "15"
     },
     {
       "description": "Accounting services — monthly",
-      "quantity": "12",
-      "unit": "حبة",
-      "unit_price": "2938.85",
-      "amount": "35266.20",
+      "quantity": "20.5",
+      "unit": "ساعة",
+      "unit_price": "368.71",
+      "amount": "7558.56",
       "tax_rate": "15"
     },
     {
       "description": "Office chairs, mesh, ergonomic",
-      "quantity": "6.5",
-      "unit": "ساعة",
-      "unit_price": "789.61",
-      "amount": "5132.47",
+      "quantity": "2",
+      "unit": "حبة",
+      "unit_price": "75.92",
+      "amount": "151.84",
       "tax_rate": "15"
     },
     {
       "description": "تغذية مكتبية — 20 شخص",
-      "quantity": "20",
+      "quantity": "6",
       "unit": "حبة",
+      "unit_price": "789.61",
+      "amount": "4737.66",
+      "tax_rate": "15"
+    },
+    {
+      "description": "نقل البضائع: الرياض → جدة، 2 منصات",
+      "quantity": "1",
+      "unit": "حبة",
+      "unit_price": "108.00",
+      "amount": "108.00",
+      "tax_rate": "15"
+    },
+    {
+      "description": "ترجمة — عربي → إنجليزي",
+      "quantity": "20",
+      "unit": "ساعة",
       "unit_price": "3009.00",
       "amount": "60180.00",
       "tax_rate": "15"
     },
     {
-      "description": "نقل البضائع: الرياض → جدة، 2 منصات",
+      "description": "مكتب خشبي، 180 سم، مع أدراج",
       "quantity": "6",
       "unit": "حبة",
       "unit_price": "3188.00",
@@ -76,36 +96,20 @@
       "tax_rate": "15"
     },
     {
-      "description": "ترجمة — عربي → إنجليزي",
-      "quantity": "8",
-      "unit": "كرتون",
-      "unit_price": "407.42",
-      "amount": "3259.36",
-      "tax_rate": "15"
-    },
-    {
-      "description": "مكتب خشبي، 180 سم، مع أدراج",
-      "quantity": "1.5",
-      "unit": "ساعة",
-      "unit_price": "2806.00",
-      "amount": "4209.00",
-      "tax_rate": "15"
-    },
-    {
       "description": "Software license — annual",
-      "quantity": "1.5",
-      "unit": "ساعة",
-      "unit_price": "2687.20",
-      "amount": "4030.80",
+      "quantity": "3",
+      "unit": "حبة",
+      "unit_price": "2727.16",
+      "amount": "8181.48",
       "tax_rate": "15"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "INV-2025-1462",
+    "invoice_number": "INV-2025-6259",
     "invoice_date": "03/02/2025",
     "due_date": "05/03/2025",
-    "subtotal": "138,580.03 ر.س",
-    "tax_total": "20,787.00",
-    "total": "159,367.03 ر.س"
+    "subtotal": "103,062.54 ر.س",
+    "tax_total": "15,459.38",
+    "total": "118,521.92 ر.س"
   }
 }

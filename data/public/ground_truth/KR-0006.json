@@ -14,51 +14,79 @@
     "tax_mode": "exclusive",
     "cross_border": false,
     "language_mode": "native",
-    "template": "kr_b"
+    "template": "kr_b",
+    "withholding": false,
+    "ambiguous_date": false
   },
   "fields": {
     "vendor_name": "서울오피스 주식회사",
     "vendor_tax_id": "2288712718",
-    "invoice_number": "2026-7637",
+    "invoice_number": "2026-1712",
     "invoice_date": "2026-07-11",
     "due_date": "2026-08-10",
     "currency": "KRW",
-    "subtotal": "58954700",
-    "tax_total": "5895470",
-    "total": "64850170",
+    "subtotal": "78393250",
+    "tax_total": "7839325",
+    "withholding_total": null,
+    "total": "86232575",
     "tax_rates": [
       "10"
     ],
     "payment_account": null,
     "line_item_count": 24
   },
+  "unscored_fields": [],
   "line_items": [
     {
       "description": "오피스 체어 (메시, 인체공학)",
-      "quantity": "20",
-      "unit": "대",
-      "unit_price": "166000",
-      "amount": "3320000",
+      "quantity": "2",
+      "unit": "개",
+      "unit_price": "217800",
+      "amount": "435600",
       "tax_rate": "10"
     },
     {
       "description": "케이터링 — 임원 회의 20명",
+      "quantity": "8",
+      "unit": "개",
+      "unit_price": "791100",
+      "amount": "6328800",
+      "tax_rate": "10"
+    },
+    {
+      "description": "서버 유지보수 — 월간, 원격 모니터링 포함",
+      "quantity": "20",
+      "unit": "시간",
+      "unit_price": "579700",
+      "amount": "11594000",
+      "tax_rate": "10"
+    },
+    {
+      "description": "포장재 — 골판지 박스 (100매)",
       "quantity": "1",
-      "unit": "대",
+      "unit": "개",
       "unit_price": "155000",
       "amount": "155000",
       "tax_rate": "10"
     },
     {
-      "description": "서버 유지보수 — 월간, 원격 모니터링 포함",
-      "quantity": "8",
-      "unit": "대",
-      "unit_price": "495100",
-      "amount": "3960800",
+      "description": "소프트웨어 라이선스 — 연간",
+      "quantity": "6",
+      "unit": "개",
+      "unit_price": "221700",
+      "amount": "1330200",
       "tax_rate": "10"
     },
     {
-      "description": "포장재 — 골판지 박스 (100매)",
+      "description": "번역 서비스 — 한국어→영어",
+      "quantity": "8",
+      "unit": "시간",
+      "unit_price": "831400",
+      "amount": "6651200",
+      "tax_rate": "10"
+    },
+    {
+      "description": "네트워크 스위치 24포트",
       "quantity": "2",
       "unit": "개",
       "unit_price": "88200",
@@ -66,23 +94,39 @@
       "tax_rate": "10"
     },
     {
-      "description": "소프트웨어 라이선스 — 연간",
+      "description": "사무용품 일괄 (문구, 파일 등)",
+      "quantity": "10",
+      "unit": "개",
+      "unit_price": "232200",
+      "amount": "2322000",
+      "tax_rate": "10"
+    },
+    {
+      "description": "화물 운송: 부산 → 서울, 2팔레트",
       "quantity": "2",
-      "unit": "대",
-      "unit_price": "640700",
-      "amount": "1281400",
+      "unit": "개",
+      "unit_price": "851100",
+      "amount": "1702200",
       "tax_rate": "10"
     },
     {
-      "description": "번역 서비스 — 한국어→영어",
+      "description": "소모품: 토너 카트리지 (흑색)",
       "quantity": "4",
-      "unit": "대",
-      "unit_price": "364600",
-      "amount": "1458400",
+      "unit": "개",
+      "unit_price": "205800",
+      "amount": "823200",
       "tax_rate": "10"
     },
     {
-      "description": "네트워크 스위치 24포트",
+      "description": "서버 유지보수 — 월간, 원격 모니터링 포함",
+      "quantity": "10.5",
+      "unit": "시간",
+      "unit_price": "354300",
+      "amount": "3720150",
+      "tax_rate": "10"
+    },
+    {
+      "description": "소프트웨어 라이선스 — 연간",
       "quantity": "20",
       "unit": "개",
       "unit_price": "876800",
@@ -91,147 +135,107 @@
     },
     {
       "description": "사무용품 일괄 (문구, 파일 등)",
-      "quantity": "2",
-      "unit": "대",
-      "unit_price": "526900",
-      "amount": "1053800",
+      "quantity": "6",
+      "unit": "개",
+      "unit_price": "229300",
+      "amount": "1375800",
       "tax_rate": "10"
     },
     {
-      "description": "화물 운송: 부산 → 서울, 2팔레트",
+      "description": "소모품: 토너 카트리지 (흑색)",
+      "quantity": "5",
+      "unit": "개",
+      "unit_price": "171600",
+      "amount": "858000",
+      "tax_rate": "10"
+    },
+    {
+      "description": "케이터링 — 임원 회의 20명",
       "quantity": "1",
-      "unit": "시간",
+      "unit": "개",
       "unit_price": "219400",
       "amount": "219400",
       "tax_rate": "10"
     },
     {
-      "description": "소모품: 토너 카트리지 (흑색)",
+      "description": "오피스 체어 (메시, 인체공학)",
       "quantity": "2",
-      "unit": "대",
+      "unit": "개",
+      "unit_price": "470500",
+      "amount": "941000",
+      "tax_rate": "10"
+    },
+    {
+      "description": "케이터링 — 임원 회의 20명",
+      "quantity": "2",
+      "unit": "개",
       "unit_price": "635700",
       "amount": "1271400",
       "tax_rate": "10"
     },
     {
-      "description": "서버 유지보수 — 월간, 원격 모니터링 포함",
+      "description": "소프트웨어 라이선스 — 연간",
       "quantity": "2",
-      "unit": "식",
-      "unit_price": "155500",
-      "amount": "311000",
+      "unit": "개",
+      "unit_price": "331600",
+      "amount": "663200",
       "tax_rate": "10"
     },
     {
-      "description": "소프트웨어 라이선스 — 연간",
+      "description": "소모품: 토너 카트리지 (흑색)",
+      "quantity": "3",
+      "unit": "개",
+      "unit_price": "194700",
+      "amount": "584100",
+      "tax_rate": "10"
+    },
+    {
+      "description": "소모품: 토너 카트리지 (흑색)",
       "quantity": "1",
-      "unit": "식",
+      "unit": "개",
       "unit_price": "598400",
       "amount": "598400",
       "tax_rate": "10"
     },
     {
-      "description": "사무용품 일괄 (문구, 파일 등)",
-      "quantity": "20",
-      "unit": "식",
-      "unit_price": "156200",
-      "amount": "3124000",
-      "tax_rate": "10"
-    },
-    {
-      "description": "소모품: 토너 카트리지 (흑색)",
-      "quantity": "2",
-      "unit": "대",
-      "unit_price": "833000",
-      "amount": "1666000",
-      "tax_rate": "10"
-    },
-    {
-      "description": "케이터링 — 임원 회의 20명",
-      "quantity": "1",
-      "unit": "식",
-      "unit_price": "784400",
-      "amount": "784400",
-      "tax_rate": "10"
-    },
-    {
-      "description": "오피스 체어 (메시, 인체공학)",
-      "quantity": "2",
-      "unit": "식",
-      "unit_price": "383000",
-      "amount": "766000",
-      "tax_rate": "10"
-    },
-    {
-      "description": "케이터링 — 임원 회의 20명",
-      "quantity": "1",
-      "unit": "개",
-      "unit_price": "669500",
-      "amount": "669500",
-      "tax_rate": "10"
-    },
-    {
-      "description": "소프트웨어 라이선스 — 연간",
-      "quantity": "8",
-      "unit": "대",
-      "unit_price": "136700",
-      "amount": "1093600",
-      "tax_rate": "10"
-    },
-    {
-      "description": "소모품: 토너 카트리지 (흑색)",
-      "quantity": "10",
-      "unit": "개",
-      "unit_price": "772800",
-      "amount": "7728000",
-      "tax_rate": "10"
-    },
-    {
-      "description": "소모품: 토너 카트리지 (흑색)",
-      "quantity": "6",
-      "unit": "대",
-      "unit_price": "602800",
-      "amount": "3616800",
-      "tax_rate": "10"
-    },
-    {
       "description": "화물 운송: 부산 → 서울, 2팔레트",
-      "quantity": "4",
-      "unit": "식",
-      "unit_price": "887600",
-      "amount": "3550400",
+      "quantity": "2",
+      "unit": "개",
+      "unit_price": "284100",
+      "amount": "568200",
       "tax_rate": "10"
     },
     {
       "description": "오피스 체어 (메시, 인체공학)",
-      "quantity": "4",
+      "quantity": "20",
       "unit": "개",
-      "unit_price": "85400",
-      "amount": "341600",
+      "unit_price": "765200",
+      "amount": "15304000",
       "tax_rate": "10"
     },
     {
       "description": "네트워크 스위치 24포트",
-      "quantity": "4",
-      "unit": "식",
-      "unit_price": "568200",
-      "amount": "2272800",
+      "quantity": "2",
+      "unit": "개",
+      "unit_price": "784500",
+      "amount": "1569000",
       "tax_rate": "10"
     },
     {
       "description": "사무용품 일괄 (문구, 파일 등)",
-      "quantity": "4",
-      "unit": "대",
-      "unit_price": "499900",
-      "amount": "1999600",
+      "quantity": "2",
+      "unit": "개",
+      "unit_price": "833000",
+      "amount": "1666000",
       "tax_rate": "10"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "2026-7637",
+    "invoice_number": "2026-1712",
     "invoice_date": "2026. 07. 11.",
     "due_date": "2026. 08. 10.",
-    "subtotal": "₩58,954,700",
-    "tax_total": "5,895,470",
-    "total": "₩64,850,170"
+    "subtotal": "₩78,393,250",
+    "tax_total": "7,839,325",
+    "total": "₩86,232,575"
   }
 }

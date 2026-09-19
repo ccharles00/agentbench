@@ -16,59 +16,79 @@
     "tax_mode": "exclusive",
     "cross_border": false,
     "language_mode": "bilingual",
-    "template": "ae_a"
+    "template": "ae_a",
+    "withholding": false,
+    "ambiguous_date": false
   },
   "fields": {
     "vendor_name": "أبوظبي للتوريدات ش.ذ.م.م",
     "vendor_tax_id": "102082544678639",
-    "invoice_number": "TINV/2026/3472",
+    "invoice_number": "TINV/2026/2555",
     "invoice_date": "2026-02-28",
     "due_date": "2026-03-30",
     "currency": "AED",
-    "subtotal": "247243.49",
-    "tax_total": "12362.19",
-    "total": "259605.68",
+    "subtotal": "240368.92",
+    "tax_total": "12018.46",
+    "withholding_total": null,
+    "total": "252387.38",
     "tax_rates": [
       "5"
     ],
-    "payment_account": "AE520604015480830790242",
+    "payment_account": "AE125486807519503945411",
     "line_item_count": 25
   },
+  "unscored_fields": [],
   "line_items": [
     {
       "description": "Office chairs, mesh, ergonomic / كراسي مكتبية",
-      "quantity": "1",
-      "unit": "carton",
-      "unit_price": "1328.00",
-      "amount": "1328.00",
+      "quantity": "4",
+      "unit": "pcs",
+      "unit_price": "2723.00",
+      "amount": "10892.00",
       "tax_rate": "5"
     },
     {
       "description": "Monthly IT maintenance — servers and network / صيانة شهرية للخوادم",
-      "quantity": "1",
-      "unit": "carton",
-      "unit_price": "2139.00",
-      "amount": "2139.00",
+      "quantity": "8",
+      "unit": "hrs",
+      "unit_price": "1704.44",
+      "amount": "13635.52",
       "tax_rate": "5"
     },
     {
       "description": "Monthly IT maintenance — servers and network",
-      "quantity": "20",
-      "unit": "carton",
-      "unit_price": "2366.00",
-      "amount": "47320.00",
+      "quantity": "10",
+      "unit": "hrs",
+      "unit_price": "31.00",
+      "amount": "310.00",
       "tax_rate": "5"
     },
     {
       "description": "Paper A4, carton of 10 reams",
-      "quantity": "2",
-      "unit": "pallet",
-      "unit_price": "2027.00",
-      "amount": "4054.00",
+      "quantity": "20",
+      "unit": "carton",
+      "unit_price": "2302.78",
+      "amount": "46055.60",
       "tax_rate": "5"
     },
     {
       "description": "Paper A4, carton of 10 reams / ورق A4 (كرتون)",
+      "quantity": "6",
+      "unit": "carton",
+      "unit_price": "2875.00",
+      "amount": "17250.00",
+      "tax_rate": "5"
+    },
+    {
+      "description": "Freight Jebel Ali → Abu Dhabi, 2 pallets / شحن جبل علي → أبوظبي",
+      "quantity": "1",
+      "unit": "pallet",
+      "unit_price": "1165.89",
+      "amount": "1165.89",
+      "tax_rate": "5"
+    },
+    {
+      "description": "Software license — annual",
       "quantity": "1",
       "unit": "pcs",
       "unit_price": "2091.00",
@@ -76,95 +96,127 @@
       "tax_rate": "5"
     },
     {
-      "description": "Freight Jebel Ali → Abu Dhabi, 2 pallets / شحن جبل علي → أبوظبي",
-      "quantity": "6",
-      "unit": "hrs",
-      "unit_price": "2542.30",
-      "amount": "15253.80",
-      "tax_rate": "5"
-    },
-    {
-      "description": "Software license — annual",
-      "quantity": "4",
-      "unit": "pallet",
-      "unit_price": "2663.00",
-      "amount": "10652.00",
-      "tax_rate": "5"
-    },
-    {
       "description": "Office chairs, mesh, ergonomic / كراسي مكتبية",
-      "quantity": "12",
-      "unit": "pallet",
-      "unit_price": "1308.00",
-      "amount": "15696.00",
+      "quantity": "10",
+      "unit": "pcs",
+      "unit_price": "867.00",
+      "amount": "8670.00",
       "tax_rate": "5"
     },
     {
       "description": "Software license — annual / ترخيص برمجيات سنوي",
+      "quantity": "4",
+      "unit": "pcs",
+      "unit_price": "693.68",
+      "amount": "2774.72",
+      "tax_rate": "5"
+    },
+    {
+      "description": "Accounting services — monthly",
+      "quantity": "6",
+      "unit": "hrs",
+      "unit_price": "593.00",
+      "amount": "3558.00",
+      "tax_rate": "5"
+    },
+    {
+      "description": "Accounting services — monthly / خدمات محاسبية شهرية",
+      "quantity": "12",
+      "unit": "hrs",
+      "unit_price": "1741.74",
+      "amount": "20900.88",
+      "tax_rate": "5"
+    },
+    {
+      "description": "Translation AR → EN / ترجمة عربي → إنجليزي",
       "quantity": "8",
-      "unit": "pallet",
+      "unit": "hrs",
       "unit_price": "2065.00",
       "amount": "16520.00",
       "tax_rate": "5"
     },
     {
-      "description": "Accounting services — monthly",
+      "description": "Monthly IT maintenance — servers and network / صيانة شهرية للخوادم",
       "quantity": "1",
-      "unit": "pallet",
+      "unit": "hrs",
       "unit_price": "744.69",
       "amount": "744.69",
       "tax_rate": "5"
     },
     {
-      "description": "Accounting services — monthly / خدمات محاسبية شهرية",
-      "quantity": "1",
-      "unit": "pallet",
-      "unit_price": "301.50",
-      "amount": "301.50",
-      "tax_rate": "5"
-    },
-    {
-      "description": "Translation AR → EN / ترجمة عربي → إنجليزي",
-      "quantity": "6",
-      "unit": "pcs",
-      "unit_price": "1493.00",
-      "amount": "8958.00",
-      "tax_rate": "5"
-    },
-    {
-      "description": "Monthly IT maintenance — servers and network / صيانة شهرية للخوادم",
-      "quantity": "12",
-      "unit": "hrs",
-      "unit_price": "1289.86",
-      "amount": "15478.32",
-      "tax_rate": "5"
-    },
-    {
       "description": "Office chairs, mesh, ergonomic",
       "quantity": "1",
-      "unit": "carton",
-      "unit_price": "142.00",
-      "amount": "142.00",
+      "unit": "pcs",
+      "unit_price": "1835.00",
+      "amount": "1835.00",
       "tax_rate": "5"
     },
     {
       "description": "Translation AR → EN / ترجمة عربي → إنجليزي",
-      "quantity": "8.5",
+      "quantity": "1",
       "unit": "hrs",
-      "unit_price": "2788.00",
-      "amount": "23698.00",
+      "unit_price": "1336.50",
+      "amount": "1336.50",
       "tax_rate": "5"
     },
     {
       "description": "Office desks, 160 cm, walnut / مكاتب خشبية",
+      "quantity": "4",
+      "unit": "pcs",
+      "unit_price": "128.00",
+      "amount": "512.00",
+      "tax_rate": "5"
+    },
+    {
+      "description": "Software license — annual / ترخيص برمجيات سنوي",
+      "quantity": "3",
+      "unit": "pcs",
+      "unit_price": "2262.30",
+      "amount": "6786.90",
+      "tax_rate": "5"
+    },
+    {
+      "description": "Software license — annual",
+      "quantity": "12",
+      "unit": "pcs",
+      "unit_price": "406.86",
+      "amount": "4882.32",
+      "tax_rate": "5"
+    },
+    {
+      "description": "Accounting services — monthly",
+      "quantity": "1",
+      "unit": "hrs",
+      "unit_price": "1255.00",
+      "amount": "1255.00",
+      "tax_rate": "5"
+    },
+    {
+      "description": "Paper A4, carton of 10 reams / ورق A4 (كرتون)",
+      "quantity": "12",
+      "unit": "carton",
+      "unit_price": "38.00",
+      "amount": "456.00",
+      "tax_rate": "5"
+    },
+    {
+      "description": "Accounting services — monthly / خدمات محاسبية شهرية",
+      "quantity": "6",
+      "unit": "hrs",
+      "unit_price": "1934.00",
+      "amount": "11604.00",
+      "tax_rate": "5"
+    },
+    {
+      "description": "Accounting services — monthly / خدمات محاسبية شهرية",
       "quantity": "10",
-      "unit": "pallet",
+      "unit": "hrs",
       "unit_price": "1287.69",
       "amount": "12876.90",
       "tax_rate": "5"
     },
     {
-      "description": "Software license — annual / ترخيص برمجيات سنوي",
+      "description": "Office chairs, mesh, ergonomic",
       "quantity": "8",
       "unit": "pcs",
       "unit_price": "2113.00",
@@ -172,76 +224,28 @@
       "tax_rate": "5"
     },
     {
-      "description": "Software license — annual",
-      "quantity": "10",
-      "unit": "pallet",
-      "unit_price": "1123.53",
-      "amount": "11235.30",
-      "tax_rate": "5"
-    },
-    {
-      "description": "Accounting services — monthly",
-      "quantity": "5",
-      "unit": "pallet",
-      "unit_price": "1417.72",
-      "amount": "7088.60",
-      "tax_rate": "5"
-    },
-    {
-      "description": "Paper A4, carton of 10 reams / ورق A4 (كرتون)",
-      "quantity": "1",
-      "unit": "pcs",
-      "unit_price": "1971.00",
-      "amount": "1971.00",
-      "tax_rate": "5"
-    },
-    {
-      "description": "Accounting services — monthly / خدمات محاسبية شهرية",
-      "quantity": "4",
-      "unit": "carton",
-      "unit_price": "88.43",
-      "amount": "353.72",
-      "tax_rate": "5"
-    },
-    {
-      "description": "Accounting services — monthly / خدمات محاسبية شهرية",
-      "quantity": "12",
-      "unit": "carton",
-      "unit_price": "414.24",
-      "amount": "4970.88",
-      "tax_rate": "5"
-    },
-    {
-      "description": "Office chairs, mesh, ergonomic",
-      "quantity": "5",
-      "unit": "hrs",
-      "unit_price": "2948.18",
-      "amount": "14740.90",
-      "tax_rate": "5"
-    },
-    {
       "description": "Paper A4, carton of 10 reams",
-      "quantity": "6",
+      "quantity": "3",
       "unit": "carton",
-      "unit_price": "726.98",
-      "amount": "4361.88",
+      "unit_price": "2724.00",
+      "amount": "8172.00",
       "tax_rate": "5"
     },
     {
       "description": "Paper A4, carton of 10 reams / ورق A4 (كرتون)",
-      "quantity": "6",
+      "quantity": "10",
       "unit": "carton",
-      "unit_price": "1394.00",
-      "amount": "8364.00",
+      "unit_price": "2918.00",
+      "amount": "29180.00",
       "tax_rate": "5"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "TINV/2026/3472",
+    "invoice_number": "TINV/2026/2555",
     "invoice_date": "28/02/2026",
     "due_date": "30/03/2026",
-    "subtotal": "247,243.49 د.إ",
-    "tax_total": "12,362.19",
-    "total": "259,605.68 د.إ"
+    "subtotal": "240,368.92 د.إ",
+    "tax_total": "12,018.46",
+    "total": "252,387.38 د.إ"
   }
 }

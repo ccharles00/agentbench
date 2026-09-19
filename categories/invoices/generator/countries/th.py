@@ -9,7 +9,7 @@ from .. import calendars, ids, money
 from ..build import CountrySpec
 
 
-def _tax_id(rng: random.Random) -> tuple[str, str]:
+def _tax_id(rng: random.Random, name: str) -> tuple[str, str]:
     n = ids.random_digits(rng, 13)
     return f"เลขผู้เสียภาษี {n}", n
 

@@ -16,35 +16,47 @@
     "tax_mode": "exclusive",
     "cross_border": false,
     "language_mode": "bilingual",
-    "template": "ae_c"
+    "template": "ae_c",
+    "withholding": false,
+    "ambiguous_date": false
   },
   "fields": {
     "vendor_name": "دبي للتجارة العامة ذ.م.م",
     "vendor_tax_id": "107077794801912",
-    "invoice_number": "TINV/2025/3883",
+    "invoice_number": "TINV/2025/9992",
     "invoice_date": "2025-03-03",
     "due_date": "2025-05-02",
     "currency": "AED",
-    "subtotal": "58839.23",
-    "tax_total": "2941.96",
-    "total": "61781.19",
+    "subtotal": "26290.31",
+    "tax_total": "1314.52",
+    "withholding_total": null,
+    "total": "27604.83",
     "tax_rates": [
       "5"
     ],
-    "payment_account": "AE334267346668990719252",
+    "payment_account": "AE895497426734666899071",
     "line_item_count": 6
   },
+  "unscored_fields": [],
   "line_items": [
     {
       "description": "Paper A4, carton of 10 reams / ورق A4 (كرتون)",
-      "quantity": "20",
-      "unit": "pallet",
-      "unit_price": "1285.00",
-      "amount": "25700.00",
+      "quantity": "3",
+      "unit": "carton",
+      "unit_price": "2763.00",
+      "amount": "8289.00",
       "tax_rate": "5"
     },
     {
       "description": "Freight Jebel Ali → Abu Dhabi, 2 pallets / شحن جبل علي → أبوظبي",
+      "quantity": "1",
+      "unit": "pallet",
+      "unit_price": "2754.00",
+      "amount": "2754.00",
+      "tax_rate": "5"
+    },
+    {
+      "description": "Office desks, 160 cm, walnut / مكاتب خشبية",
       "quantity": "6",
       "unit": "pcs",
       "unit_price": "1600.00",
@@ -52,44 +64,36 @@
       "tax_rate": "5"
     },
     {
-      "description": "Office desks, 160 cm, walnut / مكاتب خشبية",
-      "quantity": "6",
-      "unit": "hrs",
-      "unit_price": "419.56",
-      "amount": "2517.36",
-      "tax_rate": "5"
-    },
-    {
       "description": "Translation AR → EN / ترجمة عربي → إنجليزي",
-      "quantity": "1",
-      "unit": "pallet",
-      "unit_price": "251.87",
-      "amount": "251.87",
+      "quantity": "1.5",
+      "unit": "hrs",
+      "unit_price": "853.00",
+      "amount": "1279.50",
       "tax_rate": "5"
     },
     {
       "description": "Paper A4, carton of 10 reams",
-      "quantity": "4",
+      "quantity": "1",
       "unit": "carton",
-      "unit_price": "1291.00",
-      "amount": "5164.00",
+      "unit_price": "1683.00",
+      "amount": "1683.00",
       "tax_rate": "5"
     },
     {
       "description": "Accounting services — monthly / خدمات محاسبية شهرية",
-      "quantity": "6",
-      "unit": "carton",
-      "unit_price": "2601.00",
-      "amount": "15606.00",
+      "quantity": "1.5",
+      "unit": "hrs",
+      "unit_price": "1789.87",
+      "amount": "2684.81",
       "tax_rate": "5"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "TINV/2025/3883",
+    "invoice_number": "TINV/2025/9992",
     "invoice_date": "03/03/2025",
     "due_date": "02/05/2025",
-    "subtotal": "58,839.23 د.إ",
-    "tax_total": "2,941.96",
-    "total": "61,781.19 د.إ"
+    "subtotal": "26,290.31 د.إ",
+    "tax_total": "1,314.52",
+    "total": "27,604.83 د.إ"
   }
 }

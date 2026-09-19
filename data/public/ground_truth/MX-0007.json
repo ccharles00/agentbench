@@ -14,48 +14,76 @@
     "tax_mode": "exclusive",
     "cross_border": false,
     "language_mode": "native",
-    "template": "mx_b"
+    "template": "mx_b",
+    "withholding": true,
+    "ambiguous_date": false
   },
   "fields": {
-    "vendor_name": "Distribuidora del Norte S.A. de C.V.",
-    "vendor_tax_id": "QWG543475TQ9",
-    "invoice_number": "FOLIO-5762",
-    "invoice_date": "2025-02-26",
-    "due_date": "2025-04-12",
+    "vendor_name": "Maria Fernanda Lopez Salgado",
+    "vendor_tax_id": "MAR1005146X7",
+    "invoice_number": "FOLIO-3775",
+    "invoice_date": "2025-06-10",
+    "due_date": "2025-06-25",
     "currency": "MXN",
-    "subtotal": "100073.08",
-    "tax_total": "6004.38",
-    "total": "106077.46",
+    "subtotal": "90609.56",
+    "tax_total": "14497.53",
+    "withholding_total": "18725.98",
+    "total": "86381.11",
     "tax_rates": [
-      "16",
-      "10"
+      "16"
     ],
-    "payment_account": null,
-    "line_item_count": 2
+    "payment_account": "036885545829775367",
+    "line_item_count": 5
   },
+  "unscored_fields": [],
   "line_items": [
     {
-      "description": "Licencia de software — anual",
-      "quantity": "12",
-      "unit": "tarima",
-      "unit_price": "7096.09",
-      "amount": "85153.08",
+      "description": "Catering corporativo — 20 personas",
+      "quantity": "1.5",
+      "unit": "h",
+      "unit_price": "793.00",
+      "amount": "1189.50",
+      "tax_rate": "16"
+    },
+    {
+      "description": "Servicios de contabilidad — mensual",
+      "quantity": "2",
+      "unit": "pza",
+      "unit_price": "7827.00",
+      "amount": "15654.00",
+      "tax_rate": "16"
+    },
+    {
+      "description": "Traducción — español → inglés",
+      "quantity": "2",
+      "unit": "h",
+      "unit_price": "2490.00",
+      "amount": "4980.00",
+      "tax_rate": "16"
+    },
+    {
+      "description": "Suministros de papelería — paquete anual",
+      "quantity": "5",
+      "unit": "caja",
+      "unit_price": "5509.34",
+      "amount": "27546.70",
       "tax_rate": "16"
     },
     {
       "description": "Papel bond carta (caja de 10 resmas)",
-      "quantity": "5",
-      "unit": "h",
-      "unit_price": "2984.00",
-      "amount": "14920.00",
+      "quantity": "8",
+      "unit": "caja",
+      "unit_price": "5154.92",
+      "amount": "41239.36",
       "tax_rate": "16"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "FOLIO-5762",
-    "invoice_date": "26/02/2025",
-    "due_date": "12/04/2025",
-    "subtotal": "$100,073.08",
-    "total": "$106,077.46"
+    "invoice_number": "FOLIO-3775",
+    "invoice_date": "10/06/2025",
+    "due_date": "25/06/2025",
+    "subtotal": "$90,609.56",
+    "tax_total": "14,497.53",
+    "total": "$86,381.11"
   }
 }

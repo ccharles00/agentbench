@@ -14,43 +14,63 @@
     "tax_mode": "exclusive",
     "cross_border": false,
     "language_mode": "native",
-    "template": "kr_a"
+    "template": "kr_a",
+    "withholding": false,
+    "ambiguous_date": false
   },
   "fields": {
     "vendor_name": "제주무역 주식회사",
     "vendor_tax_id": "4931334199",
-    "invoice_number": "2025-9834",
+    "invoice_number": "2025-2652",
     "invoice_date": "2025-11-04",
     "due_date": "2025-11-19",
     "currency": "KRW",
-    "subtotal": "36264600",
-    "tax_total": "3626460",
-    "total": "39891060",
+    "subtotal": "16189200",
+    "tax_total": "1618920",
+    "withholding_total": null,
+    "total": "17808120",
     "tax_rates": [
       "10"
     ],
     "payment_account": null,
     "line_item_count": 9
   },
+  "unscored_fields": [],
   "line_items": [
     {
       "description": "번역 서비스 — 한국어→영어",
-      "quantity": "1",
+      "quantity": "4",
       "unit": "시간",
-      "unit_price": "372100",
-      "amount": "372100",
+      "unit_price": "448500",
+      "amount": "1794000",
       "tax_rate": "10"
     },
     {
       "description": "서버 유지보수 — 월간, 원격 모니터링 포함",
-      "quantity": "10",
-      "unit": "식",
-      "unit_price": "636200",
-      "amount": "6362000",
+      "quantity": "5.5",
+      "unit": "시간",
+      "unit_price": "67000",
+      "amount": "368500",
       "tax_rate": "10"
     },
     {
       "description": "소모품: 토너 카트리지 (흑색)",
+      "quantity": "10",
+      "unit": "개",
+      "unit_price": "384300",
+      "amount": "3843000",
+      "tax_rate": "10"
+    },
+    {
+      "description": "케이터링 — 임원 회의 20명",
+      "quantity": "1",
+      "unit": "개",
+      "unit_price": "630100",
+      "amount": "630100",
+      "tax_rate": "10"
+    },
+    {
+      "description": "포장재 — 골판지 박스 (100매)",
       "quantity": "2",
       "unit": "개",
       "unit_price": "472300",
@@ -58,60 +78,44 @@
       "tax_rate": "10"
     },
     {
-      "description": "케이터링 — 임원 회의 20명",
+      "description": "네트워크 스위치 24포트",
+      "quantity": "2",
+      "unit": "개",
+      "unit_price": "561100",
+      "amount": "1122200",
+      "tax_rate": "10"
+    },
+    {
+      "description": "화물 운송: 부산 → 서울, 2팔레트",
       "quantity": "12",
-      "unit": "대",
+      "unit": "개",
       "unit_price": "404100",
       "amount": "4849200",
       "tax_rate": "10"
     },
     {
-      "description": "포장재 — 골판지 박스 (100매)",
-      "quantity": "3",
-      "unit": "대",
-      "unit_price": "519500",
-      "amount": "1558500",
-      "tax_rate": "10"
-    },
-    {
-      "description": "네트워크 스위치 24포트",
-      "quantity": "12",
-      "unit": "시간",
-      "unit_price": "590900",
-      "amount": "7090800",
-      "tax_rate": "10"
-    },
-    {
-      "description": "화물 운송: 부산 → 서울, 2팔레트",
-      "quantity": "10",
-      "unit": "대",
-      "unit_price": "733200",
-      "amount": "7332000",
-      "tax_rate": "10"
-    },
-    {
       "description": "소프트웨어 라이선스 — 연간",
-      "quantity": "4",
-      "unit": "대",
-      "unit_price": "195100",
-      "amount": "780400",
+      "quantity": "6",
+      "unit": "개",
+      "unit_price": "187100",
+      "amount": "1122600",
       "tax_rate": "10"
     },
     {
       "description": "오피스 체어 (메시, 인체공학)",
-      "quantity": "10",
-      "unit": "대",
-      "unit_price": "697500",
-      "amount": "6975000",
+      "quantity": "5",
+      "unit": "개",
+      "unit_price": "303000",
+      "amount": "1515000",
       "tax_rate": "10"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "2025-9834",
+    "invoice_number": "2025-2652",
     "invoice_date": "2025. 11. 04.",
     "due_date": "2025. 11. 19.",
-    "subtotal": "₩36,264,600",
-    "tax_total": "3,626,460",
-    "total": "₩39,891,060"
+    "subtotal": "₩16,189,200",
+    "tax_total": "1,618,920",
+    "total": "₩17,808,120"
   }
 }

@@ -14,64 +14,70 @@
     "tax_mode": "exclusive",
     "cross_border": false,
     "language_mode": "native",
-    "template": "us_b"
+    "template": "us_b",
+    "withholding": false,
+    "ambiguous_date": false
   },
   "fields": {
     "vendor_name": "Lakeside Catering Services",
     "vendor_tax_id": "550743148",
-    "invoice_number": "INV-2025-4078",
+    "invoice_number": "#6811",
     "invoice_date": "2025-09-21",
     "due_date": "2025-10-06",
     "currency": "USD",
-    "subtotal": "23310.82",
-    "tax_total": "1398.65",
-    "total": "24709.47",
+    "subtotal": "15324.00",
+    "tax_total": "1264.23",
+    "withholding_total": null,
+    "total": "16588.23",
     "tax_rates": [
-      "6"
+      "8.25"
     ],
     "payment_account": null,
     "line_item_count": 4
   },
+  "unscored_fields": [
+    "payment_account"
+  ],
   "line_items": [
     {
       "description": "Software license — annual subscription, 25 seats",
-      "quantity": "6",
-      "unit": "mo",
-      "unit_price": "727.00",
-      "amount": "4362.00",
-      "tax_rate": "6"
+      "quantity": "8",
+      "unit": "pcs",
+      "unit_price": "803.00",
+      "amount": "6424.00",
+      "tax_rate": "8.25"
     },
     {
       "description": "Cloud hosting — compute and storage, monthly",
       "quantity": "20",
-      "unit": "ea",
-      "unit_price": "738.11",
-      "amount": "14762.20",
-      "tax_rate": "6"
+      "unit": "pcs",
+      "unit_price": "46.00",
+      "amount": "920.00",
+      "tax_rate": "8.25"
     },
     {
       "description": "Custom rack enclosure, 42U, with cable management and thermal kit",
-      "quantity": "4",
+      "quantity": "20",
       "unit": "pcs",
-      "unit_price": "722.28",
-      "amount": "2889.12",
-      "tax_rate": "6"
+      "unit_price": "290.00",
+      "amount": "5800.00",
+      "tax_rate": "8.25"
     },
     {
       "description": "Consulting hours — ERP migration, senior consultant",
-      "quantity": "1.5",
+      "quantity": "20",
       "unit": "hrs",
-      "unit_price": "865.00",
-      "amount": "1297.50",
-      "tax_rate": "6"
+      "unit_price": "109.00",
+      "amount": "2180.00",
+      "tax_rate": "8.25"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "INV-2025-4078",
+    "invoice_number": "#6811",
     "invoice_date": "09/21/2025",
     "due_date": "10/06/2025",
-    "subtotal": "$23,310.82 (USD)",
-    "tax_total": "1,398.65",
-    "total": "$24,709.47 (USD)"
+    "subtotal": "$15,324.00 (USD)",
+    "tax_total": "1,264.23",
+    "total": "$16,588.23 (USD)"
   }
 }

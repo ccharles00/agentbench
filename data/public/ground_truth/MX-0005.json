@@ -14,112 +14,116 @@
     "tax_mode": "exclusive",
     "cross_border": true,
     "language_mode": "english",
-    "template": "mx_b"
+    "template": "mx_b",
+    "withholding": false,
+    "ambiguous_date": false
   },
   "fields": {
     "vendor_name": "Logística Pacífico S. de R.L.",
-    "vendor_tax_id": "GCY396082VU6",
-    "invoice_number": "FOLIO-4324",
-    "invoice_date": "2026-05-16",
-    "due_date": "2026-05-30",
+    "vendor_tax_id": "LGS220415F6K",
+    "invoice_number": "FOLIO-1740",
+    "invoice_date": "2025-11-24",
+    "due_date": "2025-12-09",
     "currency": "USD",
-    "subtotal": "124736.74",
-    "tax_total": "19957.87",
-    "total": "144694.61",
+    "subtotal": "68499.68",
+    "tax_total": "10959.95",
+    "withholding_total": null,
+    "total": "79459.63",
     "tax_rates": [
       "16"
     ],
-    "payment_account": "137999936002194910",
+    "payment_account": "002003512263108928",
     "line_item_count": 10
   },
+  "unscored_fields": [],
   "line_items": [
     {
+      "description": "Stationery supplies — annual package",
+      "quantity": "8",
+      "unit": "pcs",
+      "unit_price": "639.00",
+      "amount": "5112.00",
+      "tax_rate": "16"
+    },
+    {
       "description": "Software license — annual",
+      "quantity": "1",
+      "unit": "pcs",
+      "unit_price": "1555.00",
+      "amount": "1555.00",
+      "tax_rate": "16"
+    },
+    {
+      "description": "Office chairs, mesh, ergonomic",
+      "quantity": "1",
+      "unit": "pcs",
+      "unit_price": "7261.00",
+      "amount": "7261.00",
+      "tax_rate": "16"
+    },
+    {
+      "description": "Freight CDMX → Monterrey, 2 pallets",
+      "quantity": "3",
+      "unit": "pallets",
+      "unit_price": "1298.18",
+      "amount": "3894.54",
+      "tax_rate": "16"
+    },
+    {
+      "description": "Accounting services — monthly",
       "quantity": "2",
-      "unit": "caja",
+      "unit": "hrs",
       "unit_price": "5249.07",
       "amount": "10498.14",
       "tax_rate": "16"
     },
     {
-      "description": "Accounting services — monthly",
-      "quantity": "4",
-      "unit": "tarima",
-      "unit_price": "3829.00",
-      "amount": "15316.00",
+      "description": "Monthly maintenance — servers and network",
+      "quantity": "1",
+      "unit": "hrs",
+      "unit_price": "3489.00",
+      "amount": "3489.00",
       "tax_rate": "16"
     },
     {
       "description": "Monthly maintenance — servers and network",
       "quantity": "6",
-      "unit": "caja",
+      "unit": "hrs",
       "unit_price": "128.00",
       "amount": "768.00",
       "tax_rate": "16"
     },
     {
-      "description": "Stationery supplies — annual package",
-      "quantity": "10.5",
-      "unit": "h",
-      "unit_price": "5118.68",
-      "amount": "53746.14",
+      "description": "Monthly maintenance — servers and network",
+      "quantity": "12",
+      "unit": "hrs",
+      "unit_price": "1575.00",
+      "amount": "18900.00",
       "tax_rate": "16"
     },
     {
-      "description": "Office chairs, mesh, ergonomic",
+      "description": "Stationery supplies — annual package",
+      "quantity": "6",
+      "unit": "pcs",
+      "unit_price": "1107.00",
+      "amount": "6642.00",
+      "tax_rate": "16"
+    },
+    {
+      "description": "Monthly maintenance — servers and network",
       "quantity": "4",
-      "unit": "tarima",
+      "unit": "hrs",
       "unit_price": "2595.00",
       "amount": "10380.00",
-      "tax_rate": "16"
-    },
-    {
-      "description": "Freight CDMX → Monterrey, 2 pallets",
-      "quantity": "1",
-      "unit": "caja",
-      "unit_price": "2828.00",
-      "amount": "2828.00",
-      "tax_rate": "16"
-    },
-    {
-      "description": "Office chairs, mesh, ergonomic",
-      "quantity": "2",
-      "unit": "pza",
-      "unit_price": "365.19",
-      "amount": "730.38",
-      "tax_rate": "16"
-    },
-    {
-      "description": "Office chairs, mesh, ergonomic",
-      "quantity": "1.5",
-      "unit": "h",
-      "unit_price": "3219.00",
-      "amount": "4828.50",
-      "tax_rate": "16"
-    },
-    {
-      "description": "Stationery supplies — annual package",
-      "quantity": "1",
-      "unit": "h",
-      "unit_price": "3949.00",
-      "amount": "3949.00",
-      "tax_rate": "16"
-    },
-    {
-      "description": "Accounting services — monthly",
-      "quantity": "6",
-      "unit": "pza",
-      "unit_price": "3615.43",
-      "amount": "21692.58",
       "tax_rate": "16"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "FOLIO-4324",
-    "invoice_date": "16/05/2026",
-    "due_date": "30/05/2026",
-    "subtotal": "USD 124,736.74",
-    "tax_total": "19,957.87",
-    "total": "USD 144,694.61"
+    "invoice_number": "FOLIO-1740",
+    "invoice_date": "24/11/2025",
+    "due_date": "09/12/2025",
+    "subtotal": "USD 68,499.68",
+    "tax_total": "10,959.95",
+    "total": "USD 79,459.63"
   }
 }

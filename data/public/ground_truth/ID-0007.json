@@ -14,80 +14,84 @@
     "tax_mode": "exclusive",
     "cross_border": false,
     "language_mode": "native",
-    "template": "id_c"
+    "template": "id_c",
+    "withholding": false,
+    "ambiguous_date": false
   },
   "fields": {
     "vendor_name": "PT Borneo Paperindo",
     "vendor_tax_id": "074567493362761",
-    "invoice_number": "INV/2025/VII/2295",
+    "invoice_number": "INV/2025/VII/5492",
     "invoice_date": "2025-07-13",
     "due_date": "2025-08-12",
     "currency": "IDR",
-    "subtotal": "38814013.26",
-    "tax_total": "4269541.46",
-    "total": "43083554.72",
+    "subtotal": "31496000.00",
+    "tax_total": "3464560.00",
+    "withholding_total": null,
+    "total": "34960560.00",
     "tax_rates": [
       "11"
     ],
     "payment_account": null,
     "line_item_count": 6
   },
+  "unscored_fields": [],
   "line_items": [
     {
       "description": "Pengiriman: Jakarta → Surabaya, 2 palet",
-      "quantity": "2",
+      "quantity": "8",
       "unit": "pcs",
-      "unit_price": "3579000.00",
-      "amount": "7158000.00",
+      "unit_price": "361000.00",
+      "amount": "2888000.00",
       "tax_rate": "11"
     },
     {
       "description": "Switch jaringan 24 port",
       "quantity": "2",
-      "unit": "unit",
-      "unit_price": "2032000.93",
-      "amount": "4064001.86",
+      "unit": "pcs",
+      "unit_price": "3486000.00",
+      "amount": "6972000.00",
       "tax_rate": "11"
     },
     {
       "description": "Jasa akuntansi — bulanan",
-      "quantity": "4",
-      "unit": "unit",
-      "unit_price": "518500.90",
-      "amount": "2074003.60",
+      "quantity": "6",
+      "unit": "jam",
+      "unit_price": "1066500.00",
+      "amount": "6399000.00",
       "tax_rate": "11"
     },
     {
       "description": "Perawatan bulanan — server dan jaringan, termasuk dukungan jarak jauh",
-      "quantity": "2",
-      "unit": "rim",
-      "unit_price": "2261000.00",
-      "amount": "4522000.00",
+      "quantity": "6",
+      "unit": "jam",
+      "unit_price": "304500.00",
+      "amount": "1827000.00",
       "tax_rate": "11"
     },
     {
       "description": "Katering kantor — 20 orang",
       "quantity": "2",
-      "unit": "unit",
-      "unit_price": "394000.00",
-      "amount": "788000.00",
+      "unit": "pcs",
+      "unit_price": "2925500.00",
+      "amount": "5851000.00",
       "tax_rate": "11"
     },
     {
       "description": "Lisensi perangkat lunak — tahunan",
-      "quantity": "12",
-      "unit": "rim",
-      "unit_price": "1684000.65",
-      "amount": "20208007.80",
+      "quantity": "2",
+      "unit": "pcs",
+      "unit_price": "3779500.00",
+      "amount": "7559000.00",
       "tax_rate": "11"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "INV/2025/VII/2295",
+    "invoice_number": "INV/2025/VII/5492",
     "invoice_date": "13/07/2025",
     "due_date": "12/08/2025",
-    "subtotal": "Rp38.814.013,26",
-    "tax_total": "4.269.541,46",
-    "total": "Rp43.083.554,72"
+    "subtotal": "Rp31.496.000,00",
+    "tax_total": "3.464.560,00",
+    "total": "Rp34.960.560,00"
   }
 }

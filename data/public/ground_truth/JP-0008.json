@@ -14,35 +14,49 @@
     "tax_mode": "exclusive",
     "cross_border": false,
     "language_mode": "native",
-    "template": "jp_c"
+    "template": "jp_c",
+    "withholding": false,
+    "ambiguous_date": false
   },
   "fields": {
     "vendor_name": "広島機工株式会社",
     "vendor_tax_id": "T6919508219422",
-    "invoice_number": "INV-2026-31568",
+    "invoice_number": "INV-2026-14127",
     "invoice_date": "2026-12-18",
     "due_date": "2027-01-02",
     "currency": "JPY",
-    "subtotal": "1781600",
-    "tax_total": "178160",
-    "total": "1959760",
+    "subtotal": "1427600",
+    "tax_total": "142760",
+    "withholding_total": null,
+    "total": "1570360",
     "tax_rates": [
       "10"
     ],
     "payment_account": null,
     "line_item_count": 4
   },
+  "unscored_fields": [
+    "payment_account"
+  ],
   "line_items": [
     {
       "description": "事務用品一式（文房具、ファイル等）",
-      "quantity": "10",
+      "quantity": "8",
       "unit": "台",
-      "unit_price": "72700",
-      "amount": "727000",
+      "unit_price": "9300",
+      "amount": "74400",
       "tax_rate": "10"
     },
     {
       "description": "オフィスチェア（メッシュ、アーム付き）",
+      "quantity": "10",
+      "unit": "台",
+      "unit_price": "81500",
+      "amount": "815000",
+      "tax_rate": "10"
+    },
+    {
+      "description": "翻訳サービス 日本語 → 英語",
       "quantity": "2",
       "unit": "時間",
       "unit_price": "78300",
@@ -50,28 +64,20 @@
       "tax_rate": "10"
     },
     {
-      "description": "翻訳サービス 日本語 → 英語",
-      "quantity": "12",
-      "unit": "冊",
-      "unit_price": "60800",
-      "amount": "729600",
-      "tax_rate": "10"
-    },
-    {
       "description": "月額保守サポート — サーバー 3 台、リモート監視込み",
-      "quantity": "4",
-      "unit": "冊",
-      "unit_price": "42100",
-      "amount": "168400",
+      "quantity": "6",
+      "unit": "時間",
+      "unit_price": "63600",
+      "amount": "381600",
       "tax_rate": "10"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "INV-2026-31568",
+    "invoice_number": "INV-2026-14127",
     "invoice_date": "令和8年12月18日",
     "due_date": "令和9年1月2日",
-    "subtotal": "¥1,781,600",
-    "tax_total": "178,160",
-    "total": "¥1,959,760"
+    "subtotal": "¥1,427,600",
+    "tax_total": "142,760",
+    "total": "¥1,570,360"
   }
 }

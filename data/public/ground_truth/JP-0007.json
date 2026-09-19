@@ -14,95 +14,101 @@
     "tax_mode": "inclusive",
     "cross_border": false,
     "language_mode": "native",
-    "template": "jp_a"
+    "template": "jp_a",
+    "withholding": false,
+    "ambiguous_date": false
   },
   "fields": {
     "vendor_name": "東京オフィスサプライ株式会社",
     "vendor_tax_id": "T0003645109623",
-    "invoice_number": "INV-2025-40329",
+    "invoice_number": "INV-2025-84853",
     "invoice_date": "2025-09-03",
     "due_date": "2025-09-17",
     "currency": "JPY",
-    "subtotal": "1639536",
-    "tax_total": "131164",
-    "total": "1770700",
+    "subtotal": "1309630",
+    "tax_total": "104770",
+    "withholding_total": null,
+    "total": "1414400",
     "tax_rates": [
       "8"
     ],
     "payment_account": null,
     "line_item_count": 8
   },
+  "unscored_fields": [
+    "payment_account"
+  ],
   "line_items": [
     {
       "description": "清掃サービス — オフィス月次",
+      "quantity": "3",
+      "unit": "台",
+      "unit_price": "85300",
+      "amount": "255900",
+      "tax_rate": "8"
+    },
+    {
+      "description": "包装資材 — 段ボール 60 サイズ（100 枚）",
       "quantity": "2",
-      "unit": "式",
+      "unit": "個",
       "unit_price": "10000",
       "amount": "20000",
       "tax_rate": "8"
     },
     {
-      "description": "包装資材 — 段ボール 60 サイズ（100 枚）",
-      "quantity": "20",
-      "unit": "時間",
-      "unit_price": "13500",
-      "amount": "270000",
-      "tax_rate": "8"
-    },
-    {
       "description": "ソフトウェアライセンス（年間）",
       "quantity": "1",
-      "unit": "冊",
-      "unit_price": "77300",
-      "amount": "77300",
+      "unit": "台",
+      "unit_price": "67200",
+      "amount": "67200",
       "tax_rate": "8"
     },
     {
       "description": "事務用品一式（文房具、ファイル等）",
+      "quantity": "10",
+      "unit": "台",
+      "unit_price": "63900",
+      "amount": "639000",
+      "tax_rate": "8"
+    },
+    {
+      "description": "書籍：会計実務の手引き（軽減税率対象）",
+      "quantity": "5",
+      "unit": "台",
+      "unit_price": "8400",
+      "amount": "42000",
+      "tax_rate": "8"
+    },
+    {
+      "description": "ケータリング — 役員会議 20 名",
       "quantity": "6",
-      "unit": "冊",
+      "unit": "時間",
       "unit_price": "18600",
       "amount": "111600",
       "tax_rate": "8"
     },
     {
-      "description": "書籍：会計実務の手引き（軽減税率対象）",
-      "quantity": "1",
-      "unit": "冊",
-      "unit_price": "28600",
-      "amount": "28600",
-      "tax_rate": "8"
-    },
-    {
-      "description": "ケータリング — 役員会議 20 名",
-      "quantity": "1",
-      "unit": "冊",
-      "unit_price": "53000",
-      "amount": "53000",
-      "tax_rate": "8"
-    },
-    {
       "description": "月額保守サポート — サーバー 3 台、リモート監視込み",
       "quantity": "6",
-      "unit": "式",
-      "unit_price": "53900",
-      "amount": "323400",
+      "unit": "時間",
+      "unit_price": "8200",
+      "amount": "49200",
       "tax_rate": "8"
     },
     {
       "description": "貨物輸送 大阪 → 東京、2 パレット",
-      "quantity": "12",
-      "unit": "時間",
-      "unit_price": "73900",
-      "amount": "886800",
+      "quantity": "5",
+      "unit": "台",
+      "unit_price": "45900",
+      "amount": "229500",
       "tax_rate": "8"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "INV-2025-40329",
+    "invoice_number": "INV-2025-84853",
     "invoice_date": "令和7年9月3日",
     "due_date": "令和7年9月17日",
-    "tax_total": "131,164",
-    "total": "¥1,770,700"
+    "tax_total": "104,770",
+    "total": "¥1,414,400"
   }
 }

@@ -9,7 +9,7 @@ from .. import ids
 from ..build import CountrySpec
 
 
-def _tax_id(rng: random.Random) -> tuple[str, str]:
+def _tax_id(rng: random.Random, name: str) -> tuple[str, str]:
     digits = ids.random_digits(rng, 9)
     return f"GB {digits[:3]} {digits[3:7]} {digits[7:]}", f"GB{digits}"
 
@@ -30,6 +30,7 @@ def make_scenarios(cfg) -> dict:
 SPEC = CountrySpec(
     code="GB", name="United Kingdom", currency="GBP",
     native_lang="en", scripts=("Latn",), font_stack=("Noto Sans",),
+    numeric_dates=True,
     tax_label="VAT",
     vendors=(
         "Whitmore & Sons Ltd", "Northern Textiles Ltd", "Camden Print Works Ltd",

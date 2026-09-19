@@ -3,6 +3,10 @@
 Per country: a grid of first-page thumbnails from the clean PDFs, plus one
 "variants" sheet showing how scan / bad_scan / phone_photo degrade the first
 document. Written to <split>/contact_sheets/.
+
+Rendered at review resolution (1000px-wide thumbnails, 2 columns) so the
+owner can actually read them zoomed in; sheets are gitignored review
+artifacts, so file size is not a concern.
 """
 from __future__ import annotations
 
@@ -11,14 +15,14 @@ from pathlib import Path
 import pymupdf as fitz
 from PIL import Image, ImageDraw, ImageFont
 
-THUMB_WIDTH = 300
-COLS = 4
-LABEL_H = 22
+THUMB_WIDTH = 1000
+COLS = 2
+LABEL_H = 46
 
 
 def _font() -> ImageFont.FreeTypeFont:
     try:
-        return ImageFont.load_default(size=15)
+        return ImageFont.load_default(size=30)
     except TypeError:  # older Pillow
         return ImageFont.load_default()
 

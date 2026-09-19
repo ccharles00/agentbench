@@ -1,28 +1,27 @@
-"""IN invoices: lakh/crore grouping (1,00,000), CGST+SGST vs IGST, GSTIN,
-Devanagari + English mixing."""
+"""IN invoices: lakh/crore grouping (1,00,000), CGST+SGST vs IGST, GSTIN with
+a real mod-36 check character (#20), Devanagari + English mixing."""
 from __future__ import annotations
 
 import random
 from datetime import date
 from decimal import Decimal
 
-from .. import ids, words
+from .. import ids
 from ..build import CountrySpec
 
 _GSTIN_STATES = ("27", "07", "29", "33", "24", "06", "19", "08")
 _GSTIN_LETTERS = "ABCDEFGHJKLMNPQRSTUVWXYZ"
 
 
-def _gstin(rng: random.Random) -> str:
+def _structural_gstin(name: str) -> tuple[str, str]:
+    """GSTIN: state code + PAN + entity digit + Z + mod-36 check, stable per name."""
+    rng = ids.stable_rng("GSTIN:" + name)
     pan = ("".join(rng.choice(_GSTIN_LETTERS) for _ in range(5))
-           + ids.random_digits(rng, 4) + rng.choice(_GSTIN_LETTERS))
-    return (rng.choice(_GSTIN_STATES) + pan + rng.choice("123456789") + "Z"
-            + rng.choice(_GSTIN_LETTERS))
-
-
-def _tax_id(rng: random.Random) -> tuple[str, str]:
-    g = _gstin(rng)
-    return f"GSTIN: {g}", g
+           + "".join(rng.choice("0123456789") for _ in range(4))
+           + rng.choice(_GSTIN_LETTERS))
+    body = (rng.choice(_GSTIN_STATES) + pan + rng.choice("123456789") + "Z")
+    gstin = body + ids.gstin_check_char(body)
+    return f"GSTIN: {gstin}", gstin
 
 
 def _invoice_no(rng: random.Random, d: date) -> str:
@@ -56,6 +55,7 @@ SPEC = CountrySpec(
     code="IN", name="India", currency="INR",
     native_lang="hi", scripts=("Deva",), font_stack=("Noto Sans Devanagari", "Noto Sans"),
     number_style="indian",
+    numeric_dates=True,
     tax_label="GST",
     vendors=(
         "Shree Ganesh Traders Pvt. Ltd.", "दिल्ली ऑफिस सप्लाई प्राइवेट लिमिटेड",
@@ -87,7 +87,7 @@ SPEC = CountrySpec(
         ("88, SG Highway", "Ahmedabad 380054, Gujarat"),
     ),
     customer_tax_label="GSTIN",
-    customer_tax_ids=(),  # filled per doc below
+    customer_tax_ids=(),
     labels={
         "title": "TAX INVOICE", "invoice_no": "Invoice No.", "invoice_date": "Invoice Date",
         "due_date": "Due Date", "bill_to": "Bill To", "description": "Description of Goods / Services",
@@ -98,7 +98,6 @@ SPEC = CountrySpec(
     tax_id_label_en="GSTIN",
     title_en="TAX INVOICE",
     terms_native="Payment within {days} days",
-    reverse_charge_note=None,
     descriptions=(
         "ऑफिस कुर्सी, जाली, एर्गोनोमिक",
         "Monthly IT AMC — 40 workstations, on-site support every week",
@@ -126,7 +125,7 @@ SPEC = CountrySpec(
     price_step=10,
     big_price_range=(50000, 250000),
     amount_words="rupees",
-    tax_id_gen=_tax_id,
+    structural_tax_id=_structural_gstin,
     invoice_no_gen=_invoice_no,
     date_render=_date,
     doc_plan=(

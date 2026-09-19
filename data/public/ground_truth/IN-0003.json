@@ -16,64 +16,60 @@
     "tax_mode": "exclusive",
     "cross_border": false,
     "language_mode": "bilingual",
-    "template": "in_a"
+    "template": "in_a",
+    "withholding": false,
+    "ambiguous_date": false
   },
   "fields": {
     "vendor_name": "Bengaluru Software Services Pvt. Ltd.",
-    "vendor_tax_id": "06RNBSP7202C5ZL",
-    "invoice_number": "INV/25/26/301",
-    "invoice_date": "2025-12-07",
-    "due_date": "2025-12-21",
+    "vendor_tax_id": "08CPECX9770G6ZQ",
+    "invoice_number": "INV/25/26/529",
+    "invoice_date": "2025-09-14",
+    "due_date": "2025-10-14",
     "currency": "INR",
-    "subtotal": "177370.69",
-    "tax_total": "21284.48",
-    "total": "198655.17",
+    "subtotal": "135501.82",
+    "tax_total": "16260.21",
+    "withholding_total": null,
+    "total": "151762.03",
     "tax_rates": [
       "12"
     ],
     "payment_account": null,
-    "line_item_count": 4
+    "line_item_count": 3
   },
+  "unscored_fields": [],
   "line_items": [
     {
-      "description": "Network switches — 24 port, gigabit (5 units)",
-      "quantity": "4",
-      "unit": "Nos.",
-      "unit_price": "5550.11",
-      "amount": "22200.44",
+      "description": "Monthly IT AMC — 40 workstations, on-site support every week",
+      "quantity": "3",
+      "unit": "hrs",
+      "unit_price": "11820.00",
+      "amount": "35460.00",
       "tax_rate": "12"
     },
     {
-      "description": "Bulk notebook supply — A4, 200 pages (pack of 50)",
-      "quantity": "20",
-      "unit": "kg",
-      "unit_price": "4240.00",
-      "amount": "84800.00",
+      "description": "LED bulbs 9W (box of 100)",
+      "quantity": "1",
+      "unit": "pcs",
+      "unit_price": "19540.70",
+      "amount": "19540.70",
       "tax_rate": "12"
     },
     {
       "description": "GST registration and compliance consultancy",
-      "quantity": "2.5",
+      "quantity": "3.5",
       "unit": "hrs",
-      "unit_price": "14940.10",
-      "amount": "37350.25",
-      "tax_rate": "12"
-    },
-    {
-      "description": "Catering staff — corporate event, 50 guests",
-      "quantity": "2",
-      "unit": "pcs",
-      "unit_price": "16510.00",
-      "amount": "33020.00",
+      "unit_price": "23000.32",
+      "amount": "80501.12",
       "tax_rate": "12"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "INV/25/26/301",
-    "invoice_date": "07/12/2025",
-    "due_date": "21/12/2025",
-    "subtotal": "₹1,77,370.69",
-    "tax_total": "21,284.48",
-    "total": "₹1,98,655.17"
+    "invoice_number": "INV/25/26/529",
+    "invoice_date": "14/09/2025",
+    "due_date": "14/10/2025",
+    "subtotal": "₹1,35,501.82",
+    "tax_total": "16,260.21",
+    "total": "₹1,51,762.03"
   }
 }

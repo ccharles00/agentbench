@@ -14,56 +14,59 @@
     "tax_mode": "exclusive",
     "cross_border": false,
     "language_mode": "native",
-    "template": "cn_c"
+    "template": "cn_c",
+    "withholding": false,
+    "ambiguous_date": false
   },
   "fields": {
     "vendor_name": "青岛海润食品有限公司",
-    "vendor_tax_id": "H1QW9U96QL54NB7U8K",
-    "invoice_number": "72771012",
-    "invoice_date": "2025-10-15",
-    "due_date": "2025-11-29",
+    "vendor_tax_id": "5C7873499HDDD392PX",
+    "invoice_number": "89066384",
+    "invoice_date": "2026-05-07",
+    "due_date": null,
     "currency": "CNY",
-    "subtotal": "69368.73",
-    "tax_total": "9017.94",
-    "total": "78386.67",
+    "subtotal": "46644.10",
+    "tax_total": "6063.73",
+    "withholding_total": null,
+    "total": "52707.83",
     "tax_rates": [
       "13"
     ],
     "payment_account": null,
     "line_item_count": 3
   },
+  "unscored_fields": [],
   "line_items": [
     {
-      "description": "软件许可 — 年度订阅，20 用户",
-      "quantity": "1",
+      "description": "电子元器件 — 电阻 10kΩ ±1%（1000 个/盘）",
+      "quantity": "10",
       "unit": "个",
-      "unit_price": "4850.91",
-      "amount": "4850.91",
-      "tax_rate": "13"
-    },
-    {
-      "description": "包装材料 — 瓦楞纸箱 5 号（1000 只）",
-      "quantity": "6",
-      "unit": "件",
-      "unit_price": "5224.61",
-      "amount": "31347.66",
+      "unit_price": "2148.00",
+      "amount": "21480.00",
       "tax_rate": "13"
     },
     {
       "description": "印刷品：产品手册，500 册，铜版纸",
-      "quantity": "8",
+      "quantity": "10",
       "unit": "个",
-      "unit_price": "4146.27",
-      "amount": "33170.16",
+      "unit_price": "1785.61",
+      "amount": "17856.10",
+      "tax_rate": "13"
+    },
+    {
+      "description": "货运：深圳 → 上海，2 托，汽运",
+      "quantity": "6",
+      "unit": "托",
+      "unit_price": "1218.00",
+      "amount": "7308.00",
       "tax_rate": "13"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "72771012",
-    "invoice_date": "2025年10月15日",
-    "due_date": "2025年11月29日",
-    "subtotal": "¥69,368.73",
-    "tax_total": "9,017.94",
-    "total": "¥78,386.67"
+    "invoice_number": "89066384",
+    "invoice_date": "2026年5月7日",
+    "subtotal": "¥46,644.10",
+    "tax_total": "6,063.73",
+    "total": "¥52,707.83"
   }
 }

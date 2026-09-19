@@ -15,64 +15,68 @@
     "tax_mode": "exclusive",
     "cross_border": false,
     "language_mode": "bilingual",
-    "template": "id_a"
+    "template": "id_a",
+    "withholding": false,
+    "ambiguous_date": true
   },
   "fields": {
     "vendor_name": "PT Cahaya Timur Konsultan",
     "vendor_tax_id": "476569725415167",
-    "invoice_number": "INV/2025/X/1881",
+    "invoice_number": "INV/2025/X/2623",
     "invoice_date": "2025-10-06",
     "due_date": "2025-10-21",
     "currency": "IDR",
-    "subtotal": "27911000.00",
-    "tax_total": "3070210.00",
-    "total": "30981210.00",
+    "subtotal": "107925000.00",
+    "tax_total": "11871750.00",
+    "withholding_total": null,
+    "total": "119796750.00",
     "tax_rates": [
       "11"
     ],
     "payment_account": null,
     "line_item_count": 4
   },
+  "unscored_fields": [],
   "line_items": [
     {
       "description": "Monthly maintenance — servers and network",
-      "quantity": "4",
-      "unit": "rim",
-      "unit_price": "2268000.00",
-      "amount": "9072000.00",
+      "quantity": "8",
+      "unit": "jam",
+      "unit_price": "1949000.00",
+      "amount": "15592000.00",
       "tax_rate": "11"
     },
     {
       "description": "Jasa akuntansi — bulanan",
-      "quantity": "10",
-      "unit": "pcs",
-      "unit_price": "696000.00",
-      "amount": "6960000.00",
+      "quantity": "1",
+      "unit": "jam",
+      "unit_price": "3875000.00",
+      "amount": "3875000.00",
       "tax_rate": "11"
     },
     {
       "description": "Software license — annual",
-      "quantity": "1",
+      "quantity": "4",
       "unit": "pcs",
-      "unit_price": "2325500.00",
-      "amount": "2325500.00",
+      "unit_price": "3867000.00",
+      "amount": "15468000.00",
       "tax_rate": "11"
     },
     {
       "description": "Perawatan bulanan — server dan jaringan, termasuk dukungan jarak jauh",
-      "quantity": "3",
-      "unit": "unit",
-      "unit_price": "3184500.00",
-      "amount": "9553500.00",
+      "quantity": "20",
+      "unit": "jam",
+      "unit_price": "3649500.00",
+      "amount": "72990000.00",
       "tax_rate": "11"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "INV/2025/X/1881",
+    "invoice_number": "INV/2025/X/2623",
     "invoice_date": "06/10/2025",
     "due_date": "21/10/2025",
-    "subtotal": "Rp27.911.000,00",
-    "tax_total": "3.070.210,00",
-    "total": "Rp30.981.210,00"
+    "subtotal": "Rp107.925.000,00",
+    "tax_total": "11.871.750,00",
+    "total": "Rp119.796.750,00"
   }
 }

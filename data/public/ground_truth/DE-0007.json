@@ -14,46 +14,50 @@
     "tax_mode": "exclusive",
     "cross_border": false,
     "language_mode": "native",
-    "template": "de_a"
+    "template": "de_a",
+    "withholding": false,
+    "ambiguous_date": false
   },
   "fields": {
     "vendor_name": "Rhein Main Consulting GmbH",
     "vendor_tax_id": "DE294983927",
-    "invoice_number": "RE-2025-4260",
+    "invoice_number": "RE-2025-4914",
     "invoice_date": "2025-09-21",
     "due_date": "2025-11-20",
     "currency": "EUR",
-    "subtotal": "78707.92",
-    "tax_total": "9084.50",
-    "total": "87792.42",
+    "subtotal": "74129.16",
+    "tax_total": "7320.91",
+    "withholding_total": null,
+    "total": "81450.07",
     "tax_rates": [
-      "7",
-      "19"
+      "19",
+      "7"
     ],
-    "payment_account": "DE50329479647947176393",
+    "payment_account": "DE39707139707716329479",
     "line_item_count": 23
   },
+  "unscored_fields": [],
   "line_items": [
     {
       "description": "Bürostuhl, Netzstoff, ergonomisch",
       "quantity": "1",
-      "unit": "kg",
-      "unit_price": "350.00",
-      "amount": "350.00",
-      "tax_rate": "7"
+      "unit": "Stk.",
+      "unit_price": "677.21",
+      "amount": "677.21",
+      "tax_rate": "19"
     },
     {
       "description": "Monatliche Wartung — Klimaanlage, inklusive Ersatzteilen und Notdienst",
       "quantity": "1",
-      "unit": "kg",
-      "unit_price": "321.00",
-      "amount": "321.00",
+      "unit": "Std.",
+      "unit_price": "754.25",
+      "amount": "754.25",
       "tax_rate": "7"
     },
     {
       "description": "Elektroinstallation — Objekt 12, GruppeVerteilung und Zählerplatz",
       "quantity": "1",
-      "unit": "kg",
+      "unit": "Stk.",
       "unit_price": "38.00",
       "amount": "38.00",
       "tax_rate": "7"
@@ -61,50 +65,50 @@
     {
       "description": "Lagerservice — Kommissionierung, 3 Monate",
       "quantity": "6",
-      "unit": "Stk.",
-      "unit_price": "659.00",
-      "amount": "3954.00",
-      "tax_rate": "19"
+      "unit": "Std.",
+      "unit_price": "68.46",
+      "amount": "410.76",
+      "tax_rate": "7"
     },
     {
       "description": "Übersetzung DE → EN, technisches Handbuch, 40 Seiten",
-      "quantity": "6",
-      "unit": "kg",
-      "unit_price": "310.00",
-      "amount": "1860.00",
+      "quantity": "5",
+      "unit": "Std.",
+      "unit_price": "771.00",
+      "amount": "3855.00",
       "tax_rate": "7"
     },
     {
       "description": "Softwarelizenz, Jahresabo, 5 Arbeitsplätze",
-      "quantity": "20",
-      "unit": "Std.",
-      "unit_price": "749.00",
-      "amount": "14980.00",
+      "quantity": "3",
+      "unit": "Stk.",
+      "unit_price": "520.00",
+      "amount": "1560.00",
       "tax_rate": "7"
     },
     {
       "description": "Druck: Produktkatalog, 4-farbig, 500 Stück, Rückenklebung",
       "quantity": "3",
-      "unit": "kg",
-      "unit_price": "516.00",
-      "amount": "1548.00",
-      "tax_rate": "7"
+      "unit": "Stk.",
+      "unit_price": "338.33",
+      "amount": "1014.99",
+      "tax_rate": "19"
     },
     {
       "description": "IT-Support-Stunden, remote",
       "quantity": "10",
-      "unit": "Pauschale",
-      "unit_price": "1050.00",
-      "amount": "10500.00",
+      "unit": "Std.",
+      "unit_price": "971.00",
+      "amount": "9710.00",
       "tax_rate": "19"
     },
     {
       "description": "Steuerberatung — Quartalsabschluss",
-      "quantity": "4",
-      "unit": "Pauschale",
+      "quantity": "4.5",
+      "unit": "Std.",
       "unit_price": "229.00",
-      "amount": "916.00",
-      "tax_rate": "7"
+      "amount": "1030.50",
+      "tax_rate": "19"
     },
     {
       "description": "Brötchen und Backwaren, Lieferung wöchentlich",
@@ -112,66 +116,82 @@
       "unit": "Stk.",
       "unit_price": "467.00",
       "amount": "934.00",
-      "tax_rate": "7"
+      "tax_rate": "19"
     },
     {
       "description": "Monatliche Wartung — Klimaanlage, inklusive Ersatzteilen und Notdienst",
       "quantity": "12",
-      "unit": "Pauschale",
-      "unit_price": "62.00",
-      "amount": "744.00",
+      "unit": "Std.",
+      "unit_price": "927.35",
+      "amount": "11128.20",
       "tax_rate": "7"
     },
     {
       "description": "Transport Hamburg → München, 2 Paletten, Kombi-Verkehr",
+      "quantity": "2",
+      "unit": "Stk.",
+      "unit_price": "1111.00",
+      "amount": "2222.00",
+      "tax_rate": "19"
+    },
+    {
+      "description": "Übersetzung DE → EN, technisches Handbuch, 40 Seiten",
       "quantity": "1",
       "unit": "Std.",
       "unit_price": "1180.33",
       "amount": "1180.33",
-      "tax_rate": "19"
-    },
-    {
-      "description": "Übersetzung DE → EN, technisches Handbuch, 40 Seiten",
-      "quantity": "1",
-      "unit": "Pauschale",
-      "unit_price": "225.00",
-      "amount": "225.00",
       "tax_rate": "7"
     },
     {
       "description": "Druck: Produktkatalog, 4-farbig, 500 Stück, Rückenklebung",
-      "quantity": "4",
-      "unit": "kg",
-      "unit_price": "468.32",
-      "amount": "1873.28",
+      "quantity": "1",
+      "unit": "Stk.",
+      "unit_price": "974.56",
+      "amount": "974.56",
       "tax_rate": "7"
     },
     {
       "description": "Elektroinstallation — Objekt 12, GruppeVerteilung und Zählerplatz",
-      "quantity": "3",
-      "unit": "Pauschale",
-      "unit_price": "210.00",
-      "amount": "630.00",
-      "tax_rate": "19"
-    },
-    {
-      "description": "Brötchen und Backwaren, Lieferung wöchentlich",
-      "quantity": "20",
-      "unit": "kg",
-      "unit_price": "582.67",
-      "amount": "11653.40",
+      "quantity": "4",
+      "unit": "Stk.",
+      "unit_price": "1157.36",
+      "amount": "4629.44",
       "tax_rate": "7"
     },
     {
-      "description": "Übersetzung DE → EN, technisches Handbuch, 40 Seiten",
-      "quantity": "2",
-      "unit": "Pauschale",
-      "unit_price": "378.00",
-      "amount": "756.00",
+      "description": "Brötchen und Backwaren, Lieferung wöchentlich",
+      "quantity": "1",
+      "unit": "Stk.",
+      "unit_price": "452.00",
+      "amount": "452.00",
       "tax_rate": "19"
     },
     {
+      "description": "Übersetzung DE → EN, technisches Handbuch, 40 Seiten",
+      "quantity": "3.5",
+      "unit": "Std.",
+      "unit_price": "526.00",
+      "amount": "1841.00",
+      "tax_rate": "7"
+    },
+    {
       "description": "Druck: Produktkatalog, 4-farbig, 500 Stück, Rückenklebung",
+      "quantity": "6",
+      "unit": "Stk.",
+      "unit_price": "1011.00",
+      "amount": "6066.00",
+      "tax_rate": "7"
+    },
+    {
+      "description": "Monatliche Wartung — Klimaanlage, inklusive Ersatzteilen und Notdienst",
+      "quantity": "2.5",
+      "unit": "Std.",
+      "unit_price": "378.00",
+      "amount": "945.00",
+      "tax_rate": "7"
+    },
+    {
+      "description": "Elektroinstallation — Objekt 12, GruppeVerteilung und Zählerplatz",
       "quantity": "2",
       "unit": "Stk.",
       "unit_price": "862.46",
@@ -179,51 +199,35 @@
       "tax_rate": "19"
     },
     {
-      "description": "Monatliche Wartung — Klimaanlage, inklusive Ersatzteilen und Notdienst",
-      "quantity": "10",
-      "unit": "kg",
-      "unit_price": "821.00",
-      "amount": "8210.00",
-      "tax_rate": "7"
-    },
-    {
-      "description": "Elektroinstallation — Objekt 12, GruppeVerteilung und Zählerplatz",
-      "quantity": "20",
-      "unit": "Std.",
-      "unit_price": "477.05",
-      "amount": "9541.00",
-      "tax_rate": "19"
-    },
-    {
       "description": "Bürostuhl, Netzstoff, ergonomisch",
-      "quantity": "8",
-      "unit": "Pauschale",
-      "unit_price": "573.00",
-      "amount": "4584.00",
+      "quantity": "5",
+      "unit": "Stk.",
+      "unit_price": "604.00",
+      "amount": "3020.00",
       "tax_rate": "7"
     },
     {
       "description": "Transport Hamburg → München, 2 Paletten, Kombi-Verkehr",
-      "quantity": "1",
-      "unit": "kg",
-      "unit_price": "679.99",
-      "amount": "679.99",
+      "quantity": "20",
+      "unit": "Stk.",
+      "unit_price": "521.00",
+      "amount": "10420.00",
       "tax_rate": "7"
     },
     {
       "description": "Druck: Produktkatalog, 4-farbig, 500 Stück, Rückenklebung",
-      "quantity": "3.5",
-      "unit": "Std.",
-      "unit_price": "430.00",
-      "amount": "1505.00",
-      "tax_rate": "19"
+      "quantity": "20",
+      "unit": "Stk.",
+      "unit_price": "477.05",
+      "amount": "9541.00",
+      "tax_rate": "7"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "RE-2025-4260",
+    "invoice_number": "RE-2025-4914",
     "invoice_date": "21.09.2025",
     "due_date": "20.11.2025",
-    "subtotal": "78.707,92 €",
-    "total": "87.792,42 €"
+    "subtotal": "74.129,16 €",
+    "total": "81.450,07 €"
   }
 }

@@ -14,31 +14,35 @@
     "tax_mode": "exclusive",
     "cross_border": false,
     "language_mode": "native",
-    "template": "th_a"
+    "template": "th_a",
+    "withholding": false,
+    "ambiguous_date": false
   },
   "fields": {
     "vendor_name": "บริษัท เชียงใหม่ อิเล็กทรอนิกส์ จำกัด",
     "vendor_tax_id": "5434912172421",
-    "invoice_number": "INV-2569-0360",
+    "invoice_number": "INV-2569-5281",
     "invoice_date": "2026-08-10",
     "due_date": "2026-08-24",
     "currency": "THB",
-    "subtotal": "227903.39",
-    "tax_total": "15953.24",
-    "total": "243856.63",
+    "subtotal": "202997.97",
+    "tax_total": "14209.86",
+    "withholding_total": null,
+    "total": "217207.83",
     "tax_rates": [
       "7"
     ],
     "payment_account": null,
     "line_item_count": 9
   },
+  "unscored_fields": [],
   "line_items": [
     {
       "description": "บริการบัญชี — รายเดือน",
-      "quantity": "5",
-      "unit": "หน่วย",
-      "unit_price": "7360.00",
-      "amount": "36800.00",
+      "quantity": "2",
+      "unit": "ชั่วโมง",
+      "unit_price": "2658.00",
+      "amount": "5316.00",
       "tax_rate": "7"
     },
     {
@@ -53,36 +57,44 @@
       "description": "กระดาษ A4 70 แกรม (1 ลัง 10 รีม)",
       "quantity": "2",
       "unit": "รีม",
-      "unit_price": "10042.00",
-      "amount": "20084.00",
+      "unit_price": "5322.00",
+      "amount": "10644.00",
       "tax_rate": "7"
     },
     {
       "description": "เก้าอี้สำนักงาน ผ้าตาข่าย",
-      "quantity": "1",
-      "unit": "รีม",
-      "unit_price": "8524.00",
-      "amount": "8524.00",
+      "quantity": "10",
+      "unit": "ชิ้น",
+      "unit_price": "5010.00",
+      "amount": "50100.00",
       "tax_rate": "7"
     },
     {
       "description": "งานแปล — ไทย → อังกฤษ",
       "quantity": "1",
-      "unit": "หน่วย",
-      "unit_price": "10426.75",
-      "amount": "10426.75",
+      "unit": "ชั่วโมง",
+      "unit_price": "1512.85",
+      "amount": "1512.85",
       "tax_rate": "7"
     },
     {
       "description": "โต๊ะประชุม 240 ซม. ไม้วอลนัท",
+      "quantity": "2",
+      "unit": "ชิ้น",
+      "unit_price": "628.00",
+      "amount": "1256.00",
+      "tax_rate": "7"
+    },
+    {
+      "description": "บริการบำรุงรักษาประจำเดือน — เซิร์ฟเวอร์ รวมการดูแลระยะไกล",
       "quantity": "3",
-      "unit": "หน่วย",
+      "unit": "ชั่วโมง",
       "unit_price": "4814.14",
       "amount": "14442.42",
       "tax_rate": "7"
     },
     {
-      "description": "บริการบำรุงรักษาประจำเดือน — เซิร์ฟเวอร์ รวมการดูแลระยะไกล",
+      "description": "ค่าลิขสิทธิ์ซอฟต์แวร์ — รายปี",
       "quantity": "10",
       "unit": "ชิ้น",
       "unit_price": "5656.67",
@@ -90,28 +102,20 @@
       "tax_rate": "7"
     },
     {
-      "description": "ค่าลิขสิทธิ์ซอฟต์แวร์ — รายปี",
-      "quantity": "6",
-      "unit": "หน่วย",
-      "unit_price": "2098.62",
-      "amount": "12591.72",
-      "tax_rate": "7"
-    },
-    {
       "description": "จัดเลี้ยงสำนักงาน — 20 ท่าน",
-      "quantity": "1",
-      "unit": "รีม",
-      "unit_price": "11577.80",
-      "amount": "11577.80",
+      "quantity": "1.5",
+      "unit": "ชั่วโมง",
+      "unit_price": "4180.00",
+      "amount": "6270.00",
       "tax_rate": "7"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "INV-2569-0360",
+    "invoice_number": "INV-2569-5281",
     "invoice_date": "10 ส.ค. 2569",
     "due_date": "24 สิงหาคม 2569",
-    "subtotal": "฿227,903.39",
-    "tax_total": "15,953.24",
-    "total": "฿243,856.63"
+    "subtotal": "฿202,997.97",
+    "tax_total": "14,209.86",
+    "total": "฿217,207.83"
   }
 }

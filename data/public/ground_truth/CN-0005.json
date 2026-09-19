@@ -14,112 +14,76 @@
     "tax_mode": "exclusive",
     "cross_border": true,
     "language_mode": "english",
-    "template": "cn_a"
+    "template": "cn_a",
+    "withholding": false,
+    "ambiguous_date": false
   },
   "fields": {
     "vendor_name": "Qingdao Hairun Foods Co., Ltd.",
-    "vendor_tax_id": "6NJQMJ1FKN96YRD0U5",
-    "invoice_number": "INV202607242",
-    "invoice_date": "2026-07-14",
-    "due_date": "2026-07-28",
+    "vendor_tax_id": "5C7873499HDDD392PX",
+    "invoice_number": "69805639",
+    "invoice_date": "2025-08-20",
+    "due_date": "2025-10-19",
     "currency": "USD",
-    "subtotal": "108502.93",
-    "tax_total": "14105.38",
-    "total": "122608.31",
+    "subtotal": "54894.50",
+    "tax_total": "7136.29",
+    "withholding_total": null,
+    "total": "62030.79",
     "tax_rates": [
       "13"
     ],
     "payment_account": null,
-    "line_item_count": 10
+    "line_item_count": 5
   },
+  "unscored_fields": [],
   "line_items": [
     {
-      "description": "Office chairs, mesh, ergonomic",
-      "quantity": "1",
-      "unit": "小时",
-      "unit_price": "3084.00",
-      "amount": "3084.00",
-      "tax_rate": "13"
-    },
-    {
-      "description": "Financial consulting — monthly reporting",
-      "quantity": "1.5",
-      "unit": "小时",
-      "unit_price": "267.55",
-      "amount": "401.33",
-      "tax_rate": "13"
-    },
-    {
-      "description": "Software license — annual subscription, 20 users",
-      "quantity": "6",
-      "unit": "件",
-      "unit_price": "1863.00",
-      "amount": "11178.00",
-      "tax_rate": "13"
-    },
-    {
-      "description": "Server hosting service — one year, bandwidth included",
+      "description": "Freight: Shenzhen → Shanghai, 2 pallets",
       "quantity": "3",
-      "unit": "托",
-      "unit_price": "1055.20",
-      "amount": "3165.60",
+      "unit": "pallets",
+      "unit_price": "2675.00",
+      "amount": "8025.00",
       "tax_rate": "13"
     },
     {
       "description": "LED display module P2.5, with control system",
-      "quantity": "12",
-      "unit": "托",
-      "unit_price": "3669.00",
-      "amount": "44028.00",
+      "quantity": "10",
+      "unit": "pcs",
+      "unit_price": "3345.00",
+      "amount": "33450.00",
       "tax_rate": "13"
     },
     {
-      "description": "Freight: Shenzhen → Shanghai, 2 pallets",
+      "description": "Packaging materials — corrugated cartons (1000 pcs)",
+      "quantity": "20",
+      "unit": "pcs",
+      "unit_price": "280.00",
+      "amount": "5600.00",
+      "tax_rate": "13"
+    },
+    {
+      "description": "Office chairs, mesh, ergonomic",
+      "quantity": "5",
+      "unit": "pcs",
+      "unit_price": "1410.00",
+      "amount": "7050.00",
+      "tax_rate": "13"
+    },
+    {
+      "description": "Server hosting service — one year, bandwidth included",
       "quantity": "2",
-      "unit": "托",
-      "unit_price": "956.00",
-      "amount": "1912.00",
-      "tax_rate": "13"
-    },
-    {
-      "description": "Packaging materials — corrugated cartons (1000 pcs)",
-      "quantity": "4",
-      "unit": "托",
-      "unit_price": "1350.00",
-      "amount": "5400.00",
-      "tax_rate": "13"
-    },
-    {
-      "description": "Electronic components — resistors 10kΩ (1000 pcs/reel)",
-      "quantity": "1",
-      "unit": "册",
-      "unit_price": "2320.00",
-      "amount": "2320.00",
-      "tax_rate": "13"
-    },
-    {
-      "description": "Packaging materials — corrugated cartons (1000 pcs)",
-      "quantity": "2.5",
-      "unit": "小时",
-      "unit_price": "2444.00",
-      "amount": "6110.00",
-      "tax_rate": "13"
-    },
-    {
-      "description": "Financial consulting — monthly reporting",
-      "quantity": "8",
-      "unit": "托",
-      "unit_price": "3863.00",
-      "amount": "30904.00",
+      "unit": "hours",
+      "unit_price": "384.75",
+      "amount": "769.50",
       "tax_rate": "13"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "INV202607242",
-    "invoice_date": "14 Jul 2026",
-    "due_date": "28 Jul 2026",
-    "subtotal": "USD 108,502.93",
-    "tax_total": "14,105.38",
-    "total": "USD 122,608.31"
+    "invoice_number": "69805639",
+    "invoice_date": "20 Aug 2025",
+    "due_date": "19 Oct 2025",
+    "subtotal": "USD 54,894.50",
+    "tax_total": "7,136.29",
+    "total": "USD 62,030.79"
   }
 }

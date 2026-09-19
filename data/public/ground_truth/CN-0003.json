@@ -14,48 +14,75 @@
     "tax_mode": "exclusive",
     "cross_border": false,
     "language_mode": "native",
-    "template": "cn_c"
+    "template": "cn_c",
+    "withholding": false,
+    "ambiguous_date": false
   },
   "fields": {
     "vendor_name": "广州顺达物流有限公司",
-    "vendor_tax_id": "38M9LQ79HA9J4AAGJX",
-    "invoice_number": "INV202610053",
-    "invoice_date": "2026-10-17",
-    "due_date": "2026-11-16",
+    "vendor_tax_id": "5P890573UH839XA5A3",
+    "invoice_number": "83520304",
+    "invoice_date": "2026-11-25",
+    "due_date": null,
     "currency": "CNY",
-    "subtotal": "6571.48",
-    "tax_total": "394.29",
-    "total": "6965.77",
+    "subtotal": "28308.50",
+    "tax_total": "1698.51",
+    "withholding_total": null,
+    "total": "30007.01",
     "tax_rates": [
       "6"
     ],
     "payment_account": null,
-    "line_item_count": 2
+    "line_item_count": 5
   },
+  "unscored_fields": [],
   "line_items": [
     {
-      "description": "办公椅，网布，人体工学",
-      "quantity": "1",
-      "unit": "托",
-      "unit_price": "4103.00",
-      "amount": "4103.00",
+      "description": "会议桌，1.8 米，胡桃木色",
+      "quantity": "2",
+      "unit": "个",
+      "unit_price": "2641.00",
+      "amount": "5282.00",
+      "tax_rate": "6"
+    },
+    {
+      "description": "印刷品：产品手册，500 册，铜版纸",
+      "quantity": "10",
+      "unit": "个",
+      "unit_price": "500.00",
+      "amount": "5000.00",
+      "tax_rate": "6"
+    },
+    {
+      "description": "财务咨询服务 — 月度报表及税务申报",
+      "quantity": "1.5",
+      "unit": "小时",
+      "unit_price": "4271.00",
+      "amount": "6406.50",
       "tax_rate": "6"
     },
     {
       "description": "电子元器件 — 电阻 10kΩ ±1%（1000 个/盘）",
-      "quantity": "8",
-      "unit": "册",
-      "unit_price": "308.56",
-      "amount": "2468.48",
+      "quantity": "1",
+      "unit": "个",
+      "unit_price": "3048.00",
+      "amount": "3048.00",
+      "tax_rate": "6"
+    },
+    {
+      "description": "LED 显示屏模组 P2.5，含控制系统",
+      "quantity": "2",
+      "unit": "个",
+      "unit_price": "4286.00",
+      "amount": "8572.00",
       "tax_rate": "6"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "INV202610053",
-    "invoice_date": "2026年10月17日",
-    "due_date": "2026年11月16日",
-    "subtotal": "¥6,571.48",
-    "tax_total": "394.29",
-    "total": "¥6,965.77"
+    "invoice_number": "83520304",
+    "invoice_date": "2026年11月25日",
+    "subtotal": "¥28,308.50",
+    "tax_total": "1,698.51",
+    "total": "¥30,007.01"
   }
 }

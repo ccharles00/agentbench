@@ -14,40 +14,100 @@
     "tax_mode": "exclusive",
     "cross_border": false,
     "language_mode": "native",
-    "template": "cn_a"
+    "template": "cn_a",
+    "withholding": false,
+    "ambiguous_date": false
   },
   "fields": {
     "vendor_name": "北京中科软件股份有限公司",
-    "vendor_tax_id": "LD3M9WTNQKE4A8JA97",
-    "invoice_number": "16064239",
-    "invoice_date": "2026-08-03",
-    "due_date": "2026-09-02",
+    "vendor_tax_id": "91615238H4BQ7M51A0",
+    "invoice_number": "38718614",
+    "invoice_date": "2026-12-25",
+    "due_date": "2027-02-08",
     "currency": "CNY",
-    "subtotal": "3894.00",
-    "tax_total": "506.22",
-    "total": "4400.22",
+    "subtotal": "102161.59",
+    "tax_total": "13281.01",
+    "withholding_total": null,
+    "total": "115442.60",
     "tax_rates": [
       "13"
     ],
     "payment_account": null,
-    "line_item_count": 1
+    "line_item_count": 8
   },
+  "unscored_fields": [],
   "line_items": [
     {
+      "description": "电子元器件 — 电阻 10kΩ ±1%（1000 个/盘）",
+      "quantity": "6",
+      "unit": "个",
+      "unit_price": "1422.00",
+      "amount": "8532.00",
+      "tax_rate": "13"
+    },
+    {
       "description": "印刷品：产品手册，500 册，铜版纸",
+      "quantity": "4",
+      "unit": "个",
+      "unit_price": "677.00",
+      "amount": "2708.00",
+      "tax_rate": "13"
+    },
+    {
+      "description": "财务咨询服务 — 月度报表及税务申报",
+      "quantity": "6",
+      "unit": "小时",
+      "unit_price": "3777.00",
+      "amount": "22662.00",
+      "tax_rate": "13"
+    },
+    {
+      "description": "LED 显示屏模组 P2.5，含控制系统",
+      "quantity": "6",
+      "unit": "个",
+      "unit_price": "781.00",
+      "amount": "4686.00",
+      "tax_rate": "13"
+    },
+    {
+      "description": "翻译服务 — 中文译英文，技术文档 40 页",
       "quantity": "1",
       "unit": "小时",
-      "unit_price": "3894.00",
-      "amount": "3894.00",
+      "unit_price": "2119.59",
+      "amount": "2119.59",
+      "tax_rate": "13"
+    },
+    {
+      "description": "服务器托管服务 — 一年，含带宽与运维值守",
+      "quantity": "8",
+      "unit": "小时",
+      "unit_price": "5495.00",
+      "amount": "43960.00",
+      "tax_rate": "13"
+    },
+    {
+      "description": "会议桌，1.8 米，胡桃木色",
+      "quantity": "2",
+      "unit": "个",
+      "unit_price": "4721.00",
+      "amount": "9442.00",
+      "tax_rate": "13"
+    },
+    {
+      "description": "货运：深圳 → 上海，2 托，汽运",
+      "quantity": "2",
+      "unit": "托",
+      "unit_price": "4026.00",
+      "amount": "8052.00",
       "tax_rate": "13"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "16064239",
-    "invoice_date": "2026年8月3日",
-    "due_date": "2026年9月2日",
-    "subtotal": "¥3,894.00 (CNY)",
-    "tax_total": "506.22",
-    "total": "¥4,400.22 (CNY)"
+    "invoice_number": "38718614",
+    "invoice_date": "2026年12月25日",
+    "due_date": "2027年2月8日",
+    "subtotal": "¥102,161.59 (CNY)",
+    "tax_total": "13,281.01",
+    "total": "¥115,442.60 (CNY)"
   }
 }

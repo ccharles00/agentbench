@@ -1,17 +1,20 @@
-"""Generic invoice builder (spec B2.3).
+"""Generic invoice builder (spec B2.3, amended by DECISIONS.md #18-#20).
 
 Country modules (countries/*.py) supply data pools and format hooks in a
 CountrySpec plus a per-document DOC_PLAN; this module owns ALL money math,
 tax-mode handling, language/script selection, and ground-truth assembly so
 the same invariants hold for every country (spec B2.8):
 
-- exclusive pricing:  items are net; subtotal + tax_total == total
-- inclusive pricing:  items are gross; subtotal == total - tax_total
+- exclusive pricing:  items are net; subtotal + tax_total − withholding == total
+- inclusive pricing:  items are gross; subtotal == total − tax_total
 - reverse charge:     rate 0 with a note; tax_total == 0
-- every amount quantized to the currency's minor units
+- tax_total is charged taxes only; buyer-side retention (ISR/IVA retenida)
+  lives in withholding_total and prints as its own lines (#18)
+- every amount quantized to the currency's minor units (whole units for IDR)
 
-Determinism: every random choice comes from the per-document RNG; nothing
-here reads the clock or the locale.
+Determinism: every random choice comes from the per-document RNG; vendor tax
+IDs are derived from the vendor NAME (stable_rng), so one company always has
+one ID (#20).
 """
 from __future__ import annotations
 
@@ -61,11 +64,39 @@ FALLBACK_ENGLISH_ITEMS = (
     "Software license — annual subscription, 10 seats",
     "Paper A4 80gsm, carton of 10 reams",
     "Accounting and bookkeeping services — monthly",
-    "Translation services, technical documentation",
+    "Translation services — technical documentation",
     "Catering services — corporate meeting, 20 persons",
 )
 
 _TIME_UNITS = {"hrs", "hours", "時間", "시간", "小时", "ชั่วโมง", "Std.", "h", "ساعة", "jam"}
+_GENERIC_UNITS = {"pcs", "ea", "un", "pza", "unit", "units", "nos"}
+
+# Description keyword groups -> realistic units (handoff item 5: units must
+# match what is being sold, not sampled freely).
+_UNIT_GROUPS: dict[str, tuple[str, ...]] = {
+    "paper": ("paper", "papier", "papel", "kertas", "ream", "resma", "a4",
+              "กระดาษ", "ورق", "紙"),
+    "services": ("maintenance", "support", "consult", "service", "accounting",
+                 "translation", "catering", "wartung", "beratung", "steuerberatung",
+                 "übersetzung", "mantenimiento", "soporte", "contabl", "traducc",
+                 "serviço", "serviços", "tradução", "manutenção", "perawatan",
+                 "jasa", "akuntansi", "terjemahan", "บริการ", "บัญชี", "งานแปล",
+                 "จัดเลี้ยง", "صيانة", "خدمات", "محاسب", "ترجمة", "保守", "翻訳",
+                 "ケータリング", "유지보수", "번역", "회계", "服务", "咨询", "翻译", "托管"),
+    "freight": ("freight", "transport", "shipping", "cargo", "spedition", "fracht",
+                "flete", "envío", "frete", "pengiriman", "kirim", "ขนส่ง", "شحن",
+                "輸送", "貨物", "운송", "货运", "运输", "物流"),
+    "packaging": ("packaging", "corrugated", "carton", "verpackung", "empaque",
+                  "embalagem", "kemasan", "包装", "段ボール", "포장", "บรรจุภัณฑ์",
+                  "تغليف", "กล่อง"),
+}
+_GROUP_PREFERRED_UNITS: dict[str, tuple[str, ...]] = {
+    "paper": ("ream", "reams", "rim", "carton", "cartons", "box", "boxes", "cx", "dus"),
+    "services": ("hrs", "hours", "Std.", "h", "mo", "jam", "ชั่วโมง", "ساعة", "時間",
+                 "시간", "小时", "Pauschale", "flat"),
+    "freight": ("pallets", "pallet", "tarima", "منصة", "พาเลท", "托"),
+    "packaging": ("carton", "cartons", "box", "boxes", "cx", "dus", "pza", "un", "pcs"),
+}
 
 
 @dataclass
@@ -84,6 +115,7 @@ class CountrySpec:
     tax_label: str = "Tax"
     vendors: tuple[str, ...] = ()
     vendors_english: tuple[str, ...] = ()
+    vendors_fisica: tuple[str, ...] = ()       # person-name vendors (MX retention docs)
     customers: tuple[str, ...] = ()
     vendor_addresses: tuple[tuple[str, ...], ...] = ()
     customer_addresses: tuple[tuple[str, ...], ...] = ()
@@ -102,9 +134,10 @@ class CountrySpec:
     terms_en: str = "Payment within {days} days"
     tax_scenarios: dict = field(default_factory=dict)
     doc_plan: tuple[dict, ...] = ()
-    tax_id_gen: Callable | None = None         # rng -> (display, normalized)
+    tax_id_gen: Callable | None = None         # (rng, name) -> (display, normalized)
+    structural_tax_id: Callable | None = None  # name -> (display, normalized), #20
     invoice_no_gen: Callable | None = None     # (rng, date) -> str
-    date_render: Callable | None = None        # (date, lang_mode) -> str
+    date_render: Callable | None = None        # (date, lang_mode, digits) -> str
     iban_spec: tuple[str, int] | None = None   # (country code, BBAN length)
     bank_lines_gen: Callable | None = None     # rng -> [display-only bank lines]
     use_clabe: bool = False
@@ -112,6 +145,8 @@ class CountrySpec:
     tax_inclusive_note: str | None = None
     amount_words: str | None = None            # "rupees" | "cn_upper" | None
     qr: bool = False
+    numeric_dates: bool = False                # day/month rendered numerically (#6)
+    integral_amounts: bool = False             # whole-unit amounts (IDR practice, #4)
 
     def items_pool(self, lang_mode: str) -> tuple[str, ...]:
         if lang_mode == "english":
@@ -152,9 +187,12 @@ class MoneyDisplay:
         return f"{core} ({code})" if self.symbol_mode == "both" else core
 
 
-def _quant(value: Decimal, currency: str) -> Decimal:
-    return value.quantize(Decimal(1).scaleb(-money.MINOR_UNITS[currency]),
-                          rounding=ROUND_HALF_UP)
+def _quant(value: Decimal, currency: str, integral: bool = False) -> Decimal:
+    q = value.quantize(Decimal(1).scaleb(-money.MINOR_UNITS[currency]),
+                       rounding=ROUND_HALF_UP)
+    if integral:                              # whole-unit currencies (IDR practice)
+        q = q.quantize(Decimal(1), rounding=ROUND_HALF_UP)
+    return q
 
 
 def _fmt_qty(qty: Decimal) -> str:
@@ -209,6 +247,30 @@ def _localize(spec: CountrySpec, lang_mode: str) -> dict:
     return out
 
 
+def _generic_unit(spec: CountrySpec, lang_mode: str) -> str:
+    """The country's plain piece-unit, for descriptions with no special unit."""
+    for native, english in spec.units:
+        if english.casefold().rstrip(".") in _GENERIC_UNITS:
+            return english if lang_mode == "english" else native
+    native, english = spec.units[0]
+    return english if lang_mode == "english" else native
+
+
+def _unit_for(spec: CountrySpec, desc: str, lang_mode: str,
+              rng: random.Random) -> str | None:
+    """Pick a unit matching what the description sells, if the country has one."""
+    d = desc.casefold()
+    for group, keys in _UNIT_GROUPS.items():
+        if not any(k.casefold() in d for k in keys):
+            continue
+        preferred = _GROUP_PREFERRED_UNITS[group]
+        for native, english in spec.units:
+            if english.casefold() in preferred or native.casefold() in preferred:
+                return english if lang_mode == "english" else native
+        return None
+    return None
+
+
 # --------------------------------------------------------------------------- #
 # Tax application
 # --------------------------------------------------------------------------- #
@@ -216,12 +278,14 @@ def _localize(spec: CountrySpec, lang_mode: str) -> dict:
 def _apply_tax(spec: CountrySpec, rng: random.Random, md: MoneyDisplay, currency: str,
                items: list[dict], scenario: dict) -> tuple[Decimal, Decimal, Decimal, list[TaxLine], list[LineItem]]:
     """Apply a tax scenario. Mutates item dicts; returns (subtotal, tax_total,
-    total, tax display lines, LineItems). See module docstring for the invariants."""
+    total, tax display lines, LineItems). Withholding is applied by the caller
+    (DECISIONS.md #18). See module docstring for the invariants."""
     mode = scenario.get("mode", "exclusive")
     rates: list[Decimal] = scenario.get("rates", [Decimal("0")])
     if scenario.get("pick_one") and len(rates) > 1:
         rates = [rng.choice(rates)]      # e.g. one US state sales-tax rate per document
     mixed = bool(scenario.get("mixed")) and len(rates) > 1
+    integral = spec.integral_amounts
 
     line_items: list[LineItem] = []
     tax_by_rate: dict[str, Decimal] = {}
@@ -229,14 +293,14 @@ def _apply_tax(spec: CountrySpec, rng: random.Random, md: MoneyDisplay, currency
 
     for it in items:
         rate = rng.choice(rates) if mixed else rates[0]
-        gross = _quant(it["qty"] * it["price"], currency)
+        gross = _quant(it["qty"] * it["price"], currency, integral)
         if mode == "inclusive":
-            net = _quant(gross / (Q1 + rate / 100), currency)
+            net = _quant(gross / (Q1 + rate / 100), currency, integral)
             tax = gross - net
             amount = gross
         else:
             net = gross
-            tax = _quant(gross * rate / 100, currency)
+            tax = _quant(gross * rate / 100, currency, integral)
             amount = net
         it["rate"], it["net"], it["tax"], it["amount"] = rate, net, tax, amount
         rate_str = money.fmt_rate(rate)
@@ -269,7 +333,7 @@ def _apply_tax(spec: CountrySpec, rng: random.Random, md: MoneyDisplay, currency
         rate_decimal = rates[0]
         for prefix, _rs in scenario["split"]:
             half_rate = money.fmt_rate(rate_decimal / 2)
-            amount = _quant(subtotal * rate_decimal / 200, currency)
+            amount = _quant(subtotal * rate_decimal / 200, currency, integral)
             tax_lines.append(TaxLine(label=f"{prefix} {half_rate}%",
                                      amount_display=md.amount(amount), rate_str=half_rate))
     else:
@@ -281,20 +345,11 @@ def _apply_tax(spec: CountrySpec, rng: random.Random, md: MoneyDisplay, currency
                                      rate_str=rate_str))
 
     for label, rate in scenario.get("extra_lines", ()):  # e.g. Brazilian PIS/COFINS
-        amount = _quant(subtotal * rate / 100, currency)
+        amount = _quant(subtotal * rate / 100, currency, integral)
         tax_total += amount
         total += amount
         tax_lines.append(TaxLine(label=f"{label} {money.fmt_rate(rate)}%",
                                  amount_display=md.amount(amount),
-                                 rate_str=money.fmt_rate(rate)))
-
-    if scenario.get("retention"):  # e.g. Mexican Retención ISR
-        label, rate = scenario["retention"]
-        amount = _quant(subtotal * rate / 100, currency)
-        tax_total -= amount
-        total -= amount
-        tax_lines.append(TaxLine(label=f"{label} {money.fmt_rate(rate)}%",
-                                 amount_display="-" + md.amount(amount),
                                  rate_str=money.fmt_rate(rate)))
 
     return subtotal, tax_total, total, tax_lines, line_items
@@ -323,15 +378,22 @@ def build_invoice(spec: CountrySpec, rng: random.Random, doc_id: str, plan: dict
 
     labels = _localize(spec, lang_mode)
 
-    # --- parties ------------------------------------------------------------
-    if lang_mode == "english" and spec.vendors_english:
-        vendor_name = rng.choice(spec.vendors_english)
+    # --- parties (vendor identity: name and tax ID form one stable pair, #20) --
+    if plan.get("fisica") and spec.vendors_fisica:
+        vendor_name = rng.choice(spec.vendors_fisica)
+        canonical_vendor = vendor_name
     else:
-        vendor_name = rng.choice(spec.vendors)
+        pool = spec.vendors_english if (lang_mode == "english" and spec.vendors_english) \
+            else spec.vendors
+        vi = rng.randrange(len(pool))
+        vendor_name = pool[vi]
+        canonical_vendor = spec.vendors[vi] if vi < len(spec.vendors) else vendor_name
     vendor_address = list(rng.choice(spec.vendor_addresses))
     tax_id_display, tax_id_normalized = (None, None)
-    if spec.tax_id_gen:
-        tax_id_display, tax_id_normalized = spec.tax_id_gen(rng)
+    if spec.structural_tax_id:
+        tax_id_display, tax_id_normalized = spec.structural_tax_id(canonical_vendor)
+    elif spec.tax_id_gen:
+        tax_id_display, tax_id_normalized = spec.tax_id_gen(rng, canonical_vendor)
 
     if cross_border:
         ci = rng.randrange(len(FOREIGN_CUSTOMERS))
@@ -343,13 +405,14 @@ def build_invoice(spec: CountrySpec, rng: random.Random, doc_id: str, plan: dict
         customer_address = list(rng.choice(spec.customer_addresses))
         customer_tax_id_display = rng.choice(spec.customer_tax_ids) if spec.customer_tax_ids else None
 
-    # --- dates --------------------------------------------------------------
+    # --- dates (fapiao carries no due date -> null, DECISIONS.md #20) ----------
     invoice_date = _pick_date(rng, bool(plan.get("ambiguous_date")))
     due_days = rng.choice((14, 15, 30, 30, 45, 60))
-    due_date = invoice_date + timedelta(days=due_days)
+    due_date = (None if plan.get("template_style") == "fapiao"
+                else invoice_date + timedelta(days=due_days))
     date_render = spec.date_render or _default_date_render
     inv_date_display = date_render(invoice_date, lang_mode, digits)
-    due_date_display = date_render(due_date, lang_mode, digits)
+    due_date_display = date_render(due_date, lang_mode, digits) if due_date else None
 
     # --- items --------------------------------------------------------------
     n_items = rng.randint(18, 25) if plan.get("many_items") else rng.randint(1, 12)
@@ -365,16 +428,17 @@ def build_invoice(spec: CountrySpec, rng: random.Random, doc_id: str, plan: dict
     lo, hi = (spec.big_price_range or spec.price_range) if plan.get("big") else spec.price_range
     items: list[dict] = []
     for desc in chosen:
-        unit_native, unit_en = spec.unit_pair(rng, lang_mode)
-        unit = unit_en if lang_mode == "english" else unit_native
+        unit = _unit_for(spec, desc, lang_mode, rng) or _generic_unit(spec, lang_mode)
         base = rng.randrange(lo, hi)
         base -= base % spec.price_step
         price = Decimal(base)
-        if money.MINOR_UNITS[currency] == 2 and rng.random() < 0.35:
+        if (money.MINOR_UNITS[currency] == 2 and not spec.integral_amounts
+                and rng.random() < 0.35):
             price += Decimal(rng.randrange(5, 100)) / 100
         qty_int = rng.choice((1, 1, 2, 2, 3, 4, 5, 6, 8, 10, 12, 20))
         qty = Decimal(qty_int)
-        if unit in _TIME_UNITS and rng.random() < 0.3:
+        if (unit in _TIME_UNITS and not spec.integral_amounts
+                and rng.random() < 0.3):
             qty = Decimal(f"{qty_int}.5")
         items.append({"desc": desc, "unit": unit, "qty": qty, "price": price})
 
@@ -382,20 +446,45 @@ def build_invoice(spec: CountrySpec, rng: random.Random, doc_id: str, plan: dict
     subtotal, tax_total, total, tax_lines, line_items = _apply_tax(
         spec, rng, md, currency, items, scenario)
 
-    # --- payment ------------------------------------------------------------
+    # --- withholding: buyer-side retention, separate from charged tax (#18) ---
+    withholding_total = None
+    withholding_lines: list[TaxLine] = []
+    if scenario.get("withholding") is not None:
+        isr_rate = scenario["withholding"]              # e.g. ISR 10%
+        charged_rate = scenario["rates"][0]             # e.g. IVA 16%
+        isr_amt = _quant(subtotal * isr_rate / 100, currency, spec.integral_amounts)
+        iva_ret_amt = _quant(subtotal * charged_rate * 2 / 300, currency,
+                             spec.integral_amounts)      # 2/3 of IVA charged
+        withholding_total = isr_amt + iva_ret_amt
+        total -= withholding_total
+        withholding_lines = [
+            TaxLine(label=f"ISR retenida ({money.fmt_rate(isr_rate)}%)",
+                    amount_display="-" + md.amount(isr_amt), rate_str=None),
+            TaxLine(label="IVA retenida (2/3)",
+                    amount_display="-" + md.amount(iva_ret_amt), rate_str=None),
+        ]
+
+    # --- payment (#19: printed-but-unnormalizable details unscore, absent stays
+    #     scored-null) --------------------------------------------------------
     payment_account = None
     account_display = None
     bank_lines: list[str] = []
+    printed_payment_details = False
     if plan.get("show_account", True):
         if spec.iban_spec and rng.random() < 0.85:
             cc, bban_len = spec.iban_spec
             payment_account = idgen.make_iban(rng, cc, bban_len)
             account_display = idgen.iban_display(payment_account)
+            printed_payment_details = True
         elif spec.use_clabe and rng.random() < 0.7:
             payment_account = idgen.make_clabe(rng)
             account_display = payment_account
+            printed_payment_details = True
         elif spec.bank_lines_gen:
             bank_lines = spec.bank_lines_gen(rng)
+            printed_payment_details = True
+    unscored_fields = (["payment_account"]
+                       if printed_payment_details and payment_account is None else [])
 
     # --- notes / extras -----------------------------------------------------
     notes: list[str] = []
@@ -421,7 +510,7 @@ def build_invoice(spec: CountrySpec, rng: random.Random, doc_id: str, plan: dict
             "seller": vendor_name, "vat": tax_id_normalized,
             "date": invoice_date.isoformat(),
             "total": money.to_minor_string(total, currency),
-            "vat": money.to_minor_string(tax_total, currency),
+            "vat_amt": money.to_minor_string(tax_total, currency),
         })
 
     # --- totals display -----------------------------------------------------
@@ -447,7 +536,8 @@ def build_invoice(spec: CountrySpec, rng: random.Random, doc_id: str, plan: dict
     # Keep the printed invoice number identical to the one stored.
     invoice_number = rendered["invoice_number"]
     rendered["invoice_date"] = inv_date_display
-    rendered["due_date"] = due_date_display
+    if due_date_display:
+        rendered["due_date"] = due_date_display
     if subtotal_rows:
         rendered["subtotal"] = subtotal_rows[0][1]
     if len(tax_lines) == 1:
@@ -467,6 +557,11 @@ def build_invoice(spec: CountrySpec, rng: random.Random, doc_id: str, plan: dict
         "cross_border": cross_border,
         "language_mode": lang_mode,
         "template": f"{spec.code.lower()}_{plan.get('layout', 'a')}",
+        "withholding": withholding_total is not None,
+        # numeric day/month forms with day ≤ 12 and day ≠ month are genuinely
+        # ambiguous DD/MM vs MM/DD (handoff item 6)
+        "ambiguous_date": (bool(plan.get("ambiguous_date")) and spec.numeric_dates
+                           and invoice_date.day != invoice_date.month),
     }
 
     return Invoice(
@@ -484,6 +579,9 @@ def build_invoice(spec: CountrySpec, rng: random.Random, doc_id: str, plan: dict
         total_display=md.money(total), items=line_items,
         subtotal=subtotal, tax_total=tax_total, total=total,
         payment_account=payment_account, payment_terms_display=terms,
+        account_display=account_display,
+        withholding_total=withholding_total, withholding_lines=withholding_lines,
+        unscored_fields=unscored_fields,
         bank_lines=bank_lines, notes=notes, rendered_strings=rendered,
         dual_currency_line=dual_currency_line, amount_in_words=amount_in_words,
         words_label=words_label, qr_payload=qr_payload, logo_svg=logo, logo_hue=hue,
@@ -491,5 +589,4 @@ def build_invoice(spec: CountrySpec, rng: random.Random, doc_id: str, plan: dict
         layout=plan.get("layout", "a"), page_size=spec.page_size,
         direction=spec.direction,
         font_stack_css=", ".join(f"'{f}'" for f in spec.font_stack) + ", sans-serif",
-        account_display=account_display,
     )

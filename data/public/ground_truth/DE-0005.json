@@ -14,56 +14,60 @@
     "tax_mode": "reverse_charge",
     "cross_border": true,
     "language_mode": "english",
-    "template": "de_a"
+    "template": "de_a",
+    "withholding": false,
+    "ambiguous_date": false
   },
   "fields": {
     "vendor_name": "Schwarzwald Elektro GmbH",
     "vendor_tax_id": "DE429139104",
-    "invoice_number": "RE-2026-8151",
+    "invoice_number": "RE-2026-4793",
     "invoice_date": "2026-02-16",
     "due_date": "2026-04-02",
     "currency": "EUR",
-    "subtotal": "3393.40",
+    "subtotal": "6716.30",
     "tax_total": "0.00",
-    "total": "3393.40",
+    "withholding_total": null,
+    "total": "6716.30",
     "tax_rates": [
       "0"
     ],
-    "payment_account": "DE18610555185927647610",
+    "payment_account": "DE28100026105551859276",
     "line_item_count": 3
   },
+  "unscored_fields": [],
   "line_items": [
     {
       "description": "IT support hours, remote",
-      "quantity": "3",
-      "unit": "Pauschale",
-      "unit_price": "288.00",
-      "amount": "864.00",
+      "quantity": "4.5",
+      "unit": "hrs",
+      "unit_price": "850.00",
+      "amount": "3825.00",
       "tax_rate": "0"
     },
     {
       "description": "Software license — annual subscription, 5 seats",
-      "quantity": "10",
-      "unit": "Stk.",
-      "unit_price": "231.83",
-      "amount": "2318.30",
+      "quantity": "1",
+      "unit": "pcs",
+      "unit_price": "573.00",
+      "amount": "573.00",
       "tax_rate": "0"
     },
     {
       "description": "Freight Hamburg → Munich, 2 pallets",
-      "quantity": "1",
-      "unit": "Pauschale",
-      "unit_price": "211.10",
-      "amount": "211.10",
+      "quantity": "10",
+      "unit": "pcs",
+      "unit_price": "231.83",
+      "amount": "2318.30",
       "tax_rate": "0"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "RE-2026-8151",
+    "invoice_number": "RE-2026-4793",
     "invoice_date": "16.02.2026",
     "due_date": "02.04.2026",
-    "subtotal": "3.393,40 EUR",
+    "subtotal": "6.716,30 EUR",
     "tax_total": "0,00",
-    "total": "3.393,40 EUR"
+    "total": "6.716,30 EUR"
   }
 }

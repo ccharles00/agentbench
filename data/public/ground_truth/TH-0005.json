@@ -14,56 +14,60 @@
     "tax_mode": "exclusive",
     "cross_border": true,
     "language_mode": "english",
-    "template": "th_a"
+    "template": "th_a",
+    "withholding": false,
+    "ambiguous_date": false
   },
   "fields": {
     "vendor_name": "Bangkok Logistics Co., Ltd.",
     "vendor_tax_id": "6339056523597",
-    "invoice_number": "INV-2568-9635",
+    "invoice_number": "INV-2568-4694",
     "invoice_date": "2025-07-23",
     "due_date": "2025-09-21",
     "currency": "USD",
-    "subtotal": "256851.55",
-    "tax_total": "17979.61",
-    "total": "274831.16",
+    "subtotal": "154604.00",
+    "tax_total": "10822.28",
+    "withholding_total": null,
+    "total": "165426.28",
     "tax_rates": [
       "7"
     ],
     "payment_account": null,
     "line_item_count": 3
   },
+  "unscored_fields": [],
   "line_items": [
     {
       "description": "Freight Bangkok → Phuket, 2 pallets",
-      "quantity": "20",
-      "unit": "รีม",
-      "unit_price": "10035.42",
-      "amount": "200708.40",
+      "quantity": "10",
+      "unit": "pallets",
+      "unit_price": "4542.00",
+      "amount": "45420.00",
       "tax_rate": "7"
     },
     {
       "description": "Accounting services — monthly",
-      "quantity": "1",
-      "unit": "พาเลท",
-      "unit_price": "1564.00",
-      "amount": "1564.00",
+      "quantity": "20",
+      "unit": "hours",
+      "unit_price": "5381.00",
+      "amount": "107620.00",
       "tax_rate": "7"
     },
     {
       "description": "Software license — annual",
-      "quantity": "5",
-      "unit": "ชิ้น",
-      "unit_price": "10915.83",
-      "amount": "54579.15",
+      "quantity": "1",
+      "unit": "pcs",
+      "unit_price": "1564.00",
+      "amount": "1564.00",
       "tax_rate": "7"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "INV-2568-9635",
+    "invoice_number": "INV-2568-4694",
     "invoice_date": "23 Jul 2025",
     "due_date": "21 Sep 2025",
-    "subtotal": "USD 256,851.55",
-    "tax_total": "17,979.61",
-    "total": "USD 274,831.16"
+    "subtotal": "USD 154,604.00",
+    "tax_total": "10,822.28",
+    "total": "USD 165,426.28"
   }
 }

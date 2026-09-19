@@ -14,128 +14,132 @@
     "tax_mode": "exclusive",
     "cross_border": true,
     "language_mode": "english",
-    "template": "br_b"
+    "template": "br_b",
+    "withholding": false,
+    "ambiguous_date": false
   },
   "fields": {
     "vendor_name": "Rio Informática Ltda.",
     "vendor_tax_id": "47890532000105",
-    "invoice_number": "NF-e nº 152445",
+    "invoice_number": "NF-e nº 109493",
     "invoice_date": "2026-11-12",
     "due_date": "2026-12-12",
     "currency": "USD",
-    "subtotal": "83082.05",
-    "tax_total": "14954.77",
-    "total": "98036.82",
+    "subtotal": "99611.14",
+    "tax_total": "11953.33",
+    "withholding_total": null,
+    "total": "111564.47",
     "tax_rates": [
-      "18"
+      "12"
     ],
     "payment_account": null,
     "line_item_count": 12
   },
+  "unscored_fields": [],
   "line_items": [
     {
       "description": "Cardboard boxes, size 4 (500 pcs)",
       "quantity": "6",
-      "unit": "cx",
-      "unit_price": "2161.00",
-      "amount": "12966.00",
-      "tax_rate": "18"
+      "unit": "pcs",
+      "unit_price": "1202.00",
+      "amount": "7212.00",
+      "tax_rate": "12"
     },
     {
       "description": "Office chairs, mesh, ergonomic",
       "quantity": "2",
-      "unit": "cx",
-      "unit_price": "543.00",
-      "amount": "1086.00",
-      "tax_rate": "18"
+      "unit": "pcs",
+      "unit_price": "1248.88",
+      "amount": "2497.76",
+      "tax_rate": "12"
     },
     {
       "description": "Accounting services — monthly",
-      "quantity": "20",
-      "unit": "cx",
-      "unit_price": "1901.00",
-      "amount": "38020.00",
-      "tax_rate": "18"
+      "quantity": "12.5",
+      "unit": "hrs",
+      "unit_price": "1218.00",
+      "amount": "15225.00",
+      "tax_rate": "12"
     },
     {
       "description": "Software license — annual",
-      "quantity": "4",
-      "unit": "h",
-      "unit_price": "388.00",
-      "amount": "1552.00",
-      "tax_rate": "18"
+      "quantity": "20",
+      "unit": "pcs",
+      "unit_price": "2300.16",
+      "amount": "46003.20",
+      "tax_rate": "12"
     },
     {
       "description": "Monthly maintenance — servers and network",
-      "quantity": "1",
-      "unit": "un",
-      "unit_price": "1182.00",
-      "amount": "1182.00",
-      "tax_rate": "18"
-    },
-    {
-      "description": "Freight São Paulo → Rio de Janeiro, 2 pallets",
-      "quantity": "2",
-      "unit": "cx",
-      "unit_price": "716.00",
-      "amount": "1432.00",
-      "tax_rate": "18"
-    },
-    {
-      "description": "Office chairs, mesh, ergonomic",
-      "quantity": "2",
-      "unit": "h",
-      "unit_price": "2216.00",
-      "amount": "4432.00",
-      "tax_rate": "18"
+      "quantity": "1.5",
+      "unit": "hrs",
+      "unit_price": "37.00",
+      "amount": "55.50",
+      "tax_rate": "12"
     },
     {
       "description": "Freight São Paulo → Rio de Janeiro, 2 pallets",
       "quantity": "4",
-      "unit": "un",
-      "unit_price": "2273.83",
-      "amount": "9095.32",
-      "tax_rate": "18"
-    },
-    {
-      "description": "Office chairs, mesh, ergonomic",
-      "quantity": "3",
-      "unit": "un",
-      "unit_price": "2066.37",
-      "amount": "6199.11",
-      "tax_rate": "18"
-    },
-    {
-      "description": "Accounting services — monthly",
-      "quantity": "3",
-      "unit": "palete",
-      "unit_price": "622.54",
-      "amount": "1867.62",
-      "tax_rate": "18"
-    },
-    {
-      "description": "Cardboard boxes, size 4 (500 pcs)",
-      "quantity": "5",
-      "unit": "un",
-      "unit_price": "620.00",
-      "amount": "3100.00",
-      "tax_rate": "18"
+      "unit": "pallets",
+      "unit_price": "48.00",
+      "amount": "192.00",
+      "tax_rate": "12"
     },
     {
       "description": "Office chairs, mesh, ergonomic",
       "quantity": "2",
-      "unit": "un",
-      "unit_price": "1075.00",
-      "amount": "2150.00",
-      "tax_rate": "18"
+      "unit": "pcs",
+      "unit_price": "716.00",
+      "amount": "1432.00",
+      "tax_rate": "12"
+    },
+    {
+      "description": "Freight São Paulo → Rio de Janeiro, 2 pallets",
+      "quantity": "1",
+      "unit": "pallets",
+      "unit_price": "957.00",
+      "amount": "957.00",
+      "tax_rate": "12"
+    },
+    {
+      "description": "Office chairs, mesh, ergonomic",
+      "quantity": "1",
+      "unit": "pcs",
+      "unit_price": "579.00",
+      "amount": "579.00",
+      "tax_rate": "12"
+    },
+    {
+      "description": "Accounting services — monthly",
+      "quantity": "4",
+      "unit": "hrs",
+      "unit_price": "2273.83",
+      "amount": "9095.32",
+      "tax_rate": "12"
+    },
+    {
+      "description": "Cardboard boxes, size 4 (500 pcs)",
+      "quantity": "3",
+      "unit": "pcs",
+      "unit_price": "2066.37",
+      "amount": "6199.11",
+      "tax_rate": "12"
+    },
+    {
+      "description": "Office chairs, mesh, ergonomic",
+      "quantity": "5",
+      "unit": "pcs",
+      "unit_price": "2032.65",
+      "amount": "10163.25",
+      "tax_rate": "12"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "NF-e nº 152445",
+    "invoice_number": "NF-e nº 109493",
     "invoice_date": "12/11/2026",
     "due_date": "12/12/2026",
-    "subtotal": "USD 83.082,05",
-    "tax_total": "14.954,77",
-    "total": "USD 98.036,82"
+    "subtotal": "USD 99.611,14",
+    "tax_total": "11.953,33",
+    "total": "USD 111.564,47"
   }
 }

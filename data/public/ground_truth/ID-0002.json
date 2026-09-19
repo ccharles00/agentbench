@@ -14,56 +14,60 @@
     "tax_mode": "exclusive",
     "cross_border": false,
     "language_mode": "native",
-    "template": "id_b"
+    "template": "id_b",
+    "withholding": false,
+    "ambiguous_date": false
   },
   "fields": {
     "vendor_name": "PT Nusantara Elektronik",
     "vendor_tax_id": "794882139024336",
-    "invoice_number": "INV/2026/XII/6573",
+    "invoice_number": "INV/2026/XII/0072",
     "invoice_date": "2026-12-25",
     "due_date": "2027-02-23",
     "currency": "IDR",
-    "subtotal": "16206500.00",
-    "tax_total": "1782715.00",
-    "total": "17989215.00",
+    "subtotal": "59732000.00",
+    "tax_total": "6570520.00",
+    "withholding_total": null,
+    "total": "66302520.00",
     "tax_rates": [
       "11"
     ],
     "payment_account": null,
     "line_item_count": 3
   },
+  "unscored_fields": [],
   "line_items": [
     {
       "description": "Switch jaringan 24 port",
-      "quantity": "3",
-      "unit": "jam",
-      "unit_price": "2255500.00",
-      "amount": "6766500.00",
+      "quantity": "10",
+      "unit": "pcs",
+      "unit_price": "3137000.00",
+      "amount": "31370000.00",
       "tax_rate": "11"
     },
     {
       "description": "Lisensi perangkat lunak — tahunan",
-      "quantity": "8",
+      "quantity": "12",
       "unit": "pcs",
-      "unit_price": "338500.00",
-      "amount": "2708000.00",
+      "unit_price": "2255500.00",
+      "amount": "27066000.00",
       "tax_rate": "11"
     },
     {
       "description": "Kursi kantor, jaring, ergonomis",
-      "quantity": "2",
-      "unit": "rim",
-      "unit_price": "3366000.00",
-      "amount": "6732000.00",
+      "quantity": "3",
+      "unit": "pcs",
+      "unit_price": "432000.00",
+      "amount": "1296000.00",
       "tax_rate": "11"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "INV/2026/XII/6573",
+    "invoice_number": "INV/2026/XII/0072",
     "invoice_date": "25/12/2026",
     "due_date": "23/02/2027",
-    "subtotal": "Rp16.206.500,00 (IDR)",
-    "tax_total": "1.782.715,00",
-    "total": "Rp17.989.215,00 (IDR)"
+    "subtotal": "Rp59.732.000,00 (IDR)",
+    "tax_total": "6.570.520,00",
+    "total": "Rp66.302.520,00 (IDR)"
   }
 }

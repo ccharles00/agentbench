@@ -14,104 +14,110 @@
     "tax_mode": "exclusive",
     "cross_border": false,
     "language_mode": "native",
-    "template": "us_c"
+    "template": "us_c",
+    "withholding": false,
+    "ambiguous_date": true
   },
   "fields": {
     "vendor_name": "Blue Ridge Software LLC",
     "vendor_tax_id": "536132388",
-    "invoice_number": "INV-2026-9842",
+    "invoice_number": "SI-202606-249",
     "invoice_date": "2026-06-08",
     "due_date": "2026-07-08",
     "currency": "USD",
-    "subtotal": "21522.60",
-    "tax_total": "1775.61",
-    "total": "23298.21",
+    "subtotal": "20074.77",
+    "tax_total": "1455.43",
+    "withholding_total": null,
+    "total": "21530.20",
     "tax_rates": [
-      "8.25"
+      "7.25"
     ],
     "payment_account": null,
     "line_item_count": 9
   },
+  "unscored_fields": [
+    "payment_account"
+  ],
   "line_items": [
     {
       "description": "Translation services — EN to ES, 24 pages, certified",
       "quantity": "20",
-      "unit": "pcs",
-      "unit_price": "422.00",
-      "amount": "8440.00",
-      "tax_rate": "8.25"
+      "unit": "hrs",
+      "unit_price": "59.00",
+      "amount": "1180.00",
+      "tax_rate": "7.25"
     },
     {
       "description": "Custom rack enclosure, 42U, with cable management and thermal kit",
-      "quantity": "8",
-      "unit": "hrs",
-      "unit_price": "598.00",
-      "amount": "4784.00",
-      "tax_rate": "8.25"
+      "quantity": "10",
+      "unit": "pcs",
+      "unit_price": "689.00",
+      "amount": "6890.00",
+      "tax_rate": "7.25"
     },
     {
       "description": "Monthly retainer — analytics dashboard maintenance and support",
-      "quantity": "6",
-      "unit": "mo",
-      "unit_price": "262.00",
-      "amount": "1572.00",
-      "tax_rate": "8.25"
+      "quantity": "8.5",
+      "unit": "hrs",
+      "unit_price": "776.00",
+      "amount": "6596.00",
+      "tax_rate": "7.25"
     },
     {
       "description": "Software license — annual subscription, 25 seats",
-      "quantity": "8",
-      "unit": "ea",
-      "unit_price": "153.64",
-      "amount": "1229.12",
-      "tax_rate": "8.25"
+      "quantity": "2",
+      "unit": "pcs",
+      "unit_price": "511.66",
+      "amount": "1023.32",
+      "tax_rate": "7.25"
     },
     {
       "description": "Catering — board meeting, 12 people, full service",
-      "quantity": "4",
-      "unit": "ea",
-      "unit_price": "749.00",
-      "amount": "2996.00",
-      "tax_rate": "8.25"
+      "quantity": "8.5",
+      "unit": "hrs",
+      "unit_price": "153.64",
+      "amount": "1305.94",
+      "tax_rate": "7.25"
     },
     {
       "description": "Cloud hosting — compute and storage, monthly",
+      "quantity": "1",
+      "unit": "pcs",
+      "unit_price": "541.46",
+      "amount": "541.46",
+      "tax_rate": "7.25"
+    },
+    {
+      "description": "Warehouse storage — Q3, climate-controlled",
       "quantity": "5",
       "unit": "pcs",
       "unit_price": "58.21",
       "amount": "291.05",
-      "tax_rate": "8.25"
-    },
-    {
-      "description": "Warehouse storage — Q3, climate-controlled",
-      "quantity": "1",
-      "unit": "hrs",
-      "unit_price": "238.43",
-      "amount": "238.43",
-      "tax_rate": "8.25"
+      "tax_rate": "7.25"
     },
     {
       "description": "Freight — Seattle to Denver, 2 pallets, liftgate delivery",
-      "quantity": "4",
+      "quantity": "2",
       "unit": "pcs",
-      "unit_price": "288.00",
-      "amount": "1152.00",
-      "tax_rate": "8.25"
+      "unit_price": "867.00",
+      "amount": "1734.00",
+      "tax_rate": "7.25"
     },
     {
       "description": "Office chair, ergonomic mesh, adjustable arms",
-      "quantity": "20",
-      "unit": "mo",
-      "unit_price": "41.00",
-      "amount": "820.00",
-      "tax_rate": "8.25"
+      "quantity": "3",
+      "unit": "pcs",
+      "unit_price": "171.00",
+      "amount": "513.00",
+      "tax_rate": "7.25"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "INV-2026-9842",
+    "invoice_number": "SI-202606-249",
     "invoice_date": "06/08/2026",
     "due_date": "07/08/2026",
-    "subtotal": "$21,522.60",
-    "tax_total": "1,775.61",
-    "total": "$23,298.21"
+    "subtotal": "$20,074.77",
+    "tax_total": "1,455.43",
+    "total": "$21,530.20"
   }
 }

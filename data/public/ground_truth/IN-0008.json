@@ -14,48 +14,76 @@
     "tax_mode": "exclusive",
     "cross_border": true,
     "language_mode": "english",
-    "template": "in_b"
+    "template": "in_b",
+    "withholding": false,
+    "ambiguous_date": false
   },
   "fields": {
     "vendor_name": "Chennai Foods Pvt. Ltd.",
-    "vendor_tax_id": "29NKJLQ4569M5ZF",
-    "invoice_number": "TAX/25/26/036",
-    "invoice_date": "2025-12-17",
-    "due_date": "2025-12-31",
+    "vendor_tax_id": "24SWDPL9121V6Z8",
+    "invoice_number": "TAX/26/27/036",
+    "invoice_date": "2026-05-11",
+    "due_date": "2026-06-10",
     "currency": "INR",
-    "subtotal": "68430.00",
-    "tax_total": "12317.40",
-    "total": "80747.40",
+    "subtotal": "328980.50",
+    "tax_total": "59216.49",
+    "withholding_total": null,
+    "total": "388196.99",
     "tax_rates": [
       "18"
     ],
     "payment_account": null,
-    "line_item_count": 2
+    "line_item_count": 5
   },
+  "unscored_fields": [],
   "line_items": [
     {
-      "description": "IT annual maintenance — 40 workstations",
-      "quantity": "3",
-      "unit": "kg",
-      "unit_price": "22490.00",
-      "amount": "67470.00",
+      "description": "Freight: Mumbai → Delhi, 3 pallets",
+      "quantity": "2",
+      "unit": "pcs",
+      "unit_price": "5320.00",
+      "amount": "10640.00",
       "tax_rate": "18"
     },
     {
       "description": "Software subscription — annual, cloud hosted",
+      "quantity": "1",
+      "unit": "pcs",
+      "unit_price": "24860.00",
+      "amount": "24860.00",
+      "tax_rate": "18"
+    },
+    {
+      "description": "Export packing and documentation services",
+      "quantity": "2",
+      "unit": "hrs",
+      "unit_price": "2520.00",
+      "amount": "5040.00",
+      "tax_rate": "18"
+    },
+    {
+      "description": "Office chairs, mesh, ergonomic",
       "quantity": "12",
       "unit": "pcs",
-      "unit_price": "80.00",
-      "amount": "960.00",
+      "unit_price": "16570.00",
+      "amount": "198840.00",
+      "tax_rate": "18"
+    },
+    {
+      "description": "IT annual maintenance — 40 workstations",
+      "quantity": "10",
+      "unit": "hrs",
+      "unit_price": "8960.05",
+      "amount": "89600.50",
       "tax_rate": "18"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "TAX/25/26/036",
-    "invoice_date": "17/12/2025",
-    "due_date": "31/12/2025",
-    "subtotal": "INR 68,430.00",
-    "tax_total": "12,317.40",
-    "total": "INR 80,747.40"
+    "invoice_number": "TAX/26/27/036",
+    "invoice_date": "11/05/2026",
+    "due_date": "10/06/2026",
+    "subtotal": "INR 3,28,980.50",
+    "tax_total": "59,216.49",
+    "total": "INR 3,88,196.99"
   }
 }

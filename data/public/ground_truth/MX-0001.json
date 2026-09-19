@@ -14,48 +14,60 @@
     "tax_mode": "exclusive",
     "cross_border": false,
     "language_mode": "native",
-    "template": "mx_a"
+    "template": "mx_a",
+    "withholding": false,
+    "ambiguous_date": false
   },
   "fields": {
     "vendor_name": "Papelería Industrial Guadalajara S.A.",
-    "vendor_tax_id": "FLS782550QJ7",
-    "invoice_number": "FOLIO-7530",
-    "invoice_date": "2025-12-16",
-    "due_date": "2026-01-15",
+    "vendor_tax_id": "PAP2311107NF",
+    "invoice_number": "FOLIO-5683",
+    "invoice_date": "2026-12-16",
+    "due_date": "2027-01-30",
     "currency": "MXN",
-    "subtotal": "32008.00",
-    "tax_total": "5121.28",
-    "total": "37129.28",
+    "subtotal": "32050.00",
+    "tax_total": "5128.00",
+    "withholding_total": null,
+    "total": "37178.00",
     "tax_rates": [
       "16"
     ],
-    "payment_account": null,
-    "line_item_count": 2
+    "payment_account": "012155456276210946",
+    "line_item_count": 3
   },
+  "unscored_fields": [],
   "line_items": [
     {
-      "description": "Flete: CDMX → Monterrey, 2 tarimas",
-      "quantity": "4",
-      "unit": "h",
-      "unit_price": "782.00",
-      "amount": "3128.00",
+      "description": "Servicios de contabilidad — mensual",
+      "quantity": "8",
+      "unit": "pza",
+      "unit_price": "3427.50",
+      "amount": "27420.00",
       "tax_rate": "16"
     },
     {
-      "description": "Mantenimiento mensual — servidores y red, soporte remoto incluido",
-      "quantity": "5",
+      "description": "Suministros de papelería — paquete anual",
+      "quantity": "6",
       "unit": "caja",
-      "unit_price": "5776.00",
-      "amount": "28880.00",
+      "unit_price": "584.00",
+      "amount": "3504.00",
+      "tax_rate": "16"
+    },
+    {
+      "description": "Silla de oficina, malla, ergonómica",
+      "quantity": "2",
+      "unit": "pza",
+      "unit_price": "563.00",
+      "amount": "1126.00",
       "tax_rate": "16"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "FOLIO-7530",
-    "invoice_date": "16/12/2025",
-    "due_date": "15/01/2026",
-    "subtotal": "$32,008.00",
-    "tax_total": "5,121.28",
-    "total": "$37,129.28"
+    "invoice_number": "FOLIO-5683",
+    "invoice_date": "16/12/2026",
+    "due_date": "30/01/2027",
+    "subtotal": "$32,050.00",
+    "tax_total": "5,128.00",
+    "total": "$37,178.00"
   }
 }

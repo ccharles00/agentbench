@@ -16,104 +16,108 @@
     "tax_mode": "exclusive",
     "cross_border": false,
     "language_mode": "bilingual",
-    "template": "sa_b"
+    "template": "sa_b",
+    "withholding": false,
+    "ambiguous_date": false
   },
   "fields": {
     "vendor_name": "شركة الرياض للتجارة المحدودة",
     "vendor_tax_id": "304131840822090",
-    "invoice_number": "INV-2025-6418",
+    "invoice_number": "INV-2025-8351",
     "invoice_date": "2025-08-20",
     "due_date": "2025-09-04",
     "currency": "SAR",
-    "subtotal": "110962.32",
-    "tax_total": "16644.35",
-    "total": "127606.67",
+    "subtotal": "62017.56",
+    "tax_total": "9302.64",
+    "withholding_total": null,
+    "total": "71320.20",
     "tax_rates": [
       "15"
     ],
-    "payment_account": null,
+    "payment_account": "SA056919960342588696086823",
     "line_item_count": 9
   },
+  "unscored_fields": [],
   "line_items": [
     {
       "description": "Software license — annual",
-      "quantity": "2",
-      "unit": "كرتون",
-      "unit_price": "3093.00",
-      "amount": "6186.00",
+      "quantity": "3",
+      "unit": "حبة",
+      "unit_price": "1493.00",
+      "amount": "4479.00",
       "tax_rate": "15"
     },
     {
       "description": "Office chairs, mesh, ergonomic",
-      "quantity": "2",
-      "unit": "كرتون",
-      "unit_price": "350.00",
-      "amount": "700.00",
+      "quantity": "1",
+      "unit": "حبة",
+      "unit_price": "681.00",
+      "amount": "681.00",
       "tax_rate": "15"
     },
     {
       "description": "كرسي مكتبي، شبكي، مريح",
-      "quantity": "5",
-      "unit": "منصة",
-      "unit_price": "2417.00",
-      "amount": "12085.00",
+      "quantity": "10",
+      "unit": "حبة",
+      "unit_price": "2325.60",
+      "amount": "23256.00",
       "tax_rate": "15"
     },
     {
       "description": "Freight Riyadh → Jeddah, 2 pallets",
-      "quantity": "6",
-      "unit": "ساعة",
-      "unit_price": "1270.22",
-      "amount": "7621.32",
+      "quantity": "3",
+      "unit": "منصة",
+      "unit_price": "3119.24",
+      "amount": "9357.72",
       "tax_rate": "15"
     },
     {
       "description": "مواد تغليف — صناديق كرتون (500 حبة)",
-      "quantity": "12",
+      "quantity": "6",
       "unit": "حبة",
-      "unit_price": "2685.00",
-      "amount": "32220.00",
+      "unit_price": "911.00",
+      "amount": "5466.00",
       "tax_rate": "15"
     },
     {
       "description": "صيانة شهرية — خوادم و شبكة، دعم عن بعد مشمول",
-      "quantity": "12",
-      "unit": "حبة",
-      "unit_price": "193.00",
-      "amount": "2316.00",
+      "quantity": "1",
+      "unit": "ساعة",
+      "unit_price": "1340.84",
+      "amount": "1340.84",
       "tax_rate": "15"
     },
     {
       "description": "Accounting services — monthly",
+      "quantity": "1",
+      "unit": "ساعة",
+      "unit_price": "2573.00",
+      "amount": "2573.00",
+      "tax_rate": "15"
+    },
+    {
+      "description": "نقل البضائع: الرياض → جدة، 2 منصات",
+      "quantity": "3",
+      "unit": "حبة",
+      "unit_price": "2840.00",
+      "amount": "8520.00",
+      "tax_rate": "15"
+    },
+    {
+      "description": "ورق A4 (كرتون 10 رزم)",
       "quantity": "2",
       "unit": "كرتون",
       "unit_price": "3172.00",
       "amount": "6344.00",
       "tax_rate": "15"
-    },
-    {
-      "description": "نقل البضائع: الرياض → جدة، 2 منصات",
-      "quantity": "10",
-      "unit": "حبة",
-      "unit_price": "1589.00",
-      "amount": "15890.00",
-      "tax_rate": "15"
-    },
-    {
-      "description": "ورق A4 (كرتون 10 رزم)",
-      "quantity": "10",
-      "unit": "حبة",
-      "unit_price": "2760.00",
-      "amount": "27600.00",
-      "tax_rate": "15"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "INV-2025-6418",
+    "invoice_number": "INV-2025-8351",
     "invoice_date": "٢٠/٠٨/٢٠٢٥",
     "due_date": "٠٤/٠٩/٢٠٢٥",
-    "subtotal": "١١٠,٩٦٢.٣٢ ر.س",
-    "tax_total": "١٦,٦٤٤.٣٥",
-    "total": "١٢٧,٦٠٦.٦٧ ر.س"
+    "subtotal": "٦٢,٠١٧.٥٦ ر.س",
+    "tax_total": "٩,٣٠٢.٦٤",
+    "total": "٧١,٣٢٠.٢٠ ر.س"
   }
 }

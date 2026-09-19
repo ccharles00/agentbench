@@ -14,80 +14,76 @@
     "tax_mode": "exclusive",
     "cross_border": false,
     "language_mode": "native",
-    "template": "mx_b"
+    "template": "mx_b",
+    "withholding": false,
+    "ambiguous_date": false
   },
   "fields": {
     "vendor_name": "Distribuidora del Norte S.A. de C.V.",
-    "vendor_tax_id": "KFD924572KZ4",
-    "invoice_number": "FOLIO-0470",
-    "invoice_date": "2026-07-19",
-    "due_date": "2026-08-18",
+    "vendor_tax_id": "DST150217C8N",
+    "invoice_number": "FOLIO-5804",
+    "invoice_date": "2025-10-05",
+    "due_date": "2025-12-04",
     "currency": "MXN",
-    "subtotal": "167186.20",
-    "tax_total": "26749.79",
-    "total": "193935.99",
+    "subtotal": "143733.50",
+    "tax_total": "22997.36",
+    "withholding_total": null,
+    "total": "166730.86",
     "tax_rates": [
       "16"
     ],
-    "payment_account": "021427985062853396",
-    "line_item_count": 6
+    "payment_account": "012516984492613797",
+    "line_item_count": 5
   },
+  "unscored_fields": [],
   "line_items": [
     {
-      "description": "Mantenimiento mensual — servidores y red, soporte remoto incluido",
-      "quantity": "1",
-      "unit": "tarima",
-      "unit_price": "703.00",
-      "amount": "703.00",
-      "tax_rate": "16"
-    },
-    {
-      "description": "Equipo de cómputo, laptop i5, 16GB RAM",
-      "quantity": "4",
-      "unit": "pza",
-      "unit_price": "7897.00",
-      "amount": "31588.00",
-      "tax_rate": "16"
-    },
-    {
       "description": "Servicios de contabilidad — mensual",
-      "quantity": "10",
+      "quantity": "20",
       "unit": "pza",
-      "unit_price": "5471.00",
-      "amount": "54710.00",
+      "unit_price": "2342.00",
+      "amount": "46840.00",
       "tax_rate": "16"
     },
     {
       "description": "Catering corporativo — 20 personas",
-      "quantity": "12",
-      "unit": "caja",
-      "unit_price": "2522.00",
-      "amount": "30264.00",
+      "quantity": "10.5",
+      "unit": "h",
+      "unit_price": "3585.00",
+      "amount": "37642.50",
       "tax_rate": "16"
     },
     {
       "description": "Flete: CDMX → Monterrey, 2 tarimas",
-      "quantity": "10",
-      "unit": "h",
-      "unit_price": "3217.62",
-      "amount": "32176.20",
+      "quantity": "20",
+      "unit": "tarima",
+      "unit_price": "573.00",
+      "amount": "11460.00",
       "tax_rate": "16"
     },
     {
-      "description": "Silla de oficina, malla, ergonómica",
+      "description": "Equipo de cómputo, laptop i5, 16GB RAM",
+      "quantity": "8",
+      "unit": "pza",
+      "unit_price": "2632.00",
+      "amount": "21056.00",
+      "tax_rate": "16"
+    },
+    {
+      "description": "Suministros de papelería — paquete anual",
       "quantity": "5",
-      "unit": "h",
-      "unit_price": "3549.00",
-      "amount": "17745.00",
+      "unit": "caja",
+      "unit_price": "5347.00",
+      "amount": "26735.00",
       "tax_rate": "16"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "FOLIO-0470",
-    "invoice_date": "19/07/2026",
-    "due_date": "18/08/2026",
-    "subtotal": "$167,186.20 (MXN)",
-    "tax_total": "26,749.79",
-    "total": "$193,935.99 (MXN)"
+    "invoice_number": "FOLIO-5804",
+    "invoice_date": "05/10/2025",
+    "due_date": "04/12/2025",
+    "subtotal": "$143,733.50 (MXN)",
+    "tax_total": "22,997.36",
+    "total": "$166,730.86 (MXN)"
   }
 }

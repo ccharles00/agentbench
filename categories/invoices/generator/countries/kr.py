@@ -9,7 +9,7 @@ from .. import ids
 from ..build import CountrySpec
 
 
-def _tax_id(rng: random.Random) -> tuple[str, str]:
+def _tax_id(rng: random.Random, name: str) -> tuple[str, str]:
     body = f"{ids.random_digits(rng, 3)}-{ids.random_digits(rng, 2)}-{ids.random_digits(rng, 5)}"
     return body, body.replace("-", "")
 

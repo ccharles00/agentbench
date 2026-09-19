@@ -14,7 +14,9 @@
     "tax_mode": "exclusive",
     "cross_border": false,
     "language_mode": "native",
-    "template": "gb_b"
+    "template": "gb_b",
+    "withholding": false,
+    "ambiguous_date": true
   },
   "fields": {
     "vendor_name": "Northern Textiles Ltd",
@@ -23,54 +25,56 @@
     "invoice_date": "2026-04-10",
     "due_date": "2026-04-24",
     "currency": "GBP",
-    "subtotal": "10207.21",
-    "tax_total": "2041.44",
-    "total": "12248.65",
+    "subtotal": "16567.70",
+    "tax_total": "3313.54",
+    "withholding_total": null,
+    "total": "19881.24",
     "tax_rates": [
       "20"
     ],
     "payment_account": "GB72VQZGI26SAGISAKQ8T8",
     "line_item_count": 5
   },
+  "unscored_fields": [],
   "line_items": [
     {
       "description": "Staff training — manual handling, half day session",
       "quantity": "10",
-      "unit": "items",
-      "unit_price": "117.00",
-      "amount": "1170.00",
+      "unit": "pcs",
+      "unit_price": "804.25",
+      "amount": "8042.50",
       "tax_rate": "20"
     },
     {
       "description": "Translation — EN to DE, technical manual, 60 pages",
-      "quantity": "10",
-      "unit": "kg",
-      "unit_price": "43.00",
-      "amount": "430.00",
+      "quantity": "10.5",
+      "unit": "hrs",
+      "unit_price": "461.40",
+      "amount": "4844.70",
       "tax_rate": "20"
     },
     {
       "description": "Safety audit — warehouse, on-site, full report",
       "quantity": "3",
       "unit": "pcs",
-      "unit_price": "690.27",
-      "amount": "2070.81",
+      "unit_price": "110.00",
+      "amount": "330.00",
       "tax_rate": "20"
     },
     {
       "description": "Courier — next day service, 12 parcels",
-      "quantity": "10",
-      "unit": "kg",
-      "unit_price": "598.00",
-      "amount": "5980.00",
+      "quantity": "5",
+      "unit": "hrs",
+      "unit_price": "496.00",
+      "amount": "2480.00",
       "tax_rate": "20"
     },
     {
       "description": "Office chairs, mesh back (pack of 4)",
-      "quantity": "20",
+      "quantity": "10",
       "unit": "pcs",
-      "unit_price": "27.82",
-      "amount": "556.40",
+      "unit_price": "87.05",
+      "amount": "870.50",
       "tax_rate": "20"
     }
   ],
@@ -78,8 +82,8 @@
     "invoice_number": "INV/2026/8468",
     "invoice_date": "10/04/2026",
     "due_date": "24/04/2026",
-    "subtotal": "£10,207.21",
-    "tax_total": "2,041.44",
-    "total": "£12,248.65"
+    "subtotal": "£16,567.70",
+    "tax_total": "3,313.54",
+    "total": "£19,881.24"
   }
 }

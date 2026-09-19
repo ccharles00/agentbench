@@ -14,96 +14,100 @@
     "tax_mode": "exclusive",
     "cross_border": false,
     "language_mode": "native",
-    "template": "gb_c"
+    "template": "gb_c",
+    "withholding": false,
+    "ambiguous_date": true
   },
   "fields": {
     "vendor_name": "Camden Print Works Ltd",
     "vendor_tax_id": "GB311380177",
-    "invoice_number": "INV/2025/1637",
+    "invoice_number": "INV/2025/7539",
     "invoice_date": "2025-05-01",
     "due_date": "2025-05-31",
     "currency": "GBP",
-    "subtotal": "27842.99",
-    "tax_total": "5568.59",
-    "total": "33411.58",
+    "subtotal": "29848.41",
+    "tax_total": "5969.68",
+    "withholding_total": null,
+    "total": "35818.09",
     "tax_rates": [
       "20"
     ],
-    "payment_account": "GB1960JZBLNPCKTJX0XM57",
+    "payment_account": "GB5963JVFHJJB60JZBLNPC",
     "line_item_count": 8
   },
+  "unscored_fields": [],
   "line_items": [
     {
       "description": "Safety audit — warehouse, on-site, full report",
-      "quantity": "2",
-      "unit": "kg",
-      "unit_price": "177.41",
-      "amount": "354.82",
+      "quantity": "3",
+      "unit": "pcs",
+      "unit_price": "412.87",
+      "amount": "1238.61",
       "tax_rate": "20"
     },
     {
       "description": "Courier — next day service, 12 parcels",
       "quantity": "20",
-      "unit": "pcs",
-      "unit_price": "517.67",
-      "amount": "10353.40",
+      "unit": "hrs",
+      "unit_price": "233.33",
+      "amount": "4666.60",
       "tax_rate": "20"
     },
     {
       "description": "LED panel lights 600x600 (carton of 20)",
       "quantity": "6",
       "unit": "pcs",
-      "unit_price": "190.00",
-      "amount": "1140.00",
+      "unit_price": "66.72",
+      "amount": "400.32",
       "tax_rate": "20"
     },
     {
       "description": "Oak plywood sheets 18mm, 2440x1220 (pack of 10)",
-      "quantity": "12",
-      "unit": "items",
-      "unit_price": "29.91",
-      "amount": "358.92",
+      "quantity": "10",
+      "unit": "pcs",
+      "unit_price": "616.00",
+      "amount": "6160.00",
       "tax_rate": "20"
     },
     {
       "description": "Staff training — manual handling, half day session",
-      "quantity": "6.5",
-      "unit": "hrs",
-      "unit_price": "752.33",
-      "amount": "4890.15",
+      "quantity": "12",
+      "unit": "pcs",
+      "unit_price": "196.24",
+      "amount": "2354.88",
       "tax_rate": "20"
     },
     {
       "description": "Packaging film roll 500mm x 300m",
-      "quantity": "4",
-      "unit": "hrs",
-      "unit_price": "225.00",
-      "amount": "900.00",
+      "quantity": "20",
+      "unit": "pcs",
+      "unit_price": "715.00",
+      "amount": "14300.00",
       "tax_rate": "20"
     },
     {
       "description": "Marketing consulting — half day, includes campaign review and written recommendations",
-      "quantity": "10",
-      "unit": "pcs",
-      "unit_price": "625.77",
-      "amount": "6257.70",
+      "quantity": "2",
+      "unit": "hrs",
+      "unit_price": "135.00",
+      "amount": "270.00",
       "tax_rate": "20"
     },
     {
       "description": "Translation — EN to DE, technical manual, 60 pages",
-      "quantity": "12",
-      "unit": "items",
-      "unit_price": "299.00",
-      "amount": "3588.00",
+      "quantity": "2",
+      "unit": "hrs",
+      "unit_price": "229.00",
+      "amount": "458.00",
       "tax_rate": "20"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "INV/2025/1637",
+    "invoice_number": "INV/2025/7539",
     "invoice_date": "01/05/2025",
     "due_date": "31/05/2025",
-    "subtotal": "£27,842.99",
-    "tax_total": "5,568.59",
-    "total": "£33,411.58"
+    "subtotal": "£29,848.41",
+    "tax_total": "5,969.68",
+    "total": "£35,818.09"
   }
 }

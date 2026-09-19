@@ -14,96 +14,100 @@
     "tax_mode": "exclusive",
     "cross_border": false,
     "language_mode": "native",
-    "template": "br_a"
+    "template": "br_a",
+    "withholding": false,
+    "ambiguous_date": false
   },
   "fields": {
     "vendor_name": "São Paulo Distribuidora S.A.",
     "vendor_tax_id": "14409932000105",
-    "invoice_number": "NF-e nº 649533",
+    "invoice_number": "NF-e nº 614121",
     "invoice_date": "2025-01-27",
     "due_date": "2025-03-13",
     "currency": "BRL",
-    "subtotal": "57388.19",
-    "tax_total": "6886.59",
-    "total": "64274.78",
+    "subtotal": "54294.77",
+    "tax_total": "6515.37",
+    "withholding_total": null,
+    "total": "60810.14",
     "tax_rates": [
       "12"
     ],
     "payment_account": null,
     "line_item_count": 8
   },
+  "unscored_fields": [],
   "line_items": [
     {
       "description": "Serviços de contabilidade — mensal",
-      "quantity": "8",
+      "quantity": "6",
       "unit": "h",
-      "unit_price": "2340.00",
-      "amount": "18720.00",
+      "unit_price": "592.00",
+      "amount": "3552.00",
       "tax_rate": "12"
     },
     {
       "description": "Licença de software — anual",
-      "quantity": "10",
-      "unit": "cx",
-      "unit_price": "582.00",
-      "amount": "5820.00",
+      "quantity": "12",
+      "unit": "un",
+      "unit_price": "1271.78",
+      "amount": "15261.36",
       "tax_rate": "12"
     },
     {
       "description": "Notebook i5, 16GB RAM, 512GB SSD",
-      "quantity": "1",
-      "unit": "palete",
-      "unit_price": "1444.00",
-      "amount": "1444.00",
+      "quantity": "5",
+      "unit": "un",
+      "unit_price": "2080.00",
+      "amount": "10400.00",
       "tax_rate": "12"
     },
     {
       "description": "Tradução — português → inglês",
-      "quantity": "1",
-      "unit": "cx",
-      "unit_price": "935.64",
-      "amount": "935.64",
+      "quantity": "4.5",
+      "unit": "h",
+      "unit_price": "497.00",
+      "amount": "2236.50",
       "tax_rate": "12"
     },
     {
       "description": "Catering corporativo — 20 pessoas",
-      "quantity": "4",
+      "quantity": "1",
       "unit": "h",
-      "unit_price": "196.91",
-      "amount": "787.64",
+      "unit_price": "1102.00",
+      "amount": "1102.00",
       "tax_rate": "12"
     },
     {
       "description": "Embalagens de papelão, caixa nº 4 (500 un.)",
-      "quantity": "10",
-      "unit": "un",
-      "unit_price": "885.78",
-      "amount": "8857.80",
+      "quantity": "12",
+      "unit": "cx",
+      "unit_price": "568.31",
+      "amount": "6819.72",
       "tax_rate": "12"
     },
     {
       "description": "Frete: São Paulo → Rio de Janeiro, 2 paletes",
       "quantity": "8",
-      "unit": "un",
-      "unit_price": "1855.00",
-      "amount": "14840.00",
+      "unit": "palete",
+      "unit_price": "1468.00",
+      "amount": "11744.00",
       "tax_rate": "12"
     },
     {
       "description": "Manutenção mensal — servidores e rede, suporte remoto incluído",
-      "quantity": "3",
-      "unit": "cx",
-      "unit_price": "1994.37",
-      "amount": "5983.11",
+      "quantity": "10.5",
+      "unit": "h",
+      "unit_price": "302.78",
+      "amount": "3179.19",
       "tax_rate": "12"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "NF-e nº 649533",
+    "invoice_number": "NF-e nº 614121",
     "invoice_date": "27/01/2025",
     "due_date": "13/03/2025",
-    "subtotal": "R$57.388,19",
-    "tax_total": "6.886,59",
-    "total": "R$64.274,78"
+    "subtotal": "R$54.294,77",
+    "tax_total": "6.515,37",
+    "total": "R$60.810,14"
   }
 }

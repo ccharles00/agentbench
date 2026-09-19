@@ -14,64 +14,44 @@
     "tax_mode": "exclusive",
     "cross_border": false,
     "language_mode": "native",
-    "template": "in_b"
+    "template": "in_b",
+    "withholding": false,
+    "ambiguous_date": false
   },
   "fields": {
     "vendor_name": "दिल्ली ऑफिस सप्लाई प्राइवेट लिमिटेड",
-    "vendor_tax_id": "24UAXJT4500B1ZK",
-    "invoice_number": "GST/25/26/030",
-    "invoice_date": "2026-02-28",
-    "due_date": "2026-03-15",
+    "vendor_tax_id": "29KTAGA2110E8ZN",
+    "invoice_number": "INV/26/27/602",
+    "invoice_date": "2026-09-10",
+    "due_date": "2026-10-10",
     "currency": "INR",
-    "subtotal": "474970.00",
-    "tax_total": "85494.60",
-    "total": "560464.60",
+    "subtotal": "2050.43",
+    "tax_total": "369.08",
+    "withholding_total": null,
+    "total": "2419.51",
     "tax_rates": [
       "9",
       "9"
     ],
     "payment_account": null,
-    "line_item_count": 4
+    "line_item_count": 1
   },
+  "unscored_fields": [],
   "line_items": [
     {
-      "description": "कपड़ा ढेर: सूती कपड़े, 500 मीटर",
-      "quantity": "6",
-      "unit": "kg",
-      "unit_price": "24740.00",
-      "amount": "148440.00",
-      "tax_rate": "18"
-    },
-    {
-      "description": "मसाला पैकेजिंग सेवा — 2 टन",
-      "quantity": "5",
-      "unit": "pcs",
-      "unit_price": "11440.00",
-      "amount": "57200.00",
-      "tax_rate": "18"
-    },
-    {
       "description": "ऑफिस कुर्सी, जाली, एर्गोनोमिक",
-      "quantity": "12",
-      "unit": "Nos.",
-      "unit_price": "21090.00",
-      "amount": "253080.00",
-      "tax_rate": "18"
-    },
-    {
-      "description": "Handicraft export packing and documentation services",
-      "quantity": "5",
-      "unit": "Box",
-      "unit_price": "3250.00",
-      "amount": "16250.00",
+      "quantity": "1",
+      "unit": "pcs",
+      "unit_price": "2050.43",
+      "amount": "2050.43",
       "tax_rate": "18"
     }
   ],
   "rendered_strings": {
-    "invoice_number": "GST/25/26/030",
-    "invoice_date": "28/02/2026",
-    "due_date": "15/03/2026",
-    "subtotal": "₹4,74,970.00 (INR)",
-    "total": "₹5,60,464.60 (INR)"
+    "invoice_number": "INV/26/27/602",
+    "invoice_date": "10/09/2026",
+    "due_date": "10/10/2026",
+    "subtotal": "₹2,050.43 (INR)",
+    "total": "₹2,419.51 (INR)"
   }
 }
