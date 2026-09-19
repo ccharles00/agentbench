@@ -25,6 +25,14 @@ def data_dir(split: str) -> Path:
     return ROOT / "data" / split
 
 
+def category_manifest(category: str) -> dict:
+    """Load categories/<category_id>/category.yaml (spec B0)."""
+    import yaml
+    path = ROOT / "categories" / category / "category.yaml"
+    with open(path, "r", encoding="utf-8") as fh:
+        return yaml.safe_load(fh)
+
+
 def private_seed() -> str:
     """Private-split seed (spec B2.7): env var PRIVATE_SEED or private_seed.txt.
 

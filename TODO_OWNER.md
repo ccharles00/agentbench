@@ -4,10 +4,9 @@ Things only the owner can do or decide. See build spec C3.8 / C4.
 
 ## Milestone 1 review (now)
 
-- [ ] **Eyeball the contact sheets** in `data/public/contact_sheets/` — one per
-  country plus `*_variants.png` sheets showing scan/bad_scan/phone_photo
-  degradation. Flag anything that looks unrealistic (names, addresses, layouts,
-  tax lines, date formats). Regenerate any time with `make generate`.
+- [ ] **Eyeball the contact sheets** in `data/public/contact_sheets/` — now at
+  review resolution (1000px thumbnails, 2-column grids). Flag anything
+  unrealistic; `make generate` regenerates in minutes.
 
 ## Choices and accounts (build spec C4)
 
@@ -36,9 +35,9 @@ Things only the owner can do or decide. See build spec C3.8 / C4.
 - [ ] Arrange a native-speaker spot check of 2–3 sample invoices per script
   (Arabic, Devanagari, Thai, CJK ×3) — contact sheets are a good review artifact
   to send.
-- [ ] Generate and securely store the **private seed**: e.g.
-  `python -c "import secrets; print(secrets.randbits(64))"` → `private_seed.txt`
-  (gitignored) or the `PRIVATE_SEED` env var. Then `make generate SPLIT=private`.
+- [x] ~~Generate and securely store the private seed~~ — **Done 2026-09-19:**
+      `private_seed.txt` created; private split generated and self-checked
+      clean (104 docs). Keep the seed file out of any shared backup.
 - [x] ~~Choose code and data licenses~~ — **Decided 2026-09-19:** code MIT,
   public dataset CC BY 4.0. See `LICENSE`, `DATA_LICENSE`, `DECISIONS.md`.
 - [ ] Approve the API spending budget (`budget_usd` in `config.yaml`) before any

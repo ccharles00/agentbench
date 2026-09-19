@@ -5,30 +5,25 @@ Category work is delegated to plugin modules declared in
 
 - ``generator_module``  -> ``run(config, split=..., countries=..., limit=...)``
 - ``selfcheck_module``  -> ``run(config, split=...)``
+- ``task_source``/``adapter_registry``/``comparators_module`` -> harness + scorer
 
 Usage:
     python -m core.cli generate --category invoices --split public
     python -m core.cli selfcheck --category invoices --split public
+    python -m core.cli run --category invoices --split public --dry-run
+    python -m core.cli score --category invoices --split public
 """
 from __future__ import annotations
 
 import argparse
 import importlib
 
-import yaml
-
-from core.config import ROOT, load_config
+from core.config import category_manifest, load_config
 
 _COMMAND_TO_MODULE_KEY = {
     "generate": "generator_module",
     "selfcheck": "selfcheck_module",
 }
-
-
-def category_manifest(category: str) -> dict:
-    path = ROOT / "categories" / category / "category.yaml"
-    with open(path, "r", encoding="utf-8") as fh:
-        return yaml.safe_load(fh)
 
 
 def main(argv: list[str] | None = None) -> None:
@@ -51,18 +46,41 @@ def main(argv: list[str] | None = None) -> None:
     sp_check = sub.add_parser("selfcheck", help="validate a generated split (spec B2.8)")
     add_common(sp_check)
 
+    sp_run = sub.add_parser("run", help="run tools over a split (spec B3.4)")
+    add_common(sp_run)
+    sp_run.add_argument("--tools", default="all")
+    sp_run.add_argument("--variants", default="all")
+    sp_run.add_argument("--limit", type=int, default=None)
+    sp_run.add_argument("--dry-run", action="store_true",
+                        help="print the cost estimate and exit (no API calls)")
+    sp_run.add_argument("--confirm", action="store_true",
+                        help="required to actually call paid APIs")
+
+    sp_score = sub.add_parser("score", help="score cached results (spec B4.3)")
+    add_common(sp_score)
+    sp_score.add_argument("--tools", default="all")
+
     args = parser.parse_args(argv)
 
-    manifest = category_manifest(args.category)
-    module_name = manifest[_COMMAND_TO_MODULE_KEY[args.command]]
-    module = importlib.import_module(module_name)
     config = load_config()
 
-    if args.command == "generate":
-        countries = args.countries.split(",") if args.countries else None
-        module.run(config, split=args.split, countries=countries, limit=args.limit)
+    if args.command in _COMMAND_TO_MODULE_KEY:
+        manifest = category_manifest(args.category)
+        module = importlib.import_module(
+            manifest[_COMMAND_TO_MODULE_KEY[args.command]])
+        if args.command == "generate":
+            countries = args.countries.split(",") if args.countries else None
+            module.run(config, split=args.split, countries=countries, limit=args.limit)
+        else:
+            module.run(config, split=args.split)
+    elif args.command == "run":
+        from core.harness.run import run as harness_run
+        harness_run(config, args.category, args.split, tools=args.tools,
+                    variants=args.variants,
+                    confirm=args.confirm and not args.dry_run, limit=args.limit)
     else:
-        module.run(config, split=args.split)
+        from core.scoring.pipeline import score_split
+        score_split(config, args.category, args.split, tools=args.tools)
 
 
 if __name__ == "__main__":

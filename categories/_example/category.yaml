@@ -1,0 +1,22 @@
+# Test-only stub category (spec B0). Proves the core is category-agnostic:
+# three fake tasks, one trivial comparator context, one fake adapter, run
+# through the full harness + scoring pipeline by tests/test_example_pipeline.py.
+
+id: _example
+display_name: Example (test-only)
+description: >
+  Never used for real benchmarks. Exists so the test suite can prove the
+  core harness and scorer work for any category, not just invoices.
+headline_metric: document_exact_match
+
+fields:
+  widget_id: { comparator: identifier }
+  count: { comparator: integer }
+
+dimensions:
+  - size
+  - variant
+
+task_source: { kind: module, module: categories._example.tasks }
+adapter_registry: categories._example.adapters
+comparators_module: categories._example.comparators

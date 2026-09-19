@@ -44,3 +44,5 @@ dimensions:
 
 generator_module: categories.invoices.generator.generate
 selfcheck_module: categories.invoices.generator.selfcheck
+adapter_registry: categories.invoices.adapters
+comparators_module: categories.invoices.comparators

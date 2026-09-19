@@ -22,3 +22,6 @@ data/public/documents/**/*.jpg
 
 # Contact sheets are review artifacts, regenerable via make generate
 data/public/contact_sheets/
+
+# Raw vendor responses (regenerable only by paid runs; results/ is canonical)
+cache/
