@@ -75,10 +75,15 @@ no bump needed.
 
 **Decided — implement before Milestone 2 scoring:**
 
-1. **#18 withholding.** In `build.py` (the `retention` block, ~L291): stop
-   subtracting from `tax_total`; keep subtracting from `total`; write the
-   amount to a new `fields.withholding_total` (decimal string, `null` when no
-   withholding); don't add the retention rate to `tax_rates`. Self-check
+1. **#18 withholding — now two components, not one.** In `build.py` (the
+   `retention` block, ~L291): stop subtracting from `tax_total`; keep
+   subtracting from `total`; write the summed amount to a new
+   `fields.withholding_total` (decimal string, `null` when no withholding);
+   don't add retention rates to `tax_rates`. The MX retention scenario needs
+   **both** ISR retention (10% of subtotal) **and** IVA retention (2/3 of the
+   IVA charged = 10.6667% of subtotal) — `withholding_total` is their sum,
+   printed as two separate lines ("IVA retenida (2/3)", "ISR retenida
+   (10%)"), each its own `TaxLine` subtracted from `total`. Self-check
    identity: `subtotal + tax_total − (withholding_total or 0) == total`.
    Add dimension `withholding` (bool) to ground truth and to `category.yaml`
    `dimensions`. Do **not** add `withholding_total` to `category.yaml`

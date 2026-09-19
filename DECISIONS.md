@@ -154,9 +154,21 @@ next agent working in this repo doesn't have to guess or re-litigate them.
     - Retention documents use **persona física vendors** (a person's name,
       13-character RFC). ISR 10% retention applies to individuals billing
       companies for professional services, not to the S.A. de C.V. / S.C.
-      vendors those two docs currently have. The IVA retention (two-thirds of
-      IVA) that accompanies ISR retention in practice is a documented v1
-      simplification, not generated.
+      vendors those two docs currently have.
+    - *Amended same day, before implementation:* **IVA retention is generated
+      too, not simplified away.** In practice ISR retention on professional
+      fees paid by a company to an individual is accompanied by IVA
+      retention — the recipient withholds two-thirds of the IVA charged
+      (16% × 2/3 = 10.6667% of subtotal) alongside the 10% ISR retention.
+      `withholding_total` = ISR retention + IVA retention (two components,
+      one field — the field stays unscored in v1, so no schema growth from
+      splitting it). The document prints both as separate lines ("IVA
+      retenida (2/3) −X.XX", "ISR retenida (10%) −Y.YY"), each subtracted
+      from `total` in `build.py`'s retention block. `tax_rates` is unaffected
+      (still charged-only, i.e. `["16"]`) — retention rates were already
+      excluded from it. Self-check identity is unchanged:
+      `subtotal + tax_total − (withholding_total or 0) == total`; only what
+      feeds `withholding_total` grows from one term to two.
     - Keep two retention docs in the MX plan; the methodology page explains
       the field definitions. The M2 LLM prompt defines `tax_total` the same
       way (and does not ask for `withholding_total`).
