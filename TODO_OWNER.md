@@ -11,7 +11,17 @@ Things only the owner can do or decide. See build spec C3.8 / C4.
 
 ## Choices and accounts (build spec C4)
 
-- [ ] Choose project name and domain (placeholder is `agentbench`).
+- [ ] **Project name: leaning AssayMark** (runners-up: AgentAssay, AssayLab,
+  VerdictBench, OpenAssay — all checked live against a registrar, not guessed).
+  "Assay" itself is fully squatted on every good TLD; these compounds are open.
+- [ ] **Domain: don't buy yet.** Launch Milestone 3 on the free Cloudflare
+  Pages/GitHub Pages subdomain (spec B5) and read the Launch Checklist signals
+  (C5/C6 — vendor contact, retest requests, traffic, API/MCP usage) before
+  spending anything. If it's worth continuing after that, `.io` is roughly half
+  the price of `.ai` for the same name (~$35/yr promo vs. ~$90+/yr, since `.ai`'s
+  registry — Anguilla — charges a much higher wholesale fee and often forces a
+  2-year minimum). Placeholder in code stays `agentbench` until a name is
+  actually registered.
 - [ ] Create vendor accounts and API keys; add to `.env` (template in
   `.env.example`) — needed for Milestone 2 smoke runs.
 - [ ] **Review each vendor's terms of service for restrictions on publishing
@@ -29,8 +39,8 @@ Things only the owner can do or decide. See build spec C3.8 / C4.
 - [ ] Generate and securely store the **private seed**: e.g.
   `python -c "import secrets; print(secrets.randbits(64))"` → `private_seed.txt`
   (gitignored) or the `PRIVATE_SEED` env var. Then `make generate SPLIT=private`.
-- [ ] Choose code and data licenses (repo currently has MIT as a placeholder;
-  CC BY 4.0 suggested for the dataset).
+- [x] ~~Choose code and data licenses~~ — **Decided 2026-09-19:** code MIT,
+  public dataset CC BY 4.0. See `LICENSE`, `DATA_LICENSE`, `DECISIONS.md`.
 - [ ] Approve the API spending budget (`budget_usd` in `config.yaml`) before any
   Milestone 2 paid run.
 

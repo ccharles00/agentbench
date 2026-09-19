@@ -93,3 +93,24 @@ Each entry: the decision, why, and what it affects.
     two space-grouping docs; SA has three Arabic-Indic digit docs; ¥ appears
     symbol-only on most CN/JP docs (the currency field is where extractors must
     disambiguate CNY vs JPY).
+
+## Owner decisions
+
+Unlike the numbered list above (ambiguous calls the coding agent made per spec
+C3.7), the items below are owner decisions from the build spec's C4 checklist,
+made explicitly by the owner and recorded here for the same reason: so the
+next agent working in this repo doesn't have to guess or re-litigate them.
+
+17. **License, 2026-09-19: code MIT, public dataset CC BY 4.0.** Spec C4 left
+    this to the owner; `TODO_OWNER.md` had suggested CC BY 4.0 for the dataset
+    as a starting point, which is what shipped. MIT was already the repo's
+    placeholder and needed no change — it's the standard low-friction choice
+    for a generator/scoring/MCP codebase the project wants vendors and other
+    builders to actually adopt and extend (spec A5.3: open methodology is part
+    of the neutrality moat). CC BY 4.0 on `data/public/` (ground truth +
+    documents) matches common practice for open benchmark datasets — reuse and
+    redistribution are fine, including commercially, as long as it's
+    attributed. Copyright holder is Oak Mountain Digital LLC, the entity that
+    owns this project. See `LICENSE` and `DATA_LICENSE`. The private split
+    (secret-seed documents/ground truth) is never published, so no license
+    applies to it — see `DATA_LICENSE`'s own note.

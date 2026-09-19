@@ -75,6 +75,12 @@ make generate SPLIT=private
   all money math and schema assembly.
 - **Tool (M2):** drop a single adapter file into `categories/invoices/adapters/`.
 
+## License
+
+Code is MIT (see `LICENSE`). The public dataset (`data/public/` — ground truth
+and documents) is CC BY 4.0 (see `DATA_LICENSE`). The private split is never
+published.
+
 ## Working rules recap (spec C3)
 
 Ask the owner before anything that spends money; never commit secrets, the

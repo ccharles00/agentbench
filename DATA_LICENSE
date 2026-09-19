@@ -1,0 +1,25 @@
+Dataset License: CC BY 4.0
+
+This applies to the dataset under `data/public/` — ground truth JSON and
+rendered documents (clean PDFs; scan/bad_scan/phone_photo rasters, when
+present) for the public split. It does not apply to code, which is MIT
+licensed — see LICENSE.
+
+Copyright (c) 2026 Oak Mountain Digital LLC
+
+This dataset is licensed under the Creative Commons Attribution 4.0
+International License (CC BY 4.0). To view a copy of this license, visit
+https://creativecommons.org/licenses/by/4.0/ or see the full legal text at
+https://creativecommons.org/licenses/by/4.0/legalcode.
+
+You are free to share and adapt this dataset for any purpose, including
+commercially, provided you give appropriate attribution, e.g.:
+
+  "[dataset name] by Oak Mountain Digital LLC, licensed under CC BY 4.0"
+  (https://github.com/ccharles00/agentbench)
+
+Generated invoices contain fictional vendor/customer names, tax IDs, and
+account numbers; any resemblance to real entities is coincidental.
+
+The private split (secret-seed documents and ground truth, used for official
+leaderboard scoring) is never published and is not covered by this license.

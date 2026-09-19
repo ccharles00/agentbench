@@ -1,7 +1,6 @@
 MIT License
 
-Copyright (c) 2026 [Project owner — TODO: confirm name; license choice pending,
-see TODO_OWNER.md / build spec C4]
+Copyright (c) 2026 Oak Mountain Digital LLC
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -21,6 +20,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-Note: dataset licensing (suggested: CC BY 4.0) is an owner decision — see
-TODO_OWNER.md. Generated invoices contain fictional vendor/customer names and
-numbers; any resemblance to real entities is coincidental.
+Note: this license covers the code only. The dataset (`data/public/` — ground
+truth and documents) is licensed separately under CC BY 4.0; see DATA_LICENSE.
+Generated invoices contain fictional vendor/customer names and numbers; any
+resemblance to real entities is coincidental.
