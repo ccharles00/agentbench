@@ -1,0 +1,213 @@
+{
+  "doc_id": "JP-0006",
+  "country": "JP",
+  "language": [
+    "ja"
+  ],
+  "script": [
+    "Jpan"
+  ],
+  "dimensions": {
+    "calendar": "japanese_era",
+    "number_format": "native",
+    "digits": "western",
+    "tax_mode": "exclusive",
+    "cross_border": false,
+    "language_mode": "native",
+    "template": "jp_b"
+  },
+  "fields": {
+    "vendor_name": "広島機工株式会社",
+    "vendor_tax_id": "T3049351232455",
+    "invoice_number": "INV-2025-44588",
+    "invoice_date": "2025-12-27",
+    "due_date": "2026-01-10",
+    "currency": "JPY",
+    "subtotal": "7284800",
+    "tax_total": "662884",
+    "total": "7947684",
+    "tax_rates": [
+      "8",
+      "10"
+    ],
+    "payment_account": null,
+    "line_item_count": 21
+  },
+  "line_items": [
+    {
+      "description": "清掃サービス — オフィス月次",
+      "quantity": "2",
+      "unit": "台",
+      "unit_price": "16200",
+      "amount": "32400",
+      "tax_rate": "8"
+    },
+    {
+      "description": "オフィスチェア（メッシュ、アーム付き）",
+      "quantity": "20",
+      "unit": "冊",
+      "unit_price": "27500",
+      "amount": "550000",
+      "tax_rate": "8"
+    },
+    {
+      "description": "消耗品：トナーカートリッジ 黒",
+      "quantity": "8",
+      "unit": "個",
+      "unit_price": "65500",
+      "amount": "524000",
+      "tax_rate": "10"
+    },
+    {
+      "description": "月額保守サポート — サーバー 3 台、リモート監視込み",
+      "quantity": "20",
+      "unit": "個",
+      "unit_price": "81400",
+      "amount": "1628000",
+      "tax_rate": "10"
+    },
+    {
+      "description": "書籍：会計実務の手引き（軽減税率対象）",
+      "quantity": "4.5",
+      "unit": "時間",
+      "unit_price": "14800",
+      "amount": "66600",
+      "tax_rate": "8"
+    },
+    {
+      "description": "ケータリング — 役員会議 20 名",
+      "quantity": "2",
+      "unit": "台",
+      "unit_price": "12300",
+      "amount": "24600",
+      "tax_rate": "8"
+    },
+    {
+      "description": "貨物輸送 大阪 → 東京、2 パレット",
+      "quantity": "1",
+      "unit": "台",
+      "unit_price": "39400",
+      "amount": "39400",
+      "tax_rate": "8"
+    },
+    {
+      "description": "包装資材 — 段ボール 60 サイズ（100 枚）",
+      "quantity": "2",
+      "unit": "台",
+      "unit_price": "53500",
+      "amount": "107000",
+      "tax_rate": "8"
+    },
+    {
+      "description": "ソフトウェアライセンス（年間）",
+      "quantity": "1",
+      "unit": "冊",
+      "unit_price": "65600",
+      "amount": "65600",
+      "tax_rate": "10"
+    },
+    {
+      "description": "ネットワーク機器 24 ポートスイッチ",
+      "quantity": "6",
+      "unit": "台",
+      "unit_price": "58900",
+      "amount": "353400",
+      "tax_rate": "10"
+    },
+    {
+      "description": "事務用品一式（文房具、ファイル等）",
+      "quantity": "6",
+      "unit": "式",
+      "unit_price": "17600",
+      "amount": "105600",
+      "tax_rate": "8"
+    },
+    {
+      "description": "翻訳サービス 日本語 → 英語",
+      "quantity": "8",
+      "unit": "式",
+      "unit_price": "80200",
+      "amount": "641600",
+      "tax_rate": "8"
+    },
+    {
+      "description": "オフィスチェア（メッシュ、アーム付き）",
+      "quantity": "1",
+      "unit": "式",
+      "unit_price": "67900",
+      "amount": "67900",
+      "tax_rate": "10"
+    },
+    {
+      "description": "包装資材 — 段ボール 60 サイズ（100 枚）",
+      "quantity": "10",
+      "unit": "式",
+      "unit_price": "88500",
+      "amount": "885000",
+      "tax_rate": "10"
+    },
+    {
+      "description": "貨物輸送 大阪 → 東京、2 パレット",
+      "quantity": "5",
+      "unit": "個",
+      "unit_price": "400",
+      "amount": "2000",
+      "tax_rate": "10"
+    },
+    {
+      "description": "事務用品一式（文房具、ファイル等）",
+      "quantity": "1",
+      "unit": "台",
+      "unit_price": "26300",
+      "amount": "26300",
+      "tax_rate": "8"
+    },
+    {
+      "description": "消耗品：トナーカートリッジ 黒",
+      "quantity": "3",
+      "unit": "台",
+      "unit_price": "75900",
+      "amount": "227700",
+      "tax_rate": "8"
+    },
+    {
+      "description": "ソフトウェアライセンス（年間）",
+      "quantity": "2",
+      "unit": "台",
+      "unit_price": "75300",
+      "amount": "150600",
+      "tax_rate": "8"
+    },
+    {
+      "description": "翻訳サービス 日本語 → 英語",
+      "quantity": "3",
+      "unit": "式",
+      "unit_price": "82700",
+      "amount": "248100",
+      "tax_rate": "10"
+    },
+    {
+      "description": "事務用品一式（文房具、ファイル等）",
+      "quantity": "20",
+      "unit": "台",
+      "unit_price": "65400",
+      "amount": "1308000",
+      "tax_rate": "8"
+    },
+    {
+      "description": "ネットワーク機器 24 ポートスイッチ",
+      "quantity": "10",
+      "unit": "冊",
+      "unit_price": "23100",
+      "amount": "231000",
+      "tax_rate": "10"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "INV-2025-44588",
+    "invoice_date": "令和7年12月27日",
+    "due_date": "令和8年1月10日",
+    "subtotal": "¥7,284,800",
+    "total": "¥7,947,684"
+  }
+}

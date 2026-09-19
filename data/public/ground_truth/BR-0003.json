@@ -1,0 +1,213 @@
+{
+  "doc_id": "BR-0003",
+  "country": "BR",
+  "language": [
+    "pt"
+  ],
+  "script": [
+    "Latn"
+  ],
+  "dimensions": {
+    "calendar": "gregorian",
+    "number_format": "native",
+    "digits": "western",
+    "tax_mode": "exclusive",
+    "cross_border": false,
+    "language_mode": "native",
+    "template": "br_a"
+  },
+  "fields": {
+    "vendor_name": "Belo Horizonte Papelaria Eireli",
+    "vendor_tax_id": "98691084000150",
+    "invoice_number": "NF-e nº 023213",
+    "invoice_date": "2025-04-05",
+    "due_date": "2025-05-20",
+    "currency": "BRL",
+    "subtotal": "116561.91",
+    "tax_total": "20981.15",
+    "total": "137543.06",
+    "tax_rates": [
+      "18"
+    ],
+    "payment_account": null,
+    "line_item_count": 21
+  },
+  "line_items": [
+    {
+      "description": "Cadeira de escritório, tela, ergonômica",
+      "quantity": "1",
+      "unit": "palete",
+      "unit_price": "1336.00",
+      "amount": "1336.00",
+      "tax_rate": "18"
+    },
+    {
+      "description": "Manutenção mensal — servidores e rede, suporte remoto incluído",
+      "quantity": "1",
+      "unit": "palete",
+      "unit_price": "2171.92",
+      "amount": "2171.92",
+      "tax_rate": "18"
+    },
+    {
+      "description": "Frete: São Paulo → Rio de Janeiro, 2 paletes",
+      "quantity": "4",
+      "unit": "h",
+      "unit_price": "1341.00",
+      "amount": "5364.00",
+      "tax_rate": "18"
+    },
+    {
+      "description": "Manutenção mensal — servidores e rede, suporte remoto incluído",
+      "quantity": "6",
+      "unit": "h",
+      "unit_price": "815.00",
+      "amount": "4890.00",
+      "tax_rate": "18"
+    },
+    {
+      "description": "Notebook i5, 16GB RAM, 512GB SSD",
+      "quantity": "20",
+      "unit": "palete",
+      "unit_price": "1249.00",
+      "amount": "24980.00",
+      "tax_rate": "18"
+    },
+    {
+      "description": "Tradução — português → inglês",
+      "quantity": "1.5",
+      "unit": "h",
+      "unit_price": "258.54",
+      "amount": "387.81",
+      "tax_rate": "18"
+    },
+    {
+      "description": "Serviços de contabilidade — mensal",
+      "quantity": "1",
+      "unit": "palete",
+      "unit_price": "1238.00",
+      "amount": "1238.00",
+      "tax_rate": "18"
+    },
+    {
+      "description": "Licença de software — anual",
+      "quantity": "4",
+      "unit": "h",
+      "unit_price": "779.31",
+      "amount": "3117.24",
+      "tax_rate": "18"
+    },
+    {
+      "description": "Cadeira de escritório, tela, ergonômica",
+      "quantity": "1",
+      "unit": "cx",
+      "unit_price": "2443.00",
+      "amount": "2443.00",
+      "tax_rate": "18"
+    },
+    {
+      "description": "Papel A4 75g (caixa com 10 resmas)",
+      "quantity": "4",
+      "unit": "cx",
+      "unit_price": "1709.00",
+      "amount": "6836.00",
+      "tax_rate": "18"
+    },
+    {
+      "description": "Tradução — português → inglês",
+      "quantity": "10",
+      "unit": "palete",
+      "unit_price": "20.00",
+      "amount": "200.00",
+      "tax_rate": "18"
+    },
+    {
+      "description": "Papel A4 75g (caixa com 10 resmas)",
+      "quantity": "6",
+      "unit": "palete",
+      "unit_price": "1222.74",
+      "amount": "7336.44",
+      "tax_rate": "18"
+    },
+    {
+      "description": "Cadeira de escritório, tela, ergonômica",
+      "quantity": "6",
+      "unit": "un",
+      "unit_price": "1246.00",
+      "amount": "7476.00",
+      "tax_rate": "18"
+    },
+    {
+      "description": "Catering corporativo — 20 pessoas",
+      "quantity": "6",
+      "unit": "h",
+      "unit_price": "1537.10",
+      "amount": "9222.60",
+      "tax_rate": "18"
+    },
+    {
+      "description": "Frete: São Paulo → Rio de Janeiro, 2 paletes",
+      "quantity": "10",
+      "unit": "h",
+      "unit_price": "1819.19",
+      "amount": "18191.90",
+      "tax_rate": "18"
+    },
+    {
+      "description": "Notebook i5, 16GB RAM, 512GB SSD",
+      "quantity": "5",
+      "unit": "cx",
+      "unit_price": "1132.00",
+      "amount": "5660.00",
+      "tax_rate": "18"
+    },
+    {
+      "description": "Licença de software — anual",
+      "quantity": "2",
+      "unit": "h",
+      "unit_price": "1830.00",
+      "amount": "3660.00",
+      "tax_rate": "18"
+    },
+    {
+      "description": "Catering corporativo — 20 pessoas",
+      "quantity": "1.5",
+      "unit": "h",
+      "unit_price": "2126.00",
+      "amount": "3189.00",
+      "tax_rate": "18"
+    },
+    {
+      "description": "Catering corporativo — 20 pessoas",
+      "quantity": "2",
+      "unit": "un",
+      "unit_price": "92.00",
+      "amount": "184.00",
+      "tax_rate": "18"
+    },
+    {
+      "description": "Manutenção mensal — servidores e rede, suporte remoto incluído",
+      "quantity": "4",
+      "unit": "palete",
+      "unit_price": "1277.00",
+      "amount": "5108.00",
+      "tax_rate": "18"
+    },
+    {
+      "description": "Licença de software — anual",
+      "quantity": "3",
+      "unit": "un",
+      "unit_price": "1190.00",
+      "amount": "3570.00",
+      "tax_rate": "18"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "NF-e nº 023213",
+    "invoice_date": "05/04/2025",
+    "due_date": "20/05/2025",
+    "subtotal": "R$116.561,91",
+    "tax_total": "20.981,15",
+    "total": "R$137.543,06"
+  }
+}

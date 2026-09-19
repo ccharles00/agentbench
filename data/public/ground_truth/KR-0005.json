@@ -1,0 +1,141 @@
+{
+  "doc_id": "KR-0005",
+  "country": "KR",
+  "language": [
+    "en"
+  ],
+  "script": [
+    "Latn"
+  ],
+  "dimensions": {
+    "calendar": "gregorian",
+    "number_format": "native",
+    "digits": "western",
+    "tax_mode": "exclusive",
+    "cross_border": true,
+    "language_mode": "english",
+    "template": "kr_a"
+  },
+  "fields": {
+    "vendor_name": "Incheon Soft Co., Ltd.",
+    "vendor_tax_id": "5757621642",
+    "invoice_number": "2026-9332",
+    "invoice_date": "2026-03-09",
+    "due_date": "2026-03-24",
+    "currency": "USD",
+    "subtotal": "32177410.92",
+    "tax_total": "3217741.09",
+    "total": "35395152.01",
+    "tax_rates": [
+      "10"
+    ],
+    "payment_account": null,
+    "line_item_count": 12
+  },
+  "line_items": [
+    {
+      "description": "Office supplies — stationery and files",
+      "quantity": "12",
+      "unit": "시간",
+      "unit_price": "149700.00",
+      "amount": "1796400.00",
+      "tax_rate": "10"
+    },
+    {
+      "description": "Office chairs, mesh, ergonomic",
+      "quantity": "8",
+      "unit": "대",
+      "unit_price": "494700.00",
+      "amount": "3957600.00",
+      "tax_rate": "10"
+    },
+    {
+      "description": "Server maintenance — monthly, remote monitoring",
+      "quantity": "1",
+      "unit": "대",
+      "unit_price": "696600.00",
+      "amount": "696600.00",
+      "tax_rate": "10"
+    },
+    {
+      "description": "Software license — annual",
+      "quantity": "4",
+      "unit": "개",
+      "unit_price": "773400.00",
+      "amount": "3093600.00",
+      "tax_rate": "10"
+    },
+    {
+      "description": "Freight Busan → Seoul, 2 pallets",
+      "quantity": "1",
+      "unit": "개",
+      "unit_price": "609800.00",
+      "amount": "609800.00",
+      "tax_rate": "10"
+    },
+    {
+      "description": "Catering — executive meeting, 20 persons",
+      "quantity": "4",
+      "unit": "개",
+      "unit_price": "277000.00",
+      "amount": "1108000.00",
+      "tax_rate": "10"
+    },
+    {
+      "description": "Server maintenance — monthly, remote monitoring",
+      "quantity": "1",
+      "unit": "대",
+      "unit_price": "97000.00",
+      "amount": "97000.00",
+      "tax_rate": "10"
+    },
+    {
+      "description": "Catering — executive meeting, 20 persons",
+      "quantity": "20",
+      "unit": "대",
+      "unit_price": "766100.45",
+      "amount": "15322009.00",
+      "tax_rate": "10"
+    },
+    {
+      "description": "Office chairs, mesh, ergonomic",
+      "quantity": "1",
+      "unit": "대",
+      "unit_price": "413600.00",
+      "amount": "413600.00",
+      "tax_rate": "10"
+    },
+    {
+      "description": "Freight Busan → Seoul, 2 pallets",
+      "quantity": "2",
+      "unit": "대",
+      "unit_price": "123700.96",
+      "amount": "247401.92",
+      "tax_rate": "10"
+    },
+    {
+      "description": "Catering — executive meeting, 20 persons",
+      "quantity": "1",
+      "unit": "대",
+      "unit_price": "492200.00",
+      "amount": "492200.00",
+      "tax_rate": "10"
+    },
+    {
+      "description": "Server maintenance — monthly, remote monitoring",
+      "quantity": "8",
+      "unit": "대",
+      "unit_price": "542900.00",
+      "amount": "4343200.00",
+      "tax_rate": "10"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "2026-9332",
+    "invoice_date": "Mar 9, 2026",
+    "due_date": "Mar 24, 2026",
+    "subtotal": "USD 32,177,410.92",
+    "tax_total": "3,217,741.09",
+    "total": "USD 35,395,152.01"
+  }
+}

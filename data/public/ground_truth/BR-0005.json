@@ -1,0 +1,132 @@
+{
+  "doc_id": "BR-0005",
+  "country": "BR",
+  "language": [
+    "pt"
+  ],
+  "script": [
+    "Latn"
+  ],
+  "dimensions": {
+    "calendar": "gregorian",
+    "number_format": "native",
+    "digits": "western",
+    "tax_mode": "inclusive",
+    "cross_border": false,
+    "language_mode": "native",
+    "template": "br_b"
+  },
+  "fields": {
+    "vendor_name": "Curitiba Serviços de TI Ltda.",
+    "vendor_tax_id": "08263949000192",
+    "invoice_number": "NF-e nº 456309",
+    "invoice_date": "2025-07-01",
+    "due_date": "2025-07-31",
+    "currency": "BRL",
+    "subtotal": "168305.33",
+    "tax_total": "28611.89",
+    "total": "196917.22",
+    "tax_rates": [
+      "17"
+    ],
+    "payment_account": null,
+    "line_item_count": 11
+  },
+  "line_items": [
+    {
+      "description": "Frete: São Paulo → Rio de Janeiro, 2 paletes",
+      "quantity": "4",
+      "unit": "palete",
+      "unit_price": "2198.00",
+      "amount": "8792.00",
+      "tax_rate": "17"
+    },
+    {
+      "description": "Notebook i5, 16GB RAM, 512GB SSD",
+      "quantity": "20",
+      "unit": "h",
+      "unit_price": "2299.00",
+      "amount": "45980.00",
+      "tax_rate": "17"
+    },
+    {
+      "description": "Tradução — português → inglês",
+      "quantity": "20",
+      "unit": "h",
+      "unit_price": "38.00",
+      "amount": "760.00",
+      "tax_rate": "17"
+    },
+    {
+      "description": "Manutenção mensal — servidores e rede, suporte remoto incluído",
+      "quantity": "8",
+      "unit": "un",
+      "unit_price": "1586.41",
+      "amount": "12691.28",
+      "tax_rate": "17"
+    },
+    {
+      "description": "Papel A4 75g (caixa com 10 resmas)",
+      "quantity": "20.5",
+      "unit": "h",
+      "unit_price": "1914.15",
+      "amount": "39240.08",
+      "tax_rate": "17"
+    },
+    {
+      "description": "Cadeira de escritório, tela, ergonômica",
+      "quantity": "10.5",
+      "unit": "h",
+      "unit_price": "2482.00",
+      "amount": "26061.00",
+      "tax_rate": "17"
+    },
+    {
+      "description": "Catering corporativo — 20 pessoas",
+      "quantity": "1",
+      "unit": "cx",
+      "unit_price": "1408.00",
+      "amount": "1408.00",
+      "tax_rate": "17"
+    },
+    {
+      "description": "Serviços de contabilidade — mensal",
+      "quantity": "12",
+      "unit": "un",
+      "unit_price": "1358.00",
+      "amount": "16296.00",
+      "tax_rate": "17"
+    },
+    {
+      "description": "Embalagens de papelão, caixa nº 4 (500 un.)",
+      "quantity": "12",
+      "unit": "palete",
+      "unit_price": "1809.78",
+      "amount": "21717.36",
+      "tax_rate": "17"
+    },
+    {
+      "description": "Licença de software — anual",
+      "quantity": "12",
+      "unit": "cx",
+      "unit_price": "1852.00",
+      "amount": "22224.00",
+      "tax_rate": "17"
+    },
+    {
+      "description": "Notebook i5, 16GB RAM, 512GB SSD",
+      "quantity": "2.5",
+      "unit": "h",
+      "unit_price": "699.00",
+      "amount": "1747.50",
+      "tax_rate": "17"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "NF-e nº 456309",
+    "invoice_date": "01/07/2025",
+    "due_date": "31/07/2025",
+    "tax_total": "28.611,89",
+    "total": "R$196.917,22"
+  }
+}

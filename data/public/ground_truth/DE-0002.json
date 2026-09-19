@@ -1,0 +1,61 @@
+{
+  "doc_id": "DE-0002",
+  "country": "DE",
+  "language": [
+    "de"
+  ],
+  "script": [
+    "Latn"
+  ],
+  "dimensions": {
+    "calendar": "gregorian",
+    "number_format": "native",
+    "digits": "western",
+    "tax_mode": "exclusive",
+    "cross_border": false,
+    "language_mode": "native",
+    "template": "de_b"
+  },
+  "fields": {
+    "vendor_name": "Schwarzwald Elektro GmbH",
+    "vendor_tax_id": "DE823982674",
+    "invoice_number": "RE-2025-8917",
+    "invoice_date": "2025-03-12",
+    "due_date": "2025-03-27",
+    "currency": "EUR",
+    "subtotal": "14294.00",
+    "tax_total": "1000.58",
+    "total": "15294.58",
+    "tax_rates": [
+      "7"
+    ],
+    "payment_account": "DE36069763047614653616",
+    "line_item_count": 2
+  },
+  "line_items": [
+    {
+      "description": "Bürostuhl, Netzstoff, ergonomisch",
+      "quantity": "8",
+      "unit": "Std.",
+      "unit_price": "1063.00",
+      "amount": "8504.00",
+      "tax_rate": "7"
+    },
+    {
+      "description": "Druck: Produktkatalog, 4-farbig, 500 Stück, Rückenklebung",
+      "quantity": "5",
+      "unit": "Stk.",
+      "unit_price": "1158.00",
+      "amount": "5790.00",
+      "tax_rate": "7"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "RE-2025-8917",
+    "invoice_date": "12.03.2025",
+    "due_date": "27.03.2025",
+    "subtotal": "14.294,00 € (EUR)",
+    "tax_total": "1.000,58",
+    "total": "15.294,58 € (EUR)"
+  }
+}

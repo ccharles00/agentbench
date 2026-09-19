@@ -1,0 +1,125 @@
+{
+  "doc_id": "KR-0002",
+  "country": "KR",
+  "language": [
+    "ko"
+  ],
+  "script": [
+    "Hang"
+  ],
+  "dimensions": {
+    "calendar": "gregorian",
+    "number_format": "native",
+    "digits": "western",
+    "tax_mode": "exclusive",
+    "cross_border": false,
+    "language_mode": "native",
+    "template": "kr_b"
+  },
+  "fields": {
+    "vendor_name": "수원디자인 주식회사",
+    "vendor_tax_id": "0364486084",
+    "invoice_number": "2025-2814",
+    "invoice_date": "2025-04-25",
+    "due_date": "2025-06-24",
+    "currency": "KRW",
+    "subtotal": "36119400",
+    "tax_total": "3611940",
+    "total": "39731340",
+    "tax_rates": [
+      "10"
+    ],
+    "payment_account": null,
+    "line_item_count": 10
+  },
+  "line_items": [
+    {
+      "description": "네트워크 스위치 24포트",
+      "quantity": "20",
+      "unit": "식",
+      "unit_price": "588000",
+      "amount": "11760000",
+      "tax_rate": "10"
+    },
+    {
+      "description": "케이터링 — 임원 회의 20명",
+      "quantity": "4",
+      "unit": "개",
+      "unit_price": "256500",
+      "amount": "1026000",
+      "tax_rate": "10"
+    },
+    {
+      "description": "화물 운송: 부산 → 서울, 2팔레트",
+      "quantity": "5",
+      "unit": "시간",
+      "unit_price": "464100",
+      "amount": "2320500",
+      "tax_rate": "10"
+    },
+    {
+      "description": "포장재 — 골판지 박스 (100매)",
+      "quantity": "10",
+      "unit": "대",
+      "unit_price": "683100",
+      "amount": "6831000",
+      "tax_rate": "10"
+    },
+    {
+      "description": "서버 유지보수 — 월간, 원격 모니터링 포함",
+      "quantity": "5",
+      "unit": "시간",
+      "unit_price": "95600",
+      "amount": "478000",
+      "tax_rate": "10"
+    },
+    {
+      "description": "번역 서비스 — 한국어→영어",
+      "quantity": "5.5",
+      "unit": "시간",
+      "unit_price": "566600",
+      "amount": "3116300",
+      "tax_rate": "10"
+    },
+    {
+      "description": "오피스 체어 (메시, 인체공학)",
+      "quantity": "12",
+      "unit": "시간",
+      "unit_price": "403300",
+      "amount": "4839600",
+      "tax_rate": "10"
+    },
+    {
+      "description": "소모품: 토너 카트리지 (흑색)",
+      "quantity": "4",
+      "unit": "식",
+      "unit_price": "618100",
+      "amount": "2472400",
+      "tax_rate": "10"
+    },
+    {
+      "description": "사무용품 일괄 (문구, 파일 등)",
+      "quantity": "4",
+      "unit": "시간",
+      "unit_price": "740700",
+      "amount": "2962800",
+      "tax_rate": "10"
+    },
+    {
+      "description": "소프트웨어 라이선스 — 연간",
+      "quantity": "2",
+      "unit": "개",
+      "unit_price": "156400",
+      "amount": "312800",
+      "tax_rate": "10"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "2025-2814",
+    "invoice_date": "2025. 04. 25.",
+    "due_date": "2025. 06. 24.",
+    "subtotal": "₩36,119,400 (KRW)",
+    "tax_total": "3,611,940",
+    "total": "₩39,731,340 (KRW)"
+  }
+}

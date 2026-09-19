@@ -1,0 +1,141 @@
+{
+  "doc_id": "GB-0001",
+  "country": "GB",
+  "language": [
+    "en"
+  ],
+  "script": [
+    "Latn"
+  ],
+  "dimensions": {
+    "calendar": "gregorian",
+    "number_format": "native",
+    "digits": "western",
+    "tax_mode": "exclusive",
+    "cross_border": false,
+    "language_mode": "native",
+    "template": "gb_a"
+  },
+  "fields": {
+    "vendor_name": "Camden Print Works Ltd",
+    "vendor_tax_id": "GB045345693",
+    "invoice_number": "INV/2026/9406",
+    "invoice_date": "2026-08-04",
+    "due_date": "2026-09-03",
+    "currency": "GBP",
+    "subtotal": "39383.06",
+    "tax_total": "7876.61",
+    "total": "47259.67",
+    "tax_rates": [
+      "20"
+    ],
+    "payment_account": null,
+    "line_item_count": 12
+  },
+  "line_items": [
+    {
+      "description": "Staff training — manual handling, half day session",
+      "quantity": "2",
+      "unit": "pcs",
+      "unit_price": "101.62",
+      "amount": "203.24",
+      "tax_rate": "20"
+    },
+    {
+      "description": "Packaging film roll 500mm x 300m",
+      "quantity": "2",
+      "unit": "kg",
+      "unit_price": "823.00",
+      "amount": "1646.00",
+      "tax_rate": "20"
+    },
+    {
+      "description": "Safety audit — warehouse, on-site, full report",
+      "quantity": "20",
+      "unit": "hrs",
+      "unit_price": "410.00",
+      "amount": "8200.00",
+      "tax_rate": "20"
+    },
+    {
+      "description": "Translation — EN to DE, technical manual, 60 pages",
+      "quantity": "1.5",
+      "unit": "hrs",
+      "unit_price": "337.00",
+      "amount": "505.50",
+      "tax_rate": "20"
+    },
+    {
+      "description": "Website maintenance retainer — monthly, includes hosting and minor updates",
+      "quantity": "20",
+      "unit": "items",
+      "unit_price": "455.92",
+      "amount": "9118.40",
+      "tax_rate": "20"
+    },
+    {
+      "description": "Courier — next day service, 12 parcels",
+      "quantity": "6",
+      "unit": "items",
+      "unit_price": "409.72",
+      "amount": "2458.32",
+      "tax_rate": "20"
+    },
+    {
+      "description": "Accounting services — quarterly VAT return preparation",
+      "quantity": "3",
+      "unit": "items",
+      "unit_price": "594.00",
+      "amount": "1782.00",
+      "tax_rate": "20"
+    },
+    {
+      "description": "Marketing consulting — half day, includes campaign review and written recommendations",
+      "quantity": "10",
+      "unit": "kg",
+      "unit_price": "591.00",
+      "amount": "5910.00",
+      "tax_rate": "20"
+    },
+    {
+      "description": "Oak plywood sheets 18mm, 2440x1220 (pack of 10)",
+      "quantity": "1",
+      "unit": "kg",
+      "unit_price": "661.60",
+      "amount": "661.60",
+      "tax_rate": "20"
+    },
+    {
+      "description": "Server hosting — rack unit, monthly, includes remote hands",
+      "quantity": "8",
+      "unit": "hrs",
+      "unit_price": "212.00",
+      "amount": "1696.00",
+      "tax_rate": "20"
+    },
+    {
+      "description": "Office chairs, mesh back (pack of 4)",
+      "quantity": "10",
+      "unit": "pcs",
+      "unit_price": "503.00",
+      "amount": "5030.00",
+      "tax_rate": "20"
+    },
+    {
+      "description": "LED panel lights 600x600 (carton of 20)",
+      "quantity": "6",
+      "unit": "kg",
+      "unit_price": "362.00",
+      "amount": "2172.00",
+      "tax_rate": "20"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "INV/2026/9406",
+    "invoice_date": "04/08/2026",
+    "due_date": "03/09/2026",
+    "subtotal": "£39,383.06",
+    "tax_total": "7,876.61",
+    "total": "£47,259.67"
+  }
+}

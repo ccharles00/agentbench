@@ -1,0 +1,103 @@
+{
+  "doc_id": "TH-0008",
+  "country": "TH",
+  "language": [
+    "th",
+    "en"
+  ],
+  "script": [
+    "Latn",
+    "Thai"
+  ],
+  "dimensions": {
+    "calendar": "gregorian",
+    "number_format": "native",
+    "digits": "western",
+    "tax_mode": "exclusive",
+    "cross_border": false,
+    "language_mode": "bilingual",
+    "template": "th_a"
+  },
+  "fields": {
+    "vendor_name": "บริษัท ธนบุรี ปริ๊นติ้ง จำกัด",
+    "vendor_tax_id": "3220031860611",
+    "invoice_number": "INV-2568-9576",
+    "invoice_date": "2025-07-08",
+    "due_date": "2025-07-23",
+    "currency": "THB",
+    "subtotal": "122644.75",
+    "tax_total": "8585.14",
+    "total": "131229.89",
+    "tax_rates": [
+      "7"
+    ],
+    "payment_account": null,
+    "line_item_count": 7
+  },
+  "line_items": [
+    {
+      "description": "จัดเลี้ยงสำนักงาน — 20 ท่าน",
+      "quantity": "2",
+      "unit": "หน่วย",
+      "unit_price": "854.24",
+      "amount": "1708.48",
+      "tax_rate": "7"
+    },
+    {
+      "description": "เก้าอี้สำนักงาน ผ้าตาข่าย",
+      "quantity": "4",
+      "unit": "พาเลท",
+      "unit_price": "7282.00",
+      "amount": "29128.00",
+      "tax_rate": "7"
+    },
+    {
+      "description": "Accounting services — monthly",
+      "quantity": "10",
+      "unit": "ชั่วโมง",
+      "unit_price": "6757.95",
+      "amount": "67579.50",
+      "tax_rate": "7"
+    },
+    {
+      "description": "วัสดุบรรจุภัณฑ์ — กล่องลูกฟูก (500 ใบ)",
+      "quantity": "3",
+      "unit": "รีม",
+      "unit_price": "741.99",
+      "amount": "2225.97",
+      "tax_rate": "7"
+    },
+    {
+      "description": "Office chairs, mesh, ergonomic",
+      "quantity": "1",
+      "unit": "รีม",
+      "unit_price": "10798.00",
+      "amount": "10798.00",
+      "tax_rate": "7"
+    },
+    {
+      "description": "บริการบำรุงรักษาประจำเดือน — เซิร์ฟเวอร์ รวมการดูแลระยะไกล",
+      "quantity": "1",
+      "unit": "รีม",
+      "unit_price": "4499.80",
+      "amount": "4499.80",
+      "tax_rate": "7"
+    },
+    {
+      "description": "ค่าลิขสิทธิ์ซอฟต์แวร์ — รายปี",
+      "quantity": "3",
+      "unit": "รีม",
+      "unit_price": "2235.00",
+      "amount": "6705.00",
+      "tax_rate": "7"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "INV-2568-9576",
+    "invoice_date": "8 ก.ค. 2568",
+    "due_date": "23 กรกฎาคม 2568",
+    "subtotal": "฿122,644.75",
+    "tax_total": "8,585.14",
+    "total": "฿131,229.89"
+  }
+}

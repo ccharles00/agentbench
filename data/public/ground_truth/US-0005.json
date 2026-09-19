@@ -1,0 +1,61 @@
+{
+  "doc_id": "US-0005",
+  "country": "US",
+  "language": [
+    "en"
+  ],
+  "script": [
+    "Latn"
+  ],
+  "dimensions": {
+    "calendar": "gregorian",
+    "number_format": "native",
+    "digits": "western",
+    "tax_mode": "exclusive",
+    "cross_border": false,
+    "language_mode": "native",
+    "template": "us_b"
+  },
+  "fields": {
+    "vendor_name": "Harbor Freight Forwarding Inc.",
+    "vendor_tax_id": "241157242",
+    "invoice_number": "SI-202502-879",
+    "invoice_date": "2025-02-06",
+    "due_date": "2025-03-23",
+    "currency": "USD",
+    "subtotal": "2683.30",
+    "tax_total": "161.00",
+    "total": "2844.30",
+    "tax_rates": [
+      "6"
+    ],
+    "payment_account": null,
+    "line_item_count": 2
+  },
+  "line_items": [
+    {
+      "description": "Safety gloves, cut-resistant, size L (12 pairs)",
+      "quantity": "20",
+      "unit": "mo",
+      "unit_price": "130.64",
+      "amount": "2612.80",
+      "tax_rate": "6"
+    },
+    {
+      "description": "Office chair, ergonomic mesh, adjustable arms",
+      "quantity": "1.5",
+      "unit": "hrs",
+      "unit_price": "47.00",
+      "amount": "70.50",
+      "tax_rate": "6"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "SI-202502-879",
+    "invoice_date": "02/06/2025",
+    "due_date": "03/23/2025",
+    "subtotal": "$2,683.30",
+    "tax_total": "161.00",
+    "total": "$2,844.30"
+  }
+}

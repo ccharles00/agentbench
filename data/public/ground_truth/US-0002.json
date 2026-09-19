@@ -1,0 +1,77 @@
+{
+  "doc_id": "US-0002",
+  "country": "US",
+  "language": [
+    "en"
+  ],
+  "script": [
+    "Latn"
+  ],
+  "dimensions": {
+    "calendar": "gregorian",
+    "number_format": "native",
+    "digits": "western",
+    "tax_mode": "exclusive",
+    "cross_border": false,
+    "language_mode": "native",
+    "template": "us_b"
+  },
+  "fields": {
+    "vendor_name": "Lakeside Catering Services",
+    "vendor_tax_id": "550743148",
+    "invoice_number": "INV-2025-4078",
+    "invoice_date": "2025-09-21",
+    "due_date": "2025-10-06",
+    "currency": "USD",
+    "subtotal": "23310.82",
+    "tax_total": "1398.65",
+    "total": "24709.47",
+    "tax_rates": [
+      "6"
+    ],
+    "payment_account": null,
+    "line_item_count": 4
+  },
+  "line_items": [
+    {
+      "description": "Software license — annual subscription, 25 seats",
+      "quantity": "6",
+      "unit": "mo",
+      "unit_price": "727.00",
+      "amount": "4362.00",
+      "tax_rate": "6"
+    },
+    {
+      "description": "Cloud hosting — compute and storage, monthly",
+      "quantity": "20",
+      "unit": "ea",
+      "unit_price": "738.11",
+      "amount": "14762.20",
+      "tax_rate": "6"
+    },
+    {
+      "description": "Custom rack enclosure, 42U, with cable management and thermal kit",
+      "quantity": "4",
+      "unit": "pcs",
+      "unit_price": "722.28",
+      "amount": "2889.12",
+      "tax_rate": "6"
+    },
+    {
+      "description": "Consulting hours — ERP migration, senior consultant",
+      "quantity": "1.5",
+      "unit": "hrs",
+      "unit_price": "865.00",
+      "amount": "1297.50",
+      "tax_rate": "6"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "INV-2025-4078",
+    "invoice_date": "09/21/2025",
+    "due_date": "10/06/2025",
+    "subtotal": "$23,310.82 (USD)",
+    "tax_total": "1,398.65",
+    "total": "$24,709.47 (USD)"
+  }
+}

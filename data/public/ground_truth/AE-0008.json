@@ -1,0 +1,119 @@
+{
+  "doc_id": "AE-0008",
+  "country": "AE",
+  "language": [
+    "ar",
+    "en"
+  ],
+  "script": [
+    "Arab",
+    "Latn"
+  ],
+  "dimensions": {
+    "calendar": "gregorian",
+    "number_format": "native",
+    "digits": "western",
+    "tax_mode": "exclusive",
+    "cross_border": false,
+    "language_mode": "bilingual",
+    "template": "ae_a"
+  },
+  "fields": {
+    "vendor_name": "دبي للتجارة العامة ذ.م.م",
+    "vendor_tax_id": "182201567357941",
+    "invoice_number": "TINV/2025/4356",
+    "invoice_date": "2025-10-20",
+    "due_date": "2025-11-19",
+    "currency": "AED",
+    "subtotal": "91189.88",
+    "tax_total": "4559.49",
+    "total": "95749.37",
+    "tax_rates": [
+      "5"
+    ],
+    "payment_account": null,
+    "line_item_count": 9
+  },
+  "line_items": [
+    {
+      "description": "Accounting services — monthly",
+      "quantity": "3",
+      "unit": "carton",
+      "unit_price": "1407.00",
+      "amount": "4221.00",
+      "tax_rate": "5"
+    },
+    {
+      "description": "Software license — annual / ترخيص برمجيات سنوي",
+      "quantity": "12",
+      "unit": "pcs",
+      "unit_price": "2806.00",
+      "amount": "33672.00",
+      "tax_rate": "5"
+    },
+    {
+      "description": "Monthly IT maintenance — servers and network / صيانة شهرية للخوادم",
+      "quantity": "4",
+      "unit": "carton",
+      "unit_price": "2367.00",
+      "amount": "9468.00",
+      "tax_rate": "5"
+    },
+    {
+      "description": "Paper A4, carton of 10 reams",
+      "quantity": "2",
+      "unit": "hrs",
+      "unit_price": "334.89",
+      "amount": "669.78",
+      "tax_rate": "5"
+    },
+    {
+      "description": "Translation AR → EN / ترجمة عربي → إنجليزي",
+      "quantity": "12",
+      "unit": "pallet",
+      "unit_price": "2175.00",
+      "amount": "26100.00",
+      "tax_rate": "5"
+    },
+    {
+      "description": "Software license — annual",
+      "quantity": "4",
+      "unit": "pallet",
+      "unit_price": "223.00",
+      "amount": "892.00",
+      "tax_rate": "5"
+    },
+    {
+      "description": "Office desks, 160 cm, walnut / مكاتب خشبية",
+      "quantity": "6",
+      "unit": "hrs",
+      "unit_price": "1883.91",
+      "amount": "11303.46",
+      "tax_rate": "5"
+    },
+    {
+      "description": "Monthly IT maintenance — servers and network",
+      "quantity": "2",
+      "unit": "pallet",
+      "unit_price": "1271.24",
+      "amount": "2542.48",
+      "tax_rate": "5"
+    },
+    {
+      "description": "Paper A4, carton of 10 reams / ورق A4 (كرتون)",
+      "quantity": "3",
+      "unit": "carton",
+      "unit_price": "773.72",
+      "amount": "2321.16",
+      "tax_rate": "5"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "TINV/2025/4356",
+    "invoice_date": "20/10/2025",
+    "due_date": "19/11/2025",
+    "subtotal": "91,189.88 د.إ",
+    "tax_total": "4,559.49",
+    "total": "95,749.37 د.إ"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "doc_id": "CN-0006",
+  "country": "CN",
+  "language": [
+    "zh"
+  ],
+  "script": [
+    "Hani"
+  ],
+  "dimensions": {
+    "calendar": "gregorian",
+    "number_format": "native",
+    "digits": "western",
+    "tax_mode": "exclusive",
+    "cross_border": false,
+    "language_mode": "native",
+    "template": "cn_c"
+  },
+  "fields": {
+    "vendor_name": "上海东方贸易有限公司",
+    "vendor_tax_id": "3DYJUEUW78A14GPHB4",
+    "invoice_number": "INV202607215",
+    "invoice_date": "2026-07-13",
+    "due_date": "2026-08-12",
+    "currency": "CNY",
+    "subtotal": "80334.80",
+    "tax_total": "10443.52",
+    "total": "90778.32",
+    "tax_rates": [
+      "13"
+    ],
+    "payment_account": null,
+    "line_item_count": 4
+  },
+  "line_items": [
+    {
+      "description": "货运：深圳 → 上海，2 托，汽运",
+      "quantity": "5",
+      "unit": "册",
+      "unit_price": "4713.56",
+      "amount": "23567.80",
+      "tax_rate": "13"
+    },
+    {
+      "description": "包装材料 — 瓦楞纸箱 5 号（1000 只）",
+      "quantity": "2",
+      "unit": "个",
+      "unit_price": "3886.00",
+      "amount": "7772.00",
+      "tax_rate": "13"
+    },
+    {
+      "description": "服务器托管服务 — 一年，含带宽与运维值守",
+      "quantity": "1",
+      "unit": "册",
+      "unit_price": "5845.00",
+      "amount": "5845.00",
+      "tax_rate": "13"
+    },
+    {
+      "description": "翻译服务 — 中文译英文，技术文档 40 页",
+      "quantity": "10",
+      "unit": "小时",
+      "unit_price": "4315.00",
+      "amount": "43150.00",
+      "tax_rate": "13"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "INV202607215",
+    "invoice_date": "2026年7月13日",
+    "due_date": "2026年8月12日",
+    "subtotal": "¥80,334.80",
+    "tax_total": "10,443.52",
+    "total": "¥90,778.32"
+  }
+}

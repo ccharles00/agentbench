@@ -1,0 +1,2128 @@
+{
+  "category": "invoices",
+  "dataset_version": "2026.1",
+  "split": "public",
+  "seed": "20260919",
+  "generator_version": "2026.1.0",
+  "documents": [
+    {
+      "doc_id": "AE-0001",
+      "country": "AE",
+      "ground_truth": "ground_truth/AE-0001.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/AE-0001/clean.pdf"
+        ],
+        "scan": [
+          "documents/AE-0001/AE-0001_scan.png"
+        ],
+        "bad_scan": [
+          "documents/AE-0001/AE-0001_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/AE-0001/AE-0001_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "AE-0002",
+      "country": "AE",
+      "ground_truth": "ground_truth/AE-0002.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/AE-0002/clean.pdf"
+        ],
+        "scan": [
+          "documents/AE-0002/AE-0002_scan.png"
+        ],
+        "bad_scan": [
+          "documents/AE-0002/AE-0002_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/AE-0002/AE-0002_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "AE-0003",
+      "country": "AE",
+      "ground_truth": "ground_truth/AE-0003.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/AE-0003/clean.pdf"
+        ],
+        "scan": [
+          "documents/AE-0003/AE-0003_scan_p1.png",
+          "documents/AE-0003/AE-0003_scan_p2.png"
+        ],
+        "bad_scan": [
+          "documents/AE-0003/AE-0003_bad_scan_p1.jpg",
+          "documents/AE-0003/AE-0003_bad_scan_p2.jpg"
+        ],
+        "phone_photo": [
+          "documents/AE-0003/AE-0003_phone_photo_p1.jpg",
+          "documents/AE-0003/AE-0003_phone_photo_p2.jpg"
+        ]
+      },
+      "multipage": true
+    },
+    {
+      "doc_id": "AE-0004",
+      "country": "AE",
+      "ground_truth": "ground_truth/AE-0004.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/AE-0004/clean.pdf"
+        ],
+        "scan": [
+          "documents/AE-0004/AE-0004_scan.png"
+        ],
+        "bad_scan": [
+          "documents/AE-0004/AE-0004_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/AE-0004/AE-0004_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "AE-0005",
+      "country": "AE",
+      "ground_truth": "ground_truth/AE-0005.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/AE-0005/clean.pdf"
+        ],
+        "scan": [
+          "documents/AE-0005/AE-0005_scan.png"
+        ],
+        "bad_scan": [
+          "documents/AE-0005/AE-0005_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/AE-0005/AE-0005_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "AE-0006",
+      "country": "AE",
+      "ground_truth": "ground_truth/AE-0006.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/AE-0006/clean.pdf"
+        ],
+        "scan": [
+          "documents/AE-0006/AE-0006_scan.png"
+        ],
+        "bad_scan": [
+          "documents/AE-0006/AE-0006_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/AE-0006/AE-0006_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "AE-0007",
+      "country": "AE",
+      "ground_truth": "ground_truth/AE-0007.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/AE-0007/clean.pdf"
+        ],
+        "scan": [
+          "documents/AE-0007/AE-0007_scan.png"
+        ],
+        "bad_scan": [
+          "documents/AE-0007/AE-0007_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/AE-0007/AE-0007_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "AE-0008",
+      "country": "AE",
+      "ground_truth": "ground_truth/AE-0008.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/AE-0008/clean.pdf"
+        ],
+        "scan": [
+          "documents/AE-0008/AE-0008_scan.png"
+        ],
+        "bad_scan": [
+          "documents/AE-0008/AE-0008_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/AE-0008/AE-0008_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "BR-0001",
+      "country": "BR",
+      "ground_truth": "ground_truth/BR-0001.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/BR-0001/clean.pdf"
+        ],
+        "scan": [
+          "documents/BR-0001/BR-0001_scan.png"
+        ],
+        "bad_scan": [
+          "documents/BR-0001/BR-0001_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/BR-0001/BR-0001_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "BR-0002",
+      "country": "BR",
+      "ground_truth": "ground_truth/BR-0002.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/BR-0002/clean.pdf"
+        ],
+        "scan": [
+          "documents/BR-0002/BR-0002_scan.png"
+        ],
+        "bad_scan": [
+          "documents/BR-0002/BR-0002_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/BR-0002/BR-0002_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "BR-0003",
+      "country": "BR",
+      "ground_truth": "ground_truth/BR-0003.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/BR-0003/clean.pdf"
+        ],
+        "scan": [
+          "documents/BR-0003/BR-0003_scan_p1.png",
+          "documents/BR-0003/BR-0003_scan_p2.png"
+        ],
+        "bad_scan": [
+          "documents/BR-0003/BR-0003_bad_scan_p1.jpg",
+          "documents/BR-0003/BR-0003_bad_scan_p2.jpg"
+        ],
+        "phone_photo": [
+          "documents/BR-0003/BR-0003_phone_photo_p1.jpg",
+          "documents/BR-0003/BR-0003_phone_photo_p2.jpg"
+        ]
+      },
+      "multipage": true
+    },
+    {
+      "doc_id": "BR-0004",
+      "country": "BR",
+      "ground_truth": "ground_truth/BR-0004.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/BR-0004/clean.pdf"
+        ],
+        "scan": [
+          "documents/BR-0004/BR-0004_scan.png"
+        ],
+        "bad_scan": [
+          "documents/BR-0004/BR-0004_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/BR-0004/BR-0004_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "BR-0005",
+      "country": "BR",
+      "ground_truth": "ground_truth/BR-0005.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/BR-0005/clean.pdf"
+        ],
+        "scan": [
+          "documents/BR-0005/BR-0005_scan.png"
+        ],
+        "bad_scan": [
+          "documents/BR-0005/BR-0005_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/BR-0005/BR-0005_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "BR-0006",
+      "country": "BR",
+      "ground_truth": "ground_truth/BR-0006.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/BR-0006/clean.pdf"
+        ],
+        "scan": [
+          "documents/BR-0006/BR-0006_scan.png"
+        ],
+        "bad_scan": [
+          "documents/BR-0006/BR-0006_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/BR-0006/BR-0006_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "BR-0007",
+      "country": "BR",
+      "ground_truth": "ground_truth/BR-0007.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/BR-0007/clean.pdf"
+        ],
+        "scan": [
+          "documents/BR-0007/BR-0007_scan.png"
+        ],
+        "bad_scan": [
+          "documents/BR-0007/BR-0007_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/BR-0007/BR-0007_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "BR-0008",
+      "country": "BR",
+      "ground_truth": "ground_truth/BR-0008.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/BR-0008/clean.pdf"
+        ],
+        "scan": [
+          "documents/BR-0008/BR-0008_scan.png"
+        ],
+        "bad_scan": [
+          "documents/BR-0008/BR-0008_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/BR-0008/BR-0008_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "CN-0001",
+      "country": "CN",
+      "ground_truth": "ground_truth/CN-0001.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/CN-0001/clean.pdf"
+        ],
+        "scan": [
+          "documents/CN-0001/CN-0001_scan.png"
+        ],
+        "bad_scan": [
+          "documents/CN-0001/CN-0001_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/CN-0001/CN-0001_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "CN-0002",
+      "country": "CN",
+      "ground_truth": "ground_truth/CN-0002.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/CN-0002/clean.pdf"
+        ],
+        "scan": [
+          "documents/CN-0002/CN-0002_scan.png"
+        ],
+        "bad_scan": [
+          "documents/CN-0002/CN-0002_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/CN-0002/CN-0002_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "CN-0003",
+      "country": "CN",
+      "ground_truth": "ground_truth/CN-0003.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/CN-0003/clean.pdf"
+        ],
+        "scan": [
+          "documents/CN-0003/CN-0003_scan.png"
+        ],
+        "bad_scan": [
+          "documents/CN-0003/CN-0003_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/CN-0003/CN-0003_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "CN-0004",
+      "country": "CN",
+      "ground_truth": "ground_truth/CN-0004.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/CN-0004/clean.pdf"
+        ],
+        "scan": [
+          "documents/CN-0004/CN-0004_scan.png"
+        ],
+        "bad_scan": [
+          "documents/CN-0004/CN-0004_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/CN-0004/CN-0004_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "CN-0005",
+      "country": "CN",
+      "ground_truth": "ground_truth/CN-0005.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/CN-0005/clean.pdf"
+        ],
+        "scan": [
+          "documents/CN-0005/CN-0005_scan.png"
+        ],
+        "bad_scan": [
+          "documents/CN-0005/CN-0005_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/CN-0005/CN-0005_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "CN-0006",
+      "country": "CN",
+      "ground_truth": "ground_truth/CN-0006.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/CN-0006/clean.pdf"
+        ],
+        "scan": [
+          "documents/CN-0006/CN-0006_scan.png"
+        ],
+        "bad_scan": [
+          "documents/CN-0006/CN-0006_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/CN-0006/CN-0006_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "CN-0007",
+      "country": "CN",
+      "ground_truth": "ground_truth/CN-0007.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/CN-0007/clean.pdf"
+        ],
+        "scan": [
+          "documents/CN-0007/CN-0007_scan_p1.png",
+          "documents/CN-0007/CN-0007_scan_p2.png"
+        ],
+        "bad_scan": [
+          "documents/CN-0007/CN-0007_bad_scan_p1.jpg",
+          "documents/CN-0007/CN-0007_bad_scan_p2.jpg"
+        ],
+        "phone_photo": [
+          "documents/CN-0007/CN-0007_phone_photo_p1.jpg",
+          "documents/CN-0007/CN-0007_phone_photo_p2.jpg"
+        ]
+      },
+      "multipage": true
+    },
+    {
+      "doc_id": "CN-0008",
+      "country": "CN",
+      "ground_truth": "ground_truth/CN-0008.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/CN-0008/clean.pdf"
+        ],
+        "scan": [
+          "documents/CN-0008/CN-0008_scan.png"
+        ],
+        "bad_scan": [
+          "documents/CN-0008/CN-0008_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/CN-0008/CN-0008_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "DE-0001",
+      "country": "DE",
+      "ground_truth": "ground_truth/DE-0001.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/DE-0001/clean.pdf"
+        ],
+        "scan": [
+          "documents/DE-0001/DE-0001_scan.png"
+        ],
+        "bad_scan": [
+          "documents/DE-0001/DE-0001_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/DE-0001/DE-0001_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "DE-0002",
+      "country": "DE",
+      "ground_truth": "ground_truth/DE-0002.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/DE-0002/clean.pdf"
+        ],
+        "scan": [
+          "documents/DE-0002/DE-0002_scan.png"
+        ],
+        "bad_scan": [
+          "documents/DE-0002/DE-0002_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/DE-0002/DE-0002_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "DE-0003",
+      "country": "DE",
+      "ground_truth": "ground_truth/DE-0003.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/DE-0003/clean.pdf"
+        ],
+        "scan": [
+          "documents/DE-0003/DE-0003_scan.png"
+        ],
+        "bad_scan": [
+          "documents/DE-0003/DE-0003_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/DE-0003/DE-0003_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "DE-0004",
+      "country": "DE",
+      "ground_truth": "ground_truth/DE-0004.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/DE-0004/clean.pdf"
+        ],
+        "scan": [
+          "documents/DE-0004/DE-0004_scan.png"
+        ],
+        "bad_scan": [
+          "documents/DE-0004/DE-0004_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/DE-0004/DE-0004_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "DE-0005",
+      "country": "DE",
+      "ground_truth": "ground_truth/DE-0005.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/DE-0005/clean.pdf"
+        ],
+        "scan": [
+          "documents/DE-0005/DE-0005_scan.png"
+        ],
+        "bad_scan": [
+          "documents/DE-0005/DE-0005_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/DE-0005/DE-0005_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "DE-0006",
+      "country": "DE",
+      "ground_truth": "ground_truth/DE-0006.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/DE-0006/clean.pdf"
+        ],
+        "scan": [
+          "documents/DE-0006/DE-0006_scan.png"
+        ],
+        "bad_scan": [
+          "documents/DE-0006/DE-0006_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/DE-0006/DE-0006_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "DE-0007",
+      "country": "DE",
+      "ground_truth": "ground_truth/DE-0007.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/DE-0007/clean.pdf"
+        ],
+        "scan": [
+          "documents/DE-0007/DE-0007_scan_p1.png",
+          "documents/DE-0007/DE-0007_scan_p2.png"
+        ],
+        "bad_scan": [
+          "documents/DE-0007/DE-0007_bad_scan_p1.jpg",
+          "documents/DE-0007/DE-0007_bad_scan_p2.jpg"
+        ],
+        "phone_photo": [
+          "documents/DE-0007/DE-0007_phone_photo_p1.jpg",
+          "documents/DE-0007/DE-0007_phone_photo_p2.jpg"
+        ]
+      },
+      "multipage": true
+    },
+    {
+      "doc_id": "DE-0008",
+      "country": "DE",
+      "ground_truth": "ground_truth/DE-0008.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/DE-0008/clean.pdf"
+        ],
+        "scan": [
+          "documents/DE-0008/DE-0008_scan.png"
+        ],
+        "bad_scan": [
+          "documents/DE-0008/DE-0008_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/DE-0008/DE-0008_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "GB-0001",
+      "country": "GB",
+      "ground_truth": "ground_truth/GB-0001.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/GB-0001/clean.pdf"
+        ],
+        "scan": [
+          "documents/GB-0001/GB-0001_scan.png"
+        ],
+        "bad_scan": [
+          "documents/GB-0001/GB-0001_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/GB-0001/GB-0001_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "GB-0002",
+      "country": "GB",
+      "ground_truth": "ground_truth/GB-0002.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/GB-0002/clean.pdf"
+        ],
+        "scan": [
+          "documents/GB-0002/GB-0002_scan.png"
+        ],
+        "bad_scan": [
+          "documents/GB-0002/GB-0002_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/GB-0002/GB-0002_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "GB-0003",
+      "country": "GB",
+      "ground_truth": "ground_truth/GB-0003.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/GB-0003/clean.pdf"
+        ],
+        "scan": [
+          "documents/GB-0003/GB-0003_scan_p1.png",
+          "documents/GB-0003/GB-0003_scan_p2.png"
+        ],
+        "bad_scan": [
+          "documents/GB-0003/GB-0003_bad_scan_p1.jpg",
+          "documents/GB-0003/GB-0003_bad_scan_p2.jpg"
+        ],
+        "phone_photo": [
+          "documents/GB-0003/GB-0003_phone_photo_p1.jpg",
+          "documents/GB-0003/GB-0003_phone_photo_p2.jpg"
+        ]
+      },
+      "multipage": true
+    },
+    {
+      "doc_id": "GB-0004",
+      "country": "GB",
+      "ground_truth": "ground_truth/GB-0004.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/GB-0004/clean.pdf"
+        ],
+        "scan": [
+          "documents/GB-0004/GB-0004_scan.png"
+        ],
+        "bad_scan": [
+          "documents/GB-0004/GB-0004_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/GB-0004/GB-0004_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "GB-0005",
+      "country": "GB",
+      "ground_truth": "ground_truth/GB-0005.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/GB-0005/clean.pdf"
+        ],
+        "scan": [
+          "documents/GB-0005/GB-0005_scan.png"
+        ],
+        "bad_scan": [
+          "documents/GB-0005/GB-0005_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/GB-0005/GB-0005_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "GB-0006",
+      "country": "GB",
+      "ground_truth": "ground_truth/GB-0006.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/GB-0006/clean.pdf"
+        ],
+        "scan": [
+          "documents/GB-0006/GB-0006_scan.png"
+        ],
+        "bad_scan": [
+          "documents/GB-0006/GB-0006_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/GB-0006/GB-0006_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "GB-0007",
+      "country": "GB",
+      "ground_truth": "ground_truth/GB-0007.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/GB-0007/clean.pdf"
+        ],
+        "scan": [
+          "documents/GB-0007/GB-0007_scan.png"
+        ],
+        "bad_scan": [
+          "documents/GB-0007/GB-0007_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/GB-0007/GB-0007_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "GB-0008",
+      "country": "GB",
+      "ground_truth": "ground_truth/GB-0008.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/GB-0008/clean.pdf"
+        ],
+        "scan": [
+          "documents/GB-0008/GB-0008_scan.png"
+        ],
+        "bad_scan": [
+          "documents/GB-0008/GB-0008_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/GB-0008/GB-0008_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "ID-0001",
+      "country": "ID",
+      "ground_truth": "ground_truth/ID-0001.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/ID-0001/clean.pdf"
+        ],
+        "scan": [
+          "documents/ID-0001/ID-0001_scan.png"
+        ],
+        "bad_scan": [
+          "documents/ID-0001/ID-0001_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/ID-0001/ID-0001_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "ID-0002",
+      "country": "ID",
+      "ground_truth": "ground_truth/ID-0002.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/ID-0002/clean.pdf"
+        ],
+        "scan": [
+          "documents/ID-0002/ID-0002_scan.png"
+        ],
+        "bad_scan": [
+          "documents/ID-0002/ID-0002_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/ID-0002/ID-0002_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "ID-0003",
+      "country": "ID",
+      "ground_truth": "ground_truth/ID-0003.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/ID-0003/clean.pdf"
+        ],
+        "scan": [
+          "documents/ID-0003/ID-0003_scan_p1.png",
+          "documents/ID-0003/ID-0003_scan_p2.png"
+        ],
+        "bad_scan": [
+          "documents/ID-0003/ID-0003_bad_scan_p1.jpg",
+          "documents/ID-0003/ID-0003_bad_scan_p2.jpg"
+        ],
+        "phone_photo": [
+          "documents/ID-0003/ID-0003_phone_photo_p1.jpg",
+          "documents/ID-0003/ID-0003_phone_photo_p2.jpg"
+        ]
+      },
+      "multipage": true
+    },
+    {
+      "doc_id": "ID-0004",
+      "country": "ID",
+      "ground_truth": "ground_truth/ID-0004.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/ID-0004/clean.pdf"
+        ],
+        "scan": [
+          "documents/ID-0004/ID-0004_scan.png"
+        ],
+        "bad_scan": [
+          "documents/ID-0004/ID-0004_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/ID-0004/ID-0004_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "ID-0005",
+      "country": "ID",
+      "ground_truth": "ground_truth/ID-0005.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/ID-0005/clean.pdf"
+        ],
+        "scan": [
+          "documents/ID-0005/ID-0005_scan.png"
+        ],
+        "bad_scan": [
+          "documents/ID-0005/ID-0005_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/ID-0005/ID-0005_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "ID-0006",
+      "country": "ID",
+      "ground_truth": "ground_truth/ID-0006.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/ID-0006/clean.pdf"
+        ],
+        "scan": [
+          "documents/ID-0006/ID-0006_scan.png"
+        ],
+        "bad_scan": [
+          "documents/ID-0006/ID-0006_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/ID-0006/ID-0006_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "ID-0007",
+      "country": "ID",
+      "ground_truth": "ground_truth/ID-0007.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/ID-0007/clean.pdf"
+        ],
+        "scan": [
+          "documents/ID-0007/ID-0007_scan.png"
+        ],
+        "bad_scan": [
+          "documents/ID-0007/ID-0007_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/ID-0007/ID-0007_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "ID-0008",
+      "country": "ID",
+      "ground_truth": "ground_truth/ID-0008.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/ID-0008/clean.pdf"
+        ],
+        "scan": [
+          "documents/ID-0008/ID-0008_scan.png"
+        ],
+        "bad_scan": [
+          "documents/ID-0008/ID-0008_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/ID-0008/ID-0008_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "IN-0001",
+      "country": "IN",
+      "ground_truth": "ground_truth/IN-0001.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/IN-0001/clean.pdf"
+        ],
+        "scan": [
+          "documents/IN-0001/IN-0001_scan.png"
+        ],
+        "bad_scan": [
+          "documents/IN-0001/IN-0001_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/IN-0001/IN-0001_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "IN-0002",
+      "country": "IN",
+      "ground_truth": "ground_truth/IN-0002.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/IN-0002/clean.pdf"
+        ],
+        "scan": [
+          "documents/IN-0002/IN-0002_scan.png"
+        ],
+        "bad_scan": [
+          "documents/IN-0002/IN-0002_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/IN-0002/IN-0002_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "IN-0003",
+      "country": "IN",
+      "ground_truth": "ground_truth/IN-0003.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/IN-0003/clean.pdf"
+        ],
+        "scan": [
+          "documents/IN-0003/IN-0003_scan.png"
+        ],
+        "bad_scan": [
+          "documents/IN-0003/IN-0003_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/IN-0003/IN-0003_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "IN-0004",
+      "country": "IN",
+      "ground_truth": "ground_truth/IN-0004.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/IN-0004/clean.pdf"
+        ],
+        "scan": [
+          "documents/IN-0004/IN-0004_scan.png"
+        ],
+        "bad_scan": [
+          "documents/IN-0004/IN-0004_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/IN-0004/IN-0004_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "IN-0005",
+      "country": "IN",
+      "ground_truth": "ground_truth/IN-0005.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/IN-0005/clean.pdf"
+        ],
+        "scan": [
+          "documents/IN-0005/IN-0005_scan_p1.png",
+          "documents/IN-0005/IN-0005_scan_p2.png"
+        ],
+        "bad_scan": [
+          "documents/IN-0005/IN-0005_bad_scan_p1.jpg",
+          "documents/IN-0005/IN-0005_bad_scan_p2.jpg"
+        ],
+        "phone_photo": [
+          "documents/IN-0005/IN-0005_phone_photo_p1.jpg",
+          "documents/IN-0005/IN-0005_phone_photo_p2.jpg"
+        ]
+      },
+      "multipage": true
+    },
+    {
+      "doc_id": "IN-0006",
+      "country": "IN",
+      "ground_truth": "ground_truth/IN-0006.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/IN-0006/clean.pdf"
+        ],
+        "scan": [
+          "documents/IN-0006/IN-0006_scan.png"
+        ],
+        "bad_scan": [
+          "documents/IN-0006/IN-0006_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/IN-0006/IN-0006_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "IN-0007",
+      "country": "IN",
+      "ground_truth": "ground_truth/IN-0007.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/IN-0007/clean.pdf"
+        ],
+        "scan": [
+          "documents/IN-0007/IN-0007_scan.png"
+        ],
+        "bad_scan": [
+          "documents/IN-0007/IN-0007_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/IN-0007/IN-0007_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "IN-0008",
+      "country": "IN",
+      "ground_truth": "ground_truth/IN-0008.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/IN-0008/clean.pdf"
+        ],
+        "scan": [
+          "documents/IN-0008/IN-0008_scan.png"
+        ],
+        "bad_scan": [
+          "documents/IN-0008/IN-0008_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/IN-0008/IN-0008_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "JP-0001",
+      "country": "JP",
+      "ground_truth": "ground_truth/JP-0001.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/JP-0001/clean.pdf"
+        ],
+        "scan": [
+          "documents/JP-0001/JP-0001_scan.png"
+        ],
+        "bad_scan": [
+          "documents/JP-0001/JP-0001_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/JP-0001/JP-0001_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "JP-0002",
+      "country": "JP",
+      "ground_truth": "ground_truth/JP-0002.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/JP-0002/clean.pdf"
+        ],
+        "scan": [
+          "documents/JP-0002/JP-0002_scan.png"
+        ],
+        "bad_scan": [
+          "documents/JP-0002/JP-0002_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/JP-0002/JP-0002_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "JP-0003",
+      "country": "JP",
+      "ground_truth": "ground_truth/JP-0003.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/JP-0003/clean.pdf"
+        ],
+        "scan": [
+          "documents/JP-0003/JP-0003_scan.png"
+        ],
+        "bad_scan": [
+          "documents/JP-0003/JP-0003_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/JP-0003/JP-0003_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "JP-0004",
+      "country": "JP",
+      "ground_truth": "ground_truth/JP-0004.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/JP-0004/clean.pdf"
+        ],
+        "scan": [
+          "documents/JP-0004/JP-0004_scan.png"
+        ],
+        "bad_scan": [
+          "documents/JP-0004/JP-0004_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/JP-0004/JP-0004_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "JP-0005",
+      "country": "JP",
+      "ground_truth": "ground_truth/JP-0005.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/JP-0005/clean.pdf"
+        ],
+        "scan": [
+          "documents/JP-0005/JP-0005_scan.png"
+        ],
+        "bad_scan": [
+          "documents/JP-0005/JP-0005_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/JP-0005/JP-0005_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "JP-0006",
+      "country": "JP",
+      "ground_truth": "ground_truth/JP-0006.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/JP-0006/clean.pdf"
+        ],
+        "scan": [
+          "documents/JP-0006/JP-0006_scan_p1.png",
+          "documents/JP-0006/JP-0006_scan_p2.png"
+        ],
+        "bad_scan": [
+          "documents/JP-0006/JP-0006_bad_scan_p1.jpg",
+          "documents/JP-0006/JP-0006_bad_scan_p2.jpg"
+        ],
+        "phone_photo": [
+          "documents/JP-0006/JP-0006_phone_photo_p1.jpg",
+          "documents/JP-0006/JP-0006_phone_photo_p2.jpg"
+        ]
+      },
+      "multipage": true
+    },
+    {
+      "doc_id": "JP-0007",
+      "country": "JP",
+      "ground_truth": "ground_truth/JP-0007.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/JP-0007/clean.pdf"
+        ],
+        "scan": [
+          "documents/JP-0007/JP-0007_scan.png"
+        ],
+        "bad_scan": [
+          "documents/JP-0007/JP-0007_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/JP-0007/JP-0007_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "JP-0008",
+      "country": "JP",
+      "ground_truth": "ground_truth/JP-0008.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/JP-0008/clean.pdf"
+        ],
+        "scan": [
+          "documents/JP-0008/JP-0008_scan.png"
+        ],
+        "bad_scan": [
+          "documents/JP-0008/JP-0008_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/JP-0008/JP-0008_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "KR-0001",
+      "country": "KR",
+      "ground_truth": "ground_truth/KR-0001.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/KR-0001/clean.pdf"
+        ],
+        "scan": [
+          "documents/KR-0001/KR-0001_scan.png"
+        ],
+        "bad_scan": [
+          "documents/KR-0001/KR-0001_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/KR-0001/KR-0001_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "KR-0002",
+      "country": "KR",
+      "ground_truth": "ground_truth/KR-0002.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/KR-0002/clean.pdf"
+        ],
+        "scan": [
+          "documents/KR-0002/KR-0002_scan.png"
+        ],
+        "bad_scan": [
+          "documents/KR-0002/KR-0002_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/KR-0002/KR-0002_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "KR-0003",
+      "country": "KR",
+      "ground_truth": "ground_truth/KR-0003.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/KR-0003/clean.pdf"
+        ],
+        "scan": [
+          "documents/KR-0003/KR-0003_scan.png"
+        ],
+        "bad_scan": [
+          "documents/KR-0003/KR-0003_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/KR-0003/KR-0003_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "KR-0004",
+      "country": "KR",
+      "ground_truth": "ground_truth/KR-0004.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/KR-0004/clean.pdf"
+        ],
+        "scan": [
+          "documents/KR-0004/KR-0004_scan.png"
+        ],
+        "bad_scan": [
+          "documents/KR-0004/KR-0004_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/KR-0004/KR-0004_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "KR-0005",
+      "country": "KR",
+      "ground_truth": "ground_truth/KR-0005.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/KR-0005/clean.pdf"
+        ],
+        "scan": [
+          "documents/KR-0005/KR-0005_scan.png"
+        ],
+        "bad_scan": [
+          "documents/KR-0005/KR-0005_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/KR-0005/KR-0005_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "KR-0006",
+      "country": "KR",
+      "ground_truth": "ground_truth/KR-0006.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/KR-0006/clean.pdf"
+        ],
+        "scan": [
+          "documents/KR-0006/KR-0006_scan_p1.png",
+          "documents/KR-0006/KR-0006_scan_p2.png"
+        ],
+        "bad_scan": [
+          "documents/KR-0006/KR-0006_bad_scan_p1.jpg",
+          "documents/KR-0006/KR-0006_bad_scan_p2.jpg"
+        ],
+        "phone_photo": [
+          "documents/KR-0006/KR-0006_phone_photo_p1.jpg",
+          "documents/KR-0006/KR-0006_phone_photo_p2.jpg"
+        ]
+      },
+      "multipage": true
+    },
+    {
+      "doc_id": "KR-0007",
+      "country": "KR",
+      "ground_truth": "ground_truth/KR-0007.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/KR-0007/clean.pdf"
+        ],
+        "scan": [
+          "documents/KR-0007/KR-0007_scan.png"
+        ],
+        "bad_scan": [
+          "documents/KR-0007/KR-0007_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/KR-0007/KR-0007_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "KR-0008",
+      "country": "KR",
+      "ground_truth": "ground_truth/KR-0008.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/KR-0008/clean.pdf"
+        ],
+        "scan": [
+          "documents/KR-0008/KR-0008_scan.png"
+        ],
+        "bad_scan": [
+          "documents/KR-0008/KR-0008_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/KR-0008/KR-0008_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "MX-0001",
+      "country": "MX",
+      "ground_truth": "ground_truth/MX-0001.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/MX-0001/clean.pdf"
+        ],
+        "scan": [
+          "documents/MX-0001/MX-0001_scan.png"
+        ],
+        "bad_scan": [
+          "documents/MX-0001/MX-0001_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/MX-0001/MX-0001_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "MX-0002",
+      "country": "MX",
+      "ground_truth": "ground_truth/MX-0002.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/MX-0002/clean.pdf"
+        ],
+        "scan": [
+          "documents/MX-0002/MX-0002_scan.png"
+        ],
+        "bad_scan": [
+          "documents/MX-0002/MX-0002_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/MX-0002/MX-0002_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "MX-0003",
+      "country": "MX",
+      "ground_truth": "ground_truth/MX-0003.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/MX-0003/clean.pdf"
+        ],
+        "scan": [
+          "documents/MX-0003/MX-0003_scan_p1.png",
+          "documents/MX-0003/MX-0003_scan_p2.png"
+        ],
+        "bad_scan": [
+          "documents/MX-0003/MX-0003_bad_scan_p1.jpg",
+          "documents/MX-0003/MX-0003_bad_scan_p2.jpg"
+        ],
+        "phone_photo": [
+          "documents/MX-0003/MX-0003_phone_photo_p1.jpg",
+          "documents/MX-0003/MX-0003_phone_photo_p2.jpg"
+        ]
+      },
+      "multipage": true
+    },
+    {
+      "doc_id": "MX-0004",
+      "country": "MX",
+      "ground_truth": "ground_truth/MX-0004.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/MX-0004/clean.pdf"
+        ],
+        "scan": [
+          "documents/MX-0004/MX-0004_scan.png"
+        ],
+        "bad_scan": [
+          "documents/MX-0004/MX-0004_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/MX-0004/MX-0004_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "MX-0005",
+      "country": "MX",
+      "ground_truth": "ground_truth/MX-0005.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/MX-0005/clean.pdf"
+        ],
+        "scan": [
+          "documents/MX-0005/MX-0005_scan.png"
+        ],
+        "bad_scan": [
+          "documents/MX-0005/MX-0005_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/MX-0005/MX-0005_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "MX-0006",
+      "country": "MX",
+      "ground_truth": "ground_truth/MX-0006.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/MX-0006/clean.pdf"
+        ],
+        "scan": [
+          "documents/MX-0006/MX-0006_scan.png"
+        ],
+        "bad_scan": [
+          "documents/MX-0006/MX-0006_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/MX-0006/MX-0006_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "MX-0007",
+      "country": "MX",
+      "ground_truth": "ground_truth/MX-0007.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/MX-0007/clean.pdf"
+        ],
+        "scan": [
+          "documents/MX-0007/MX-0007_scan.png"
+        ],
+        "bad_scan": [
+          "documents/MX-0007/MX-0007_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/MX-0007/MX-0007_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "MX-0008",
+      "country": "MX",
+      "ground_truth": "ground_truth/MX-0008.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/MX-0008/clean.pdf"
+        ],
+        "scan": [
+          "documents/MX-0008/MX-0008_scan.png"
+        ],
+        "bad_scan": [
+          "documents/MX-0008/MX-0008_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/MX-0008/MX-0008_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "SA-0001",
+      "country": "SA",
+      "ground_truth": "ground_truth/SA-0001.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/SA-0001/clean.pdf"
+        ],
+        "scan": [
+          "documents/SA-0001/SA-0001_scan.png"
+        ],
+        "bad_scan": [
+          "documents/SA-0001/SA-0001_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/SA-0001/SA-0001_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "SA-0002",
+      "country": "SA",
+      "ground_truth": "ground_truth/SA-0002.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/SA-0002/clean.pdf"
+        ],
+        "scan": [
+          "documents/SA-0002/SA-0002_scan.png"
+        ],
+        "bad_scan": [
+          "documents/SA-0002/SA-0002_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/SA-0002/SA-0002_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "SA-0003",
+      "country": "SA",
+      "ground_truth": "ground_truth/SA-0003.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/SA-0003/clean.pdf"
+        ],
+        "scan": [
+          "documents/SA-0003/SA-0003_scan_p1.png",
+          "documents/SA-0003/SA-0003_scan_p2.png"
+        ],
+        "bad_scan": [
+          "documents/SA-0003/SA-0003_bad_scan_p1.jpg",
+          "documents/SA-0003/SA-0003_bad_scan_p2.jpg"
+        ],
+        "phone_photo": [
+          "documents/SA-0003/SA-0003_phone_photo_p1.jpg",
+          "documents/SA-0003/SA-0003_phone_photo_p2.jpg"
+        ]
+      },
+      "multipage": true
+    },
+    {
+      "doc_id": "SA-0004",
+      "country": "SA",
+      "ground_truth": "ground_truth/SA-0004.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/SA-0004/clean.pdf"
+        ],
+        "scan": [
+          "documents/SA-0004/SA-0004_scan.png"
+        ],
+        "bad_scan": [
+          "documents/SA-0004/SA-0004_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/SA-0004/SA-0004_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "SA-0005",
+      "country": "SA",
+      "ground_truth": "ground_truth/SA-0005.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/SA-0005/clean.pdf"
+        ],
+        "scan": [
+          "documents/SA-0005/SA-0005_scan.png"
+        ],
+        "bad_scan": [
+          "documents/SA-0005/SA-0005_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/SA-0005/SA-0005_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "SA-0006",
+      "country": "SA",
+      "ground_truth": "ground_truth/SA-0006.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/SA-0006/clean.pdf"
+        ],
+        "scan": [
+          "documents/SA-0006/SA-0006_scan.png"
+        ],
+        "bad_scan": [
+          "documents/SA-0006/SA-0006_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/SA-0006/SA-0006_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "SA-0007",
+      "country": "SA",
+      "ground_truth": "ground_truth/SA-0007.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/SA-0007/clean.pdf"
+        ],
+        "scan": [
+          "documents/SA-0007/SA-0007_scan.png"
+        ],
+        "bad_scan": [
+          "documents/SA-0007/SA-0007_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/SA-0007/SA-0007_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "SA-0008",
+      "country": "SA",
+      "ground_truth": "ground_truth/SA-0008.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/SA-0008/clean.pdf"
+        ],
+        "scan": [
+          "documents/SA-0008/SA-0008_scan.png"
+        ],
+        "bad_scan": [
+          "documents/SA-0008/SA-0008_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/SA-0008/SA-0008_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "TH-0001",
+      "country": "TH",
+      "ground_truth": "ground_truth/TH-0001.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/TH-0001/clean.pdf"
+        ],
+        "scan": [
+          "documents/TH-0001/TH-0001_scan.png"
+        ],
+        "bad_scan": [
+          "documents/TH-0001/TH-0001_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/TH-0001/TH-0001_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "TH-0002",
+      "country": "TH",
+      "ground_truth": "ground_truth/TH-0002.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/TH-0002/clean.pdf"
+        ],
+        "scan": [
+          "documents/TH-0002/TH-0002_scan.png"
+        ],
+        "bad_scan": [
+          "documents/TH-0002/TH-0002_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/TH-0002/TH-0002_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "TH-0003",
+      "country": "TH",
+      "ground_truth": "ground_truth/TH-0003.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/TH-0003/clean.pdf"
+        ],
+        "scan": [
+          "documents/TH-0003/TH-0003_scan_p1.png",
+          "documents/TH-0003/TH-0003_scan_p2.png"
+        ],
+        "bad_scan": [
+          "documents/TH-0003/TH-0003_bad_scan_p1.jpg",
+          "documents/TH-0003/TH-0003_bad_scan_p2.jpg"
+        ],
+        "phone_photo": [
+          "documents/TH-0003/TH-0003_phone_photo_p1.jpg",
+          "documents/TH-0003/TH-0003_phone_photo_p2.jpg"
+        ]
+      },
+      "multipage": true
+    },
+    {
+      "doc_id": "TH-0004",
+      "country": "TH",
+      "ground_truth": "ground_truth/TH-0004.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/TH-0004/clean.pdf"
+        ],
+        "scan": [
+          "documents/TH-0004/TH-0004_scan.png"
+        ],
+        "bad_scan": [
+          "documents/TH-0004/TH-0004_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/TH-0004/TH-0004_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "TH-0005",
+      "country": "TH",
+      "ground_truth": "ground_truth/TH-0005.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/TH-0005/clean.pdf"
+        ],
+        "scan": [
+          "documents/TH-0005/TH-0005_scan.png"
+        ],
+        "bad_scan": [
+          "documents/TH-0005/TH-0005_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/TH-0005/TH-0005_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "TH-0006",
+      "country": "TH",
+      "ground_truth": "ground_truth/TH-0006.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/TH-0006/clean.pdf"
+        ],
+        "scan": [
+          "documents/TH-0006/TH-0006_scan.png"
+        ],
+        "bad_scan": [
+          "documents/TH-0006/TH-0006_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/TH-0006/TH-0006_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "TH-0007",
+      "country": "TH",
+      "ground_truth": "ground_truth/TH-0007.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/TH-0007/clean.pdf"
+        ],
+        "scan": [
+          "documents/TH-0007/TH-0007_scan.png"
+        ],
+        "bad_scan": [
+          "documents/TH-0007/TH-0007_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/TH-0007/TH-0007_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "TH-0008",
+      "country": "TH",
+      "ground_truth": "ground_truth/TH-0008.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/TH-0008/clean.pdf"
+        ],
+        "scan": [
+          "documents/TH-0008/TH-0008_scan.png"
+        ],
+        "bad_scan": [
+          "documents/TH-0008/TH-0008_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/TH-0008/TH-0008_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "US-0001",
+      "country": "US",
+      "ground_truth": "ground_truth/US-0001.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/US-0001/clean.pdf"
+        ],
+        "scan": [
+          "documents/US-0001/US-0001_scan.png"
+        ],
+        "bad_scan": [
+          "documents/US-0001/US-0001_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/US-0001/US-0001_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "US-0002",
+      "country": "US",
+      "ground_truth": "ground_truth/US-0002.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/US-0002/clean.pdf"
+        ],
+        "scan": [
+          "documents/US-0002/US-0002_scan.png"
+        ],
+        "bad_scan": [
+          "documents/US-0002/US-0002_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/US-0002/US-0002_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "US-0003",
+      "country": "US",
+      "ground_truth": "ground_truth/US-0003.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/US-0003/clean.pdf"
+        ],
+        "scan": [
+          "documents/US-0003/US-0003_scan.png"
+        ],
+        "bad_scan": [
+          "documents/US-0003/US-0003_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/US-0003/US-0003_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "US-0004",
+      "country": "US",
+      "ground_truth": "ground_truth/US-0004.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/US-0004/clean.pdf"
+        ],
+        "scan": [
+          "documents/US-0004/US-0004_scan.png"
+        ],
+        "bad_scan": [
+          "documents/US-0004/US-0004_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/US-0004/US-0004_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "US-0005",
+      "country": "US",
+      "ground_truth": "ground_truth/US-0005.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/US-0005/clean.pdf"
+        ],
+        "scan": [
+          "documents/US-0005/US-0005_scan.png"
+        ],
+        "bad_scan": [
+          "documents/US-0005/US-0005_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/US-0005/US-0005_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "US-0006",
+      "country": "US",
+      "ground_truth": "ground_truth/US-0006.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/US-0006/clean.pdf"
+        ],
+        "scan": [
+          "documents/US-0006/US-0006_scan_p1.png",
+          "documents/US-0006/US-0006_scan_p2.png"
+        ],
+        "bad_scan": [
+          "documents/US-0006/US-0006_bad_scan_p1.jpg",
+          "documents/US-0006/US-0006_bad_scan_p2.jpg"
+        ],
+        "phone_photo": [
+          "documents/US-0006/US-0006_phone_photo_p1.jpg",
+          "documents/US-0006/US-0006_phone_photo_p2.jpg"
+        ]
+      },
+      "multipage": true
+    },
+    {
+      "doc_id": "US-0007",
+      "country": "US",
+      "ground_truth": "ground_truth/US-0007.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/US-0007/clean.pdf"
+        ],
+        "scan": [
+          "documents/US-0007/US-0007_scan.png"
+        ],
+        "bad_scan": [
+          "documents/US-0007/US-0007_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/US-0007/US-0007_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    },
+    {
+      "doc_id": "US-0008",
+      "country": "US",
+      "ground_truth": "ground_truth/US-0008.json",
+      "variants": {
+        "clean_pdf": [
+          "documents/US-0008/clean.pdf"
+        ],
+        "scan": [
+          "documents/US-0008/US-0008_scan.png"
+        ],
+        "bad_scan": [
+          "documents/US-0008/US-0008_bad_scan.jpg"
+        ],
+        "phone_photo": [
+          "documents/US-0008/US-0008_phone_photo.jpg"
+        ]
+      },
+      "multipage": false
+    }
+  ]
+}

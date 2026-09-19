@@ -1,0 +1,117 @@
+{
+  "doc_id": "US-0008",
+  "country": "US",
+  "language": [
+    "en"
+  ],
+  "script": [
+    "Latn"
+  ],
+  "dimensions": {
+    "calendar": "gregorian",
+    "number_format": "native",
+    "digits": "western",
+    "tax_mode": "exclusive",
+    "cross_border": false,
+    "language_mode": "native",
+    "template": "us_b"
+  },
+  "fields": {
+    "vendor_name": "Lakeside Catering Services",
+    "vendor_tax_id": "689317298",
+    "invoice_number": "SI-202510-928",
+    "invoice_date": "2025-10-22",
+    "due_date": "2025-12-21",
+    "currency": "USD",
+    "subtotal": "16686.69",
+    "tax_total": "1001.21",
+    "total": "17687.90",
+    "tax_rates": [
+      "6"
+    ],
+    "payment_account": null,
+    "line_item_count": 9
+  },
+  "line_items": [
+    {
+      "description": "Translation services — EN to ES, 24 pages, certified",
+      "quantity": "3",
+      "unit": "lbs",
+      "unit_price": "358.00",
+      "amount": "1074.00",
+      "tax_rate": "6"
+    },
+    {
+      "description": "Printer toner, black, high-yield (pack of 4)",
+      "quantity": "1",
+      "unit": "mo",
+      "unit_price": "144.00",
+      "amount": "144.00",
+      "tax_rate": "6"
+    },
+    {
+      "description": "Safety gloves, cut-resistant, size L (12 pairs)",
+      "quantity": "8",
+      "unit": "mo",
+      "unit_price": "182.00",
+      "amount": "1456.00",
+      "tax_rate": "6"
+    },
+    {
+      "description": "Office chair, ergonomic mesh, adjustable arms",
+      "quantity": "2",
+      "unit": "lbs",
+      "unit_price": "310.00",
+      "amount": "620.00",
+      "tax_rate": "6"
+    },
+    {
+      "description": "Monthly retainer — analytics dashboard maintenance and support",
+      "quantity": "1",
+      "unit": "mo",
+      "unit_price": "263.33",
+      "amount": "263.33",
+      "tax_rate": "6"
+    },
+    {
+      "description": "Warehouse storage — Q3, climate-controlled",
+      "quantity": "2",
+      "unit": "mo",
+      "unit_price": "165.00",
+      "amount": "330.00",
+      "tax_rate": "6"
+    },
+    {
+      "description": "Consulting hours — ERP migration, senior consultant",
+      "quantity": "12",
+      "unit": "ea",
+      "unit_price": "746.80",
+      "amount": "8961.60",
+      "tax_rate": "6"
+    },
+    {
+      "description": "Software license — annual subscription, 25 seats",
+      "quantity": "8",
+      "unit": "mo",
+      "unit_price": "436.72",
+      "amount": "3493.76",
+      "tax_rate": "6"
+    },
+    {
+      "description": "Custom rack enclosure, 42U, with cable management and thermal kit",
+      "quantity": "4",
+      "unit": "lbs",
+      "unit_price": "86.00",
+      "amount": "344.00",
+      "tax_rate": "6"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "SI-202510-928",
+    "invoice_date": "10/22/2025",
+    "due_date": "12/21/2025",
+    "subtotal": "$16,686.69 (USD)",
+    "tax_total": "1,001.21",
+    "total": "$17,687.90 (USD)"
+  }
+}

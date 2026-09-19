@@ -1,0 +1,61 @@
+{
+  "doc_id": "IN-0008",
+  "country": "IN",
+  "language": [
+    "en"
+  ],
+  "script": [
+    "Latn"
+  ],
+  "dimensions": {
+    "calendar": "gregorian",
+    "number_format": "native",
+    "digits": "western",
+    "tax_mode": "exclusive",
+    "cross_border": true,
+    "language_mode": "english",
+    "template": "in_b"
+  },
+  "fields": {
+    "vendor_name": "Chennai Foods Pvt. Ltd.",
+    "vendor_tax_id": "29NKJLQ4569M5ZF",
+    "invoice_number": "TAX/25/26/036",
+    "invoice_date": "2025-12-17",
+    "due_date": "2025-12-31",
+    "currency": "INR",
+    "subtotal": "68430.00",
+    "tax_total": "12317.40",
+    "total": "80747.40",
+    "tax_rates": [
+      "18"
+    ],
+    "payment_account": null,
+    "line_item_count": 2
+  },
+  "line_items": [
+    {
+      "description": "IT annual maintenance — 40 workstations",
+      "quantity": "3",
+      "unit": "kg",
+      "unit_price": "22490.00",
+      "amount": "67470.00",
+      "tax_rate": "18"
+    },
+    {
+      "description": "Software subscription — annual, cloud hosted",
+      "quantity": "12",
+      "unit": "pcs",
+      "unit_price": "80.00",
+      "amount": "960.00",
+      "tax_rate": "18"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "TAX/25/26/036",
+    "invoice_date": "17/12/2025",
+    "due_date": "31/12/2025",
+    "subtotal": "INR 68,430.00",
+    "tax_total": "12,317.40",
+    "total": "INR 80,747.40"
+  }
+}

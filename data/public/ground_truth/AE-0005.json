@@ -1,0 +1,85 @@
+{
+  "doc_id": "AE-0005",
+  "country": "AE",
+  "language": [
+    "en"
+  ],
+  "script": [
+    "Latn"
+  ],
+  "dimensions": {
+    "calendar": "gregorian",
+    "number_format": "native",
+    "digits": "western",
+    "tax_mode": "exclusive",
+    "cross_border": false,
+    "language_mode": "english",
+    "template": "ae_a"
+  },
+  "fields": {
+    "vendor_name": "Dubai General Trading LLC",
+    "vendor_tax_id": "141994939737821",
+    "invoice_number": "TINV/2026/8480",
+    "invoice_date": "2026-07-23",
+    "due_date": "2026-08-22",
+    "currency": "AED",
+    "subtotal": "59344.48",
+    "tax_total": "2967.22",
+    "total": "62311.70",
+    "tax_rates": [
+      "5"
+    ],
+    "payment_account": "AE069723509915565332375",
+    "line_item_count": 5
+  },
+  "line_items": [
+    {
+      "description": "Office chairs, mesh, ergonomic",
+      "quantity": "4",
+      "unit": "pcs",
+      "unit_price": "2044.32",
+      "amount": "8177.28",
+      "tax_rate": "5"
+    },
+    {
+      "description": "Accounting services — monthly",
+      "quantity": "8",
+      "unit": "pcs",
+      "unit_price": "1883.00",
+      "amount": "15064.00",
+      "tax_rate": "5"
+    },
+    {
+      "description": "Paper A4, carton of 10 reams",
+      "quantity": "8",
+      "unit": "carton",
+      "unit_price": "1494.15",
+      "amount": "11953.20",
+      "tax_rate": "5"
+    },
+    {
+      "description": "Freight Jebel Ali → Abu Dhabi, 2 pallets",
+      "quantity": "10",
+      "unit": "pcs",
+      "unit_price": "611.00",
+      "amount": "6110.00",
+      "tax_rate": "5"
+    },
+    {
+      "description": "Monthly IT maintenance — servers and network",
+      "quantity": "10",
+      "unit": "carton",
+      "unit_price": "1804.00",
+      "amount": "18040.00",
+      "tax_rate": "5"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "TINV/2026/8480",
+    "invoice_date": "23/07/2026",
+    "due_date": "22/08/2026",
+    "subtotal": "59,344.48 د.إ",
+    "tax_total": "2,967.22",
+    "total": "62,311.70 د.إ"
+  }
+}

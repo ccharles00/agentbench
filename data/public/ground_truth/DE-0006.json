@@ -1,0 +1,77 @@
+{
+  "doc_id": "DE-0006",
+  "country": "DE",
+  "language": [
+    "de"
+  ],
+  "script": [
+    "Latn"
+  ],
+  "dimensions": {
+    "calendar": "gregorian",
+    "number_format": "native",
+    "digits": "western",
+    "tax_mode": "exclusive",
+    "cross_border": false,
+    "language_mode": "native",
+    "template": "de_b"
+  },
+  "fields": {
+    "vendor_name": "Berliner Bürobedarf e.K.",
+    "vendor_tax_id": "DE422344561",
+    "invoice_number": "RE-2026-2192",
+    "invoice_date": "2026-05-04",
+    "due_date": "2026-05-18",
+    "currency": "EUR",
+    "subtotal": "16813.52",
+    "tax_total": "3194.57",
+    "total": "20008.09",
+    "tax_rates": [
+      "19"
+    ],
+    "payment_account": "DE91324626178928984366",
+    "line_item_count": 4
+  },
+  "line_items": [
+    {
+      "description": "Lagerservice — Kommissionierung, 3 Monate",
+      "quantity": "1",
+      "unit": "Std.",
+      "unit_price": "54.00",
+      "amount": "54.00",
+      "tax_rate": "19"
+    },
+    {
+      "description": "Druck: Produktkatalog, 4-farbig, 500 Stück, Rückenklebung",
+      "quantity": "1",
+      "unit": "Stk.",
+      "unit_price": "872.00",
+      "amount": "872.00",
+      "tax_rate": "19"
+    },
+    {
+      "description": "IT-Support-Stunden, remote",
+      "quantity": "10",
+      "unit": "Pauschale",
+      "unit_price": "928.00",
+      "amount": "9280.00",
+      "tax_rate": "19"
+    },
+    {
+      "description": "Brötchen und Backwaren, Lieferung wöchentlich",
+      "quantity": "8",
+      "unit": "Stk.",
+      "unit_price": "825.94",
+      "amount": "6607.52",
+      "tax_rate": "19"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "RE-2026-2192",
+    "invoice_date": "04.05.2026",
+    "due_date": "18.05.2026",
+    "subtotal": "16.813,52 €",
+    "tax_total": "3.194,57",
+    "total": "20.008,09 €"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "doc_id": "ID-0001",
+  "country": "ID",
+  "language": [
+    "id"
+  ],
+  "script": [
+    "Latn"
+  ],
+  "dimensions": {
+    "calendar": "gregorian",
+    "number_format": "native",
+    "digits": "western",
+    "tax_mode": "exclusive",
+    "cross_border": false,
+    "language_mode": "native",
+    "template": "id_a"
+  },
+  "fields": {
+    "vendor_name": "PT Jaya Abadi Komputer",
+    "vendor_tax_id": "837600676278651",
+    "invoice_number": "INV/2025/VII/8313",
+    "invoice_date": "2025-07-11",
+    "due_date": "2025-08-25",
+    "currency": "IDR",
+    "subtotal": "146970518.23",
+    "tax_total": "16166757.00",
+    "total": "163137275.23",
+    "tax_rates": [
+      "11"
+    ],
+    "payment_account": null,
+    "line_item_count": 7
+  },
+  "line_items": [
+    {
+      "description": "Pengiriman: Jakarta → Surabaya, 2 palet",
+      "quantity": "5",
+      "unit": "unit",
+      "unit_price": "2974000.00",
+      "amount": "14870000.00",
+      "tax_rate": "11"
+    },
+    {
+      "description": "Layanan terjemahan — Indonesia → Inggris",
+      "quantity": "2",
+      "unit": "jam",
+      "unit_price": "2441000.00",
+      "amount": "4882000.00",
+      "tax_rate": "11"
+    },
+    {
+      "description": "Kertas A4 70 gram (1 dus isi 10 rim)",
+      "quantity": "2",
+      "unit": "rim",
+      "unit_price": "2538500.00",
+      "amount": "5077000.00",
+      "tax_rate": "11"
+    },
+    {
+      "description": "Jasa akuntansi — bulanan",
+      "quantity": "1",
+      "unit": "rim",
+      "unit_price": "1592500.83",
+      "amount": "1592500.83",
+      "tax_rate": "11"
+    },
+    {
+      "description": "Perawatan bulanan — server dan jaringan, termasuk dukungan jarak jauh",
+      "quantity": "6",
+      "unit": "pcs",
+      "unit_price": "3191500.00",
+      "amount": "19149000.00",
+      "tax_rate": "11"
+    },
+    {
+      "description": "Bahan kemasan — kardus kopling (500 pcs)",
+      "quantity": "10",
+      "unit": "pcs",
+      "unit_price": "3640000.00",
+      "amount": "36400000.00",
+      "tax_rate": "11"
+    },
+    {
+      "description": "Switch jaringan 24 port",
+      "quantity": "20",
+      "unit": "rim",
+      "unit_price": "3250000.87",
+      "amount": "65000017.40",
+      "tax_rate": "11"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "INV/2025/VII/8313",
+    "invoice_date": "11/07/2025",
+    "due_date": "25/08/2025",
+    "subtotal": "Rp146.970.518,23",
+    "tax_total": "16.166.757,00",
+    "total": "Rp163.137.275,23"
+  }
+}

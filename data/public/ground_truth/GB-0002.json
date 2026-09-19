@@ -1,0 +1,109 @@
+{
+  "doc_id": "GB-0002",
+  "country": "GB",
+  "language": [
+    "en"
+  ],
+  "script": [
+    "Latn"
+  ],
+  "dimensions": {
+    "calendar": "gregorian",
+    "number_format": "native",
+    "digits": "western",
+    "tax_mode": "exclusive",
+    "cross_border": false,
+    "language_mode": "native",
+    "template": "gb_b"
+  },
+  "fields": {
+    "vendor_name": "Bakewell Foods Wholesalers Ltd",
+    "vendor_tax_id": "GB054310724",
+    "invoice_number": "INV/2026/3975",
+    "invoice_date": "2026-03-19",
+    "due_date": "2026-04-18",
+    "currency": "GBP",
+    "subtotal": "27678.91",
+    "tax_total": "5535.78",
+    "total": "33214.69",
+    "tax_rates": [
+      "20"
+    ],
+    "payment_account": null,
+    "line_item_count": 8
+  },
+  "line_items": [
+    {
+      "description": "Marketing consulting — half day, includes campaign review and written recommendations",
+      "quantity": "12",
+      "unit": "kg",
+      "unit_price": "681.00",
+      "amount": "8172.00",
+      "tax_rate": "20"
+    },
+    {
+      "description": "Packaging film roll 500mm x 300m",
+      "quantity": "12",
+      "unit": "pcs",
+      "unit_price": "157.53",
+      "amount": "1890.36",
+      "tax_rate": "20"
+    },
+    {
+      "description": "Server hosting — rack unit, monthly, includes remote hands",
+      "quantity": "10",
+      "unit": "kg",
+      "unit_price": "750.00",
+      "amount": "7500.00",
+      "tax_rate": "20"
+    },
+    {
+      "description": "Translation — EN to DE, technical manual, 60 pages",
+      "quantity": "1",
+      "unit": "hrs",
+      "unit_price": "161.55",
+      "amount": "161.55",
+      "tax_rate": "20"
+    },
+    {
+      "description": "Courier — next day service, 12 parcels",
+      "quantity": "10",
+      "unit": "items",
+      "unit_price": "87.00",
+      "amount": "870.00",
+      "tax_rate": "20"
+    },
+    {
+      "description": "LED panel lights 600x600 (carton of 20)",
+      "quantity": "12",
+      "unit": "items",
+      "unit_price": "542.00",
+      "amount": "6504.00",
+      "tax_rate": "20"
+    },
+    {
+      "description": "Safety audit — warehouse, on-site, full report",
+      "quantity": "5",
+      "unit": "kg",
+      "unit_price": "62.00",
+      "amount": "310.00",
+      "tax_rate": "20"
+    },
+    {
+      "description": "Staff training — manual handling, half day session",
+      "quantity": "3",
+      "unit": "kg",
+      "unit_price": "757.00",
+      "amount": "2271.00",
+      "tax_rate": "20"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "INV/2026/3975",
+    "invoice_date": "19/03/2026",
+    "due_date": "18/04/2026",
+    "subtotal": "£27,678.91 (GBP)",
+    "tax_total": "5,535.78",
+    "total": "£33,214.69 (GBP)"
+  }
+}

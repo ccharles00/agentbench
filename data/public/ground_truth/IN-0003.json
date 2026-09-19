@@ -1,0 +1,79 @@
+{
+  "doc_id": "IN-0003",
+  "country": "IN",
+  "language": [
+    "hi",
+    "en"
+  ],
+  "script": [
+    "Deva",
+    "Latn"
+  ],
+  "dimensions": {
+    "calendar": "gregorian",
+    "number_format": "native",
+    "digits": "western",
+    "tax_mode": "exclusive",
+    "cross_border": false,
+    "language_mode": "bilingual",
+    "template": "in_a"
+  },
+  "fields": {
+    "vendor_name": "Bengaluru Software Services Pvt. Ltd.",
+    "vendor_tax_id": "06RNBSP7202C5ZL",
+    "invoice_number": "INV/25/26/301",
+    "invoice_date": "2025-12-07",
+    "due_date": "2025-12-21",
+    "currency": "INR",
+    "subtotal": "177370.69",
+    "tax_total": "21284.48",
+    "total": "198655.17",
+    "tax_rates": [
+      "12"
+    ],
+    "payment_account": null,
+    "line_item_count": 4
+  },
+  "line_items": [
+    {
+      "description": "Network switches — 24 port, gigabit (5 units)",
+      "quantity": "4",
+      "unit": "Nos.",
+      "unit_price": "5550.11",
+      "amount": "22200.44",
+      "tax_rate": "12"
+    },
+    {
+      "description": "Bulk notebook supply — A4, 200 pages (pack of 50)",
+      "quantity": "20",
+      "unit": "kg",
+      "unit_price": "4240.00",
+      "amount": "84800.00",
+      "tax_rate": "12"
+    },
+    {
+      "description": "GST registration and compliance consultancy",
+      "quantity": "2.5",
+      "unit": "hrs",
+      "unit_price": "14940.10",
+      "amount": "37350.25",
+      "tax_rate": "12"
+    },
+    {
+      "description": "Catering staff — corporate event, 50 guests",
+      "quantity": "2",
+      "unit": "pcs",
+      "unit_price": "16510.00",
+      "amount": "33020.00",
+      "tax_rate": "12"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "INV/25/26/301",
+    "invoice_date": "07/12/2025",
+    "due_date": "21/12/2025",
+    "subtotal": "₹1,77,370.69",
+    "tax_total": "21,284.48",
+    "total": "₹1,98,655.17"
+  }
+}

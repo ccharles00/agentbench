@@ -1,0 +1,197 @@
+{
+  "doc_id": "MX-0003",
+  "country": "MX",
+  "language": [
+    "es"
+  ],
+  "script": [
+    "Latn"
+  ],
+  "dimensions": {
+    "calendar": "gregorian",
+    "number_format": "native",
+    "digits": "western",
+    "tax_mode": "exclusive",
+    "cross_border": false,
+    "language_mode": "native",
+    "template": "mx_a"
+  },
+  "fields": {
+    "vendor_name": "Tecnología del Valle S.A. de C.V.",
+    "vendor_tax_id": "WCZ607484MQ4",
+    "invoice_number": "FOLIO-4146",
+    "invoice_date": "2025-10-24",
+    "due_date": "2025-11-23",
+    "currency": "MXN",
+    "subtotal": "667940.32",
+    "tax_total": "106870.46",
+    "total": "774810.78",
+    "tax_rates": [
+      "16"
+    ],
+    "payment_account": "044996453956271684",
+    "line_item_count": 19
+  },
+  "line_items": [
+    {
+      "description": "Silla de oficina, malla, ergonómica",
+      "quantity": "2.5",
+      "unit": "h",
+      "unit_price": "1703.00",
+      "amount": "4257.50",
+      "tax_rate": "16"
+    },
+    {
+      "description": "Mantenimiento mensual — servidores y red, soporte remoto incluido",
+      "quantity": "1",
+      "unit": "caja",
+      "unit_price": "2380.00",
+      "amount": "2380.00",
+      "tax_rate": "16"
+    },
+    {
+      "description": "Flete: CDMX → Monterrey, 2 tarimas",
+      "quantity": "10",
+      "unit": "pza",
+      "unit_price": "2782.91",
+      "amount": "27829.10",
+      "tax_rate": "16"
+    },
+    {
+      "description": "Servicios de contabilidad — mensual",
+      "quantity": "10",
+      "unit": "caja",
+      "unit_price": "2884.00",
+      "amount": "28840.00",
+      "tax_rate": "16"
+    },
+    {
+      "description": "Suministros de papelería — paquete anual",
+      "quantity": "1",
+      "unit": "h",
+      "unit_price": "5345.00",
+      "amount": "5345.00",
+      "tax_rate": "16"
+    },
+    {
+      "description": "Mantenimiento mensual — servidores y red, soporte remoto incluido",
+      "quantity": "10",
+      "unit": "caja",
+      "unit_price": "7759.08",
+      "amount": "77590.80",
+      "tax_rate": "16"
+    },
+    {
+      "description": "Catering corporativo — 20 personas",
+      "quantity": "12",
+      "unit": "tarima",
+      "unit_price": "7392.00",
+      "amount": "88704.00",
+      "tax_rate": "16"
+    },
+    {
+      "description": "Silla de oficina, malla, ergonómica",
+      "quantity": "2",
+      "unit": "tarima",
+      "unit_price": "7143.00",
+      "amount": "14286.00",
+      "tax_rate": "16"
+    },
+    {
+      "description": "Equipo de cómputo, laptop i5, 16GB RAM",
+      "quantity": "4",
+      "unit": "tarima",
+      "unit_price": "5353.00",
+      "amount": "21412.00",
+      "tax_rate": "16"
+    },
+    {
+      "description": "Licencia de software — anual",
+      "quantity": "1",
+      "unit": "pza",
+      "unit_price": "2104.00",
+      "amount": "2104.00",
+      "tax_rate": "16"
+    },
+    {
+      "description": "Suministros de papelería — paquete anual",
+      "quantity": "20",
+      "unit": "pza",
+      "unit_price": "5694.00",
+      "amount": "113880.00",
+      "tax_rate": "16"
+    },
+    {
+      "description": "Silla de oficina, malla, ergonómica",
+      "quantity": "8.5",
+      "unit": "h",
+      "unit_price": "6757.36",
+      "amount": "57437.56",
+      "tax_rate": "16"
+    },
+    {
+      "description": "Catering corporativo — 20 personas",
+      "quantity": "2",
+      "unit": "caja",
+      "unit_price": "1131.00",
+      "amount": "2262.00",
+      "tax_rate": "16"
+    },
+    {
+      "description": "Traducción — español → inglés",
+      "quantity": "2",
+      "unit": "caja",
+      "unit_price": "7126.00",
+      "amount": "14252.00",
+      "tax_rate": "16"
+    },
+    {
+      "description": "Mantenimiento mensual — servidores y red, soporte remoto incluido",
+      "quantity": "5",
+      "unit": "h",
+      "unit_price": "7366.20",
+      "amount": "36831.00",
+      "tax_rate": "16"
+    },
+    {
+      "description": "Catering corporativo — 20 personas",
+      "quantity": "2",
+      "unit": "tarima",
+      "unit_price": "445.22",
+      "amount": "890.44",
+      "tax_rate": "16"
+    },
+    {
+      "description": "Papel bond carta (caja de 10 resmas)",
+      "quantity": "20",
+      "unit": "tarima",
+      "unit_price": "1103.00",
+      "amount": "22060.00",
+      "tax_rate": "16"
+    },
+    {
+      "description": "Servicios de contabilidad — mensual",
+      "quantity": "20",
+      "unit": "caja",
+      "unit_price": "6418.00",
+      "amount": "128360.00",
+      "tax_rate": "16"
+    },
+    {
+      "description": "Traducción — español → inglés",
+      "quantity": "4",
+      "unit": "h",
+      "unit_price": "4804.73",
+      "amount": "19218.92",
+      "tax_rate": "16"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "FOLIO-4146",
+    "invoice_date": "24/10/2025",
+    "due_date": "23/11/2025",
+    "subtotal": "$667,940.32",
+    "tax_total": "106,870.46",
+    "total": "$774,810.78"
+  }
+}

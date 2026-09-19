@@ -1,0 +1,43 @@
+# Category plugin manifest (spec B0). The core reads this to discover the
+# category's fields, comparator types, dimensions, and entry points.
+
+id: invoices
+display_name: Invoice Extraction
+description: >
+  Extraction of structured data from invoices across languages, scripts,
+  number formats, currencies, calendars, and tax systems.
+headline_metric: document_exact_match
+
+# Scored fields (spec B2.6) and the comparator type used per field.
+# Comparator implementations are registered with the core scoring registry
+# (Milestone 2); invoice-specific comparators live in categories/invoices/comparators.py.
+fields:
+  vendor_name: { comparator: name }
+  vendor_tax_id: { comparator: identifier }
+  invoice_number: { comparator: identifier }
+  invoice_date: { comparator: date }
+  due_date: { comparator: date }
+  currency: { comparator: exact }
+  subtotal: { comparator: amount }
+  tax_total: { comparator: amount }
+  total: { comparator: amount }
+  tax_rates: { comparator: rate_set }
+  payment_account: { comparator: identifier }
+  line_item_count: { comparator: integer }
+
+# Dimension keys used for breakdowns; values are sampled per invoice by the
+# generator and stored in ground truth `dimensions`.
+dimensions:
+  - country
+  - language
+  - script
+  - calendar
+  - number_format
+  - digits
+  - tax_mode
+  - cross_border
+  - template
+  - variant   # degradation level of the file the tool actually saw
+
+generator_module: categories.invoices.generator.generate
+selfcheck_module: categories.invoices.generator.selfcheck

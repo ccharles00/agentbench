@@ -1,0 +1,109 @@
+{
+  "doc_id": "US-0007",
+  "country": "US",
+  "language": [
+    "en"
+  ],
+  "script": [
+    "Latn"
+  ],
+  "dimensions": {
+    "calendar": "gregorian",
+    "number_format": "native",
+    "digits": "western",
+    "tax_mode": "exclusive",
+    "cross_border": false,
+    "language_mode": "native",
+    "template": "us_c"
+  },
+  "fields": {
+    "vendor_name": "Great Plains Logistics Co.",
+    "vendor_tax_id": "147051378",
+    "invoice_number": "#3674",
+    "invoice_date": "2026-12-02",
+    "due_date": "2026-12-16",
+    "currency": "USD",
+    "subtotal": "19889.90",
+    "tax_total": "2008.89",
+    "total": "21898.79",
+    "tax_rates": [
+      "10.1"
+    ],
+    "payment_account": null,
+    "line_item_count": 8
+  },
+  "line_items": [
+    {
+      "description": "Cloud hosting — compute and storage, monthly",
+      "quantity": "1",
+      "unit": "hrs",
+      "unit_price": "304.22",
+      "amount": "304.22",
+      "tax_rate": "10.1"
+    },
+    {
+      "description": "Software license — annual subscription, 25 seats",
+      "quantity": "3",
+      "unit": "pcs",
+      "unit_price": "29.00",
+      "amount": "87.00",
+      "tax_rate": "10.1"
+    },
+    {
+      "description": "Consulting hours — ERP migration, senior consultant",
+      "quantity": "20",
+      "unit": "mo",
+      "unit_price": "193.84",
+      "amount": "3876.80",
+      "tax_rate": "10.1"
+    },
+    {
+      "description": "Catering — board meeting, 12 people, full service",
+      "quantity": "6",
+      "unit": "lbs",
+      "unit_price": "104.48",
+      "amount": "626.88",
+      "tax_rate": "10.1"
+    },
+    {
+      "description": "Warehouse storage — Q3, climate-controlled",
+      "quantity": "10",
+      "unit": "hrs",
+      "unit_price": "130.00",
+      "amount": "1300.00",
+      "tax_rate": "10.1"
+    },
+    {
+      "description": "Translation services — EN to ES, 24 pages, certified",
+      "quantity": "2",
+      "unit": "lbs",
+      "unit_price": "665.00",
+      "amount": "1330.00",
+      "tax_rate": "10.1"
+    },
+    {
+      "description": "Safety gloves, cut-resistant, size L (12 pairs)",
+      "quantity": "1",
+      "unit": "mo",
+      "unit_price": "305.00",
+      "amount": "305.00",
+      "tax_rate": "10.1"
+    },
+    {
+      "description": "Custom rack enclosure, 42U, with cable management and thermal kit",
+      "quantity": "20",
+      "unit": "pcs",
+      "unit_price": "603.00",
+      "amount": "12060.00",
+      "tax_rate": "10.1"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "#3674",
+    "invoice_date": "12/02/2026",
+    "due_date": "12/16/2026",
+    "subtotal": "$19,889.90",
+    "tax_total": "2,008.89",
+    "total": "$21,898.79"
+  }
+}

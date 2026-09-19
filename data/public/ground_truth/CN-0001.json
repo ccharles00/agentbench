@@ -1,0 +1,69 @@
+{
+  "doc_id": "CN-0001",
+  "country": "CN",
+  "language": [
+    "zh"
+  ],
+  "script": [
+    "Hani"
+  ],
+  "dimensions": {
+    "calendar": "gregorian",
+    "number_format": "native",
+    "digits": "western",
+    "tax_mode": "exclusive",
+    "cross_border": false,
+    "language_mode": "native",
+    "template": "cn_c"
+  },
+  "fields": {
+    "vendor_name": "青岛海润食品有限公司",
+    "vendor_tax_id": "H1QW9U96QL54NB7U8K",
+    "invoice_number": "72771012",
+    "invoice_date": "2025-10-15",
+    "due_date": "2025-11-29",
+    "currency": "CNY",
+    "subtotal": "69368.73",
+    "tax_total": "9017.94",
+    "total": "78386.67",
+    "tax_rates": [
+      "13"
+    ],
+    "payment_account": null,
+    "line_item_count": 3
+  },
+  "line_items": [
+    {
+      "description": "软件许可 — 年度订阅，20 用户",
+      "quantity": "1",
+      "unit": "个",
+      "unit_price": "4850.91",
+      "amount": "4850.91",
+      "tax_rate": "13"
+    },
+    {
+      "description": "包装材料 — 瓦楞纸箱 5 号（1000 只）",
+      "quantity": "6",
+      "unit": "件",
+      "unit_price": "5224.61",
+      "amount": "31347.66",
+      "tax_rate": "13"
+    },
+    {
+      "description": "印刷品：产品手册，500 册，铜版纸",
+      "quantity": "8",
+      "unit": "个",
+      "unit_price": "4146.27",
+      "amount": "33170.16",
+      "tax_rate": "13"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "72771012",
+    "invoice_date": "2025年10月15日",
+    "due_date": "2025年11月29日",
+    "subtotal": "¥69,368.73",
+    "tax_total": "9,017.94",
+    "total": "¥78,386.67"
+  }
+}

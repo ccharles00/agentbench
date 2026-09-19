@@ -1,0 +1,229 @@
+{
+  "doc_id": "DE-0007",
+  "country": "DE",
+  "language": [
+    "de"
+  ],
+  "script": [
+    "Latn"
+  ],
+  "dimensions": {
+    "calendar": "gregorian",
+    "number_format": "native",
+    "digits": "western",
+    "tax_mode": "exclusive",
+    "cross_border": false,
+    "language_mode": "native",
+    "template": "de_a"
+  },
+  "fields": {
+    "vendor_name": "Rhein Main Consulting GmbH",
+    "vendor_tax_id": "DE294983927",
+    "invoice_number": "RE-2025-4260",
+    "invoice_date": "2025-09-21",
+    "due_date": "2025-11-20",
+    "currency": "EUR",
+    "subtotal": "78707.92",
+    "tax_total": "9084.50",
+    "total": "87792.42",
+    "tax_rates": [
+      "7",
+      "19"
+    ],
+    "payment_account": "DE50329479647947176393",
+    "line_item_count": 23
+  },
+  "line_items": [
+    {
+      "description": "Bürostuhl, Netzstoff, ergonomisch",
+      "quantity": "1",
+      "unit": "kg",
+      "unit_price": "350.00",
+      "amount": "350.00",
+      "tax_rate": "7"
+    },
+    {
+      "description": "Monatliche Wartung — Klimaanlage, inklusive Ersatzteilen und Notdienst",
+      "quantity": "1",
+      "unit": "kg",
+      "unit_price": "321.00",
+      "amount": "321.00",
+      "tax_rate": "7"
+    },
+    {
+      "description": "Elektroinstallation — Objekt 12, GruppeVerteilung und Zählerplatz",
+      "quantity": "1",
+      "unit": "kg",
+      "unit_price": "38.00",
+      "amount": "38.00",
+      "tax_rate": "7"
+    },
+    {
+      "description": "Lagerservice — Kommissionierung, 3 Monate",
+      "quantity": "6",
+      "unit": "Stk.",
+      "unit_price": "659.00",
+      "amount": "3954.00",
+      "tax_rate": "19"
+    },
+    {
+      "description": "Übersetzung DE → EN, technisches Handbuch, 40 Seiten",
+      "quantity": "6",
+      "unit": "kg",
+      "unit_price": "310.00",
+      "amount": "1860.00",
+      "tax_rate": "7"
+    },
+    {
+      "description": "Softwarelizenz, Jahresabo, 5 Arbeitsplätze",
+      "quantity": "20",
+      "unit": "Std.",
+      "unit_price": "749.00",
+      "amount": "14980.00",
+      "tax_rate": "7"
+    },
+    {
+      "description": "Druck: Produktkatalog, 4-farbig, 500 Stück, Rückenklebung",
+      "quantity": "3",
+      "unit": "kg",
+      "unit_price": "516.00",
+      "amount": "1548.00",
+      "tax_rate": "7"
+    },
+    {
+      "description": "IT-Support-Stunden, remote",
+      "quantity": "10",
+      "unit": "Pauschale",
+      "unit_price": "1050.00",
+      "amount": "10500.00",
+      "tax_rate": "19"
+    },
+    {
+      "description": "Steuerberatung — Quartalsabschluss",
+      "quantity": "4",
+      "unit": "Pauschale",
+      "unit_price": "229.00",
+      "amount": "916.00",
+      "tax_rate": "7"
+    },
+    {
+      "description": "Brötchen und Backwaren, Lieferung wöchentlich",
+      "quantity": "2",
+      "unit": "Stk.",
+      "unit_price": "467.00",
+      "amount": "934.00",
+      "tax_rate": "7"
+    },
+    {
+      "description": "Monatliche Wartung — Klimaanlage, inklusive Ersatzteilen und Notdienst",
+      "quantity": "12",
+      "unit": "Pauschale",
+      "unit_price": "62.00",
+      "amount": "744.00",
+      "tax_rate": "7"
+    },
+    {
+      "description": "Transport Hamburg → München, 2 Paletten, Kombi-Verkehr",
+      "quantity": "1",
+      "unit": "Std.",
+      "unit_price": "1180.33",
+      "amount": "1180.33",
+      "tax_rate": "19"
+    },
+    {
+      "description": "Übersetzung DE → EN, technisches Handbuch, 40 Seiten",
+      "quantity": "1",
+      "unit": "Pauschale",
+      "unit_price": "225.00",
+      "amount": "225.00",
+      "tax_rate": "7"
+    },
+    {
+      "description": "Druck: Produktkatalog, 4-farbig, 500 Stück, Rückenklebung",
+      "quantity": "4",
+      "unit": "kg",
+      "unit_price": "468.32",
+      "amount": "1873.28",
+      "tax_rate": "7"
+    },
+    {
+      "description": "Elektroinstallation — Objekt 12, GruppeVerteilung und Zählerplatz",
+      "quantity": "3",
+      "unit": "Pauschale",
+      "unit_price": "210.00",
+      "amount": "630.00",
+      "tax_rate": "19"
+    },
+    {
+      "description": "Brötchen und Backwaren, Lieferung wöchentlich",
+      "quantity": "20",
+      "unit": "kg",
+      "unit_price": "582.67",
+      "amount": "11653.40",
+      "tax_rate": "7"
+    },
+    {
+      "description": "Übersetzung DE → EN, technisches Handbuch, 40 Seiten",
+      "quantity": "2",
+      "unit": "Pauschale",
+      "unit_price": "378.00",
+      "amount": "756.00",
+      "tax_rate": "19"
+    },
+    {
+      "description": "Druck: Produktkatalog, 4-farbig, 500 Stück, Rückenklebung",
+      "quantity": "2",
+      "unit": "Stk.",
+      "unit_price": "862.46",
+      "amount": "1724.92",
+      "tax_rate": "19"
+    },
+    {
+      "description": "Monatliche Wartung — Klimaanlage, inklusive Ersatzteilen und Notdienst",
+      "quantity": "10",
+      "unit": "kg",
+      "unit_price": "821.00",
+      "amount": "8210.00",
+      "tax_rate": "7"
+    },
+    {
+      "description": "Elektroinstallation — Objekt 12, GruppeVerteilung und Zählerplatz",
+      "quantity": "20",
+      "unit": "Std.",
+      "unit_price": "477.05",
+      "amount": "9541.00",
+      "tax_rate": "19"
+    },
+    {
+      "description": "Bürostuhl, Netzstoff, ergonomisch",
+      "quantity": "8",
+      "unit": "Pauschale",
+      "unit_price": "573.00",
+      "amount": "4584.00",
+      "tax_rate": "7"
+    },
+    {
+      "description": "Transport Hamburg → München, 2 Paletten, Kombi-Verkehr",
+      "quantity": "1",
+      "unit": "kg",
+      "unit_price": "679.99",
+      "amount": "679.99",
+      "tax_rate": "7"
+    },
+    {
+      "description": "Druck: Produktkatalog, 4-farbig, 500 Stück, Rückenklebung",
+      "quantity": "3.5",
+      "unit": "Std.",
+      "unit_price": "430.00",
+      "amount": "1505.00",
+      "tax_rate": "19"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "RE-2025-4260",
+    "invoice_date": "21.09.2025",
+    "due_date": "20.11.2025",
+    "subtotal": "78.707,92 €",
+    "total": "87.792,42 €"
+  }
+}

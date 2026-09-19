@@ -1,0 +1,69 @@
+{
+  "doc_id": "DE-0005",
+  "country": "DE",
+  "language": [
+    "en"
+  ],
+  "script": [
+    "Latn"
+  ],
+  "dimensions": {
+    "calendar": "gregorian",
+    "number_format": "native",
+    "digits": "western",
+    "tax_mode": "reverse_charge",
+    "cross_border": true,
+    "language_mode": "english",
+    "template": "de_a"
+  },
+  "fields": {
+    "vendor_name": "Schwarzwald Elektro GmbH",
+    "vendor_tax_id": "DE429139104",
+    "invoice_number": "RE-2026-8151",
+    "invoice_date": "2026-02-16",
+    "due_date": "2026-04-02",
+    "currency": "EUR",
+    "subtotal": "3393.40",
+    "tax_total": "0.00",
+    "total": "3393.40",
+    "tax_rates": [
+      "0"
+    ],
+    "payment_account": "DE18610555185927647610",
+    "line_item_count": 3
+  },
+  "line_items": [
+    {
+      "description": "IT support hours, remote",
+      "quantity": "3",
+      "unit": "Pauschale",
+      "unit_price": "288.00",
+      "amount": "864.00",
+      "tax_rate": "0"
+    },
+    {
+      "description": "Software license — annual subscription, 5 seats",
+      "quantity": "10",
+      "unit": "Stk.",
+      "unit_price": "231.83",
+      "amount": "2318.30",
+      "tax_rate": "0"
+    },
+    {
+      "description": "Freight Hamburg → Munich, 2 pallets",
+      "quantity": "1",
+      "unit": "Pauschale",
+      "unit_price": "211.10",
+      "amount": "211.10",
+      "tax_rate": "0"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "RE-2026-8151",
+    "invoice_date": "16.02.2026",
+    "due_date": "02.04.2026",
+    "subtotal": "3.393,40 EUR",
+    "tax_total": "0,00",
+    "total": "3.393,40 EUR"
+  }
+}

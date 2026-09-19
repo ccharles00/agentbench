@@ -1,0 +1,69 @@
+{
+  "doc_id": "KR-0001",
+  "country": "KR",
+  "language": [
+    "ko"
+  ],
+  "script": [
+    "Hang"
+  ],
+  "dimensions": {
+    "calendar": "gregorian",
+    "number_format": "native",
+    "digits": "western",
+    "tax_mode": "exclusive",
+    "cross_border": false,
+    "language_mode": "native",
+    "template": "kr_a"
+  },
+  "fields": {
+    "vendor_name": "인천소프트 주식회사",
+    "vendor_tax_id": "8557018288",
+    "invoice_number": "2025-6438",
+    "invoice_date": "2025-02-19",
+    "due_date": "2025-03-06",
+    "currency": "KRW",
+    "subtotal": "4499400",
+    "tax_total": "449940",
+    "total": "4949340",
+    "tax_rates": [
+      "10"
+    ],
+    "payment_account": null,
+    "line_item_count": 3
+  },
+  "line_items": [
+    {
+      "description": "번역 서비스 — 한국어→영어",
+      "quantity": "4",
+      "unit": "식",
+      "unit_price": "157000",
+      "amount": "628000",
+      "tax_rate": "10"
+    },
+    {
+      "description": "포장재 — 골판지 박스 (100매)",
+      "quantity": "3",
+      "unit": "시간",
+      "unit_price": "481400",
+      "amount": "1444200",
+      "tax_rate": "10"
+    },
+    {
+      "description": "화물 운송: 부산 → 서울, 2팔레트",
+      "quantity": "4",
+      "unit": "개",
+      "unit_price": "606800",
+      "amount": "2427200",
+      "tax_rate": "10"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "2025-6438",
+    "invoice_date": "2025. 02. 19.",
+    "due_date": "2025. 03. 06.",
+    "subtotal": "₩4,499,400",
+    "tax_total": "449,940",
+    "total": "₩4,949,340"
+  }
+}

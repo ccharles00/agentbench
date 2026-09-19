@@ -1,0 +1,142 @@
+{
+  "doc_id": "BR-0002",
+  "country": "BR",
+  "language": [
+    "pt"
+  ],
+  "script": [
+    "Latn"
+  ],
+  "dimensions": {
+    "calendar": "gregorian",
+    "number_format": "native",
+    "digits": "western",
+    "tax_mode": "exclusive",
+    "cross_border": false,
+    "language_mode": "native",
+    "template": "br_b"
+  },
+  "fields": {
+    "vendor_name": "Belo Horizonte Papelaria Eireli",
+    "vendor_tax_id": "75199976000130",
+    "invoice_number": "NF-e nº 481792",
+    "invoice_date": "2026-02-24",
+    "due_date": "2026-03-11",
+    "currency": "BRL",
+    "subtotal": "63786.71",
+    "tax_total": "13554.67",
+    "total": "77341.38",
+    "tax_rates": [
+      "12",
+      "1.65",
+      "7.6"
+    ],
+    "payment_account": null,
+    "line_item_count": 12
+  },
+  "line_items": [
+    {
+      "description": "Embalagens de papelão, caixa nº 4 (500 un.)",
+      "quantity": "6",
+      "unit": "un",
+      "unit_price": "1863.00",
+      "amount": "11178.00",
+      "tax_rate": "12"
+    },
+    {
+      "description": "Catering corporativo — 20 pessoas",
+      "quantity": "12",
+      "unit": "cx",
+      "unit_price": "438.16",
+      "amount": "5257.92",
+      "tax_rate": "12"
+    },
+    {
+      "description": "Papel A4 75g (caixa com 10 resmas)",
+      "quantity": "2",
+      "unit": "cx",
+      "unit_price": "2485.86",
+      "amount": "4971.72",
+      "tax_rate": "12"
+    },
+    {
+      "description": "Tradução — português → inglês",
+      "quantity": "1",
+      "unit": "palete",
+      "unit_price": "857.87",
+      "amount": "857.87",
+      "tax_rate": "12"
+    },
+    {
+      "description": "Cadeira de escritório, tela, ergonômica",
+      "quantity": "5",
+      "unit": "cx",
+      "unit_price": "1879.00",
+      "amount": "9395.00",
+      "tax_rate": "12"
+    },
+    {
+      "description": "Notebook i5, 16GB RAM, 512GB SSD",
+      "quantity": "3",
+      "unit": "cx",
+      "unit_price": "1562.00",
+      "amount": "4686.00",
+      "tax_rate": "12"
+    },
+    {
+      "description": "Serviços de contabilidade — mensal",
+      "quantity": "10",
+      "unit": "un",
+      "unit_price": "936.00",
+      "amount": "9360.00",
+      "tax_rate": "12"
+    },
+    {
+      "description": "Manutenção mensal — servidores e rede, suporte remoto incluído",
+      "quantity": "10",
+      "unit": "cx",
+      "unit_price": "325.22",
+      "amount": "3252.20",
+      "tax_rate": "12"
+    },
+    {
+      "description": "Licença de software — anual",
+      "quantity": "3",
+      "unit": "cx",
+      "unit_price": "1936.00",
+      "amount": "5808.00",
+      "tax_rate": "12"
+    },
+    {
+      "description": "Frete: São Paulo → Rio de Janeiro, 2 paletes",
+      "quantity": "8",
+      "unit": "cx",
+      "unit_price": "603.00",
+      "amount": "4824.00",
+      "tax_rate": "12"
+    },
+    {
+      "description": "Notebook i5, 16GB RAM, 512GB SSD",
+      "quantity": "5",
+      "unit": "palete",
+      "unit_price": "491.00",
+      "amount": "2455.00",
+      "tax_rate": "12"
+    },
+    {
+      "description": "Tradução — português → inglês",
+      "quantity": "1",
+      "unit": "h",
+      "unit_price": "1741.00",
+      "amount": "1741.00",
+      "tax_rate": "12"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "NF-e nº 481792",
+    "invoice_date": "24/02/2026",
+    "due_date": "11/03/2026",
+    "subtotal": "R$63.786,71 (BRL)",
+    "total": "R$77.341,38 (BRL)"
+  }
+}

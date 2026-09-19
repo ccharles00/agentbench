@@ -1,0 +1,61 @@
+{
+  "doc_id": "CN-0004",
+  "country": "CN",
+  "language": [
+    "zh"
+  ],
+  "script": [
+    "Hani"
+  ],
+  "dimensions": {
+    "calendar": "gregorian",
+    "number_format": "native",
+    "digits": "western",
+    "tax_mode": "exclusive",
+    "cross_border": false,
+    "language_mode": "native",
+    "template": "cn_b"
+  },
+  "fields": {
+    "vendor_name": "杭州西湖印务有限公司",
+    "vendor_tax_id": "PTBPCJNFGPYRXC8WPE",
+    "invoice_number": "41452562",
+    "invoice_date": "2025-07-03",
+    "due_date": "2025-07-17",
+    "currency": "CNY",
+    "subtotal": "8074.00",
+    "tax_total": "726.66",
+    "total": "8800.66",
+    "tax_rates": [
+      "9"
+    ],
+    "payment_account": null,
+    "line_item_count": 2
+  },
+  "line_items": [
+    {
+      "description": "办公椅，网布，人体工学",
+      "quantity": "2",
+      "unit": "托",
+      "unit_price": "533.00",
+      "amount": "1066.00",
+      "tax_rate": "9"
+    },
+    {
+      "description": "会议桌，1.8 米，胡桃木色",
+      "quantity": "3",
+      "unit": "小时",
+      "unit_price": "2336.00",
+      "amount": "7008.00",
+      "tax_rate": "9"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "41452562",
+    "invoice_date": "2025年7月3日",
+    "due_date": "2025年7月17日",
+    "subtotal": "¥8,074.00",
+    "tax_total": "726.66",
+    "total": "¥8,800.66"
+  }
+}

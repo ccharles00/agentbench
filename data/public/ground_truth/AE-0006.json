@@ -1,0 +1,103 @@
+{
+  "doc_id": "AE-0006",
+  "country": "AE",
+  "language": [
+    "ar",
+    "en"
+  ],
+  "script": [
+    "Arab",
+    "Latn"
+  ],
+  "dimensions": {
+    "calendar": "gregorian",
+    "number_format": "native",
+    "digits": "western",
+    "tax_mode": "exclusive",
+    "cross_border": false,
+    "language_mode": "bilingual",
+    "template": "ae_b"
+  },
+  "fields": {
+    "vendor_name": "دائرة الشارقة للخدمات",
+    "vendor_tax_id": "161154483463830",
+    "invoice_number": "TINV/2026/0141",
+    "invoice_date": "2026-03-27",
+    "due_date": "2026-04-11",
+    "currency": "AED",
+    "subtotal": "32759.21",
+    "tax_total": "1637.97",
+    "total": "34397.18",
+    "tax_rates": [
+      "5"
+    ],
+    "payment_account": "AE380804370360466540584",
+    "line_item_count": 7
+  },
+  "line_items": [
+    {
+      "description": "Monthly IT maintenance — servers and network",
+      "quantity": "3",
+      "unit": "pallet",
+      "unit_price": "227.31",
+      "amount": "681.93",
+      "tax_rate": "5"
+    },
+    {
+      "description": "Paper A4, carton of 10 reams / ورق A4 (كرتون)",
+      "quantity": "8",
+      "unit": "pallet",
+      "unit_price": "1649.15",
+      "amount": "13193.20",
+      "tax_rate": "5"
+    },
+    {
+      "description": "Freight Jebel Ali → Abu Dhabi, 2 pallets",
+      "quantity": "2",
+      "unit": "pcs",
+      "unit_price": "1902.76",
+      "amount": "3805.52",
+      "tax_rate": "5"
+    },
+    {
+      "description": "Paper A4, carton of 10 reams",
+      "quantity": "3",
+      "unit": "hrs",
+      "unit_price": "1908.88",
+      "amount": "5726.64",
+      "tax_rate": "5"
+    },
+    {
+      "description": "Monthly IT maintenance — servers and network / صيانة شهرية للخوادم",
+      "quantity": "8",
+      "unit": "pcs",
+      "unit_price": "847.99",
+      "amount": "6783.92",
+      "tax_rate": "5"
+    },
+    {
+      "description": "Software license — annual",
+      "quantity": "2",
+      "unit": "carton",
+      "unit_price": "1172.00",
+      "amount": "2344.00",
+      "tax_rate": "5"
+    },
+    {
+      "description": "Office desks, 160 cm, walnut / مكاتب خشبية",
+      "quantity": "4",
+      "unit": "pallet",
+      "unit_price": "56.00",
+      "amount": "224.00",
+      "tax_rate": "5"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "TINV/2026/0141",
+    "invoice_date": "27/03/2026",
+    "due_date": "11/04/2026",
+    "subtotal": "32,759.21 د.إ",
+    "tax_total": "1,637.97",
+    "total": "34,397.18 د.إ"
+  }
+}

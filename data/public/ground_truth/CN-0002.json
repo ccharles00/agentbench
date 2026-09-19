@@ -1,0 +1,53 @@
+{
+  "doc_id": "CN-0002",
+  "country": "CN",
+  "language": [
+    "zh"
+  ],
+  "script": [
+    "Hani"
+  ],
+  "dimensions": {
+    "calendar": "gregorian",
+    "number_format": "native",
+    "digits": "western",
+    "tax_mode": "exclusive",
+    "cross_border": false,
+    "language_mode": "native",
+    "template": "cn_a"
+  },
+  "fields": {
+    "vendor_name": "北京中科软件股份有限公司",
+    "vendor_tax_id": "LD3M9WTNQKE4A8JA97",
+    "invoice_number": "16064239",
+    "invoice_date": "2026-08-03",
+    "due_date": "2026-09-02",
+    "currency": "CNY",
+    "subtotal": "3894.00",
+    "tax_total": "506.22",
+    "total": "4400.22",
+    "tax_rates": [
+      "13"
+    ],
+    "payment_account": null,
+    "line_item_count": 1
+  },
+  "line_items": [
+    {
+      "description": "印刷品：产品手册，500 册，铜版纸",
+      "quantity": "1",
+      "unit": "小时",
+      "unit_price": "3894.00",
+      "amount": "3894.00",
+      "tax_rate": "13"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "16064239",
+    "invoice_date": "2026年8月3日",
+    "due_date": "2026年9月2日",
+    "subtotal": "¥3,894.00 (CNY)",
+    "tax_total": "506.22",
+    "total": "¥4,400.22 (CNY)"
+  }
+}

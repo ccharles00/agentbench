@@ -1,0 +1,125 @@
+{
+  "doc_id": "CN-0005",
+  "country": "CN",
+  "language": [
+    "en"
+  ],
+  "script": [
+    "Latn"
+  ],
+  "dimensions": {
+    "calendar": "gregorian",
+    "number_format": "native",
+    "digits": "western",
+    "tax_mode": "exclusive",
+    "cross_border": true,
+    "language_mode": "english",
+    "template": "cn_a"
+  },
+  "fields": {
+    "vendor_name": "Qingdao Hairun Foods Co., Ltd.",
+    "vendor_tax_id": "6NJQMJ1FKN96YRD0U5",
+    "invoice_number": "INV202607242",
+    "invoice_date": "2026-07-14",
+    "due_date": "2026-07-28",
+    "currency": "USD",
+    "subtotal": "108502.93",
+    "tax_total": "14105.38",
+    "total": "122608.31",
+    "tax_rates": [
+      "13"
+    ],
+    "payment_account": null,
+    "line_item_count": 10
+  },
+  "line_items": [
+    {
+      "description": "Office chairs, mesh, ergonomic",
+      "quantity": "1",
+      "unit": "小时",
+      "unit_price": "3084.00",
+      "amount": "3084.00",
+      "tax_rate": "13"
+    },
+    {
+      "description": "Financial consulting — monthly reporting",
+      "quantity": "1.5",
+      "unit": "小时",
+      "unit_price": "267.55",
+      "amount": "401.33",
+      "tax_rate": "13"
+    },
+    {
+      "description": "Software license — annual subscription, 20 users",
+      "quantity": "6",
+      "unit": "件",
+      "unit_price": "1863.00",
+      "amount": "11178.00",
+      "tax_rate": "13"
+    },
+    {
+      "description": "Server hosting service — one year, bandwidth included",
+      "quantity": "3",
+      "unit": "托",
+      "unit_price": "1055.20",
+      "amount": "3165.60",
+      "tax_rate": "13"
+    },
+    {
+      "description": "LED display module P2.5, with control system",
+      "quantity": "12",
+      "unit": "托",
+      "unit_price": "3669.00",
+      "amount": "44028.00",
+      "tax_rate": "13"
+    },
+    {
+      "description": "Freight: Shenzhen → Shanghai, 2 pallets",
+      "quantity": "2",
+      "unit": "托",
+      "unit_price": "956.00",
+      "amount": "1912.00",
+      "tax_rate": "13"
+    },
+    {
+      "description": "Packaging materials — corrugated cartons (1000 pcs)",
+      "quantity": "4",
+      "unit": "托",
+      "unit_price": "1350.00",
+      "amount": "5400.00",
+      "tax_rate": "13"
+    },
+    {
+      "description": "Electronic components — resistors 10kΩ (1000 pcs/reel)",
+      "quantity": "1",
+      "unit": "册",
+      "unit_price": "2320.00",
+      "amount": "2320.00",
+      "tax_rate": "13"
+    },
+    {
+      "description": "Packaging materials — corrugated cartons (1000 pcs)",
+      "quantity": "2.5",
+      "unit": "小时",
+      "unit_price": "2444.00",
+      "amount": "6110.00",
+      "tax_rate": "13"
+    },
+    {
+      "description": "Financial consulting — monthly reporting",
+      "quantity": "8",
+      "unit": "托",
+      "unit_price": "3863.00",
+      "amount": "30904.00",
+      "tax_rate": "13"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "INV202607242",
+    "invoice_date": "14 Jul 2026",
+    "due_date": "28 Jul 2026",
+    "subtotal": "USD 108,502.93",
+    "tax_total": "14,105.38",
+    "total": "USD 122,608.31"
+  }
+}

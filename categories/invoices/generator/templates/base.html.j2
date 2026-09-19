@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="{{ lang }}" dir="{{ direction }}">
+<head>
+<meta charset="utf-8">
+<title>{{ doc_id }}</title>
+<style>
+{{ font_face_css }}
+@page { size: {{ page_size }}; margin: 13mm 12mm 15mm 12mm; }
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: {{ font_stack_css }};
+  font-size: 9.5pt; line-height: 1.38; color: #16181d;
+  --accent: {{ accent }};
+}
+h1 { margin: 0; }
+table { border-collapse: collapse; }
+.muted { color: #565b64; }
+.small { font-size: 8pt; }
+.num { text-align: end; white-space: nowrap; }
+
+/* ---------- header ---------- */
+.head { margin-bottom: 5mm; }
+.head .logo { flex-shrink: 0; }
+.head-vendor .vendor-name { font-weight: 700; font-size: 11.5pt; }
+.doc-title h1 { font-size: 15pt; letter-spacing: 2.5pt; }
+
+.layout-a .head { display: flex; justify-content: space-between; gap: 8mm;
+  border-bottom: 2pt solid var(--accent); padding-bottom: 4mm; }
+.layout-a .head-vendor { max-width: 68mm; }
+.layout-a .doc-title { text-align: end; }
+.layout-a .doc-title .meta { margin-top: 3mm; }
+
+.layout-b .head { text-align: center; border-bottom: 2.5pt solid var(--accent);
+  padding-bottom: 3.5mm; position: relative; }
+.layout-b .doc-title h1 { font-size: 16pt; letter-spacing: 5pt; }
+.layout-b .head .logo { position: absolute; inset-inline-start: 0; top: 0; }
+.layout-b .head-vendor { margin-top: 2mm; }
+.layout-b .meta { margin: 3mm auto 0; width: 88mm; text-align: start; }
+
+.layout-c .head { display: flex; gap: 8mm; align-items: flex-start; }
+.layout-c .doc-title { flex: 1; }
+.layout-c h1 { font-size: 12.5pt; border-inline-start: 3pt solid var(--accent);
+  padding-inline-start: 2.5mm; letter-spacing: 1.5pt; }
+
+/* ---------- meta + parties ---------- */
+.meta { font-size: 9pt; }
+.meta th { text-align: start; font-weight: 600; padding: 0.6mm 3mm 0.6mm 0;
+  white-space: nowrap; vertical-align: top; }
+.meta td { padding: 0.6mm 0; }
+.parties { display: flex; gap: 10mm; margin: 4mm 0; }
+.party { flex: 1; }
+.party h3 { margin: 0 0 1.2mm; font-size: 8.5pt; text-transform: uppercase;
+  letter-spacing: 1pt; color: var(--accent); }
+.party-name { font-weight: 700; }
+.layout-b .party { border: 0.7pt solid #c9cdd4; border-radius: 2mm; padding: 2.5mm 3mm; }
+
+/* ---------- items table ---------- */
+.items { width: 100%; margin: 2.5mm 0 3mm; }
+.items th { text-align: start; font-size: 8.5pt; padding: 1.5mm 2mm; }
+.items td { padding: 1.4mm 2mm; vertical-align: top; }
+.items .desc { word-break: break-word; }
+.layout-a .items th, .layout-a .items td { border: 0.6pt solid #a7acb5; }
+.layout-a .items thead th { background: #eef0f3; }
+.layout-b .items thead th { background: var(--accent); color: #ffffff; }
+.layout-b .items tbody tr:nth-child(even) { background: #f2f3f6; }
+.layout-c .items thead th { border-bottom: 1.2pt solid #2a2d33; }
+.layout-c .items td { border-bottom: 0.4pt solid #d5d8dd; }
+.items thead { display: table-header-group; }  /* repeat header across pages */
+tr { break-inside: avoid; }
+
+/* ---------- totals ---------- */
+.totals { display: flex; justify-content: flex-end; break-inside: avoid; }
+.layout-c .totals { justify-content: flex-start; }
+.totals-table { min-width: 74mm; font-size: 9.5pt; }
+.totals-table th { text-align: start; font-weight: 400; padding: 1mm 4mm 1mm 0; }
+.totals-table td { text-align: end; padding: 1mm 0; white-space: nowrap; }
+.grand th, .grand td { font-weight: 700; font-size: 11.5pt;
+  border-top: 1.2pt solid #2a2d33; padding-top: 1.8mm; }
+.layout-b .totals-table { background: #f2f3f6; border: 0.7pt solid #c9cdd4;
+  border-radius: 2mm; padding: 2.5mm 3mm; }
+.words { margin-top: 3mm; font-size: 8.5pt; }
+.dual { color: #565b64; }
+
+/* ---------- payment / notes / qr ---------- */
+.pay { margin-top: 5mm; font-size: 8.5pt; }
+.pay .mono { font-family: "Noto Sans", monospace; letter-spacing: 0.4pt; }
+.notes { margin-top: 3mm; }
+.notes div { margin-top: 0.8mm; }
+.qr { position: absolute; bottom: 0; inset-inline-end: 0; width: 21mm; height: 21mm; }
+.page { position: relative; padding-bottom: 6mm; }
+
+/* ---------- fapiao (CN simplified) ---------- */
+.fapiao-band { background: #b91c1c; color: #fff; text-align: center;
+  padding: 2.8mm 0; font-size: 15pt; letter-spacing: 8pt; margin-bottom: 4mm; }
+.fapiao-meta { display: flex; justify-content: space-between; font-size: 9.5pt;
+  margin-bottom: 3mm; }
+.fapiao-parties { border: 0.8pt solid #b91c1c; border-radius: 1.5mm;
+  padding: 2.5mm 3mm; }
+.fapiao .items th, .fapiao .items td { border: 0.6pt solid #c9a0a0; }
+.fapiao .items thead th { background: #fbeaea; }
+.fapiao .totals-table { width: 100%; }
+.upper-row th, .upper-row td { font-weight: 700; border-top: 1.2pt solid #b91c1c;
+  padding-top: 1.8mm; }
+</style>
+</head>
+<body>
+<div class="page">
+{% if template_style == 'fapiao' %}
+  <div class="fapiao-band">增值税电子发票</div>
+  <div class="fapiao-meta">
+    <div>{{ labels.invoice_no }}：{{ invoice_number }}</div>
+    <div>{{ labels.invoice_date }}：{{ invoice_date }}</div>
+    <div>{{ labels.due_date }}：{{ due_date_display }}</div>
+  </div>
+  <div class="parties fapiao-parties">
+    <div class="party">
+      <div class="party-name">{{ labels.bill_to }}</div>
+      <div>{{ customer_name }}</div>
+      {% if customer_tax_id_display %}<div class="small">{{ customer_tax_id_label }}: {{ customer_tax_id_display }}</div>{% endif %}
+    </div>
+    <div class="party">
+      <div class="party-name">销售方</div>
+      <div>{{ vendor.name }}</div>
+      {% if vendor.tax_id_display %}<div class="small">{{ vendor.tax_id_label }}: {{ vendor.tax_id_display }}</div>{% endif %}
+    </div>
+  </div>
+  <table class="items fapiao">
+    <thead><tr><th>{{ labels.description }}</th><th class="num">{{ labels.qty }}</th>
+      <th class="num">{{ labels.unit_price }}</th><th class="num">{{ labels.amount }}</th>
+      <th class="num">税率</th><th class="num">税额</th></tr></thead>
+    <tbody>
+    {% for it in items %}
+      <tr><td class="desc">{{ it.description }}</td>
+          <td class="num">{{ it.quantity }} {{ it.unit }}</td>
+          <td class="num">{{ it.unit_price_display }}</td>
+          <td class="num">{{ it.amount_display }}</td>
+          <td class="num">{{ it.tax_rate_display }}</td>
+          <td class="num">{{ it.tax_display }}</td></tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  <section class="totals"><table class="totals-table">
+    {% for label, value in subtotal_rows %}<tr><th>{{ label }}</th><td class="num">{{ value }}</td></tr>{% endfor %}
+    {% for tl in tax_rows %}<tr><th>{{ tl.label }}</th><td class="num">{{ tl.display }}</td></tr>{% endfor %}
+    {% if amount_in_words %}<tr class="upper-row"><th>价税合计（大写）</th><td>{{ amount_in_words }}</td></tr>{% endif %}
+    <tr class="grand"><th>{{ labels.total }}</th><td class="num">{{ total_display }}</td></tr>
+  </table></section>
+  {% for n in notes %}<div class="small muted">{{ n }}</div>{% endfor %}
+{% else %}
+  <header class="head layout-{{ layout }}">
+    <div class="logo">{{ logo_svg|safe }}</div>
+    <div class="head-vendor">
+      <div class="vendor-name">{{ vendor.name }}</div>
+      {% for line in vendor.address_lines %}<div class="muted small">{{ line }}</div>{% endfor %}
+      {% if vendor.tax_id_display %}<div class="muted small">{{ vendor.tax_id_label }}: {{ vendor.tax_id_display }}</div>{% endif %}
+    </div>
+    <div class="doc-title">
+      <h1>{{ title }}</h1>
+      <table class="meta">
+        <tr><th>{{ labels.invoice_no }}</th><td>{{ invoice_number }}</td></tr>
+        <tr><th>{{ labels.invoice_date }}</th><td>{{ invoice_date }}</td></tr>
+        {% if due_date_display %}<tr><th>{{ labels.due_date }}</th><td>{{ due_date_display }}</td></tr>{% endif %}
+      </table>
+    </div>
+  </header>
+  <section class="parties">
+    <div class="party">
+      <h3>{{ labels.bill_to }}</h3>
+      <div class="party-name">{{ customer_name }}</div>
+      {% for line in customer_address_lines %}<div class="small">{{ line }}</div>{% endfor %}
+      {% if customer_tax_id_display %}<div class="small">{{ customer_tax_id_label }}: {{ customer_tax_id_display }}</div>{% endif %}
+    </div>
+  </section>
+  <table class="items">
+    <thead><tr><th class="num">#</th><th>{{ labels.description }}</th>
+      <th class="num">{{ labels.qty }}</th><th class="num">{{ labels.unit_price }}</th>
+      <th class="num">{{ labels.amount }}</th></tr></thead>
+    <tbody>
+    {% for it in items %}
+      <tr><td class="num">{{ loop.index }}</td><td class="desc">{{ it.description }}</td>
+          <td class="num">{{ it.quantity }} {{ it.unit }}</td>
+          <td class="num">{{ it.unit_price_display }}</td>
+          <td class="num">{{ it.amount_display }}</td></tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  <section class="totals"><table class="totals-table">
+    {% for label, value in subtotal_rows %}<tr><th>{{ label }}</th><td class="num">{{ value }}</td></tr>{% endfor %}
+    {% for tl in tax_rows %}<tr><th>{{ tl.label }}</th><td class="num">{{ tl.display }}</td></tr>{% endfor %}
+    <tr class="grand"><th>{{ labels.total }}</th><td class="num">{{ total_display }}</td></tr>
+    {% if dual_currency_line %}<tr><th></th><td class="num dual">{{ dual_currency_line }}</td></tr>{% endif %}
+  </table></section>
+  {% if amount_in_words %}<div class="words">{{ words_label }}: {{ amount_in_words }}</div>{% endif %}
+  <section class="pay">
+    {% if payment_terms_display %}<div><b>{{ labels.payment_terms }}:</b> {{ payment_terms_display }}</div>{% endif %}
+    {% if account_display %}<div><b>{{ labels.payment_account }}:</b> <span class="mono">{{ account_display }}</span></div>{% endif %}
+    {% for line in bank_lines %}<div>{{ line }}</div>{% endfor %}
+  </section>
+  {% if notes %}<section class="notes small muted">
+    {% for n in notes %}<div>{{ n }}</div>{% endfor %}
+  </section>{% endif %}
+  {% if qr_data_uri %}<img class="qr" src="{{ qr_data_uri }}" alt="QR">{% endif %}
+{% endif %}
+</div>
+</body>
+</html>

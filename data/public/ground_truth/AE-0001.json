@@ -1,0 +1,111 @@
+{
+  "doc_id": "AE-0001",
+  "country": "AE",
+  "language": [
+    "ar",
+    "en"
+  ],
+  "script": [
+    "Arab",
+    "Latn"
+  ],
+  "dimensions": {
+    "calendar": "gregorian",
+    "number_format": "native",
+    "digits": "western",
+    "tax_mode": "exclusive",
+    "cross_border": false,
+    "language_mode": "bilingual",
+    "template": "ae_a"
+  },
+  "fields": {
+    "vendor_name": "عجمان للطباعة والإعلان ذ.م.م",
+    "vendor_tax_id": "151450357719435",
+    "invoice_number": "TINV/2025/1866",
+    "invoice_date": "2025-10-02",
+    "due_date": "2025-11-16",
+    "currency": "AED",
+    "subtotal": "98767.51",
+    "tax_total": "4938.38",
+    "total": "103705.89",
+    "tax_rates": [
+      "5"
+    ],
+    "payment_account": "AE208545394131870625323",
+    "line_item_count": 8
+  },
+  "line_items": [
+    {
+      "description": "Office chairs, mesh, ergonomic / كراسي مكتبية",
+      "quantity": "2",
+      "unit": "carton",
+      "unit_price": "2846.00",
+      "amount": "5692.00",
+      "tax_rate": "5"
+    },
+    {
+      "description": "Monthly IT maintenance — servers and network",
+      "quantity": "2.5",
+      "unit": "hrs",
+      "unit_price": "2646.00",
+      "amount": "6615.00",
+      "tax_rate": "5"
+    },
+    {
+      "description": "Software license — annual",
+      "quantity": "6",
+      "unit": "carton",
+      "unit_price": "1053.67",
+      "amount": "6322.02",
+      "tax_rate": "5"
+    },
+    {
+      "description": "Paper A4, carton of 10 reams / ورق A4 (كرتون)",
+      "quantity": "20",
+      "unit": "pcs",
+      "unit_price": "2453.00",
+      "amount": "49060.00",
+      "tax_rate": "5"
+    },
+    {
+      "description": "Accounting services — monthly / خدمات محاسبية شهرية",
+      "quantity": "20",
+      "unit": "pallet",
+      "unit_price": "1247.29",
+      "amount": "24945.80",
+      "tax_rate": "5"
+    },
+    {
+      "description": "Monthly IT maintenance — servers and network / صيانة شهرية للخوادم",
+      "quantity": "2",
+      "unit": "pallet",
+      "unit_price": "2195.99",
+      "amount": "4391.98",
+      "tax_rate": "5"
+    },
+    {
+      "description": "Freight Jebel Ali → Abu Dhabi, 2 pallets / شحن جبل علي → أبوظبي",
+      "quantity": "4",
+      "unit": "hrs",
+      "unit_price": "411.00",
+      "amount": "1644.00",
+      "tax_rate": "5"
+    },
+    {
+      "description": "Translation AR → EN / ترجمة عربي → إنجليزي",
+      "quantity": "1",
+      "unit": "pallet",
+      "unit_price": "96.71",
+      "amount": "96.71",
+      "tax_rate": "5"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "TINV/2025/1866",
+    "invoice_date": "02/10/2025",
+    "due_date": "16/11/2025",
+    "subtotal": "98,767.51 د.إ",
+    "tax_total": "4,938.38",
+    "total": "103,705.89 د.إ"
+  }
+}

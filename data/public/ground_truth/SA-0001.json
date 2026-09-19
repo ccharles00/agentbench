@@ -1,0 +1,119 @@
+{
+  "doc_id": "SA-0001",
+  "country": "SA",
+  "language": [
+    "ar",
+    "en"
+  ],
+  "script": [
+    "Arab",
+    "Latn"
+  ],
+  "dimensions": {
+    "calendar": "gregorian",
+    "number_format": "foreign",
+    "digits": "arabic_indic",
+    "tax_mode": "exclusive",
+    "cross_border": false,
+    "language_mode": "bilingual",
+    "template": "sa_a"
+  },
+  "fields": {
+    "vendor_name": "شركة أبها للخدمات المكتبية",
+    "vendor_tax_id": "361436682470961",
+    "invoice_number": "INV-2026-2520",
+    "invoice_date": "2026-05-24",
+    "due_date": "2026-06-23",
+    "currency": "SAR",
+    "subtotal": "129639.23",
+    "tax_total": "19445.89",
+    "total": "149085.12",
+    "tax_rates": [
+      "15"
+    ],
+    "payment_account": "SA387833402048729861979642",
+    "line_item_count": 9
+  },
+  "line_items": [
+    {
+      "description": "ترجمة — عربي → إنجليزي",
+      "quantity": "5",
+      "unit": "ساعة",
+      "unit_price": "2227.24",
+      "amount": "11136.20",
+      "tax_rate": "15"
+    },
+    {
+      "description": "Freight Riyadh → Jeddah, 2 pallets",
+      "quantity": "2",
+      "unit": "ساعة",
+      "unit_price": "3293.00",
+      "amount": "6586.00",
+      "tax_rate": "15"
+    },
+    {
+      "description": "Software license — annual",
+      "quantity": "1",
+      "unit": "كرتون",
+      "unit_price": "730.53",
+      "amount": "730.53",
+      "tax_rate": "15"
+    },
+    {
+      "description": "مكتب خشبي، 180 سم، مع أدراج",
+      "quantity": "3",
+      "unit": "كرتون",
+      "unit_price": "906.00",
+      "amount": "2718.00",
+      "tax_rate": "15"
+    },
+    {
+      "description": "نقل البضائع: الرياض → جدة، 2 منصات",
+      "quantity": "12",
+      "unit": "حبة",
+      "unit_price": "1822.00",
+      "amount": "21864.00",
+      "tax_rate": "15"
+    },
+    {
+      "description": "Paper A4 (carton of 10 reams)",
+      "quantity": "20",
+      "unit": "كرتون",
+      "unit_price": "204.00",
+      "amount": "4080.00",
+      "tax_rate": "15"
+    },
+    {
+      "description": "Accounting services — monthly",
+      "quantity": "10",
+      "unit": "كرتون",
+      "unit_price": "1319.55",
+      "amount": "13195.50",
+      "tax_rate": "15"
+    },
+    {
+      "description": "مواد تغليف — صناديق كرتون (500 حبة)",
+      "quantity": "20",
+      "unit": "كرتون",
+      "unit_price": "3402.00",
+      "amount": "68040.00",
+      "tax_rate": "15"
+    },
+    {
+      "description": "Office chairs, mesh, ergonomic",
+      "quantity": "1",
+      "unit": "منصة",
+      "unit_price": "1289.00",
+      "amount": "1289.00",
+      "tax_rate": "15"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "INV-2026-2520",
+    "invoice_date": "٢٤/٠٥/٢٠٢٦",
+    "due_date": "٢٣/٠٦/٢٠٢٦",
+    "subtotal": "١٢٩,٦٣٩.٢٣ ر.س",
+    "tax_total": "١٩,٤٤٥.٨٩",
+    "total": "١٤٩,٠٨٥.١٢ ر.س"
+  }
+}

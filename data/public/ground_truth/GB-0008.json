@@ -1,0 +1,85 @@
+{
+  "doc_id": "GB-0008",
+  "country": "GB",
+  "language": [
+    "en"
+  ],
+  "script": [
+    "Latn"
+  ],
+  "dimensions": {
+    "calendar": "gregorian",
+    "number_format": "native",
+    "digits": "western",
+    "tax_mode": "exclusive",
+    "cross_border": false,
+    "language_mode": "native",
+    "template": "gb_b"
+  },
+  "fields": {
+    "vendor_name": "Northern Textiles Ltd",
+    "vendor_tax_id": "GB774119239",
+    "invoice_number": "INV/2026/8468",
+    "invoice_date": "2026-04-10",
+    "due_date": "2026-04-24",
+    "currency": "GBP",
+    "subtotal": "10207.21",
+    "tax_total": "2041.44",
+    "total": "12248.65",
+    "tax_rates": [
+      "20"
+    ],
+    "payment_account": "GB72VQZGI26SAGISAKQ8T8",
+    "line_item_count": 5
+  },
+  "line_items": [
+    {
+      "description": "Staff training — manual handling, half day session",
+      "quantity": "10",
+      "unit": "items",
+      "unit_price": "117.00",
+      "amount": "1170.00",
+      "tax_rate": "20"
+    },
+    {
+      "description": "Translation — EN to DE, technical manual, 60 pages",
+      "quantity": "10",
+      "unit": "kg",
+      "unit_price": "43.00",
+      "amount": "430.00",
+      "tax_rate": "20"
+    },
+    {
+      "description": "Safety audit — warehouse, on-site, full report",
+      "quantity": "3",
+      "unit": "pcs",
+      "unit_price": "690.27",
+      "amount": "2070.81",
+      "tax_rate": "20"
+    },
+    {
+      "description": "Courier — next day service, 12 parcels",
+      "quantity": "10",
+      "unit": "kg",
+      "unit_price": "598.00",
+      "amount": "5980.00",
+      "tax_rate": "20"
+    },
+    {
+      "description": "Office chairs, mesh back (pack of 4)",
+      "quantity": "20",
+      "unit": "pcs",
+      "unit_price": "27.82",
+      "amount": "556.40",
+      "tax_rate": "20"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "INV/2026/8468",
+    "invoice_date": "10/04/2026",
+    "due_date": "24/04/2026",
+    "subtotal": "£10,207.21",
+    "tax_total": "2,041.44",
+    "total": "£12,248.65"
+  }
+}

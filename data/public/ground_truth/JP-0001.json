@@ -1,0 +1,61 @@
+{
+  "doc_id": "JP-0001",
+  "country": "JP",
+  "language": [
+    "ja"
+  ],
+  "script": [
+    "Jpan"
+  ],
+  "dimensions": {
+    "calendar": "japanese_era",
+    "number_format": "native",
+    "digits": "western",
+    "tax_mode": "exclusive",
+    "cross_border": false,
+    "language_mode": "native",
+    "template": "jp_a"
+  },
+  "fields": {
+    "vendor_name": "広島機工株式会社",
+    "vendor_tax_id": "T8284223132296",
+    "invoice_number": "INV-2026-10223",
+    "invoice_date": "2026-08-20",
+    "due_date": "2026-09-03",
+    "currency": "JPY",
+    "subtotal": "942000",
+    "tax_total": "94200",
+    "total": "1036200",
+    "tax_rates": [
+      "10"
+    ],
+    "payment_account": null,
+    "line_item_count": 2
+  },
+  "line_items": [
+    {
+      "description": "包装資材 — 段ボール 60 サイズ（100 枚）",
+      "quantity": "10",
+      "unit": "個",
+      "unit_price": "31300",
+      "amount": "313000",
+      "tax_rate": "10"
+    },
+    {
+      "description": "ソフトウェアライセンス（年間）",
+      "quantity": "10",
+      "unit": "台",
+      "unit_price": "62900",
+      "amount": "629000",
+      "tax_rate": "10"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "INV-2026-10223",
+    "invoice_date": "令和8年8月20日",
+    "due_date": "令和8年9月3日",
+    "subtotal": "¥942,000",
+    "tax_total": "94,200",
+    "total": "¥1,036,200"
+  }
+}

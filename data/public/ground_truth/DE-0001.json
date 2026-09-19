@@ -1,0 +1,117 @@
+{
+  "doc_id": "DE-0001",
+  "country": "DE",
+  "language": [
+    "de"
+  ],
+  "script": [
+    "Latn"
+  ],
+  "dimensions": {
+    "calendar": "gregorian",
+    "number_format": "native",
+    "digits": "western",
+    "tax_mode": "exclusive",
+    "cross_border": false,
+    "language_mode": "native",
+    "template": "de_a"
+  },
+  "fields": {
+    "vendor_name": "Müller & Schulze GmbH",
+    "vendor_tax_id": "DE281832473",
+    "invoice_number": "RE-2025-7706",
+    "invoice_date": "2025-02-10",
+    "due_date": "2025-02-25",
+    "currency": "EUR",
+    "subtotal": "57476.35",
+    "tax_total": "10920.50",
+    "total": "68396.85",
+    "tax_rates": [
+      "19"
+    ],
+    "payment_account": "DE65486863536071781885",
+    "line_item_count": 9
+  },
+  "line_items": [
+    {
+      "description": "Fachbuch: Grundlagen der Buchführung, 3. Auflage",
+      "quantity": "8.5",
+      "unit": "Std.",
+      "unit_price": "602.56",
+      "amount": "5121.76",
+      "tax_rate": "19"
+    },
+    {
+      "description": "Druck: Produktkatalog, 4-farbig, 500 Stück, Rückenklebung",
+      "quantity": "1",
+      "unit": "Stk.",
+      "unit_price": "222.79",
+      "amount": "222.79",
+      "tax_rate": "19"
+    },
+    {
+      "description": "Monatliche Wartung — Klimaanlage, inklusive Ersatzteilen und Notdienst",
+      "quantity": "20",
+      "unit": "kg",
+      "unit_price": "1002.00",
+      "amount": "20040.00",
+      "tax_rate": "19"
+    },
+    {
+      "description": "Bürostuhl, Netzstoff, ergonomisch",
+      "quantity": "6",
+      "unit": "Stk.",
+      "unit_price": "834.50",
+      "amount": "5007.00",
+      "tax_rate": "19"
+    },
+    {
+      "description": "Softwarelizenz, Jahresabo, 5 Arbeitsplätze",
+      "quantity": "6",
+      "unit": "kg",
+      "unit_price": "1190.35",
+      "amount": "7142.10",
+      "tax_rate": "19"
+    },
+    {
+      "description": "Brötchen und Backwaren, Lieferung wöchentlich",
+      "quantity": "10",
+      "unit": "kg",
+      "unit_price": "508.00",
+      "amount": "5080.00",
+      "tax_rate": "19"
+    },
+    {
+      "description": "Lagerservice — Kommissionierung, 3 Monate",
+      "quantity": "1",
+      "unit": "Pauschale",
+      "unit_price": "964.70",
+      "amount": "964.70",
+      "tax_rate": "19"
+    },
+    {
+      "description": "Elektroinstallation — Objekt 12, GruppeVerteilung und Zählerplatz",
+      "quantity": "12",
+      "unit": "kg",
+      "unit_price": "1139.00",
+      "amount": "13668.00",
+      "tax_rate": "19"
+    },
+    {
+      "description": "IT-Support-Stunden, remote",
+      "quantity": "1",
+      "unit": "kg",
+      "unit_price": "230.00",
+      "amount": "230.00",
+      "tax_rate": "19"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "RE-2025-7706",
+    "invoice_date": "10.02.2025",
+    "due_date": "25.02.2025",
+    "subtotal": "57.476,35 €",
+    "tax_total": "10.920,50",
+    "total": "68.396,85 €"
+  }
+}

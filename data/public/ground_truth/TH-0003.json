@@ -1,0 +1,191 @@
+{
+  "doc_id": "TH-0003",
+  "country": "TH",
+  "language": [
+    "th",
+    "en"
+  ],
+  "script": [
+    "Latn",
+    "Thai"
+  ],
+  "dimensions": {
+    "calendar": "gregorian",
+    "number_format": "native",
+    "digits": "western",
+    "tax_mode": "exclusive",
+    "cross_border": false,
+    "language_mode": "bilingual",
+    "template": "th_a"
+  },
+  "fields": {
+    "vendor_name": "บริษัท สยาม ออฟฟิศ ซัพพลาย จำกัด",
+    "vendor_tax_id": "8837388828535",
+    "invoice_number": "INV-2569-5083",
+    "invoice_date": "2026-09-23",
+    "due_date": "2026-11-07",
+    "currency": "THB",
+    "subtotal": "640258.46",
+    "tax_total": "44818.10",
+    "total": "685076.56",
+    "tax_rates": [
+      "7"
+    ],
+    "payment_account": null,
+    "line_item_count": 18
+  },
+  "line_items": [
+    {
+      "description": "บริการบำรุงรักษาประจำเดือน — เซิร์ฟเวอร์ รวมการดูแลระยะไกล",
+      "quantity": "5",
+      "unit": "พาเลท",
+      "unit_price": "11649.13",
+      "amount": "58245.65",
+      "tax_rate": "7"
+    },
+    {
+      "description": "ขนส่งสินค้า: กรุงเทพ → ภูเก็ต 2 พาเลท",
+      "quantity": "2",
+      "unit": "ชิ้น",
+      "unit_price": "1810.55",
+      "amount": "3621.10",
+      "tax_rate": "7"
+    },
+    {
+      "description": "ค่าลิขสิทธิ์ซอฟต์แวร์ — รายปี",
+      "quantity": "3",
+      "unit": "รีม",
+      "unit_price": "2728.00",
+      "amount": "8184.00",
+      "tax_rate": "7"
+    },
+    {
+      "description": "บริการบำรุงรักษาประจำเดือน — เซิร์ฟเวอร์ รวมการดูแลระยะไกล",
+      "quantity": "12",
+      "unit": "ชิ้น",
+      "unit_price": "4617.73",
+      "amount": "55412.76",
+      "tax_rate": "7"
+    },
+    {
+      "description": "Monthly maintenance — servers, remote monitoring",
+      "quantity": "12",
+      "unit": "พาเลท",
+      "unit_price": "8374.00",
+      "amount": "100488.00",
+      "tax_rate": "7"
+    },
+    {
+      "description": "วัสดุบรรจุภัณฑ์ — กล่องลูกฟูก (500 ใบ)",
+      "quantity": "3",
+      "unit": "รีม",
+      "unit_price": "1302.46",
+      "amount": "3907.38",
+      "tax_rate": "7"
+    },
+    {
+      "description": "Accounting services — monthly",
+      "quantity": "20",
+      "unit": "ชิ้น",
+      "unit_price": "7956.00",
+      "amount": "159120.00",
+      "tax_rate": "7"
+    },
+    {
+      "description": "Software license — annual",
+      "quantity": "3.5",
+      "unit": "ชั่วโมง",
+      "unit_price": "8986.31",
+      "amount": "31452.09",
+      "tax_rate": "7"
+    },
+    {
+      "description": "Paper A4 70gsm (1 carton, 10 reams)",
+      "quantity": "4",
+      "unit": "รีม",
+      "unit_price": "7405.00",
+      "amount": "29620.00",
+      "tax_rate": "7"
+    },
+    {
+      "description": "กระดาษ A4 70 แกรม (1 ลัง 10 รีม)",
+      "quantity": "12",
+      "unit": "หน่วย",
+      "unit_price": "352.00",
+      "amount": "4224.00",
+      "tax_rate": "7"
+    },
+    {
+      "description": "Freight Bangkok → Phuket, 2 pallets",
+      "quantity": "8",
+      "unit": "พาเลท",
+      "unit_price": "272.00",
+      "amount": "2176.00",
+      "tax_rate": "7"
+    },
+    {
+      "description": "โต๊ะประชุม 240 ซม. ไม้วอลนัท",
+      "quantity": "10",
+      "unit": "หน่วย",
+      "unit_price": "2594.00",
+      "amount": "25940.00",
+      "tax_rate": "7"
+    },
+    {
+      "description": "เก้าอี้สำนักงาน ผ้าตาข่าย",
+      "quantity": "3",
+      "unit": "ชิ้น",
+      "unit_price": "1528.00",
+      "amount": "4584.00",
+      "tax_rate": "7"
+    },
+    {
+      "description": "ขนส่งสินค้า: กรุงเทพ → ภูเก็ต 2 พาเลท",
+      "quantity": "20",
+      "unit": "ชิ้น",
+      "unit_price": "271.00",
+      "amount": "5420.00",
+      "tax_rate": "7"
+    },
+    {
+      "description": "Office chairs, mesh, ergonomic",
+      "quantity": "2",
+      "unit": "หน่วย",
+      "unit_price": "4880.00",
+      "amount": "9760.00",
+      "tax_rate": "7"
+    },
+    {
+      "description": "บริการบัญชี — รายเดือน",
+      "quantity": "2",
+      "unit": "ชิ้น",
+      "unit_price": "10513.14",
+      "amount": "21026.28",
+      "tax_rate": "7"
+    },
+    {
+      "description": "งานแปล — ไทย → อังกฤษ",
+      "quantity": "5",
+      "unit": "หน่วย",
+      "unit_price": "10345.47",
+      "amount": "51727.35",
+      "tax_rate": "7"
+    },
+    {
+      "description": "งานแปล — ไทย → อังกฤษ",
+      "quantity": "5.5",
+      "unit": "ชั่วโมง",
+      "unit_price": "11881.79",
+      "amount": "65349.85",
+      "tax_rate": "7"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "INV-2569-5083",
+    "invoice_date": "23 กันยายน 2569",
+    "due_date": "7 พ.ย. 2569",
+    "subtotal": "฿640,258.46",
+    "tax_total": "44,818.10",
+    "total": "฿685,076.56"
+  }
+}

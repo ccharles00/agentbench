@@ -1,0 +1,24 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets — never commit (build spec C3.3)
+.env
+private_seed.txt
+private_seed_*.txt
+
+# Private split: documents and ground truth are never committed
+data/private/
+
+# Fonts are downloaded by scripts/fetch_fonts.py (pinned in fonts.lock)
+categories/invoices/generator/fonts/
+
+# Rasterized degradation variants are regenerable deterministically from the seed;
+# only ground truth and clean PDFs are committed for the public split.
+data/public/documents/**/*.png
+data/public/documents/**/*.jpg
+
+# Contact sheets are review artifacts, regenerable via make generate
+data/public/contact_sheets/

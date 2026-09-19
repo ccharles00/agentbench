@@ -1,0 +1,36 @@
+# Central configuration. Everything the whole pipeline needs lives here.
+# Category-specific data (fields, comparators) lives in categories/<id>/category.yaml.
+
+project_name: agentbench   # PLACEHOLDER — owner to choose (see TODO_OWNER.md)
+
+dataset_version: "2026.1"
+
+# Generation is fully deterministic from a seed (spec B2.1). The public seed is
+# published; the private split seed lives ONLY in the owner's environment
+# (PRIVATE_SEED env var or private_seed.txt, both never committed).
+public_seed: 20260919
+
+countries: [US, GB, DE, IN, CN, JP, KR, BR, MX, SA, AE, ID, TH]
+docs_per_country: 8   # ~100 base invoices across 13 core countries (spec B2.7)
+
+# OWNER: verify these rates look realistic (build spec B2.2, TODO_OWNER.md).
+# Internal consistency matters more than statutory exactness — we measure
+# extraction, not tax compliance.
+tax_rates:
+  US: {CA: 7.25, NY: 8.875, TX: 8.25, FL: 6.0, WA: 10.1}   # state sales tax, sampled
+  GB: [20]
+  DE: [19, 7]          # standard / reduced (groceries, books)
+  IN: [5, 12, 18, 28]  # GST slabs; split CGST+SGST or IGST by place of supply
+  CN: [13, 9, 6]       # goods / transport-water-modern services / services
+  JP: [10, 8]          # standard / reduced (food)
+  KR: [10]
+  BR: [18, 12, 17]     # ICMS by state; ISS 5% for services (see br.py)
+  MX: [16]
+  SA: [15]
+  AE: [5]
+  ID: [11]             # 12% applies to luxury goods from 2025 — owner verify
+  TH: [7]
+
+# Harness settings (used from Milestone 2)
+budget_usd: 25
+tools: []              # enabled adapter tool_ids; owner finalizes the list

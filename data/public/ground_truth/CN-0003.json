@@ -1,0 +1,61 @@
+{
+  "doc_id": "CN-0003",
+  "country": "CN",
+  "language": [
+    "zh"
+  ],
+  "script": [
+    "Hani"
+  ],
+  "dimensions": {
+    "calendar": "gregorian",
+    "number_format": "native",
+    "digits": "western",
+    "tax_mode": "exclusive",
+    "cross_border": false,
+    "language_mode": "native",
+    "template": "cn_c"
+  },
+  "fields": {
+    "vendor_name": "广州顺达物流有限公司",
+    "vendor_tax_id": "38M9LQ79HA9J4AAGJX",
+    "invoice_number": "INV202610053",
+    "invoice_date": "2026-10-17",
+    "due_date": "2026-11-16",
+    "currency": "CNY",
+    "subtotal": "6571.48",
+    "tax_total": "394.29",
+    "total": "6965.77",
+    "tax_rates": [
+      "6"
+    ],
+    "payment_account": null,
+    "line_item_count": 2
+  },
+  "line_items": [
+    {
+      "description": "办公椅，网布，人体工学",
+      "quantity": "1",
+      "unit": "托",
+      "unit_price": "4103.00",
+      "amount": "4103.00",
+      "tax_rate": "6"
+    },
+    {
+      "description": "电子元器件 — 电阻 10kΩ ±1%（1000 个/盘）",
+      "quantity": "8",
+      "unit": "册",
+      "unit_price": "308.56",
+      "amount": "2468.48",
+      "tax_rate": "6"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "INV202610053",
+    "invoice_date": "2026年10月17日",
+    "due_date": "2026年11月16日",
+    "subtotal": "¥6,571.48",
+    "tax_total": "394.29",
+    "total": "¥6,965.77"
+  }
+}

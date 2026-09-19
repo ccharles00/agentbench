@@ -1,0 +1,93 @@
+{
+  "doc_id": "MX-0002",
+  "country": "MX",
+  "language": [
+    "es"
+  ],
+  "script": [
+    "Latn"
+  ],
+  "dimensions": {
+    "calendar": "gregorian",
+    "number_format": "native",
+    "digits": "western",
+    "tax_mode": "exclusive",
+    "cross_border": false,
+    "language_mode": "native",
+    "template": "mx_b"
+  },
+  "fields": {
+    "vendor_name": "Distribuidora del Norte S.A. de C.V.",
+    "vendor_tax_id": "KFD924572KZ4",
+    "invoice_number": "FOLIO-0470",
+    "invoice_date": "2026-07-19",
+    "due_date": "2026-08-18",
+    "currency": "MXN",
+    "subtotal": "167186.20",
+    "tax_total": "26749.79",
+    "total": "193935.99",
+    "tax_rates": [
+      "16"
+    ],
+    "payment_account": "021427985062853396",
+    "line_item_count": 6
+  },
+  "line_items": [
+    {
+      "description": "Mantenimiento mensual — servidores y red, soporte remoto incluido",
+      "quantity": "1",
+      "unit": "tarima",
+      "unit_price": "703.00",
+      "amount": "703.00",
+      "tax_rate": "16"
+    },
+    {
+      "description": "Equipo de cómputo, laptop i5, 16GB RAM",
+      "quantity": "4",
+      "unit": "pza",
+      "unit_price": "7897.00",
+      "amount": "31588.00",
+      "tax_rate": "16"
+    },
+    {
+      "description": "Servicios de contabilidad — mensual",
+      "quantity": "10",
+      "unit": "pza",
+      "unit_price": "5471.00",
+      "amount": "54710.00",
+      "tax_rate": "16"
+    },
+    {
+      "description": "Catering corporativo — 20 personas",
+      "quantity": "12",
+      "unit": "caja",
+      "unit_price": "2522.00",
+      "amount": "30264.00",
+      "tax_rate": "16"
+    },
+    {
+      "description": "Flete: CDMX → Monterrey, 2 tarimas",
+      "quantity": "10",
+      "unit": "h",
+      "unit_price": "3217.62",
+      "amount": "32176.20",
+      "tax_rate": "16"
+    },
+    {
+      "description": "Silla de oficina, malla, ergonómica",
+      "quantity": "5",
+      "unit": "h",
+      "unit_price": "3549.00",
+      "amount": "17745.00",
+      "tax_rate": "16"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "FOLIO-0470",
+    "invoice_date": "19/07/2026",
+    "due_date": "18/08/2026",
+    "subtotal": "$167,186.20 (MXN)",
+    "tax_total": "26,749.79",
+    "total": "$193,935.99 (MXN)"
+  }
+}

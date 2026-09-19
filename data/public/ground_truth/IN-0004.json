@@ -1,0 +1,77 @@
+{
+  "doc_id": "IN-0004",
+  "country": "IN",
+  "language": [
+    "hi"
+  ],
+  "script": [
+    "Deva"
+  ],
+  "dimensions": {
+    "calendar": "gregorian",
+    "number_format": "native",
+    "digits": "western",
+    "tax_mode": "exclusive",
+    "cross_border": false,
+    "language_mode": "native",
+    "template": "in_c"
+  },
+  "fields": {
+    "vendor_name": "Jaipur Handicrafts Emporium Pvt. Ltd.",
+    "vendor_tax_id": "06YLMWP8940B6ZE",
+    "invoice_number": "TAX/25/26/364",
+    "invoice_date": "2025-12-09",
+    "due_date": "2026-02-07",
+    "currency": "INR",
+    "subtotal": "776405.00",
+    "tax_total": "217393.40",
+    "total": "993798.40",
+    "tax_rates": [
+      "28"
+    ],
+    "payment_account": null,
+    "line_item_count": 4
+  },
+  "line_items": [
+    {
+      "description": "Catering staff — corporate event, 50 guests",
+      "quantity": "2",
+      "unit": "Box",
+      "unit_price": "15720.00",
+      "amount": "31440.00",
+      "tax_rate": "28"
+    },
+    {
+      "description": "Software subscription — annual, cloud hosted",
+      "quantity": "1",
+      "unit": "pcs",
+      "unit_price": "24210.00",
+      "amount": "24210.00",
+      "tax_rate": "28"
+    },
+    {
+      "description": "Freight: Mumbai → Delhi, 3 pallets, FTL",
+      "quantity": "20",
+      "unit": "pcs",
+      "unit_price": "20140.00",
+      "amount": "402800.00",
+      "tax_rate": "28"
+    },
+    {
+      "description": "Handicraft export packing and documentation services",
+      "quantity": "20.5",
+      "unit": "hrs",
+      "unit_price": "15510.00",
+      "amount": "317955.00",
+      "tax_rate": "28"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "TAX/25/26/364",
+    "invoice_date": "09/12/2025",
+    "due_date": "07/02/2026",
+    "subtotal": "₹7,76,405.00",
+    "tax_total": "2,17,393.40",
+    "total": "₹9,93,798.40"
+  }
+}

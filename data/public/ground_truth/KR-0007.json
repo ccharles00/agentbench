@@ -1,0 +1,93 @@
+{
+  "doc_id": "KR-0007",
+  "country": "KR",
+  "language": [
+    "ko"
+  ],
+  "script": [
+    "Hang"
+  ],
+  "dimensions": {
+    "calendar": "gregorian",
+    "number_format": "native",
+    "digits": "western",
+    "tax_mode": "exclusive",
+    "cross_border": false,
+    "language_mode": "native",
+    "template": "kr_c"
+  },
+  "fields": {
+    "vendor_name": "제주무역 주식회사",
+    "vendor_tax_id": "0414225149",
+    "invoice_number": "2026-9791",
+    "invoice_date": "2026-06-06",
+    "due_date": "2026-07-06",
+    "currency": "KRW",
+    "subtotal": "14077700",
+    "tax_total": "1407770",
+    "total": "15485470",
+    "tax_rates": [
+      "10"
+    ],
+    "payment_account": null,
+    "line_item_count": 6
+  },
+  "line_items": [
+    {
+      "description": "사무용품 일괄 (문구, 파일 등)",
+      "quantity": "4",
+      "unit": "개",
+      "unit_price": "30100",
+      "amount": "120400",
+      "tax_rate": "10"
+    },
+    {
+      "description": "소모품: 토너 카트리지 (흑색)",
+      "quantity": "3",
+      "unit": "개",
+      "unit_price": "405300",
+      "amount": "1215900",
+      "tax_rate": "10"
+    },
+    {
+      "description": "화물 운송: 부산 → 서울, 2팔레트",
+      "quantity": "20",
+      "unit": "대",
+      "unit_price": "262300",
+      "amount": "5246000",
+      "tax_rate": "10"
+    },
+    {
+      "description": "서버 유지보수 — 월간, 원격 모니터링 포함",
+      "quantity": "6",
+      "unit": "개",
+      "unit_price": "350700",
+      "amount": "2104200",
+      "tax_rate": "10"
+    },
+    {
+      "description": "오피스 체어 (메시, 인체공학)",
+      "quantity": "6",
+      "unit": "식",
+      "unit_price": "845200",
+      "amount": "5071200",
+      "tax_rate": "10"
+    },
+    {
+      "description": "네트워크 스위치 24포트",
+      "quantity": "8",
+      "unit": "대",
+      "unit_price": "40000",
+      "amount": "320000",
+      "tax_rate": "10"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "2026-9791",
+    "invoice_date": "2026. 06. 06.",
+    "due_date": "2026. 07. 06.",
+    "subtotal": "₩14,077,700",
+    "tax_total": "1,407,770",
+    "total": "₩15,485,470"
+  }
+}

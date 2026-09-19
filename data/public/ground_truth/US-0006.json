@@ -1,0 +1,229 @@
+{
+  "doc_id": "US-0006",
+  "country": "US",
+  "language": [
+    "en"
+  ],
+  "script": [
+    "Latn"
+  ],
+  "dimensions": {
+    "calendar": "gregorian",
+    "number_format": "native",
+    "digits": "western",
+    "tax_mode": "exclusive",
+    "cross_border": false,
+    "language_mode": "native",
+    "template": "us_a"
+  },
+  "fields": {
+    "vendor_name": "Harbor Freight Forwarding Inc.",
+    "vendor_tax_id": "216398878",
+    "invoice_number": "#6950",
+    "invoice_date": "2026-06-12",
+    "due_date": "2026-06-27",
+    "currency": "USD",
+    "subtotal": "52646.15",
+    "tax_total": "3158.78",
+    "total": "55804.93",
+    "tax_rates": [
+      "6"
+    ],
+    "payment_account": null,
+    "line_item_count": 23
+  },
+  "line_items": [
+    {
+      "description": "Office chair, ergonomic mesh, adjustable arms",
+      "quantity": "1",
+      "unit": "hrs",
+      "unit_price": "25.80",
+      "amount": "25.80",
+      "tax_rate": "6"
+    },
+    {
+      "description": "Monthly retainer — analytics dashboard maintenance and support",
+      "quantity": "12",
+      "unit": "hrs",
+      "unit_price": "216.32",
+      "amount": "2595.84",
+      "tax_rate": "6"
+    },
+    {
+      "description": "Freight — Seattle to Denver, 2 pallets, liftgate delivery",
+      "quantity": "8",
+      "unit": "ea",
+      "unit_price": "241.40",
+      "amount": "1931.20",
+      "tax_rate": "6"
+    },
+    {
+      "description": "Software license — annual subscription, 25 seats",
+      "quantity": "5",
+      "unit": "ea",
+      "unit_price": "713.73",
+      "amount": "3568.65",
+      "tax_rate": "6"
+    },
+    {
+      "description": "Office chair, ergonomic mesh, adjustable arms",
+      "quantity": "1",
+      "unit": "pcs",
+      "unit_price": "159.00",
+      "amount": "159.00",
+      "tax_rate": "6"
+    },
+    {
+      "description": "Cloud hosting — compute and storage, monthly",
+      "quantity": "1",
+      "unit": "mo",
+      "unit_price": "242.00",
+      "amount": "242.00",
+      "tax_rate": "6"
+    },
+    {
+      "description": "Printer toner, black, high-yield (pack of 4)",
+      "quantity": "6",
+      "unit": "ea",
+      "unit_price": "457.63",
+      "amount": "2745.78",
+      "tax_rate": "6"
+    },
+    {
+      "description": "Monthly retainer — analytics dashboard maintenance and support",
+      "quantity": "12",
+      "unit": "hrs",
+      "unit_price": "720.58",
+      "amount": "8646.96",
+      "tax_rate": "6"
+    },
+    {
+      "description": "Safety gloves, cut-resistant, size L (12 pairs)",
+      "quantity": "4.5",
+      "unit": "hrs",
+      "unit_price": "276.11",
+      "amount": "1242.50",
+      "tax_rate": "6"
+    },
+    {
+      "description": "Translation services — EN to ES, 24 pages, certified",
+      "quantity": "2",
+      "unit": "ea",
+      "unit_price": "160.00",
+      "amount": "320.00",
+      "tax_rate": "6"
+    },
+    {
+      "description": "Custom rack enclosure, 42U, with cable management and thermal kit",
+      "quantity": "5",
+      "unit": "ea",
+      "unit_price": "576.00",
+      "amount": "2880.00",
+      "tax_rate": "6"
+    },
+    {
+      "description": "Catering — board meeting, 12 people, full service",
+      "quantity": "10",
+      "unit": "hrs",
+      "unit_price": "196.00",
+      "amount": "1960.00",
+      "tax_rate": "6"
+    },
+    {
+      "description": "Consulting hours — ERP migration, senior consultant",
+      "quantity": "20",
+      "unit": "pcs",
+      "unit_price": "29.75",
+      "amount": "595.00",
+      "tax_rate": "6"
+    },
+    {
+      "description": "Catering — board meeting, 12 people, full service",
+      "quantity": "4",
+      "unit": "pcs",
+      "unit_price": "172.00",
+      "amount": "688.00",
+      "tax_rate": "6"
+    },
+    {
+      "description": "Safety gloves, cut-resistant, size L (12 pairs)",
+      "quantity": "4",
+      "unit": "pcs",
+      "unit_price": "160.00",
+      "amount": "640.00",
+      "tax_rate": "6"
+    },
+    {
+      "description": "Warehouse storage — Q3, climate-controlled",
+      "quantity": "10",
+      "unit": "pcs",
+      "unit_price": "895.00",
+      "amount": "8950.00",
+      "tax_rate": "6"
+    },
+    {
+      "description": "Office chair, ergonomic mesh, adjustable arms",
+      "quantity": "1",
+      "unit": "ea",
+      "unit_price": "492.00",
+      "amount": "492.00",
+      "tax_rate": "6"
+    },
+    {
+      "description": "Consulting hours — ERP migration, senior consultant",
+      "quantity": "20",
+      "unit": "ea",
+      "unit_price": "350.00",
+      "amount": "7000.00",
+      "tax_rate": "6"
+    },
+    {
+      "description": "Custom rack enclosure, 42U, with cable management and thermal kit",
+      "quantity": "3",
+      "unit": "hrs",
+      "unit_price": "177.14",
+      "amount": "531.42",
+      "tax_rate": "6"
+    },
+    {
+      "description": "Translation services — EN to ES, 24 pages, certified",
+      "quantity": "12",
+      "unit": "pcs",
+      "unit_price": "429.00",
+      "amount": "5148.00",
+      "tax_rate": "6"
+    },
+    {
+      "description": "Software license — annual subscription, 25 seats",
+      "quantity": "2",
+      "unit": "hrs",
+      "unit_price": "187.00",
+      "amount": "374.00",
+      "tax_rate": "6"
+    },
+    {
+      "description": "Monthly retainer — analytics dashboard maintenance and support",
+      "quantity": "2",
+      "unit": "hrs",
+      "unit_price": "441.00",
+      "amount": "882.00",
+      "tax_rate": "6"
+    },
+    {
+      "description": "Freight — Seattle to Denver, 2 pallets, liftgate delivery",
+      "quantity": "2",
+      "unit": "hrs",
+      "unit_price": "514.00",
+      "amount": "1028.00",
+      "tax_rate": "6"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "#6950",
+    "invoice_date": "06/12/2026",
+    "due_date": "06/27/2026",
+    "subtotal": "$52,646.15",
+    "tax_total": "3,158.78",
+    "total": "$55,804.93"
+  }
+}

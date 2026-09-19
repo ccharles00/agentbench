@@ -1,0 +1,119 @@
+{
+  "doc_id": "SA-0002",
+  "country": "SA",
+  "language": [
+    "ar",
+    "en"
+  ],
+  "script": [
+    "Arab",
+    "Latn"
+  ],
+  "dimensions": {
+    "calendar": "gregorian",
+    "number_format": "foreign",
+    "digits": "arabic_indic",
+    "tax_mode": "exclusive",
+    "cross_border": false,
+    "language_mode": "bilingual",
+    "template": "sa_b"
+  },
+  "fields": {
+    "vendor_name": "شركة أبها للخدمات المكتبية",
+    "vendor_tax_id": "306139123964808",
+    "invoice_number": "INV-2026-4624",
+    "invoice_date": "2026-03-23",
+    "due_date": "2026-04-22",
+    "currency": "SAR",
+    "subtotal": "87002.82",
+    "tax_total": "13050.42",
+    "total": "100053.24",
+    "tax_rates": [
+      "15"
+    ],
+    "payment_account": "SA766845803820319624276700",
+    "line_item_count": 9
+  },
+  "line_items": [
+    {
+      "description": "تغذية مكتبية — 20 شخص",
+      "quantity": "5.5",
+      "unit": "ساعة",
+      "unit_price": "3078.62",
+      "amount": "16932.41",
+      "tax_rate": "15"
+    },
+    {
+      "description": "مكتب خشبي، 180 سم، مع أدراج",
+      "quantity": "8",
+      "unit": "حبة",
+      "unit_price": "1425.00",
+      "amount": "11400.00",
+      "tax_rate": "15"
+    },
+    {
+      "description": "ورق A4 (كرتون 10 رزم)",
+      "quantity": "5",
+      "unit": "كرتون",
+      "unit_price": "155.00",
+      "amount": "775.00",
+      "tax_rate": "15"
+    },
+    {
+      "description": "Freight Riyadh → Jeddah, 2 pallets",
+      "quantity": "6",
+      "unit": "كرتون",
+      "unit_price": "1293.00",
+      "amount": "7758.00",
+      "tax_rate": "15"
+    },
+    {
+      "description": "ترخيص برمجيات — سنوي",
+      "quantity": "1",
+      "unit": "ساعة",
+      "unit_price": "1507.00",
+      "amount": "1507.00",
+      "tax_rate": "15"
+    },
+    {
+      "description": "خدمات محاسبية — شهرية",
+      "quantity": "2",
+      "unit": "منصة",
+      "unit_price": "153.00",
+      "amount": "306.00",
+      "tax_rate": "15"
+    },
+    {
+      "description": "Monthly maintenance — servers and network",
+      "quantity": "1",
+      "unit": "كرتون",
+      "unit_price": "976.41",
+      "amount": "976.41",
+      "tax_rate": "15"
+    },
+    {
+      "description": "Paper A4 (carton of 10 reams)",
+      "quantity": "12",
+      "unit": "منصة",
+      "unit_price": "3000.00",
+      "amount": "36000.00",
+      "tax_rate": "15"
+    },
+    {
+      "description": "ترجمة — عربي → إنجليزي",
+      "quantity": "4",
+      "unit": "كرتون",
+      "unit_price": "2837.00",
+      "amount": "11348.00",
+      "tax_rate": "15"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "INV-2026-4624",
+    "invoice_date": "٢٣/٠٣/٢٠٢٦",
+    "due_date": "٢٢/٠٤/٢٠٢٦",
+    "subtotal": "٨٧,٠٠٢.٨٢ ر.س (SAR)",
+    "tax_total": "١٣,٠٥٠.٤٢",
+    "total": "١٠٠,٠٥٣.٢٤ ر.س (SAR)"
+  }
+}

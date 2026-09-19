@@ -1,0 +1,119 @@
+{
+  "doc_id": "SA-0006",
+  "country": "SA",
+  "language": [
+    "ar",
+    "en"
+  ],
+  "script": [
+    "Arab",
+    "Latn"
+  ],
+  "dimensions": {
+    "calendar": "gregorian",
+    "number_format": "foreign",
+    "digits": "arabic_indic",
+    "tax_mode": "exclusive",
+    "cross_border": false,
+    "language_mode": "bilingual",
+    "template": "sa_b"
+  },
+  "fields": {
+    "vendor_name": "شركة الرياض للتجارة المحدودة",
+    "vendor_tax_id": "304131840822090",
+    "invoice_number": "INV-2025-6418",
+    "invoice_date": "2025-08-20",
+    "due_date": "2025-09-04",
+    "currency": "SAR",
+    "subtotal": "110962.32",
+    "tax_total": "16644.35",
+    "total": "127606.67",
+    "tax_rates": [
+      "15"
+    ],
+    "payment_account": null,
+    "line_item_count": 9
+  },
+  "line_items": [
+    {
+      "description": "Software license — annual",
+      "quantity": "2",
+      "unit": "كرتون",
+      "unit_price": "3093.00",
+      "amount": "6186.00",
+      "tax_rate": "15"
+    },
+    {
+      "description": "Office chairs, mesh, ergonomic",
+      "quantity": "2",
+      "unit": "كرتون",
+      "unit_price": "350.00",
+      "amount": "700.00",
+      "tax_rate": "15"
+    },
+    {
+      "description": "كرسي مكتبي، شبكي، مريح",
+      "quantity": "5",
+      "unit": "منصة",
+      "unit_price": "2417.00",
+      "amount": "12085.00",
+      "tax_rate": "15"
+    },
+    {
+      "description": "Freight Riyadh → Jeddah, 2 pallets",
+      "quantity": "6",
+      "unit": "ساعة",
+      "unit_price": "1270.22",
+      "amount": "7621.32",
+      "tax_rate": "15"
+    },
+    {
+      "description": "مواد تغليف — صناديق كرتون (500 حبة)",
+      "quantity": "12",
+      "unit": "حبة",
+      "unit_price": "2685.00",
+      "amount": "32220.00",
+      "tax_rate": "15"
+    },
+    {
+      "description": "صيانة شهرية — خوادم و شبكة، دعم عن بعد مشمول",
+      "quantity": "12",
+      "unit": "حبة",
+      "unit_price": "193.00",
+      "amount": "2316.00",
+      "tax_rate": "15"
+    },
+    {
+      "description": "Accounting services — monthly",
+      "quantity": "2",
+      "unit": "كرتون",
+      "unit_price": "3172.00",
+      "amount": "6344.00",
+      "tax_rate": "15"
+    },
+    {
+      "description": "نقل البضائع: الرياض → جدة، 2 منصات",
+      "quantity": "10",
+      "unit": "حبة",
+      "unit_price": "1589.00",
+      "amount": "15890.00",
+      "tax_rate": "15"
+    },
+    {
+      "description": "ورق A4 (كرتون 10 رزم)",
+      "quantity": "10",
+      "unit": "حبة",
+      "unit_price": "2760.00",
+      "amount": "27600.00",
+      "tax_rate": "15"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "INV-2025-6418",
+    "invoice_date": "٢٠/٠٨/٢٠٢٥",
+    "due_date": "٠٤/٠٩/٢٠٢٥",
+    "subtotal": "١١٠,٩٦٢.٣٢ ر.س",
+    "tax_total": "١٦,٦٤٤.٣٥",
+    "total": "١٢٧,٦٠٦.٦٧ ر.س"
+  }
+}

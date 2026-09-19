@@ -1,0 +1,135 @@
+{
+  "doc_id": "CN-0008",
+  "country": "CN",
+  "language": [
+    "zh",
+    "en"
+  ],
+  "script": [
+    "Hani",
+    "Latn"
+  ],
+  "dimensions": {
+    "calendar": "gregorian",
+    "number_format": "native",
+    "digits": "western",
+    "tax_mode": "exclusive",
+    "cross_border": false,
+    "language_mode": "bilingual",
+    "template": "cn_a"
+  },
+  "fields": {
+    "vendor_name": "广州顺达物流有限公司",
+    "vendor_tax_id": "D71PLLAHE5N0YNFCRD",
+    "invoice_number": "43001796",
+    "invoice_date": "2026-02-16",
+    "due_date": "2026-03-18",
+    "currency": "CNY",
+    "subtotal": "224797.09",
+    "tax_total": "13487.82",
+    "total": "238284.91",
+    "tax_rates": [
+      "6"
+    ],
+    "payment_account": null,
+    "line_item_count": 11
+  },
+  "line_items": [
+    {
+      "description": "Server hosting service — one year, bandwidth included",
+      "quantity": "1",
+      "unit": "件",
+      "unit_price": "5752.00",
+      "amount": "5752.00",
+      "tax_rate": "6"
+    },
+    {
+      "description": "LED 显示屏模组 P2.5，含控制系统",
+      "quantity": "8",
+      "unit": "托",
+      "unit_price": "4491.73",
+      "amount": "35933.84",
+      "tax_rate": "6"
+    },
+    {
+      "description": "包装材料 — 瓦楞纸箱 5 号（1000 只）",
+      "quantity": "1",
+      "unit": "托",
+      "unit_price": "3716.00",
+      "amount": "3716.00",
+      "tax_rate": "6"
+    },
+    {
+      "description": "软件许可 — 年度订阅，20 用户",
+      "quantity": "2",
+      "unit": "小时",
+      "unit_price": "4789.00",
+      "amount": "9578.00",
+      "tax_rate": "6"
+    },
+    {
+      "description": "货运：深圳 → 上海，2 托，汽运",
+      "quantity": "20",
+      "unit": "小时",
+      "unit_price": "3733.00",
+      "amount": "74660.00",
+      "tax_rate": "6"
+    },
+    {
+      "description": "Freight: Shenzhen → Shanghai, 2 pallets",
+      "quantity": "10",
+      "unit": "件",
+      "unit_price": "3008.29",
+      "amount": "30082.90",
+      "tax_rate": "6"
+    },
+    {
+      "description": "Packaging materials — corrugated cartons (1000 pcs)",
+      "quantity": "5",
+      "unit": "小时",
+      "unit_price": "5097.47",
+      "amount": "25487.35",
+      "tax_rate": "6"
+    },
+    {
+      "description": "会议桌，1.8 米，胡桃木色",
+      "quantity": "1",
+      "unit": "件",
+      "unit_price": "990.00",
+      "amount": "990.00",
+      "tax_rate": "6"
+    },
+    {
+      "description": "Electronic components — resistors 10kΩ (1000 pcs/reel)",
+      "quantity": "3",
+      "unit": "件",
+      "unit_price": "1670.00",
+      "amount": "5010.00",
+      "tax_rate": "6"
+    },
+    {
+      "description": "月饼礼盒装（食品，含税）",
+      "quantity": "5",
+      "unit": "册",
+      "unit_price": "4513.00",
+      "amount": "22565.00",
+      "tax_rate": "6"
+    },
+    {
+      "description": "财务咨询服务 — 月度报表及税务申报",
+      "quantity": "3",
+      "unit": "个",
+      "unit_price": "3674.00",
+      "amount": "11022.00",
+      "tax_rate": "6"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "43001796",
+    "invoice_date": "2026年2月16日",
+    "due_date": "2026年3月18日",
+    "subtotal": "¥224,797.09",
+    "tax_total": "13,487.82",
+    "total": "¥238,284.91"
+  }
+}

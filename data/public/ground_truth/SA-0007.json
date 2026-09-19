@@ -1,0 +1,61 @@
+{
+  "doc_id": "SA-0007",
+  "country": "SA",
+  "language": [
+    "ar"
+  ],
+  "script": [
+    "Arab"
+  ],
+  "dimensions": {
+    "calendar": "gregorian",
+    "number_format": "native",
+    "digits": "western",
+    "tax_mode": "exclusive",
+    "cross_border": false,
+    "language_mode": "native",
+    "template": "sa_c"
+  },
+  "fields": {
+    "vendor_name": "شركة الخليج للمقاولات",
+    "vendor_tax_id": "354376180149609",
+    "invoice_number": "INV-2026-3802",
+    "invoice_date": "2026-04-12",
+    "due_date": "2026-05-12",
+    "currency": "SAR",
+    "subtotal": "27026.46",
+    "tax_total": "4053.97",
+    "total": "31080.43",
+    "tax_rates": [
+      "15"
+    ],
+    "payment_account": "SA049743368218082737973655",
+    "line_item_count": 2
+  },
+  "line_items": [
+    {
+      "description": "ورق A4 (كرتون 10 رزم)",
+      "quantity": "8",
+      "unit": "منصة",
+      "unit_price": "2927.61",
+      "amount": "23420.88",
+      "tax_rate": "15"
+    },
+    {
+      "description": "خدمات محاسبية — شهرية",
+      "quantity": "2",
+      "unit": "حبة",
+      "unit_price": "1802.79",
+      "amount": "3605.58",
+      "tax_rate": "15"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "INV-2026-3802",
+    "invoice_date": "12/04/2026",
+    "due_date": "12/05/2026",
+    "subtotal": "27,026.46 ر.س",
+    "tax_total": "4,053.97",
+    "total": "31,080.43 ر.س"
+  }
+}

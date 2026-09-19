@@ -1,0 +1,63 @@
+{
+  "doc_id": "SA-0008",
+  "country": "SA",
+  "language": [
+    "ar",
+    "en"
+  ],
+  "script": [
+    "Arab",
+    "Latn"
+  ],
+  "dimensions": {
+    "calendar": "gregorian",
+    "number_format": "native",
+    "digits": "western",
+    "tax_mode": "exclusive",
+    "cross_border": false,
+    "language_mode": "bilingual",
+    "template": "sa_a"
+  },
+  "fields": {
+    "vendor_name": "مؤسسة مكة للتغذية",
+    "vendor_tax_id": "378982431549082",
+    "invoice_number": "INV-2026-8389",
+    "invoice_date": "2026-10-25",
+    "due_date": "2026-11-24",
+    "currency": "SAR",
+    "subtotal": "7059.00",
+    "tax_total": "1058.85",
+    "total": "8117.85",
+    "tax_rates": [
+      "15"
+    ],
+    "payment_account": "SA541618985461348909916329",
+    "line_item_count": 2
+  },
+  "line_items": [
+    {
+      "description": "ورق A4 (كرتون 10 رزم)",
+      "quantity": "1",
+      "unit": "حبة",
+      "unit_price": "1723.00",
+      "amount": "1723.00",
+      "tax_rate": "15"
+    },
+    {
+      "description": "Accounting services — monthly",
+      "quantity": "8",
+      "unit": "منصة",
+      "unit_price": "667.00",
+      "amount": "5336.00",
+      "tax_rate": "15"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "INV-2026-8389",
+    "invoice_date": "25/10/2026",
+    "due_date": "24/11/2026",
+    "subtotal": "7,059.00 ر.س",
+    "tax_total": "1,058.85",
+    "total": "8,117.85 ر.س"
+  }
+}

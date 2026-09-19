@@ -1,0 +1,117 @@
+{
+  "doc_id": "ID-0004",
+  "country": "ID",
+  "language": [
+    "id"
+  ],
+  "script": [
+    "Latn"
+  ],
+  "dimensions": {
+    "calendar": "gregorian",
+    "number_format": "native",
+    "digits": "western",
+    "tax_mode": "exclusive",
+    "cross_border": false,
+    "language_mode": "native",
+    "template": "id_c"
+  },
+  "fields": {
+    "vendor_name": "PT Nusantara Elektronik",
+    "vendor_tax_id": "406084072763504",
+    "invoice_number": "INV/2025/IV/7052",
+    "invoice_date": "2025-04-03",
+    "due_date": "2025-05-03",
+    "currency": "IDR",
+    "subtotal": "96025509.48",
+    "tax_total": "10562806.04",
+    "total": "106588315.52",
+    "tax_rates": [
+      "11"
+    ],
+    "payment_account": null,
+    "line_item_count": 9
+  },
+  "line_items": [
+    {
+      "description": "Switch jaringan 24 port",
+      "quantity": "10",
+      "unit": "dus",
+      "unit_price": "2794500.00",
+      "amount": "27945000.00",
+      "tax_rate": "11"
+    },
+    {
+      "description": "Kursi kantor, jaring, ergonomis",
+      "quantity": "6",
+      "unit": "rim",
+      "unit_price": "1065500.00",
+      "amount": "6393000.00",
+      "tax_rate": "11"
+    },
+    {
+      "description": "Pengiriman: Jakarta → Surabaya, 2 palet",
+      "quantity": "5",
+      "unit": "dus",
+      "unit_price": "201500.60",
+      "amount": "1007503.00",
+      "tax_rate": "11"
+    },
+    {
+      "description": "Layanan terjemahan — Indonesia → Inggris",
+      "quantity": "1",
+      "unit": "unit",
+      "unit_price": "668000.00",
+      "amount": "668000.00",
+      "tax_rate": "11"
+    },
+    {
+      "description": "Kertas A4 70 gram (1 dus isi 10 rim)",
+      "quantity": "12",
+      "unit": "rim",
+      "unit_price": "3308500.23",
+      "amount": "39702002.76",
+      "tax_rate": "11"
+    },
+    {
+      "description": "Lisensi perangkat lunak — tahunan",
+      "quantity": "2",
+      "unit": "jam",
+      "unit_price": "2563500.00",
+      "amount": "5127000.00",
+      "tax_rate": "11"
+    },
+    {
+      "description": "Perawatan bulanan — server dan jaringan, termasuk dukungan jarak jauh",
+      "quantity": "4",
+      "unit": "unit",
+      "unit_price": "668500.93",
+      "amount": "2674003.72",
+      "tax_rate": "11"
+    },
+    {
+      "description": "Bahan kemasan — kardus kopling (500 pcs)",
+      "quantity": "4",
+      "unit": "unit",
+      "unit_price": "267500.00",
+      "amount": "1070000.00",
+      "tax_rate": "11"
+    },
+    {
+      "description": "Jasa akuntansi — bulanan",
+      "quantity": "6",
+      "unit": "unit",
+      "unit_price": "1906500.00",
+      "amount": "11439000.00",
+      "tax_rate": "11"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "INV/2025/IV/7052",
+    "invoice_date": "03/04/2025",
+    "due_date": "03/05/2025",
+    "subtotal": "Rp96.025.509,48",
+    "tax_total": "10.562.806,04",
+    "total": "Rp106.588.315,52"
+  }
+}

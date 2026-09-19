@@ -1,0 +1,239 @@
+{
+  "doc_id": "SA-0003",
+  "country": "SA",
+  "language": [
+    "ar",
+    "en"
+  ],
+  "script": [
+    "Arab",
+    "Latn"
+  ],
+  "dimensions": {
+    "calendar": "gregorian",
+    "number_format": "native",
+    "digits": "western",
+    "tax_mode": "exclusive",
+    "cross_border": false,
+    "language_mode": "bilingual",
+    "template": "sa_a"
+  },
+  "fields": {
+    "vendor_name": "شركة الخليج للمقاولات",
+    "vendor_tax_id": "388236525907923",
+    "invoice_number": "INV-2025-1988",
+    "invoice_date": "2025-12-18",
+    "due_date": "2026-01-02",
+    "currency": "SAR",
+    "subtotal": "252117.75",
+    "tax_total": "37817.66",
+    "total": "289935.41",
+    "tax_rates": [
+      "15"
+    ],
+    "payment_account": "SA134438713756144143357806",
+    "line_item_count": 24
+  },
+  "line_items": [
+    {
+      "description": "صيانة شهرية — خوادم و شبكة، دعم عن بعد مشمول",
+      "quantity": "2",
+      "unit": "كرتون",
+      "unit_price": "1114.00",
+      "amount": "2228.00",
+      "tax_rate": "15"
+    },
+    {
+      "description": "نقل البضائع: الرياض → جدة، 2 منصات",
+      "quantity": "2",
+      "unit": "كرتون",
+      "unit_price": "3101.72",
+      "amount": "6203.44",
+      "tax_rate": "15"
+    },
+    {
+      "description": "Freight Riyadh → Jeddah, 2 pallets",
+      "quantity": "2",
+      "unit": "حبة",
+      "unit_price": "652.46",
+      "amount": "1304.92",
+      "tax_rate": "15"
+    },
+    {
+      "description": "Paper A4 (carton of 10 reams)",
+      "quantity": "1",
+      "unit": "منصة",
+      "unit_price": "1412.00",
+      "amount": "1412.00",
+      "tax_rate": "15"
+    },
+    {
+      "description": "Office chairs, mesh, ergonomic",
+      "quantity": "10",
+      "unit": "كرتون",
+      "unit_price": "2720.50",
+      "amount": "27205.00",
+      "tax_rate": "15"
+    },
+    {
+      "description": "Monthly maintenance — servers and network",
+      "quantity": "1",
+      "unit": "كرتون",
+      "unit_price": "2510.68",
+      "amount": "2510.68",
+      "tax_rate": "15"
+    },
+    {
+      "description": "Software license — annual",
+      "quantity": "6",
+      "unit": "كرتون",
+      "unit_price": "2245.86",
+      "amount": "13475.16",
+      "tax_rate": "15"
+    },
+    {
+      "description": "ترخيص برمجيات — سنوي",
+      "quantity": "6",
+      "unit": "منصة",
+      "unit_price": "727.00",
+      "amount": "4362.00",
+      "tax_rate": "15"
+    },
+    {
+      "description": "ورق A4 (كرتون 10 رزم)",
+      "quantity": "1",
+      "unit": "منصة",
+      "unit_price": "902.20",
+      "amount": "902.20",
+      "tax_rate": "15"
+    },
+    {
+      "description": "تغذية مكتبية — 20 شخص",
+      "quantity": "1",
+      "unit": "حبة",
+      "unit_price": "3294.00",
+      "amount": "3294.00",
+      "tax_rate": "15"
+    },
+    {
+      "description": "مكتب خشبي، 180 سم، مع أدراج",
+      "quantity": "2",
+      "unit": "حبة",
+      "unit_price": "1099.68",
+      "amount": "2199.36",
+      "tax_rate": "15"
+    },
+    {
+      "description": "مواد تغليف — صناديق كرتون (500 حبة)",
+      "quantity": "20",
+      "unit": "كرتون",
+      "unit_price": "2950.38",
+      "amount": "59007.60",
+      "tax_rate": "15"
+    },
+    {
+      "description": "ترجمة — عربي → إنجليزي",
+      "quantity": "2",
+      "unit": "ساعة",
+      "unit_price": "1185.00",
+      "amount": "2370.00",
+      "tax_rate": "15"
+    },
+    {
+      "description": "Accounting services — monthly",
+      "quantity": "20",
+      "unit": "منصة",
+      "unit_price": "721.66",
+      "amount": "14433.20",
+      "tax_rate": "15"
+    },
+    {
+      "description": "نقل البضائع: الرياض → جدة، 2 منصات",
+      "quantity": "10",
+      "unit": "منصة",
+      "unit_price": "259.20",
+      "amount": "2592.00",
+      "tax_rate": "15"
+    },
+    {
+      "description": "صيانة شهرية — خوادم و شبكة، دعم عن بعد مشمول",
+      "quantity": "12.5",
+      "unit": "ساعة",
+      "unit_price": "1236.00",
+      "amount": "15450.00",
+      "tax_rate": "15"
+    },
+    {
+      "description": "نقل البضائع: الرياض → جدة، 2 منصات",
+      "quantity": "5",
+      "unit": "كرتون",
+      "unit_price": "2581.00",
+      "amount": "12905.00",
+      "tax_rate": "15"
+    },
+    {
+      "description": "Software license — annual",
+      "quantity": "1",
+      "unit": "منصة",
+      "unit_price": "2529.56",
+      "amount": "2529.56",
+      "tax_rate": "15"
+    },
+    {
+      "description": "Office chairs, mesh, ergonomic",
+      "quantity": "8",
+      "unit": "كرتون",
+      "unit_price": "2928.00",
+      "amount": "23424.00",
+      "tax_rate": "15"
+    },
+    {
+      "description": "مواد تغليف — صناديق كرتون (500 حبة)",
+      "quantity": "5",
+      "unit": "كرتون",
+      "unit_price": "1707.29",
+      "amount": "8536.45",
+      "tax_rate": "15"
+    },
+    {
+      "description": "نقل البضائع: الرياض → جدة، 2 منصات",
+      "quantity": "6",
+      "unit": "حبة",
+      "unit_price": "2324.11",
+      "amount": "13944.66",
+      "tax_rate": "15"
+    },
+    {
+      "description": "مكتب خشبي، 180 سم، مع أدراج",
+      "quantity": "8.5",
+      "unit": "ساعة",
+      "unit_price": "1203.32",
+      "amount": "10228.22",
+      "tax_rate": "15"
+    },
+    {
+      "description": "نقل البضائع: الرياض → جدة، 2 منصات",
+      "quantity": "6",
+      "unit": "حبة",
+      "unit_price": "865.00",
+      "amount": "5190.00",
+      "tax_rate": "15"
+    },
+    {
+      "description": "Accounting services — monthly",
+      "quantity": "6",
+      "unit": "منصة",
+      "unit_price": "2735.05",
+      "amount": "16410.30",
+      "tax_rate": "15"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "INV-2025-1988",
+    "invoice_date": "18/12/2025",
+    "due_date": "02/01/2026",
+    "subtotal": "252,117.75 ر.س",
+    "tax_total": "37,817.66",
+    "total": "289,935.41 ر.س"
+  }
+}

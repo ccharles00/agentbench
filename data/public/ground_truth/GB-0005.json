@@ -1,0 +1,101 @@
+{
+  "doc_id": "GB-0005",
+  "country": "GB",
+  "language": [
+    "en"
+  ],
+  "script": [
+    "Latn"
+  ],
+  "dimensions": {
+    "calendar": "gregorian",
+    "number_format": "native",
+    "digits": "western",
+    "tax_mode": "exclusive",
+    "cross_border": true,
+    "language_mode": "native",
+    "template": "gb_b"
+  },
+  "fields": {
+    "vendor_name": "Kingsway Office Supplies Ltd",
+    "vendor_tax_id": "GB467337977",
+    "invoice_number": "INV/2026/6324",
+    "invoice_date": "2026-04-12",
+    "due_date": "2026-04-27",
+    "currency": "EUR",
+    "subtotal": "26272.89",
+    "tax_total": "5254.58",
+    "total": "31527.47",
+    "tax_rates": [
+      "20"
+    ],
+    "payment_account": null,
+    "line_item_count": 7
+  },
+  "line_items": [
+    {
+      "description": "Safety audit — warehouse, on-site, full report",
+      "quantity": "1",
+      "unit": "hrs",
+      "unit_price": "586.05",
+      "amount": "586.05",
+      "tax_rate": "20"
+    },
+    {
+      "description": "Website maintenance retainer — monthly, includes hosting and minor updates",
+      "quantity": "4",
+      "unit": "kg",
+      "unit_price": "643.30",
+      "amount": "2573.20",
+      "tax_rate": "20"
+    },
+    {
+      "description": "Courier — next day service, 12 parcels",
+      "quantity": "8",
+      "unit": "kg",
+      "unit_price": "162.00",
+      "amount": "1296.00",
+      "tax_rate": "20"
+    },
+    {
+      "description": "Oak plywood sheets 18mm, 2440x1220 (pack of 10)",
+      "quantity": "1",
+      "unit": "kg",
+      "unit_price": "541.00",
+      "amount": "541.00",
+      "tax_rate": "20"
+    },
+    {
+      "description": "Server hosting — rack unit, monthly, includes remote hands",
+      "quantity": "12",
+      "unit": "pcs",
+      "unit_price": "76.72",
+      "amount": "920.64",
+      "tax_rate": "20"
+    },
+    {
+      "description": "LED panel lights 600x600 (carton of 20)",
+      "quantity": "20",
+      "unit": "pcs",
+      "unit_price": "731.00",
+      "amount": "14620.00",
+      "tax_rate": "20"
+    },
+    {
+      "description": "Marketing consulting — half day, includes campaign review and written recommendations",
+      "quantity": "8",
+      "unit": "pcs",
+      "unit_price": "717.00",
+      "amount": "5736.00",
+      "tax_rate": "20"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "INV/2026/6324",
+    "invoice_date": "12/04/2026",
+    "due_date": "27/04/2026",
+    "subtotal": "26,272.89 EUR",
+    "tax_total": "5,254.58",
+    "total": "31,527.47 EUR"
+  }
+}

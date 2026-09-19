@@ -1,0 +1,77 @@
+{
+  "doc_id": "BR-0001",
+  "country": "BR",
+  "language": [
+    "pt"
+  ],
+  "script": [
+    "Latn"
+  ],
+  "dimensions": {
+    "calendar": "gregorian",
+    "number_format": "native",
+    "digits": "western",
+    "tax_mode": "exclusive",
+    "cross_border": false,
+    "language_mode": "native",
+    "template": "br_a"
+  },
+  "fields": {
+    "vendor_name": "Curitiba Serviços de TI Ltda.",
+    "vendor_tax_id": "18676728000101",
+    "invoice_number": "NF-e nº 159171",
+    "invoice_date": "2026-04-27",
+    "due_date": "2026-05-11",
+    "currency": "BRL",
+    "subtotal": "23452.88",
+    "tax_total": "3986.99",
+    "total": "27439.87",
+    "tax_rates": [
+      "17"
+    ],
+    "payment_account": null,
+    "line_item_count": 4
+  },
+  "line_items": [
+    {
+      "description": "Catering corporativo — 20 pessoas",
+      "quantity": "2",
+      "unit": "cx",
+      "unit_price": "270.00",
+      "amount": "540.00",
+      "tax_rate": "17"
+    },
+    {
+      "description": "Notebook i5, 16GB RAM, 512GB SSD",
+      "quantity": "2",
+      "unit": "un",
+      "unit_price": "1944.00",
+      "amount": "3888.00",
+      "tax_rate": "17"
+    },
+    {
+      "description": "Serviços de contabilidade — mensal",
+      "quantity": "8",
+      "unit": "h",
+      "unit_price": "2144.36",
+      "amount": "17154.88",
+      "tax_rate": "17"
+    },
+    {
+      "description": "Embalagens de papelão, caixa nº 4 (500 un.)",
+      "quantity": "2",
+      "unit": "h",
+      "unit_price": "935.00",
+      "amount": "1870.00",
+      "tax_rate": "17"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "NF-e nº 159171",
+    "invoice_date": "27/04/2026",
+    "due_date": "11/05/2026",
+    "subtotal": "R$23.452,88",
+    "tax_total": "3.986,99",
+    "total": "R$27.439,87"
+  }
+}

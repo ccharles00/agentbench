@@ -1,0 +1,223 @@
+{
+  "doc_id": "IN-0005",
+  "country": "IN",
+  "language": [
+    "hi",
+    "en"
+  ],
+  "script": [
+    "Deva",
+    "Latn"
+  ],
+  "dimensions": {
+    "calendar": "gregorian",
+    "number_format": "native",
+    "digits": "western",
+    "tax_mode": "exclusive",
+    "cross_border": false,
+    "language_mode": "bilingual",
+    "template": "in_a"
+  },
+  "fields": {
+    "vendor_name": "चेन्नई फूड्स प्राइवेट लिमिटेड",
+    "vendor_tax_id": "19ESSJD7751T9ZW",
+    "invoice_number": "GST/26/27/202",
+    "invoice_date": "2026-07-05",
+    "due_date": "2026-08-04",
+    "currency": "INR",
+    "subtotal": "20340505.95",
+    "tax_total": "3661291.06",
+    "total": "24001797.01",
+    "tax_rates": [
+      "9",
+      "9"
+    ],
+    "payment_account": null,
+    "line_item_count": 22
+  },
+  "line_items": [
+    {
+      "description": "Monthly IT AMC — 40 workstations, on-site support every week",
+      "quantity": "6",
+      "unit": "Nos.",
+      "unit_price": "196140.73",
+      "amount": "1176844.38",
+      "tax_rate": "18"
+    },
+    {
+      "description": "GST registration and compliance consultancy",
+      "quantity": "12",
+      "unit": "pcs",
+      "unit_price": "159730.00",
+      "amount": "1916760.00",
+      "tax_rate": "18"
+    },
+    {
+      "description": "मसाला पैकेजिंग सेवा — 2 टन",
+      "quantity": "1",
+      "unit": "kg",
+      "unit_price": "82800.97",
+      "amount": "82800.97",
+      "tax_rate": "18"
+    },
+    {
+      "description": "Office chairs, mesh, ergonomic",
+      "quantity": "3",
+      "unit": "Box",
+      "unit_price": "243100.62",
+      "amount": "729301.86",
+      "tax_rate": "18"
+    },
+    {
+      "description": "Freight: Mumbai → Delhi, 3 pallets",
+      "quantity": "1",
+      "unit": "pcs",
+      "unit_price": "62130.00",
+      "amount": "62130.00",
+      "tax_rate": "18"
+    },
+    {
+      "description": "Software subscription — annual, cloud hosted",
+      "quantity": "8",
+      "unit": "Nos.",
+      "unit_price": "218650.35",
+      "amount": "1749202.80",
+      "tax_rate": "18"
+    },
+    {
+      "description": "LED bulbs 9W (box of 100)",
+      "quantity": "5",
+      "unit": "hrs",
+      "unit_price": "164720.56",
+      "amount": "823602.80",
+      "tax_rate": "18"
+    },
+    {
+      "description": "Export packing and documentation services",
+      "quantity": "2",
+      "unit": "kg",
+      "unit_price": "52720.00",
+      "amount": "105440.00",
+      "tax_rate": "18"
+    },
+    {
+      "description": "कपड़ा ढेर: सूती कपड़े, 500 मीटर",
+      "quantity": "3",
+      "unit": "hrs",
+      "unit_price": "207790.00",
+      "amount": "623370.00",
+      "tax_rate": "18"
+    },
+    {
+      "description": "IT annual maintenance — 40 workstations",
+      "quantity": "2",
+      "unit": "kg",
+      "unit_price": "221920.00",
+      "amount": "443840.00",
+      "tax_rate": "18"
+    },
+    {
+      "description": "Monthly IT AMC — 40 workstations, on-site support every week",
+      "quantity": "6",
+      "unit": "pcs",
+      "unit_price": "208180.00",
+      "amount": "1249080.00",
+      "tax_rate": "18"
+    },
+    {
+      "description": "Catering staff — corporate event, 50 guests",
+      "quantity": "20",
+      "unit": "pcs",
+      "unit_price": "126570.00",
+      "amount": "2531400.00",
+      "tax_rate": "18"
+    },
+    {
+      "description": "ऑफिस कुर्सी, जाली, एर्गोनोमिक",
+      "quantity": "5",
+      "unit": "Box",
+      "unit_price": "107920.00",
+      "amount": "539600.00",
+      "tax_rate": "18"
+    },
+    {
+      "description": "LED bulbs 9W (box of 100)",
+      "quantity": "3",
+      "unit": "Nos.",
+      "unit_price": "174370.00",
+      "amount": "523110.00",
+      "tax_rate": "18"
+    },
+    {
+      "description": "Network switches — 24 port, gigabit (5 units)",
+      "quantity": "2",
+      "unit": "Box",
+      "unit_price": "196190.00",
+      "amount": "392380.00",
+      "tax_rate": "18"
+    },
+    {
+      "description": "Handicraft export packing and documentation services",
+      "quantity": "1",
+      "unit": "Box",
+      "unit_price": "184160.00",
+      "amount": "184160.00",
+      "tax_rate": "18"
+    },
+    {
+      "description": "Bulk notebook supply — A4, 200 pages (pack of 50)",
+      "quantity": "12",
+      "unit": "Nos.",
+      "unit_price": "234580.93",
+      "amount": "2814971.16",
+      "tax_rate": "18"
+    },
+    {
+      "description": "Freight: Mumbai → Delhi, 3 pallets, FTL",
+      "quantity": "1",
+      "unit": "Box",
+      "unit_price": "244300.00",
+      "amount": "244300.00",
+      "tax_rate": "18"
+    },
+    {
+      "description": "Monthly IT AMC — 40 workstations, on-site support every week",
+      "quantity": "10",
+      "unit": "hrs",
+      "unit_price": "224660.00",
+      "amount": "2246600.00",
+      "tax_rate": "18"
+    },
+    {
+      "description": "Software subscription — annual, cloud hosted",
+      "quantity": "6",
+      "unit": "Box",
+      "unit_price": "65950.33",
+      "amount": "395701.98",
+      "tax_rate": "18"
+    },
+    {
+      "description": "IT annual maintenance — 40 workstations",
+      "quantity": "8",
+      "unit": "Box",
+      "unit_price": "180990.00",
+      "amount": "1447920.00",
+      "tax_rate": "18"
+    },
+    {
+      "description": "Monthly IT AMC — 40 workstations, on-site support every week",
+      "quantity": "1",
+      "unit": "pcs",
+      "unit_price": "57990.00",
+      "amount": "57990.00",
+      "tax_rate": "18"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "GST/26/27/202",
+    "invoice_date": "05/07/2026",
+    "due_date": "04/08/2026",
+    "subtotal": "₹2,03,40,505.95",
+    "total": "₹2,40,01,797.01"
+  }
+}

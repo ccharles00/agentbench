@@ -1,0 +1,109 @@
+{
+  "doc_id": "GB-0006",
+  "country": "GB",
+  "language": [
+    "en"
+  ],
+  "script": [
+    "Latn"
+  ],
+  "dimensions": {
+    "calendar": "gregorian",
+    "number_format": "native",
+    "digits": "western",
+    "tax_mode": "exclusive",
+    "cross_border": false,
+    "language_mode": "native",
+    "template": "gb_a"
+  },
+  "fields": {
+    "vendor_name": "Bakewell Foods Wholesalers Ltd",
+    "vendor_tax_id": "GB718582990",
+    "invoice_number": "INV/2026/1551",
+    "invoice_date": "2026-08-18",
+    "due_date": "2026-09-17",
+    "currency": "GBP",
+    "subtotal": "20309.48",
+    "tax_total": "4061.90",
+    "total": "24371.38",
+    "tax_rates": [
+      "20"
+    ],
+    "payment_account": "GB599TCG1UHQOZYD8QIIC3",
+    "line_item_count": 8
+  },
+  "line_items": [
+    {
+      "description": "Office chairs, mesh back (pack of 4)",
+      "quantity": "6",
+      "unit": "items",
+      "unit_price": "217.40",
+      "amount": "1304.40",
+      "tax_rate": "20"
+    },
+    {
+      "description": "Oak plywood sheets 18mm, 2440x1220 (pack of 10)",
+      "quantity": "2",
+      "unit": "hrs",
+      "unit_price": "405.00",
+      "amount": "810.00",
+      "tax_rate": "20"
+    },
+    {
+      "description": "LED panel lights 600x600 (carton of 20)",
+      "quantity": "1",
+      "unit": "kg",
+      "unit_price": "575.00",
+      "amount": "575.00",
+      "tax_rate": "20"
+    },
+    {
+      "description": "Translation — EN to DE, technical manual, 60 pages",
+      "quantity": "10.5",
+      "unit": "hrs",
+      "unit_price": "396.00",
+      "amount": "4158.00",
+      "tax_rate": "20"
+    },
+    {
+      "description": "Server hosting — rack unit, monthly, includes remote hands",
+      "quantity": "2.5",
+      "unit": "hrs",
+      "unit_price": "638.67",
+      "amount": "1596.68",
+      "tax_rate": "20"
+    },
+    {
+      "description": "Marketing consulting — half day, includes campaign review and written recommendations",
+      "quantity": "3",
+      "unit": "kg",
+      "unit_price": "840.00",
+      "amount": "2520.00",
+      "tax_rate": "20"
+    },
+    {
+      "description": "Courier — next day service, 12 parcels",
+      "quantity": "20",
+      "unit": "items",
+      "unit_price": "413.00",
+      "amount": "8260.00",
+      "tax_rate": "20"
+    },
+    {
+      "description": "Staff training — manual handling, half day session",
+      "quantity": "2",
+      "unit": "items",
+      "unit_price": "542.70",
+      "amount": "1085.40",
+      "tax_rate": "20"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "INV/2026/1551",
+    "invoice_date": "18/08/2026",
+    "due_date": "17/09/2026",
+    "subtotal": "£20,309.48",
+    "tax_total": "4,061.90",
+    "total": "£24,371.38"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "doc_id": "BR-0004",
+  "country": "BR",
+  "language": [
+    "pt"
+  ],
+  "script": [
+    "Latn"
+  ],
+  "dimensions": {
+    "calendar": "gregorian",
+    "number_format": "native",
+    "digits": "western",
+    "tax_mode": "exclusive",
+    "cross_border": false,
+    "language_mode": "native",
+    "template": "br_c"
+  },
+  "fields": {
+    "vendor_name": "Comercial Andrade Ltda.",
+    "vendor_tax_id": "80480622000101",
+    "invoice_number": "NF-e nº 246454",
+    "invoice_date": "2025-02-11",
+    "due_date": "2025-02-26",
+    "currency": "BRL",
+    "subtotal": "38036.20",
+    "tax_total": "10364.87",
+    "total": "48401.07",
+    "tax_rates": [
+      "18",
+      "1.65",
+      "7.6"
+    ],
+    "payment_account": null,
+    "line_item_count": 4
+  },
+  "line_items": [
+    {
+      "description": "Catering corporativo — 20 pessoas",
+      "quantity": "1",
+      "unit": "cx",
+      "unit_price": "1382.00",
+      "amount": "1382.00",
+      "tax_rate": "18"
+    },
+    {
+      "description": "Cadeira de escritório, tela, ergonômica",
+      "quantity": "8",
+      "unit": "h",
+      "unit_price": "1732.00",
+      "amount": "13856.00",
+      "tax_rate": "18"
+    },
+    {
+      "description": "Papel A4 75g (caixa com 10 resmas)",
+      "quantity": "20",
+      "unit": "cx",
+      "unit_price": "1118.08",
+      "amount": "22361.60",
+      "tax_rate": "18"
+    },
+    {
+      "description": "Tradução — português → inglês",
+      "quantity": "1",
+      "unit": "palete",
+      "unit_price": "436.60",
+      "amount": "436.60",
+      "tax_rate": "18"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "NF-e nº 246454",
+    "invoice_date": "11/02/2025",
+    "due_date": "26/02/2025",
+    "subtotal": "R$38.036,20",
+    "total": "R$48.401,07"
+  }
+}

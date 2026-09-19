@@ -1,0 +1,109 @@
+{
+  "doc_id": "ID-0005",
+  "country": "ID",
+  "language": [
+    "en"
+  ],
+  "script": [
+    "Latn"
+  ],
+  "dimensions": {
+    "calendar": "gregorian",
+    "number_format": "native",
+    "digits": "western",
+    "tax_mode": "exclusive",
+    "cross_border": true,
+    "language_mode": "english",
+    "template": "id_a"
+  },
+  "fields": {
+    "vendor_name": "PT Nusantara Elektronik",
+    "vendor_tax_id": "795486102431187",
+    "invoice_number": "INV/2025/VIII/4579",
+    "invoice_date": "2025-08-02",
+    "due_date": "2025-09-01",
+    "currency": "USD",
+    "subtotal": "106867508.42",
+    "tax_total": "11755425.93",
+    "total": "118622934.35",
+    "tax_rates": [
+      "11"
+    ],
+    "payment_account": null,
+    "line_item_count": 8
+  },
+  "line_items": [
+    {
+      "description": "Freight Jakarta → Surabaya, 2 pallets",
+      "quantity": "2",
+      "unit": "pcs",
+      "unit_price": "805500.00",
+      "amount": "1611000.00",
+      "tax_rate": "11"
+    },
+    {
+      "description": "Software license — annual",
+      "quantity": "20",
+      "unit": "pcs",
+      "unit_price": "1294500.00",
+      "amount": "25890000.00",
+      "tax_rate": "11"
+    },
+    {
+      "description": "Office chairs, mesh, ergonomic",
+      "quantity": "10",
+      "unit": "pcs",
+      "unit_price": "3250500.00",
+      "amount": "32505000.00",
+      "tax_rate": "11"
+    },
+    {
+      "description": "Paper A4 70gsm (carton of 10 reams)",
+      "quantity": "2.5",
+      "unit": "jam",
+      "unit_price": "1147500.00",
+      "amount": "2868750.00",
+      "tax_rate": "11"
+    },
+    {
+      "description": "Accounting services — monthly",
+      "quantity": "8.5",
+      "unit": "jam",
+      "unit_price": "3576500.99",
+      "amount": "30400258.42",
+      "tax_rate": "11"
+    },
+    {
+      "description": "Monthly maintenance — servers and network",
+      "quantity": "1",
+      "unit": "pcs",
+      "unit_price": "112500.00",
+      "amount": "112500.00",
+      "tax_rate": "11"
+    },
+    {
+      "description": "Freight Jakarta → Surabaya, 2 pallets",
+      "quantity": "1",
+      "unit": "rim",
+      "unit_price": "1412500.00",
+      "amount": "1412500.00",
+      "tax_rate": "11"
+    },
+    {
+      "description": "Paper A4 70gsm (carton of 10 reams)",
+      "quantity": "5",
+      "unit": "rim",
+      "unit_price": "2413500.00",
+      "amount": "12067500.00",
+      "tax_rate": "11"
+    }
+  ],
+  "rendered_strings": {
+    "invoice_number": "INV/2025/VIII/4579",
+    "invoice_date": "02/08/2025",
+    "due_date": "01/09/2025",
+    "subtotal": "USD 106.867.508,42",
+    "tax_total": "11.755.425,93",
+    "total": "USD 118.622.934,35"
+  }
+}
