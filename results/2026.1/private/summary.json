@@ -10,22 +10,22 @@
       "display_name": "AWS Textract (AnalyzeExpense)",
       "skipped_not_run": 0,
       "documents": {
-        "successes": 0,
+        "successes": 11,
         "count": 455,
-        "rate": 0.0,
+        "rate": 0.0242,
         "wilson95": [
-          0.0,
-          0.0084
+          0.0136,
+          0.0428
         ],
         "metric": "document_exact_match"
       },
       "field_accuracy": {
-        "successes": 2400,
+        "successes": 2586,
         "count": 5412,
-        "rate": 0.4435,
+        "rate": 0.4778,
         "wilson95": [
-          0.4303,
-          0.4567
+          0.4645,
+          0.4911
         ],
         "metric": "field_accuracy"
       },
@@ -50,7 +50,7 @@
         "metric": "api_failure_rate"
       },
       "mean_cost_per_doc_usd": 0.010286,
-      "cost_per_correct_doc_usd": null,
+      "cost_per_correct_doc_usd": 0.425455,
       "latency_ms": {
         "p50": 2936.7,
         "p95": 5620.0

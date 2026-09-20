@@ -50,6 +50,7 @@ FIELD_MAP = {
 }
 _VENDOR_TAX_TYPES = {"VENDOR_VAT_NUMBER", "VENDOR_GST_NUMBER"}
 _TAX_RATE_RE = re.compile(r"([0-9]+(?:[.,][0-9]+)?)\s*%")
+_CURRENCY_PRIORITY = ("TOTAL", "SUBTOTAL", "TAX")
 
 _TRANSIENT = ("ThrottlingException", "ServiceUnavailable", "InternalError",
               "ProvisionedThroughputExceededException", "RequestLimitExceeded")
@@ -118,6 +119,7 @@ class TextractAdapter:
         seen: set[str] = set()
         tax_rates: set[str] = set()
         vendor_tax_id: tuple[int, str] | None = None   # (priority, value)
+        currency: tuple[int, str] | None = None        # (priority, code)
 
         for expense in raw.payload.get("ExpenseDocuments", []):
             for field in expense.get("SummaryFields", []):
@@ -140,6 +142,15 @@ class TextractAdapter:
                     if vendor_tax_id is None:
                         vendor_tax_id = (1, value)
 
+                # Currency is a SIBLING key of ValueDetection on the
+                # SummaryField (not nested — the docs' example JSON is
+                # misleading). TOTAL > SUBTOTAL > TAX in case they disagree.
+                code = (field.get("Currency") or {}).get("Code")
+                if code and ftype in _CURRENCY_PRIORITY:
+                    prio = _CURRENCY_PRIORITY.index(ftype)
+                    if currency is None or prio < currency[0]:
+                        currency = (prio, code)
+
                 canonical = FIELD_MAP.get(ftype)
                 if canonical and canonical not in seen:
                     out[canonical] = value
@@ -160,6 +171,8 @@ class TextractAdapter:
 
         if vendor_tax_id is not None:
             out["vendor_tax_id"] = vendor_tax_id[1]
+        if currency is not None:
+            out["currency"] = currency[1]
         if tax_rates:
             out["tax_rates"] = sorted(tax_rates)
         return out

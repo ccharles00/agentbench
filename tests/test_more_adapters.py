@@ -97,6 +97,37 @@ class TestTextract:
         out = tx.TextractAdapter.__new__(tx.TextractAdapter).to_canonical(raw)
         assert out["vendor_tax_id"] == "DE123456789"
 
+    def test_currency_sibling_key_with_priority(self):
+        # Currency sits on the SummaryField (sibling of ValueDetection);
+        # TOTAL outranks SUBTOTAL and TAX when codes disagree
+        payload = {
+            "DocumentMetadata": {"Pages": 1},
+            "ExpenseDocuments": [{"SummaryFields": [
+                {"Type": {"Text": "TAX"}, "ValueDetection": {"Text": "1.00"},
+                 "Currency": {"Code": "EUR"}},
+                {"Type": {"Text": "SUBTOTAL"}, "ValueDetection": {"Text": "10.00"},
+                 "Currency": {"Code": "EUR"}},
+                {"Type": {"Text": "TOTAL"}, "ValueDetection": {"Text": "11.00"},
+                 "Currency": {"Code": "USD"}},
+            ]}],
+        }
+        out = tx.TextractAdapter.__new__(tx.TextractAdapter).to_canonical(
+            RawResult(payload=payload))
+        assert out["currency"] == "USD"
+
+    def test_currency_falls_back_when_total_lacks_it(self):
+        payload = {
+            "DocumentMetadata": {"Pages": 1},
+            "ExpenseDocuments": [{"SummaryFields": [
+                {"Type": {"Text": "TOTAL"}, "ValueDetection": {"Text": "11.00"}},
+                {"Type": {"Text": "TAX"}, "ValueDetection": {"Text": "1.00"},
+                 "Currency": {"Code": "JPY"}},
+            ]}],
+        }
+        out = tx.TextractAdapter.__new__(tx.TextractAdapter).to_canonical(
+            RawResult(payload=payload))
+        assert out["currency"] == "JPY"
+
     def test_values_untouched(self):
         # label mapping only — a German-formatted total must stay as returned
         raw = RawResult(payload=_tx_payload([("TOTAL", "1.234,56")]))

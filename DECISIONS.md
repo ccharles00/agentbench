@@ -279,12 +279,37 @@ next agent working in this repo doesn't have to guess or re-litigate them.
       excluded per #18. This is vendor output, not value-fixing.
     - `VENDOR_VAT_NUMBER` / `VENDOR_GST_NUMBER` types now map to
       `vendor_tax_id` (specific type outranks generic `TAX_PAYER_ID`).
-    - **Currency**: the API schema documents `ValueDetection.Currency.Code`,
-      but it was emitted on 0 of 910 documents (verified in raw cache, incl.
-      `$`-prefixed US totals). `currency` therefore remains a genuine
-      structural miss — the honest statement is "the API can carry currency
-      but returned none on any test document."
+    - **Currency — corrected same day (see #24):** the original entry here
+      claimed currency was "genuinely absent (0/910, raw-cache verified)".
+      That verification was itself a wrong-path bug: it scanned
+      `ValueDetection.Currency` (nested), following the docs page's example
+      JSON, while the actual API returns `Currency` as a **sibling key of
+      `ValueDetection` on the SummaryField**. The owner caught it by raw
+      cache inspection; re-verified with fresh code: present on 545/910
+      documents (TAX 603, TOTAL 593, SUBTOTAL 498). Fixed in #24.
     - Effects: field accuracy 38.3% → 44.5% (public) / 44.4% (private);
       Gemini and OpenAI unchanged. Two related policy questions (locale-
       conventional dates; currency-from-symbol) are owner decisions, queued
       in TODO_OWNER.md.
+
+24. **Currency mapping correction, 2026-09-20 (owner-caught): read
+    `SummaryField.Currency.Code`.** Corrects #23's currency bullet. The
+    verification mistake: #23's scan looked for `ValueDetection.Currency`
+    because the AnalyzeExpense docs page's example JSON renders Currency
+    nested inside ValueDetection; the live API places it as a sibling key
+    on the SummaryField object. Owner inspected raw cache files directly
+    and found it populated; re-verified independently (fresh code): 545/910
+    documents carry it, only on monetary fields (TAX 603, TOTAL 593,
+    SUBTOTAL 498) — correct API behavior, same adapter-gap bug class as
+    #23's other two fixes. The adapter now maps it with TOTAL > SUBTOTAL >
+    TAX priority. Effects (both splits re-canonicalized from cache, no API
+    cost): Textract exact-match **0.0% → 3.7% public (17/455) / 2.4%
+    private (11/455)**; field accuracy 47.9% / 47.8%. Remaining currency
+    failures decompose into: 187/455 absent (SA/AE/ID/KR/TH — currencies
+    whose symbols it does not emit codes for) and 84/455 **wrong code** —
+    including ¥→JPY on all 20 returning CN documents (the CNY/JPY ambiguity
+    the benchmark was designed around, spec A3) and USD on all 28 BR and 28
+    MX documents that carry a code. Those are genuine errors, not
+    artifacts. Q2 (currency-from-symbol) consequently shrinks to the
+    187-doc absent remainder and is recommended closed: keep strict
+    scoring, let the methodology state the decomposition.
