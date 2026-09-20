@@ -46,9 +46,38 @@ def norm_identifier(s: str) -> str:
 
 _AMOUNT_RE = re.compile(r"^[+-]?(\d+)(\.\d+)?$")
 
+# Display clutter a vendor may attach to an amount; stripped before parsing,
+# symmetrically for truth and predictions (DECISIONS.md #22).
+_CURRENCY_SYMBOLS = "$€£¥₹฿₩₺₫"
+_CURRENCY_PREFIXES = ("R$", "Rp", "Rs", "NT$", "CA$", "A$", "MX$", "US$",
+                      "د.إ", "ر.س")
+
+# Unambiguous grouped forms (both separators present = self-describing):
+#   1,234,567.89 -> US style   |   1.234.567,89 -> EU style
+_US_STYLE = re.compile(r"^(\d{1,3}(?:,\d{3})+)\.(\d+)$")
+_EU_STYLE = re.compile(r"^(\d{1,3}(?:\.\d{3})+),(\d+)$")
+
+
+def _strip_currency(s: str) -> str:
+    for prefix in _CURRENCY_PREFIXES:
+        if s.startswith(prefix):
+            s = s[len(prefix):].lstrip()
+            break
+    s = s.strip(_CURRENCY_SYMBOLS).strip()
+    s = re.sub(r"\s?[A-Za-z]{3}$", "", s)          # trailing ISO code
+    s = re.sub(r"^[A-Za-z]{3}\s?", "", s)          # leading ISO code
+    return s
+
 
 def parse_amount(value) -> Decimal | None:
-    """Plain decimal only. No thousands separators, no comma decimals."""
+    """Value-exact amount parsing (spec B4.1, DECISIONS.md #22).
+
+    Plain decimals always parse. Display formatting is tolerated ONLY when
+    unambiguous: currency symbols around the number, and grouped forms that
+    contain both separators (self-describing US or EU style). "1.234" for
+    1234, or "1,234" with no other separator, stays unparseable — there is
+    no way to know which convention was meant.
+    """
     if value is None:
         return None
     if isinstance(value, bool):
@@ -60,29 +89,70 @@ def parse_amount(value) -> Decimal | None:
         value = repr(value)
     if not isinstance(value, str):
         return None
-    s = value.strip().replace("\u00a0", "").replace(" ", "")
-    if not _AMOUNT_RE.match(s):
-        return None
-    try:
+    s = _strip_currency(value.replace("\u00a0", "").replace(" ", ""))
+    if _AMOUNT_RE.match(s):
         return Decimal(s)
-    except InvalidOperation:
-        return None
+    if (m := _US_STYLE.match(s)):
+        return Decimal(m[1].replace(",", "") + "." + m[2])
+    if (m := _EU_STYLE.match(s)):
+        return Decimal(m[1].replace(".", "") + "." + m[2])
+    if re.fullmatch(r"-?\d+,\d{2}", s):
+        return Decimal(s.replace(",", "."))        # "548,01" EU decimal comma
+    return None
 
 
 def parse_date(value) -> date | None:
-    """ISO 8601 (YYYY-MM-DD), optionally with a time suffix."""
+    """ISO 8601 always; other layouts only when they are unambiguous.
+
+    Spec B4.1: dates must equal the ISO Gregorian date; swapped day/month is
+    wrong. Numeric M/D/YYYY (or D/M/YYYY) is accepted only when one part
+    exceeds 12 (or they are equal), since only then does the layout reveal
+    itself (DECISIONS.md #22). English month names are unambiguous in any
+    arrangement. Everything else stays unparseable.
+    """
     if value is None:
         return None
     s = str(value).strip()
     if not s:
         return None
     m = re.match(r"^(\d{4})-(\d{2})-(\d{2})(?:[T ].*)?$", s)
-    if not m:
+    if m:
+        try:
+            return date(int(m[1]), int(m[2]), int(m[3]))
+        except ValueError:
+            return None
+    m = re.match(r"^(\d{1,2})[/\-.](\d{1,2})[/\-.](\d{4})$", s)
+    if m:
+        a, b, y = int(m[1]), int(m[2]), int(m[3])
+        if a == b:                                  # same date either way
+            try:
+                return date(y, a, a)
+            except ValueError:
+                return None
+        if a > 12 or b > 12:                        # layout reveals itself
+            day, month = (a, b) if a > 12 else (b, a)
+            try:
+                return date(y, month, day)
+            except ValueError:
+                return None
         return None
-    try:
-        return date(int(m[1]), int(m[2]), int(m[3]))
-    except ValueError:
-        return None
+    m = re.match(r"^([A-Za-z]{3,9})\.?\s+(\d{1,2}),?\s+(\d{4})$", s) \
+        or re.match(r"^(\d{1,2})\.?\s+([A-Za-z]{3,9}),?\s+(\d{4})$", s)
+    if m:
+        first, second, year = m[1], m[2], m[3]
+        month_str = first if not first.isdigit() else second
+        day_str = second if not first.isdigit() else first
+        mo = _MONTHS.get(month_str.casefold()[:3])
+        if mo:
+            try:
+                return date(int(year), mo, int(day_str))
+            except ValueError:
+                return None
+    return None
+
+
+_MONTHS = {"jan": 1, "feb": 2, "mar": 3, "apr": 4, "may": 5, "jun": 6,
+           "jul": 7, "aug": 8, "sep": 9, "oct": 10, "nov": 11, "dec": 12}
 
 
 def _quantize(d: Decimal, minor_units: int) -> Decimal:

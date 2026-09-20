@@ -239,3 +239,32 @@ next agent working in this repo doesn't have to guess or re-litigate them.
     dots and slashes, symmetrically on truth and prediction (so formatted
     and bare forms match either way, and distinct values stay distinct).
     Applied to `vendor_tax_id`, `invoice_number`, `payment_account`.
+
+22. **Display-format tolerance, 2026-09-20: unambiguous value formatting is
+    not a wrong answer.** First Textract scoring run surfaced it: the service
+    returns amounts as `$9,133.59` and dates as `06/27/2025` — right values,
+    display formats — and strict plain-decimal/ISO scoring called them wrong
+    (0% exact-match on formatting, not reading). Scoring correct values wrong
+    because of formatting is the same unfairness class as #21 and hands
+    critics (A7/A4) a legitimate attack. Decision, applied symmetrically to
+    truth and predictions per B4.1:
+    - Amounts: currency symbols/ISO codes around the number are stripped;
+      grouped forms parse ONLY when both separators are present (self-
+      describing: `1,234.56` US or `1.234,56` EU). `1,234` alone stays
+      unparseable — comma could be decimal or thousands. Indian lakh
+      grouping (`1,00,000.00`) matches neither pattern, so it still requires
+      canonicalization (deliberate: it is ambiguous with neither standard).
+      A bare `68.396` parses as sixty-eight point three nine six — the
+      German thousands misread then fails on *value*, which is the honest
+      failure it is (spec A3).
+    - Dates: numeric `M/D/YYYY` or `D/M/YYYY` parse only when a part exceeds
+      12 (or both equal), since only then does the layout reveal itself;
+      `04/03` stays wrong either way — disambiguation is the tool's job.
+      English month names parse in either arrangement.
+    - Effects: Textract field accuracy 21.4% → 38.3%; Gemini and OpenAI
+      moved 0.0pp (they already return canonical formats) — the tolerance
+      removed an artifact without inflating anyone. Textract exact-match
+      remains 0% for a structural reason that IS the finding: it never
+      returns tax_rates (truth is never null), so every document carries at
+      least one miss. The methodology page states this explicitly so the
+      0% reads as "cannot fill the field set", not "cannot read invoices".

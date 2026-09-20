@@ -32,11 +32,24 @@ class TestAmounts:
     def test_misread_lakh_magnitude(self):
         assert amount_comparator("100000.00", "1000000", {"minor_units": 2}) == "incorrect"
 
-    def test_comma_decimal_prediction_is_wrong(self):
-        # German vendor string, unnormalized: must not silently parse
-        assert parse_amount("68.396,85") is None
-        assert amount_comparator("68396.85", "68396.85", {"minor_units": 2}) == "correct"
-        assert amount_comparator("68396.85", "68.396,85", {"minor_units": 2}) == "incorrect"
+    def test_comma_decimal_unambiguous_display_ok(self):
+        # DECISIONS #22: both separators present = self-describing EU format
+        assert amount_comparator("68396.85", "68.396,85", {"minor_units": 2}) == "correct"
+        assert amount_comparator("9133.59", "$9,133.59", {"minor_units": 2}) == "correct"
+        assert amount_comparator("1234.56", "R$ 1.234,56", {"minor_units": 2}) == "correct"
+        assert amount_comparator("1234.56", "1234.56 USD", {"minor_units": 2}) == "correct"
+        # EU decimal comma without grouping is still unambiguous (exactly 2 digits)
+        assert amount_comparator("548.01", "548,01", {"minor_units": 2}) == "correct"
+
+    def test_ambiguous_single_separator_stays_wrong(self):
+        assert parse_amount("1,234") is None           # comma, no decimal part
+        # plain 3-decimal parses as a value; the German misread is a VALUE error
+        assert amount_comparator("68396.85", "68.396", {"minor_units": 2}) == "incorrect"
+
+    def test_lakh_display_unnormalized_stays_wrong(self):
+        # Indian grouping violates both US and EU grouped patterns
+        assert parse_amount("1,00,000.00") is None
+        assert amount_comparator("100000.00", "1,00,000.00", {"minor_units": 2}) == "incorrect"
 
     def test_german_misread_thousands_as_decimals(self):
         # reading 1.234 as 1.234 instead of 1234 (spec A3)
@@ -61,11 +74,22 @@ class TestAmounts:
 
 
 class TestDates:
-    def test_iso_required(self):
+    def test_iso_required_as_baseline(self):
         assert parse_date("2026-03-04") == date(2026, 3, 4)
         assert parse_date("2026-03-04T00:00:00Z") == date(2026, 3, 4)
+
+    def test_unambiguous_display_formats_ok(self):
+        # DECISIONS #22: layout reveals itself when a part exceeds 12
+        assert parse_date("06/27/2025") == date(2025, 6, 27)
+        assert parse_date("27/06/2025") == date(2025, 6, 27)
+        assert parse_date("05/28/2025") == date(2025, 5, 28)
+        assert parse_date("May 28, 2025") == date(2025, 5, 28)
+        assert parse_date("28 May 2025") == date(2025, 5, 28)
+
+    def test_ambiguous_numeric_stays_wrong(self):
+        # 04/03 could be either — the tool must disambiguate (spec A3)
         assert parse_date("04/03/2026") is None
-        assert parse_date("4 March 2026") is None
+        assert date_comparator("2026-03-04", "04/03/2026", {}) == "incorrect"
 
     def test_era_date_converted_correctly(self):
         # a tool that converts 令和8年3月4日 properly
@@ -78,9 +102,6 @@ class TestDates:
 
     def test_swapped_day_month(self):
         assert date_comparator("2026-03-04", "2026-04-03", {}) == "incorrect"
-
-    def test_non_iso_prediction(self):
-        assert date_comparator("2026-03-04", "04/03/2026", {}) == "incorrect"
 
 
 class TestNulls:

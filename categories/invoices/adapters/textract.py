@@ -110,17 +110,26 @@ class TextractAdapter:
     def to_canonical(self, raw: RawResult) -> dict:
         out: dict = {}
         seen: set[str] = set()
+
+        def put(canonical: str, value) -> None:
+            if canonical and canonical not in seen and value is not None:
+                out[canonical] = value
+                seen.add(canonical)
+
         for expense in raw.payload.get("ExpenseDocuments", []):
             for field in expense.get("SummaryFields", []):
                 ftype = ((field.get("Type") or {}).get("Text") or "").upper()
-                canonical = FIELD_MAP.get(ftype)
-                if canonical is None or canonical in seen:
-                    continue
+                label = ((field.get("LabelDetection") or {}).get("Text") or "").casefold()
                 value = (field.get("ValueDetection") or {}).get("Text")
                 if value is None:
                     continue
-                out[canonical] = value
-                seen.add(canonical)
+                put(FIELD_MAP.get(ftype), value)
+                if ftype == "NAME":
+                    # Textract often types both parties as NAME; the printed
+                    # label says which is which (label mapping per B3.1)
+                    if any(k in label for k in ("vendor", "seller", "supplier",
+                                                "from", "remit")):
+                        put("vendor_name", value)
             n_items = sum(len(group.get("LineItems", []))
                           for group in expense.get("LineItemGroups", []))
             if n_items and "line_item_count" not in out:

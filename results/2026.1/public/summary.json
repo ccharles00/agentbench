@@ -5,6 +5,58 @@
   "generated_at": "2026-09-20",
   "methodology": "categories/invoices/site_copy.md + DECISIONS.md",
   "tools": {
+    "aws_textract_expense": {
+      "tool_version": "analyze_expense",
+      "display_name": "AWS Textract (AnalyzeExpense)",
+      "skipped_not_run": 0,
+      "documents": {
+        "successes": 0,
+        "count": 455,
+        "rate": 0.0,
+        "wilson95": [
+          0.0,
+          0.0084
+        ],
+        "metric": "document_exact_match"
+      },
+      "field_accuracy": {
+        "successes": 2073,
+        "count": 5412,
+        "rate": 0.383,
+        "wilson95": [
+          0.3702,
+          0.3961
+        ],
+        "metric": "field_accuracy"
+      },
+      "hallucination_rate": {
+        "successes": 0,
+        "count": 5412,
+        "rate": 0.0,
+        "wilson95": [
+          0.0,
+          0.0007
+        ],
+        "metric": "hallucination_rate"
+      },
+      "api_failure_rate": {
+        "successes": 0,
+        "count": 455,
+        "rate": 0.0,
+        "wilson95": [
+          0.0,
+          0.0084
+        ],
+        "metric": "api_failure_rate"
+      },
+      "mean_cost_per_doc_usd": 0.010286,
+      "cost_per_correct_doc_usd": null,
+      "latency_ms": {
+        "p50": 2951.6,
+        "p95": 6033.2
+      },
+      "total_cost_usd": 4.68
+    },
     "google_gemini_flash": {
       "tool_version": "gemini-3.8-flash",
       "display_name": "Google Gemini (Flash)",
@@ -56,6 +108,58 @@
         "p95": 10551.2
       },
       "total_cost_usd": 0.911212
+    },
+    "openai_chat": {
+      "tool_version": "gpt-5.6-terra",
+      "display_name": "OpenAI (GPT mid-tier)",
+      "skipped_not_run": 0,
+      "documents": {
+        "successes": 294,
+        "count": 455,
+        "rate": 0.6462,
+        "wilson95": [
+          0.6012,
+          0.6887
+        ],
+        "metric": "document_exact_match"
+      },
+      "field_accuracy": {
+        "successes": 4826,
+        "count": 5412,
+        "rate": 0.8917,
+        "wilson95": [
+          0.8832,
+          0.8997
+        ],
+        "metric": "field_accuracy"
+      },
+      "hallucination_rate": {
+        "successes": 0,
+        "count": 5412,
+        "rate": 0.0,
+        "wilson95": [
+          0.0,
+          0.0007
+        ],
+        "metric": "hallucination_rate"
+      },
+      "api_failure_rate": {
+        "successes": 0,
+        "count": 455,
+        "rate": 0.0,
+        "wilson95": [
+          0.0,
+          0.0084
+        ],
+        "metric": "api_failure_rate"
+      },
+      "mean_cost_per_doc_usd": 0.011193,
+      "cost_per_correct_doc_usd": 0.017322,
+      "latency_ms": {
+        "p50": 4581.5,
+        "p95": 11919.1
+      },
+      "total_cost_usd": 5.092648
     }
   }
 }
