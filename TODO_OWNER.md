@@ -2,6 +2,21 @@
 
 Things only the owner can do or decide. See build spec C3.8 / C4.
 
+## 🔒 LAUNCH GATE — Milestone 3 is built; deploy is blocked on you
+
+- [ ] **Vendor ToS review (spec C4) — the only blocker to going live.**
+  Everything is built and staged: 10-page site (leaderboard, heatmaps,
+  24-card failure gallery, methodology, neutrality, corrections log, tool
+  pages, API docs), static JSON API + llms.txt, MCP server (stdio,
+  tested). The deploy workflow (.github/workflows/deploy-site.yml) is
+  manual-trigger ONLY — nothing publishes until you trigger it. Review
+  AWS / Google / OpenAI terms for benchmark disclosure (your 2026-09-20
+  note: AWS permissive; Google Cloud needs prior written consent — but
+  the Gemini API is the developers/AI Studio API, not Google Cloud, so
+  check those terms), then trigger the workflow to go live.
+- [ ] Choose project name (leaning AssayMark) and confirm before launch
+  branding; placeholder `agentbench` everywhere it's user-visible.
+
 ## Milestone 3 review (Textract investigation follow-ups)
 
 Owner decisions queued from the 2026-09-20 Textract investigation

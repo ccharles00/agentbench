@@ -1,0 +1,49 @@
+# Deploy the benchmark site to GitHub Pages.
+#
+# !! GATED — DO NOT TRIGGER !!
+# This workflow is manual-trigger only (workflow_dispatch). The owner must
+# complete the vendor ToS review (spec C4, TODO_OWNER.md) before the first
+# run: publishing benchmark results for AWS / Google / OpenAI is the step
+# their terms govern. Until that review is done, leave this untriggered.
+#
+# Build steps only need PyYAML + PyMuPDF (markdown pages, thumbnails,
+# static JSON) — no vendor APIs, no secrets.
+
+name: Deploy site (manual, ToS-gated)
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml pymupdf
+      - run: python api-build/build_api.py
+        env: { PYTHONPATH: "." }
+      - run: python site/build_site.py
+        env: { PYTHONPATH: "." }
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: site }
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

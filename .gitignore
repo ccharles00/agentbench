@@ -33,3 +33,4 @@ results/*/private/failures.jsonl
 site/api/
 site/index.html
 site/llms.txt
+site/img/
