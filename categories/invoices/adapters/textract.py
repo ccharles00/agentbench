@@ -22,6 +22,7 @@ Vendor docs verified 2026-09-20 (spec C3.4):
 from __future__ import annotations
 
 import os
+import re
 import time
 from decimal import Decimal
 from pathlib import Path
@@ -31,9 +32,12 @@ from core.harness.adapter_base import DocFile, RawResult, TransientError
 PRICE_PER_PAGE = Decimal("0.01")     # us-east-1 tier 1, verified 2026-09-20
 ASSUMED_PAGES = 2                    # estimate before the response is known
 
-# Textract summary-field type -> canonical field (label mapping only)
+# Textract summary-field type -> canonical field (label mapping only).
+# Specific vendor-tax types outrank the generic TAX_PAYER_ID when both appear.
 FIELD_MAP = {
     "VENDOR_NAME": "vendor_name",
+    "VENDOR_VAT_NUMBER": "vendor_tax_id",
+    "VENDOR_GST_NUMBER": "vendor_tax_id",
     "TAX_PAYER_ID": "vendor_tax_id",
     "INVOICE_RECEIPT_ID": "invoice_number",
     "INVOICE_RECEIPT_DATE": "invoice_date",
@@ -44,6 +48,8 @@ FIELD_MAP = {
     "TAX": "tax_total",
     "TOTAL": "total",
 }
+_VENDOR_TAX_TYPES = {"VENDOR_VAT_NUMBER", "VENDOR_GST_NUMBER"}
+_TAX_RATE_RE = re.compile(r"([0-9]+(?:[.,][0-9]+)?)\s*%")
 
 _TRANSIENT = ("ThrottlingException", "ServiceUnavailable", "InternalError",
               "ProvisionedThroughputExceededException", "RequestLimitExceeded")
@@ -110,11 +116,8 @@ class TextractAdapter:
     def to_canonical(self, raw: RawResult) -> dict:
         out: dict = {}
         seen: set[str] = set()
-
-        def put(canonical: str, value) -> None:
-            if canonical and canonical not in seen and value is not None:
-                out[canonical] = value
-                seen.add(canonical)
+        tax_rates: set[str] = set()
+        vendor_tax_id: tuple[int, str] | None = None   # (priority, value)
 
         for expense in raw.payload.get("ExpenseDocuments", []):
             for field in expense.get("SummaryFields", []):
@@ -123,15 +126,40 @@ class TextractAdapter:
                 value = (field.get("ValueDetection") or {}).get("Text")
                 if value is None:
                     continue
-                put(FIELD_MAP.get(ftype), value)
+
+                if ftype == "TAX" and "reten" not in label:
+                    # Tax rates live in the echoed label ("USt 19%", "GST 28%");
+                    # retention labels are withholding, excluded per DECISIONS #18
+                    for rate in _TAX_RATE_RE.findall(label):
+                        tax_rates.add(rate.replace(",", "."))
+
+                if ftype in _VENDOR_TAX_TYPES:          # specific beats generic
+                    if vendor_tax_id is None or vendor_tax_id[0] == 1:
+                        vendor_tax_id = (0, value)
+                elif ftype == "TAX_PAYER_ID":
+                    if vendor_tax_id is None:
+                        vendor_tax_id = (1, value)
+
+                canonical = FIELD_MAP.get(ftype)
+                if canonical and canonical not in seen:
+                    out[canonical] = value
+                    seen.add(canonical)
                 if ftype == "NAME":
                     # Textract often types both parties as NAME; the printed
                     # label says which is which (label mapping per B3.1)
                     if any(k in label for k in ("vendor", "seller", "supplier",
                                                 "from", "remit")):
-                        put("vendor_name", value)
+                        if "vendor_name" not in seen:
+                            out["vendor_name"] = value
+                            seen.add("vendor_name")
+
             n_items = sum(len(group.get("LineItems", []))
                           for group in expense.get("LineItemGroups", []))
             if n_items and "line_item_count" not in out:
                 out["line_item_count"] = n_items
+
+        if vendor_tax_id is not None:
+            out["vendor_tax_id"] = vendor_tax_id[1]
+        if tax_rates:
+            out["tax_rates"] = sorted(tax_rates)
         return out

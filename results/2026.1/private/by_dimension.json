@@ -68,12 +68,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 166,
+            "successes": 192,
             "count": 420,
-            "rate": 0.3952,
+            "rate": 0.4571,
             "wilson95": [
-              0.3496,
-              0.4427
+              0.4101,
+              0.505
             ],
             "metric": "field_accuracy"
           },
@@ -117,12 +117,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 177,
+            "successes": 206,
             "count": 420,
-            "rate": 0.4214,
+            "rate": 0.4905,
             "wilson95": [
-              0.3751,
-              0.4692
+              0.443,
+              0.5382
             ],
             "metric": "field_accuracy"
           },
@@ -166,12 +166,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 210,
+            "successes": 242,
             "count": 420,
-            "rate": 0.5,
+            "rate": 0.5762,
             "wilson95": [
-              0.4524,
-              0.5476
+              0.5284,
+              0.6226
             ],
             "metric": "field_accuracy"
           },
@@ -215,12 +215,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 242,
+            "successes": 274,
             "count": 420,
-            "rate": 0.5762,
+            "rate": 0.6524,
             "wilson95": [
-              0.5284,
-              0.6226
+              0.6056,
+              0.6964
             ],
             "metric": "field_accuracy"
           },
@@ -264,12 +264,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 238,
+            "successes": 270,
             "count": 420,
-            "rate": 0.5667,
+            "rate": 0.6429,
             "wilson95": [
-              0.5189,
-              0.6132
+              0.5959,
+              0.6872
             ],
             "metric": "field_accuracy"
           },
@@ -313,12 +313,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 195,
+            "successes": 227,
             "count": 420,
-            "rate": 0.4643,
+            "rate": 0.5405,
             "wilson95": [
-              0.4171,
-              0.5121
+              0.4927,
+              0.5876
             ],
             "metric": "field_accuracy"
           },
@@ -362,12 +362,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 70,
+            "successes": 97,
             "count": 396,
-            "rate": 0.1768,
+            "rate": 0.2449,
             "wilson95": [
-              0.1424,
-              0.2174
+              0.2052,
+              0.2896
             ],
             "metric": "field_accuracy"
           },
@@ -411,12 +411,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 91,
+            "successes": 122,
             "count": 420,
-            "rate": 0.2167,
+            "rate": 0.2905,
             "wilson95": [
-              0.1799,
-              0.2585
+              0.2491,
+              0.3356
             ],
             "metric": "field_accuracy"
           },
@@ -460,12 +460,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 181,
+            "successes": 213,
             "count": 420,
-            "rate": 0.431,
+            "rate": 0.5071,
             "wilson95": [
-              0.3844,
-              0.4787
+              0.4595,
+              0.5547
             ],
             "metric": "field_accuracy"
           },
@@ -558,12 +558,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 178,
+            "successes": 208,
             "count": 420,
-            "rate": 0.4238,
+            "rate": 0.4952,
             "wilson95": [
-              0.3774,
-              0.4716
+              0.4477,
+              0.5429
             ],
             "metric": "field_accuracy"
           },
@@ -607,12 +607,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 248,
+            "successes": 280,
             "count": 396,
-            "rate": 0.6263,
+            "rate": 0.7071,
             "wilson95": [
-              0.5776,
-              0.6725
+              0.6604,
+              0.7497
             ],
             "metric": "field_accuracy"
           },
@@ -707,12 +707,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 802,
+            "successes": 902,
             "count": 1292,
-            "rate": 0.6207,
+            "rate": 0.6981,
             "wilson95": [
-              0.594,
-              0.6468
+              0.6726,
+              0.7226
             ],
             "metric": "field_accuracy"
           },
@@ -756,12 +756,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 142,
+            "successes": 164,
             "count": 372,
-            "rate": 0.3817,
+            "rate": 0.4409,
             "wilson95": [
-              0.3338,
-              0.4321
+              0.3913,
+              0.4917
             ],
             "metric": "field_accuracy"
           },
@@ -805,12 +805,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 112,
+            "successes": 133,
             "count": 324,
-            "rate": 0.3457,
+            "rate": 0.4105,
             "wilson95": [
-              0.296,
-              0.399
+              0.3583,
+              0.4648
             ],
             "metric": "field_accuracy"
           },
@@ -854,12 +854,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 25,
+            "successes": 29,
             "count": 48,
-            "rate": 0.5208,
+            "rate": 0.6042,
             "wilson95": [
-              0.3833,
-              0.6553
+              0.4631,
+              0.7298
             ],
             "metric": "field_accuracy"
           },
@@ -903,12 +903,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 177,
+            "successes": 205,
             "count": 372,
-            "rate": 0.4758,
+            "rate": 0.5511,
             "wilson95": [
-              0.4256,
-              0.5265
+              0.5003,
+              0.6008
             ],
             "metric": "field_accuracy"
           },
@@ -952,12 +952,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 170,
+            "successes": 194,
             "count": 324,
-            "rate": 0.5247,
+            "rate": 0.5988,
             "wilson95": [
-              0.4703,
-              0.5785
+              0.5445,
+              0.6507
             ],
             "metric": "field_accuracy"
           },
@@ -1001,12 +1001,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 28,
+            "successes": 32,
             "count": 48,
-            "rate": 0.5833,
+            "rate": 0.6667,
             "wilson95": [
-              0.4428,
-              0.7115
+              0.5254,
+              0.7832
             ],
             "metric": "field_accuracy"
           },
@@ -1050,12 +1050,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 115,
+            "successes": 135,
             "count": 240,
-            "rate": 0.4792,
+            "rate": 0.5625,
             "wilson95": [
-              0.4168,
-              0.5422
+              0.4992,
+              0.6238
             ],
             "metric": "field_accuracy"
           },
@@ -1099,12 +1099,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 53,
+            "successes": 61,
             "count": 132,
-            "rate": 0.4015,
+            "rate": 0.4621,
             "wilson95": [
-              0.3218,
-              0.4868
+              0.3793,
+              0.547
             ],
             "metric": "field_accuracy"
           },
@@ -1148,12 +1148,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 34,
+            "successes": 53,
             "count": 308,
-            "rate": 0.1104,
+            "rate": 0.1721,
             "wilson95": [
-              0.0801,
-              0.1503
+              0.134,
+              0.2182
             ],
             "metric": "field_accuracy"
           },
@@ -1197,12 +1197,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 6,
+            "successes": 10,
             "count": 44,
-            "rate": 0.1364,
+            "rate": 0.2273,
             "wilson95": [
-              0.064,
-              0.2671
+              0.1284,
+              0.3699
             ],
             "metric": "field_accuracy"
           },
@@ -1246,12 +1246,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 46,
+            "successes": 69,
             "count": 324,
-            "rate": 0.142,
+            "rate": 0.213,
             "wilson95": [
-              0.1082,
-              0.1842
+              0.1719,
+              0.2608
             ],
             "metric": "field_accuracy"
           },
@@ -1295,12 +1295,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 11,
+            "successes": 15,
             "count": 48,
-            "rate": 0.2292,
+            "rate": 0.3125,
             "wilson95": [
-              0.1331,
-              0.3654
+              0.1995,
+              0.4533
             ],
             "metric": "field_accuracy"
           },
@@ -1344,12 +1344,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 149,
+            "successes": 177,
             "count": 372,
-            "rate": 0.4005,
+            "rate": 0.4758,
             "wilson95": [
-              0.352,
-              0.4511
+              0.4256,
+              0.5265
             ],
             "metric": "field_accuracy"
           },
@@ -1442,12 +1442,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 92,
+            "successes": 110,
             "count": 240,
-            "rate": 0.3833,
+            "rate": 0.4583,
             "wilson95": [
-              0.3241,
-              0.4462
+              0.3964,
+              0.5215
             ],
             "metric": "field_accuracy"
           },
@@ -1491,12 +1491,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 47,
+            "successes": 55,
             "count": 132,
-            "rate": 0.3561,
+            "rate": 0.4167,
             "wilson95": [
-              0.2795,
-              0.4408
+              0.3361,
+              0.502
             ],
             "metric": "field_accuracy"
           },
@@ -1591,12 +1591,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 1468,
+            "successes": 1674,
             "count": 2780,
-            "rate": 0.5281,
+            "rate": 0.6022,
             "wilson95": [
-              0.5095,
-              0.5466
+              0.5838,
+              0.6202
             ],
             "metric": "field_accuracy"
           },
@@ -1640,12 +1640,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 112,
+            "successes": 133,
             "count": 324,
-            "rate": 0.3457,
+            "rate": 0.4105,
             "wilson95": [
-              0.296,
-              0.399
+              0.3583,
+              0.4648
             ],
             "metric": "field_accuracy"
           },
@@ -1689,12 +1689,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 25,
+            "successes": 29,
             "count": 48,
-            "rate": 0.5208,
+            "rate": 0.6042,
             "wilson95": [
-              0.3833,
-              0.6553
+              0.4631,
+              0.7298
             ],
             "metric": "field_accuracy"
           },
@@ -1738,12 +1738,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 115,
+            "successes": 135,
             "count": 240,
-            "rate": 0.4792,
+            "rate": 0.5625,
             "wilson95": [
-              0.4168,
-              0.5422
+              0.4992,
+              0.6238
             ],
             "metric": "field_accuracy"
           },
@@ -1787,12 +1787,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 53,
+            "successes": 61,
             "count": 132,
-            "rate": 0.4015,
+            "rate": 0.4621,
             "wilson95": [
-              0.3218,
-              0.4868
+              0.3793,
+              0.547
             ],
             "metric": "field_accuracy"
           },
@@ -1836,12 +1836,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 34,
+            "successes": 53,
             "count": 308,
-            "rate": 0.1104,
+            "rate": 0.1721,
             "wilson95": [
-              0.0801,
-              0.1503
+              0.134,
+              0.2182
             ],
             "metric": "field_accuracy"
           },
@@ -1885,12 +1885,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 6,
+            "successes": 10,
             "count": 44,
-            "rate": 0.1364,
+            "rate": 0.2273,
             "wilson95": [
-              0.064,
-              0.2671
+              0.1284,
+              0.3699
             ],
             "metric": "field_accuracy"
           },
@@ -1934,12 +1934,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 46,
+            "successes": 69,
             "count": 324,
-            "rate": 0.142,
+            "rate": 0.213,
             "wilson95": [
-              0.1082,
-              0.1842
+              0.1719,
+              0.2608
             ],
             "metric": "field_accuracy"
           },
@@ -1983,12 +1983,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 11,
+            "successes": 15,
             "count": 48,
-            "rate": 0.2292,
+            "rate": 0.3125,
             "wilson95": [
-              0.1331,
-              0.3654
+              0.1995,
+              0.4533
             ],
             "metric": "field_accuracy"
           },
@@ -2081,12 +2081,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 92,
+            "successes": 110,
             "count": 240,
-            "rate": 0.3833,
+            "rate": 0.4583,
             "wilson95": [
-              0.3241,
-              0.4462
+              0.3964,
+              0.5215
             ],
             "metric": "field_accuracy"
           },
@@ -2130,12 +2130,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 47,
+            "successes": 55,
             "count": 132,
-            "rate": 0.3561,
+            "rate": 0.4167,
             "wilson95": [
-              0.2795,
-              0.4408
+              0.3361,
+              0.502
             ],
             "metric": "field_accuracy"
           },
@@ -2181,12 +2181,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 1995,
+            "successes": 2303,
             "count": 5016,
-            "rate": 0.3977,
+            "rate": 0.4591,
             "wilson95": [
-              0.3843,
-              0.4113
+              0.4454,
+              0.4729
             ],
             "metric": "field_accuracy"
           },
@@ -2230,12 +2230,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 70,
+            "successes": 97,
             "count": 396,
-            "rate": 0.1768,
+            "rate": 0.2449,
             "wilson95": [
-              0.1424,
-              0.2174
+              0.2052,
+              0.2896
             ],
             "metric": "field_accuracy"
           },
@@ -2281,12 +2281,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 1999,
+            "successes": 2326,
             "count": 5136,
-            "rate": 0.3892,
+            "rate": 0.4529,
             "wilson95": [
-              0.376,
-              0.4026
+              0.4393,
+              0.4665
             ],
             "metric": "field_accuracy"
           },
@@ -2330,12 +2330,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 66,
+            "successes": 74,
             "count": 276,
-            "rate": 0.2391,
+            "rate": 0.2681,
             "wilson95": [
-              0.1926,
-              0.2928
+              0.2193,
+              0.3233
             ],
             "metric": "field_accuracy"
           },
@@ -2381,12 +2381,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 2062,
+            "successes": 2397,
             "count": 5268,
-            "rate": 0.3914,
+            "rate": 0.455,
             "wilson95": [
-              0.3783,
-              0.4047
+              0.4416,
+              0.4685
             ],
             "metric": "field_accuracy"
           },
@@ -2481,12 +2481,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 1990,
+            "successes": 2311,
             "count": 5180,
-            "rate": 0.3842,
+            "rate": 0.4461,
             "wilson95": [
-              0.371,
-              0.3975
+              0.4326,
+              0.4597
             ],
             "metric": "field_accuracy"
           },
@@ -2530,12 +2530,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 42,
+            "successes": 52,
             "count": 184,
-            "rate": 0.2283,
+            "rate": 0.2826,
             "wilson95": [
-              0.1735,
-              0.2941
+              0.2225,
+              0.3516
             ],
             "metric": "field_accuracy"
           },
@@ -2579,12 +2579,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 33,
+            "successes": 37,
             "count": 48,
-            "rate": 0.6875,
+            "rate": 0.7708,
             "wilson95": [
-              0.5467,
-              0.8005
+              0.6346,
+              0.8669
             ],
             "metric": "field_accuracy"
           },
@@ -2630,12 +2630,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 1735,
+            "successes": 2030,
             "count": 4936,
-            "rate": 0.3515,
+            "rate": 0.4113,
             "wilson95": [
-              0.3383,
-              0.3649
+              0.3976,
+              0.4251
             ],
             "metric": "field_accuracy"
           },
@@ -2679,12 +2679,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 330,
+            "successes": 370,
             "count": 476,
-            "rate": 0.6933,
+            "rate": 0.7773,
             "wilson95": [
-              0.6504,
-              0.733
+              0.7378,
+              0.8124
             ],
             "metric": "field_accuracy"
           },
@@ -2730,12 +2730,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 225,
+            "successes": 257,
             "count": 1196,
-            "rate": 0.1881,
+            "rate": 0.2149,
             "wilson95": [
-              0.167,
-              0.2113
+              0.1925,
+              0.2391
             ],
             "metric": "field_accuracy"
           },
@@ -2779,12 +2779,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 312,
+            "successes": 348,
             "count": 476,
-            "rate": 0.6555,
+            "rate": 0.7311,
             "wilson95": [
-              0.6117,
-              0.6968
+              0.6895,
+              0.769
             ],
             "metric": "field_accuracy"
           },
@@ -2828,12 +2828,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 1528,
+            "successes": 1795,
             "count": 3740,
-            "rate": 0.4086,
+            "rate": 0.4799,
             "wilson95": [
-              0.3929,
-              0.4244
+              0.464,
+              0.496
             ],
             "metric": "field_accuracy"
           },
@@ -2879,12 +2879,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 1729,
+            "successes": 2012,
             "count": 4604,
-            "rate": 0.3755,
+            "rate": 0.437,
             "wilson95": [
-              0.3617,
-              0.3896
+              0.4227,
+              0.4514
             ],
             "metric": "field_accuracy"
           },
@@ -2928,12 +2928,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 336,
+            "successes": 388,
             "count": 808,
-            "rate": 0.4158,
+            "rate": 0.4802,
             "wilson95": [
-              0.3823,
-              0.4501
+              0.4459,
+              0.5147
             ],
             "metric": "field_accuracy"
           },
@@ -2979,12 +2979,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 2022,
+            "successes": 2349,
             "count": 5316,
-            "rate": 0.3804,
+            "rate": 0.4419,
             "wilson95": [
-              0.3674,
-              0.3935
+              0.4286,
+              0.4553
             ],
             "metric": "field_accuracy"
           },
@@ -3028,12 +3028,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 43,
+            "successes": 51,
             "count": 96,
-            "rate": 0.4479,
+            "rate": 0.5312,
             "wilson95": [
-              0.3524,
-              0.5475
+              0.4322,
+              0.6279
             ],
             "metric": "field_accuracy"
           },
@@ -3226,12 +3226,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 79,
+            "successes": 91,
             "count": 180,
-            "rate": 0.4389,
+            "rate": 0.5056,
             "wilson95": [
-              0.3684,
-              0.5119
+              0.4332,
+              0.5777
             ],
             "metric": "field_accuracy"
           },
@@ -3275,12 +3275,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 49,
+            "successes": 55,
             "count": 144,
-            "rate": 0.3403,
+            "rate": 0.3819,
             "wilson95": [
-              0.2679,
-              0.4209
+              0.3066,
+              0.4634
             ],
             "metric": "field_accuracy"
           },
@@ -3324,12 +3324,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 38,
+            "successes": 46,
             "count": 96,
-            "rate": 0.3958,
+            "rate": 0.4792,
             "wilson95": [
-              0.3038,
-              0.4958
+              0.382,
+              0.578
             ],
             "metric": "field_accuracy"
           },
@@ -3373,12 +3373,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 70,
+            "successes": 81,
             "count": 144,
-            "rate": 0.4861,
+            "rate": 0.5625,
             "wilson95": [
-              0.4059,
-              0.567
+              0.4809,
+              0.6409
             ],
             "metric": "field_accuracy"
           },
@@ -3422,12 +3422,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 78,
+            "successes": 90,
             "count": 144,
-            "rate": 0.5417,
+            "rate": 0.625,
             "wilson95": [
-              0.4603,
-              0.6209
+              0.5436,
+              0.6999
             ],
             "metric": "field_accuracy"
           },
@@ -3471,12 +3471,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 29,
+            "successes": 35,
             "count": 132,
-            "rate": 0.2197,
+            "rate": 0.2652,
             "wilson95": [
-              0.1575,
-              0.2977
+              0.1973,
+              0.3463
             ],
             "metric": "field_accuracy"
           },
@@ -3520,12 +3520,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 120,
+            "successes": 136,
             "count": 228,
-            "rate": 0.5263,
+            "rate": 0.5965,
             "wilson95": [
-              0.4616,
-              0.5902
+              0.5317,
+              0.6581
             ],
             "metric": "field_accuracy"
           },
@@ -3569,12 +3569,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 36,
+            "successes": 44,
             "count": 96,
-            "rate": 0.375,
+            "rate": 0.4583,
             "wilson95": [
-              0.2847,
-              0.4749
+              0.3622,
+              0.5577
             ],
             "metric": "field_accuracy"
           },
@@ -3618,12 +3618,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 54,
+            "successes": 62,
             "count": 96,
-            "rate": 0.5625,
+            "rate": 0.6458,
             "wilson95": [
-              0.4628,
-              0.6574
+              0.5462,
+              0.7342
             ],
             "metric": "field_accuracy"
           },
@@ -3667,12 +3667,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 95,
+            "successes": 107,
             "count": 180,
-            "rate": 0.5278,
+            "rate": 0.5944,
             "wilson95": [
-              0.455,
-              0.5994
+              0.5215,
+              0.6635
             ],
             "metric": "field_accuracy"
           },
@@ -3716,12 +3716,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 81,
+            "successes": 93,
             "count": 144,
-            "rate": 0.5625,
+            "rate": 0.6458,
             "wilson95": [
-              0.4809,
-              0.6409
+              0.5649,
+              0.7192
             ],
             "metric": "field_accuracy"
           },
@@ -3765,12 +3765,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 66,
+            "successes": 74,
             "count": 96,
-            "rate": 0.6875,
+            "rate": 0.7708,
             "wilson95": [
-              0.5891,
-              0.7715
+              0.6773,
+              0.8435
             ],
             "metric": "field_accuracy"
           },
@@ -3814,12 +3814,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 130,
+            "successes": 146,
             "count": 228,
-            "rate": 0.5702,
+            "rate": 0.6404,
             "wilson95": [
-              0.5053,
-              0.6327
+              0.5762,
+              0.6998
             ],
             "metric": "field_accuracy"
           },
@@ -3863,12 +3863,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 52,
+            "successes": 60,
             "count": 96,
-            "rate": 0.5417,
+            "rate": 0.625,
             "wilson95": [
-              0.4423,
-              0.6378
+              0.5251,
+              0.7153
             ],
             "metric": "field_accuracy"
           },
@@ -3912,12 +3912,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 56,
+            "successes": 64,
             "count": 96,
-            "rate": 0.5833,
+            "rate": 0.6667,
             "wilson95": [
-              0.4834,
-              0.6769
+              0.5676,
+              0.7529
             ],
             "metric": "field_accuracy"
           },
@@ -3961,12 +3961,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 80,
+            "successes": 92,
             "count": 180,
-            "rate": 0.4444,
+            "rate": 0.5111,
             "wilson95": [
-              0.3738,
-              0.5174
+              0.4386,
+              0.5831
             ],
             "metric": "field_accuracy"
           },
@@ -4010,12 +4010,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 75,
+            "successes": 87,
             "count": 144,
-            "rate": 0.5208,
+            "rate": 0.6042,
             "wilson95": [
-              0.4398,
-              0.6008
+              0.5226,
+              0.6803
             ],
             "metric": "field_accuracy"
           },
@@ -4059,12 +4059,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 40,
+            "successes": 48,
             "count": 96,
-            "rate": 0.4167,
+            "rate": 0.5,
             "wilson95": [
-              0.3231,
-              0.5166
+              0.4019,
+              0.5981
             ],
             "metric": "field_accuracy"
           },
@@ -4108,12 +4108,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 44,
+            "successes": 60,
             "count": 176,
-            "rate": 0.25,
+            "rate": 0.3409,
             "wilson95": [
-              0.1918,
-              0.3189
+              0.2749,
+              0.4137
             ],
             "metric": "field_accuracy"
           },
@@ -4157,12 +4157,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 22,
+            "successes": 29,
             "count": 176,
-            "rate": 0.125,
+            "rate": 0.1648,
             "wilson95": [
-              0.084,
-              0.182
+              0.1172,
+              0.2266
             ],
             "metric": "field_accuracy"
           },
@@ -4206,12 +4206,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 4,
+            "successes": 8,
             "count": 44,
-            "rate": 0.0909,
+            "rate": 0.1818,
             "wilson95": [
-              0.0359,
-              0.2116
+              0.0951,
+              0.3196
             ],
             "metric": "field_accuracy"
           },
@@ -4255,12 +4255,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 60,
+            "successes": 76,
             "count": 192,
-            "rate": 0.3125,
+            "rate": 0.3958,
             "wilson95": [
-              0.2512,
-              0.3812
+              0.3294,
+              0.4664
             ],
             "metric": "field_accuracy"
           },
@@ -4304,12 +4304,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 17,
+            "successes": 24,
             "count": 132,
-            "rate": 0.1288,
+            "rate": 0.1818,
             "wilson95": [
-              0.082,
-              0.1966
+              0.1253,
+              0.2563
             ],
             "metric": "field_accuracy"
           },
@@ -4353,12 +4353,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 14,
+            "successes": 22,
             "count": 96,
-            "rate": 0.1458,
+            "rate": 0.2292,
             "wilson95": [
-              0.0889,
-              0.23
+              0.1565,
+              0.3227
             ],
             "metric": "field_accuracy"
           },
@@ -4402,12 +4402,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 70,
+            "successes": 82,
             "count": 180,
-            "rate": 0.3889,
+            "rate": 0.4556,
             "wilson95": [
-              0.3207,
-              0.4617
+              0.3845,
+              0.5285
             ],
             "metric": "field_accuracy"
           },
@@ -4451,12 +4451,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 71,
+            "successes": 83,
             "count": 144,
-            "rate": 0.4931,
+            "rate": 0.5764,
             "wilson95": [
-              0.4126,
-              0.5738
+              0.4947,
+              0.6541
             ],
             "metric": "field_accuracy"
           },
@@ -4500,12 +4500,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 40,
+            "successes": 48,
             "count": 96,
-            "rate": 0.4167,
+            "rate": 0.5,
             "wilson95": [
-              0.3231,
-              0.5166
+              0.4019,
+              0.5981
             ],
             "metric": "field_accuracy"
           },
@@ -4696,12 +4696,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 108,
+            "successes": 124,
             "count": 228,
-            "rate": 0.4737,
+            "rate": 0.5439,
             "wilson95": [
-              0.4098,
-              0.5384
+              0.479,
+              0.6072
             ],
             "metric": "field_accuracy"
           },
@@ -4745,12 +4745,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 29,
+            "successes": 35,
             "count": 96,
-            "rate": 0.3021,
+            "rate": 0.3646,
             "wilson95": [
-              0.2193,
-              0.4001
+              0.2752,
+              0.4643
             ],
             "metric": "field_accuracy"
           },
@@ -4794,12 +4794,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 41,
+            "successes": 49,
             "count": 96,
-            "rate": 0.4271,
+            "rate": 0.5104,
             "wilson95": [
-              0.3328,
-              0.527
+              0.412,
+              0.6081
             ],
             "metric": "field_accuracy"
           },
@@ -4843,12 +4843,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 107,
+            "successes": 119,
             "count": 176,
-            "rate": 0.608,
+            "rate": 0.6761,
             "wilson95": [
-              0.5343,
-              0.677
+              0.6039,
+              0.7409
             ],
             "metric": "field_accuracy"
           },
@@ -4892,12 +4892,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 81,
+            "successes": 93,
             "count": 132,
-            "rate": 0.6136,
+            "rate": 0.7045,
             "wilson95": [
-              0.5285,
-              0.6924
+              0.6218,
+              0.7757
             ],
             "metric": "field_accuracy"
           },
@@ -4941,12 +4941,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 60,
+            "successes": 68,
             "count": 88,
-            "rate": 0.6818,
+            "rate": 0.7727,
             "wilson95": [
-              0.5787,
-              0.7698
+              0.6749,
+              0.8478
             ],
             "metric": "field_accuracy"
           },
@@ -4992,12 +4992,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 519,
+            "successes": 604,
             "count": 1236,
-            "rate": 0.4199,
+            "rate": 0.4887,
             "wilson95": [
-              0.3927,
-              0.4476
+              0.4609,
+              0.5165
             ],
             "metric": "field_accuracy"
           },
@@ -5041,12 +5041,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 518,
+            "successes": 603,
             "count": 1392,
-            "rate": 0.3721,
+            "rate": 0.4332,
             "wilson95": [
-              0.3471,
-              0.3978
+              0.4074,
+              0.4594
             ],
             "metric": "field_accuracy"
           },
@@ -5090,12 +5090,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 491,
+            "successes": 571,
             "count": 1392,
-            "rate": 0.3527,
+            "rate": 0.4102,
             "wilson95": [
-              0.3281,
-              0.3782
+              0.3846,
+              0.4363
             ],
             "metric": "field_accuracy"
           },
@@ -5139,12 +5139,12 @@
             "metric": "document_exact_match"
           },
           "field_accuracy": {
-            "successes": 537,
+            "successes": 622,
             "count": 1392,
-            "rate": 0.3858,
+            "rate": 0.4468,
             "wilson95": [
-              0.3606,
-              0.4116
+              0.4209,
+              0.4731
             ],
             "metric": "field_accuracy"
           },

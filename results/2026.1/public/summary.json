@@ -20,12 +20,12 @@
         "metric": "document_exact_match"
       },
       "field_accuracy": {
-        "successes": 2073,
+        "successes": 2408,
         "count": 5412,
-        "rate": 0.383,
+        "rate": 0.4449,
         "wilson95": [
-          0.3702,
-          0.3961
+          0.4317,
+          0.4582
         ],
         "metric": "field_accuracy"
       },

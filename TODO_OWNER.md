@@ -2,6 +2,41 @@
 
 Things only the owner can do or decide. See build spec C3.8 / C4.
 
+## Milestone 3 review (Textract investigation follow-ups)
+
+Owner decisions queued from the 2026-09-20 Textract investigation
+(#23 fixed the mapping bugs; these two policies remain):
+
+- [ ] **Q1 — Locale-conventional dates.** Current rule (#22): a non-ISO date
+  counts only when self-evident (a part >12). Textract returns dates in the
+  document's own convention (`10.02.2025` on a German invoice = correct
+  value, ambiguous form) and scores wrong — 158 correct-in-locale date
+  reads across the public split. Option B: accept a date that is correct
+  under the document's country convention (applied symmetrically to all
+  tools; active misreads still fail). Agent recommendation: B — it extends
+  #22's principle that the document's own packaging isn't a wrong value.
+  With B + Q2-strict, Texact field accuracy rises ~4-5pp; exact-match is
+  unaffected by Q1 (currency gates it).
+- [ ] **Q2 — Currency-from-symbol.** Textract never returned `currency`
+  (0/910 though the schema supports it), so exact-match 0.0% is structurally
+  unreachable for it under strict scoring. Option: allow deriving currency
+  from a currency symbol in a returned amount ("$" + US → USD; ¥ needs
+  country). Agent recommendation: **keep strict** — deriving currency from
+  symbols crosses B3.1's "no fixing on the vendor's behalf" line (¥/CNY-JPY
+  genuinely requires external knowledge). Publish 0.0% with the structural
+  explanation on the methodology page and let field accuracy carry the
+  comparison. If you prefer the symbol rule, it applies to every tool
+  symmetrically and needs re-scoring (free, from cache).
+
+## Vendor ToS notes (owner research, 2026-09-20)
+
+- AWS Service Terms: benchmark disclosure permitted; no prior consent
+  required, methodological transparency suffices (we have it).
+- **Google Cloud terms DO require prior written consent for benchmark
+  disclosure** — relevant when/if Google Document AI becomes tool #4
+  (note: the Gemini API used here is the AI Studio/developers API, not
+  Google Cloud; re-check which terms apply per tool before publishing).
+
 ## Milestone 2 review
 
 - [x] ~~Top up the OpenAI credit balance~~ — **Done 2026-09-20:** last 13

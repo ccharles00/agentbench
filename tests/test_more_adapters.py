@@ -37,12 +37,15 @@ class TestOpenAI:
         assert Decimal("0.005") < est < Decimal("0.05")
 
 
-def _tx_payload(fields: list[tuple[str, str]], n_line_items: int = 0) -> dict:
+def _tx_payload(fields: list[tuple[str, str]], n_line_items: int = 0,
+                labels: dict[str, str] | None = None) -> dict:
+    labels = labels or {}
     return {
         "DocumentMetadata": {"Pages": 1},
         "ExpenseDocuments": [{
             "SummaryFields": [
-                {"Type": {"Text": t}, "ValueDetection": {"Text": v}}
+                {"Type": {"Text": t}, "ValueDetection": {"Text": v},
+                 **({"LabelDetection": {"Text": labels[t]}} if t in labels else {})}
                 for t, v in fields
             ],
             "LineItemGroups": ([{"LineItems": [{"LineItemList": [{"Type": {
@@ -67,6 +70,33 @@ class TestTextract:
                        "total": "1234.56", "tax_total": "56.20",
                        "currency": "USD", "line_item_count": 4}
 
+    def test_tax_rates_from_labels(self):
+        # rates live in LabelDetection on TAX fields (DECISIONS #23)
+        raw = RawResult(payload=_tx_payload(
+            [("TAX", "56.20"), ("TAX", "7.00")],
+            labels={"TAX": "USt 19% / USt (reduced) 7%"}))
+        out = tx.TextractAdapter.__new__(tx.TextractAdapter).to_canonical(raw)
+        assert out["tax_rates"] == ["19", "7"]
+
+    def test_tax_rate_retention_excluded(self):
+        raw = RawResult(payload=_tx_payload(
+            [("TAX", "16.00"), ("TAX", "-10.00")],
+            labels={"TAX": "IVA 16%"}))
+        # second TAX field label contains 'reten' -> excluded (#18)
+        raw.payload["ExpenseDocuments"][0]["SummaryFields"][1][
+            "LabelDetection"] = {"Text": "ISR retenida (10%)"}
+        out = tx.TextractAdapter.__new__(tx.TextractAdapter).to_canonical(raw)
+        assert out["tax_rates"] == ["16"]
+
+    def test_vendor_tax_id_priority(self):
+        # VENDOR_VAT_NUMBER outranks a generic TAX_PAYER_ID
+        raw = RawResult(payload=_tx_payload([
+            ("TAX_PAYER_ID", "generic-1"),
+            ("VENDOR_VAT_NUMBER", "DE123456789"),
+        ]))
+        out = tx.TextractAdapter.__new__(tx.TextractAdapter).to_canonical(raw)
+        assert out["vendor_tax_id"] == "DE123456789"
+
     def test_values_untouched(self):
         # label mapping only — a German-formatted total must stay as returned
         raw = RawResult(payload=_tx_payload([("TOTAL", "1.234,56")]))
@@ -76,7 +106,7 @@ class TestTextract:
     def test_missing_fields_absent(self):
         raw = RawResult(payload=_tx_payload([("TOTAL", "10.00")]))
         out = tx.TextractAdapter.__new__(tx.TextractAdapter).to_canonical(raw)
-        assert "tax_rates" not in out and "payment_account" not in out
+        assert "currency" not in out and "payment_account" not in out
         assert "invoice_date" not in out
 
     def test_due_date_variants_first_wins(self):

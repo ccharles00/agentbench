@@ -268,3 +268,23 @@ next agent working in this repo doesn't have to guess or re-litigate them.
       returns tax_rates (truth is never null), so every document carries at
       least one miss. The methodology page states this explicitly so the
       0% reads as "cannot fill the field set", not "cannot read invoices".
+
+23. **Textract mapping fixes, 2026-09-20: use what the vendor actually
+    returns (owner-directed investigation).** The 0%-exact / 38%-field
+    combination was flagged by the owner as a possible adapter bug; the
+    investigation confirmed two mapping gaps and refined one earlier claim:
+    - Tax rates ARE returned — in `LabelDetection.Text` on TAX fields
+      ("USt 19%", "GST 28%", "Sales Tax 10.1%"). The adapter now derives
+      `tax_rates` from those labels; retention labels ("ISR retenida") are
+      excluded per #18. This is vendor output, not value-fixing.
+    - `VENDOR_VAT_NUMBER` / `VENDOR_GST_NUMBER` types now map to
+      `vendor_tax_id` (specific type outranks generic `TAX_PAYER_ID`).
+    - **Currency**: the API schema documents `ValueDetection.Currency.Code`,
+      but it was emitted on 0 of 910 documents (verified in raw cache, incl.
+      `$`-prefixed US totals). `currency` therefore remains a genuine
+      structural miss — the honest statement is "the API can carry currency
+      but returned none on any test document."
+    - Effects: field accuracy 38.3% → 44.5% (public) / 44.4% (private);
+      Gemini and OpenAI unchanged. Two related policy questions (locale-
+      conventional dates; currency-from-symbol) are owner decisions, queued
+      in TODO_OWNER.md.
