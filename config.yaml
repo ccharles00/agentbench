@@ -34,6 +34,7 @@ tax_rates:
 # Harness settings (used from Milestone 2)
 budget_usd: 25
 # Enabled adapter tool_ids; model IDs live here too, not in code (spec B3.2).
-tools: [google_gemini_flash]
+tools: [google_gemini_flash, openai_chat, aws_textract_expense]
 tool_models:
-  google_gemini_flash: gemini-3.8-flash   # latest stable Flash, verified 2026-09-20
+  google_gemini_flash: gemini-3.8-flash     # latest stable Flash, verified 2026-09-20
+  openai_chat: gpt-5.6-terra                # current-gen mid-tier ($2/$12 per M); astra vetoed by owner on cost

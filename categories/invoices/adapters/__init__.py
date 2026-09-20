@@ -7,7 +7,11 @@ adapter documents the vendor API docs URL and the date they were verified
 from __future__ import annotations
 
 from .gemini import GeminiAdapter
+from .openai import OpenAIAdapter
+from .textract import TextractAdapter
 
 REGISTRY: dict[str, type] = {
     GeminiAdapter.tool_id: GeminiAdapter,
+    OpenAIAdapter.tool_id: OpenAIAdapter,
+    TextractAdapter.tool_id: TextractAdapter,
 }
