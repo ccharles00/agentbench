@@ -1350,3 +1350,16 @@
 {"tool": "openai_chat", "doc_id": "US-0005", "variant": "phone_photo", "exact_match": true, "error": null, "cost_usd": 0.011516, "latency_ms": 2942.1}
 {"tool": "openai_chat", "doc_id": "US-0006", "variant": "clean_pdf", "exact_match": true, "error": null, "cost_usd": 0.006916, "latency_ms": 2976.3}
 {"tool": "openai_chat", "doc_id": "US-0006", "variant": "scan", "exact_match": false, "error": null, "cost_usd": 0.012886, "latency_ms": 7096.3}
+{"tool": "openai_chat", "doc_id": "US-0006", "variant": "scan", "exact_match": false, "error": null, "cost_usd": 0.01324, "latency_ms": 6123.5}
+{"tool": "openai_chat", "doc_id": "US-0006", "variant": "bad_scan", "exact_match": false, "error": null, "cost_usd": 0.009698, "latency_ms": 5481.3}
+{"tool": "openai_chat", "doc_id": "US-0006", "variant": "bad_scan", "exact_match": false, "error": null, "cost_usd": 0.011546, "latency_ms": 6757.1}
+{"tool": "openai_chat", "doc_id": "US-0006", "variant": "phone_photo", "exact_match": false, "error": null, "cost_usd": 0.010688, "latency_ms": 2857.7}
+{"tool": "openai_chat", "doc_id": "US-0006", "variant": "phone_photo", "exact_match": false, "error": null, "cost_usd": 0.012656, "latency_ms": 5264.7}
+{"tool": "openai_chat", "doc_id": "US-0007", "variant": "clean_pdf", "exact_match": true, "error": null, "cost_usd": 0.004456, "latency_ms": 2882.2}
+{"tool": "openai_chat", "doc_id": "US-0007", "variant": "scan", "exact_match": true, "error": null, "cost_usd": 0.012304, "latency_ms": 4017.9}
+{"tool": "openai_chat", "doc_id": "US-0007", "variant": "bad_scan", "exact_match": false, "error": null, "cost_usd": 0.012922, "latency_ms": 7565.9}
+{"tool": "openai_chat", "doc_id": "US-0007", "variant": "phone_photo", "exact_match": true, "error": null, "cost_usd": 0.01094, "latency_ms": 2995.7}
+{"tool": "openai_chat", "doc_id": "US-0008", "variant": "clean_pdf", "exact_match": false, "error": null, "cost_usd": 0.005014, "latency_ms": 3469.4}
+{"tool": "openai_chat", "doc_id": "US-0008", "variant": "scan", "exact_match": true, "error": null, "cost_usd": 0.01315, "latency_ms": 5624.7}
+{"tool": "openai_chat", "doc_id": "US-0008", "variant": "bad_scan", "exact_match": false, "error": null, "cost_usd": 0.009782, "latency_ms": 3991.6}
+{"tool": "openai_chat", "doc_id": "US-0008", "variant": "phone_photo", "exact_match": true, "error": null, "cost_usd": 0.010466, "latency_ms": 2281.6}

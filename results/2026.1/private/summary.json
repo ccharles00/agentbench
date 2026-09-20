@@ -112,30 +112,30 @@
     "openai_chat": {
       "tool_version": "gpt-5.6-terra",
       "display_name": "OpenAI (GPT mid-tier)",
-      "skipped_not_run": 13,
+      "skipped_not_run": 0,
       "documents": {
-        "successes": 276,
-        "count": 442,
-        "rate": 0.6244,
+        "successes": 281,
+        "count": 455,
+        "rate": 0.6176,
         "wilson95": [
-          0.5784,
-          0.6683
+          0.5721,
+          0.6611
         ],
         "metric": "document_exact_match"
       },
       "field_accuracy": {
-        "successes": 4695,
-        "count": 5264,
-        "rate": 0.8919,
+        "successes": 4812,
+        "count": 5412,
+        "rate": 0.8891,
         "wilson95": [
-          0.8832,
-          0.9
+          0.8805,
+          0.8972
         ],
         "metric": "field_accuracy"
       },
       "hallucination_rate": {
         "successes": 0,
-        "count": 5264,
+        "count": 5412,
         "rate": 0.0,
         "wilson95": [
           0.0,
@@ -145,21 +145,21 @@
       },
       "api_failure_rate": {
         "successes": 0,
-        "count": 442,
+        "count": 455,
         "rate": 0.0,
         "wilson95": [
           0.0,
-          0.0086
+          0.0084
         ],
         "metric": "api_failure_rate"
       },
-      "mean_cost_per_doc_usd": 0.011049,
-      "cost_per_correct_doc_usd": 0.017695,
+      "mean_cost_per_doc_usd": 0.011034,
+      "cost_per_correct_doc_usd": 0.017867,
       "latency_ms": {
-        "p50": 4040.7,
-        "p95": 8894.7
+        "p50": 4039.9,
+        "p95": 8892.0
       },
-      "total_cost_usd": 4.883696
+      "total_cost_usd": 5.020558
     }
   }
 }

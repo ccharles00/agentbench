@@ -2,13 +2,11 @@
 
 Things only the owner can do or decide. See build spec C3.8 / C4.
 
-## Milestone 2 review (now)
+## Milestone 2 review
 
-- [ ] **Top up the OpenAI credit balance** (~\$0.10 needed) and rerun
-  `.\.venv\Scripts\python.exe -m core.cli run --category invoices --split private --tools openai_chat --confirm`
-  to finish its last 13 documents; then `bench score --split private` refreshes
-  the committed results. M2 is accepted without it (442/455 measured), but the
-  full 455 closes the gap cleanly.
+- [x] ~~Top up the OpenAI credit balance~~ — **Done 2026-09-20:** last 13
+  private docs run (0 failures); OpenAI private complete at 455/455,
+  61.8% exact-match. Results committed.
 
 ## Milestone 1 review
 
