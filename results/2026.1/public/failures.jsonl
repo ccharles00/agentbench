@@ -31,7 +31,7 @@
 {"doc_id": "AE-0001", "variant": "phone_photo", "field": "vendor_name", "truth": "عجمان للطباعة والإعلان ذ.م.م", "prediction": "p.p.j ic Wall jare", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "AE-0001", "variant": "phone_photo", "field": "vendor_tax_id", "truth": "151450357719435", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "AE-0001", "variant": "phone_photo", "field": "invoice_number", "truth": "TINV/2025/0307", "prediction": "", "outcome": "incorrect", "rendered": "TINV/2025/0307", "tool": "aws_textract_expense"}
-{"doc_id": "AE-0001", "variant": "phone_photo", "field": "invoice_date", "truth": "2025-10-02", "prediction": "16/11/2025", "outcome": "incorrect", "rendered": "02/10/2025", "tool": "aws_textract_expense"}
+{"doc_id": "AE-0001", "variant": "phone_photo", "field": "invoice_date", "truth": "2025-10-02", "prediction": "2025-11-16", "outcome": "incorrect", "rendered": "02/10/2025", "tool": "aws_textract_expense"}
 {"doc_id": "AE-0001", "variant": "phone_photo", "field": "due_date", "truth": "2025-11-16", "prediction": null, "outcome": "incorrect", "rendered": "16/11/2025", "tool": "aws_textract_expense"}
 {"doc_id": "AE-0001", "variant": "phone_photo", "field": "currency", "truth": "AED", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "AE-0001", "variant": "phone_photo", "field": "subtotal", "truth": "94986.68", "prediction": "1.994,986.68", "outcome": "incorrect", "rendered": "94,986.68 د.إ", "tool": "aws_textract_expense"}
@@ -94,7 +94,7 @@
 {"doc_id": "AE-0003", "variant": "scan", "field": "vendor_name", "truth": "أبوظبي للتوريدات ش.ذ.م.م", "prediction": "P.P.J.W", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "AE-0003", "variant": "scan", "field": "vendor_tax_id", "truth": "102082544678639", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "AE-0003", "variant": "scan", "field": "invoice_number", "truth": "TINV/2026/2555", "prediction": "p35", "outcome": "incorrect", "rendered": "TINV/2026/2555", "tool": "aws_textract_expense"}
-{"doc_id": "AE-0003", "variant": "scan", "field": "invoice_date", "truth": "2026-02-28", "prediction": "30/03/2026", "outcome": "incorrect", "rendered": "28/02/2026", "tool": "aws_textract_expense"}
+{"doc_id": "AE-0003", "variant": "scan", "field": "invoice_date", "truth": "2026-02-28", "prediction": "2026-03-30", "outcome": "incorrect", "rendered": "28/02/2026", "tool": "aws_textract_expense"}
 {"doc_id": "AE-0003", "variant": "scan", "field": "due_date", "truth": "2026-03-30", "prediction": null, "outcome": "incorrect", "rendered": "30/03/2026", "tool": "aws_textract_expense"}
 {"doc_id": "AE-0003", "variant": "scan", "field": "currency", "truth": "AED", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "AE-0003", "variant": "scan", "field": "subtotal", "truth": "240368.92", "prediction": null, "outcome": "incorrect", "rendered": "240,368.92 د.إ", "tool": "aws_textract_expense"}
@@ -173,7 +173,7 @@
 {"doc_id": "AE-0004", "variant": "scan", "field": "vendor_name", "truth": "دبي للتجارة العامة ذ.م.م", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "AE-0004", "variant": "scan", "field": "vendor_tax_id", "truth": "130727195959067", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "AE-0004", "variant": "scan", "field": "invoice_number", "truth": "TINV/2025/9271", "prediction": "lossilall p35", "outcome": "incorrect", "rendered": "TINV/2025/9271", "tool": "aws_textract_expense"}
-{"doc_id": "AE-0004", "variant": "scan", "field": "invoice_date", "truth": "2025-07-10", "prediction": "08/09/2025", "outcome": "incorrect", "rendered": "10/07/2025", "tool": "aws_textract_expense"}
+{"doc_id": "AE-0004", "variant": "scan", "field": "invoice_date", "truth": "2025-07-10", "prediction": "2025-09-08", "outcome": "incorrect", "rendered": "10/07/2025", "tool": "aws_textract_expense"}
 {"doc_id": "AE-0004", "variant": "scan", "field": "due_date", "truth": "2025-09-08", "prediction": "", "outcome": "incorrect", "rendered": "08/09/2025", "tool": "aws_textract_expense"}
 {"doc_id": "AE-0004", "variant": "scan", "field": "currency", "truth": "AED", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "AE-0004", "variant": "scan", "field": "subtotal", "truth": "67421.45", "prediction": "1.67,421.45", "outcome": "incorrect", "rendered": "67,421.45 د.إ", "tool": "aws_textract_expense"}
@@ -193,7 +193,7 @@
 {"doc_id": "AE-0004", "variant": "phone_photo", "field": "vendor_name", "truth": "دبي للتجارة العامة ذ.م.م", "prediction": "p.p.j dolell o,bail 3.3", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "AE-0004", "variant": "phone_photo", "field": "vendor_tax_id", "truth": "130727195959067", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "AE-0004", "variant": "phone_photo", "field": "invoice_number", "truth": "TINV/2025/9271", "prediction": null, "outcome": "incorrect", "rendered": "TINV/2025/9271", "tool": "aws_textract_expense"}
-{"doc_id": "AE-0004", "variant": "phone_photo", "field": "invoice_date", "truth": "2025-07-10", "prediction": "08/09/2025", "outcome": "incorrect", "rendered": "10/07/2025", "tool": "aws_textract_expense"}
+{"doc_id": "AE-0004", "variant": "phone_photo", "field": "invoice_date", "truth": "2025-07-10", "prediction": "2025-09-08", "outcome": "incorrect", "rendered": "10/07/2025", "tool": "aws_textract_expense"}
 {"doc_id": "AE-0004", "variant": "phone_photo", "field": "due_date", "truth": "2025-09-08", "prediction": "", "outcome": "incorrect", "rendered": "08/09/2025", "tool": "aws_textract_expense"}
 {"doc_id": "AE-0004", "variant": "phone_photo", "field": "currency", "truth": "AED", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "AE-0004", "variant": "phone_photo", "field": "subtotal", "truth": "67421.45", "prediction": "1.67,421.45", "outcome": "incorrect", "rendered": "67,421.45 د.إ", "tool": "aws_textract_expense"}
@@ -202,7 +202,7 @@
 {"doc_id": "AE-0004", "variant": "phone_photo", "field": "tax_rates", "truth": ["5"], "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "AE-0004", "variant": "phone_photo", "field": "line_item_count", "truth": 12, "prediction": 1, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "AE-0005", "variant": "clean_pdf", "field": "vendor_tax_id", "truth": "141994939737821", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "AE-0005", "variant": "clean_pdf", "field": "invoice_date", "truth": "2026-07-23", "prediction": "22/08/2026", "outcome": "incorrect", "rendered": "23/07/2026", "tool": "aws_textract_expense"}
+{"doc_id": "AE-0005", "variant": "clean_pdf", "field": "invoice_date", "truth": "2026-07-23", "prediction": "2026-08-22", "outcome": "incorrect", "rendered": "23/07/2026", "tool": "aws_textract_expense"}
 {"doc_id": "AE-0005", "variant": "clean_pdf", "field": "currency", "truth": "AED", "prediction": "USD", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "AE-0005", "variant": "clean_pdf", "field": "tax_total", "truth": "1283.29", "prediction": null, "outcome": "incorrect", "rendered": "1,283.29", "tool": "aws_textract_expense"}
 {"doc_id": "AE-0005", "variant": "clean_pdf", "field": "total", "truth": "26949.01", "prediction": "1.,26,949.01", "outcome": "incorrect", "rendered": "26,949.01 د.إ", "tool": "aws_textract_expense"}
@@ -210,7 +210,7 @@
 {"doc_id": "AE-0005", "variant": "clean_pdf", "field": "payment_account", "truth": "AE369972350991556533237", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "AE-0005", "variant": "scan", "field": "vendor_tax_id", "truth": "141994939737821", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "AE-0005", "variant": "scan", "field": "invoice_number", "truth": "TINV/2026/7678", "prediction": "", "outcome": "incorrect", "rendered": "TINV/2026/7678", "tool": "aws_textract_expense"}
-{"doc_id": "AE-0005", "variant": "scan", "field": "invoice_date", "truth": "2026-07-23", "prediction": "22/08/2026", "outcome": "incorrect", "rendered": "23/07/2026", "tool": "aws_textract_expense"}
+{"doc_id": "AE-0005", "variant": "scan", "field": "invoice_date", "truth": "2026-07-23", "prediction": "2026-08-22", "outcome": "incorrect", "rendered": "23/07/2026", "tool": "aws_textract_expense"}
 {"doc_id": "AE-0005", "variant": "scan", "field": "due_date", "truth": "2026-08-22", "prediction": "", "outcome": "incorrect", "rendered": "22/08/2026", "tool": "aws_textract_expense"}
 {"doc_id": "AE-0005", "variant": "scan", "field": "currency", "truth": "AED", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "AE-0005", "variant": "scan", "field": "subtotal", "truth": "25665.72", "prediction": ": - 25,665.72", "outcome": "incorrect", "rendered": "25,665.72 د.إ", "tool": "aws_textract_expense"}
@@ -267,7 +267,6 @@
 {"doc_id": "AE-0006", "variant": "phone_photo", "field": "vendor_name", "truth": "دائرة الشارقة للخدمات", "prediction": "obsill daytime opils", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "AE-0006", "variant": "phone_photo", "field": "vendor_tax_id", "truth": "161154483463830", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "AE-0006", "variant": "phone_photo", "field": "invoice_number", "truth": "TINV/2026/7893", "prediction": "", "outcome": "incorrect", "rendered": "TINV/2026/7893", "tool": "aws_textract_expense"}
-{"doc_id": "AE-0006", "variant": "phone_photo", "field": "due_date", "truth": "2026-04-11", "prediction": "11/04/2026", "outcome": "incorrect", "rendered": "11/04/2026", "tool": "aws_textract_expense"}
 {"doc_id": "AE-0006", "variant": "phone_photo", "field": "currency", "truth": "AED", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "AE-0006", "variant": "phone_photo", "field": "subtotal", "truth": "38603.68", "prediction": "!.38,603.68", "outcome": "incorrect", "rendered": "38,603.68 د.إ", "tool": "aws_textract_expense"}
 {"doc_id": "AE-0006", "variant": "phone_photo", "field": "total", "truth": "40533.87", "prediction": "!. 40,533.87", "outcome": "incorrect", "rendered": "40,533.87 د.إ", "tool": "aws_textract_expense"}
@@ -308,7 +307,7 @@
 {"doc_id": "AE-0007", "variant": "phone_photo", "field": "vendor_name", "truth": "دبي للتجارة العامة ذ.م.م", "prediction": "p.p.j dolell ojbill\n3.3", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "AE-0007", "variant": "phone_photo", "field": "vendor_tax_id", "truth": "107077794801912", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "AE-0007", "variant": "phone_photo", "field": "invoice_number", "truth": "TINV/2025/9992", "prediction": null, "outcome": "incorrect", "rendered": "TINV/2025/9992", "tool": "aws_textract_expense"}
-{"doc_id": "AE-0007", "variant": "phone_photo", "field": "invoice_date", "truth": "2025-03-03", "prediction": "02/05/2025", "outcome": "incorrect", "rendered": "03/03/2025", "tool": "aws_textract_expense"}
+{"doc_id": "AE-0007", "variant": "phone_photo", "field": "invoice_date", "truth": "2025-03-03", "prediction": "2025-05-02", "outcome": "incorrect", "rendered": "03/03/2025", "tool": "aws_textract_expense"}
 {"doc_id": "AE-0007", "variant": "phone_photo", "field": "due_date", "truth": "2025-05-02", "prediction": "", "outcome": "incorrect", "rendered": "02/05/2025", "tool": "aws_textract_expense"}
 {"doc_id": "AE-0007", "variant": "phone_photo", "field": "currency", "truth": "AED", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "AE-0007", "variant": "phone_photo", "field": "subtotal", "truth": "26290.31", "prediction": "|.,26,290.31", "outcome": "incorrect", "rendered": "26,290.31 د.إ", "tool": "aws_textract_expense"}
@@ -319,7 +318,7 @@
 {"doc_id": "AE-0008", "variant": "clean_pdf", "field": "vendor_name", "truth": "دبي للتجارة العامة ذ.م.م", "prediction": "p.p.j dolell o 3.", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "AE-0008", "variant": "clean_pdf", "field": "vendor_tax_id", "truth": "182201567357941", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "AE-0008", "variant": "clean_pdf", "field": "invoice_number", "truth": "TINV/2025/7115", "prediction": "p3js", "outcome": "incorrect", "rendered": "TINV/2025/7115", "tool": "aws_textract_expense"}
-{"doc_id": "AE-0008", "variant": "clean_pdf", "field": "invoice_date", "truth": "2025-10-20", "prediction": "19/11/2025", "outcome": "incorrect", "rendered": "20/10/2025", "tool": "aws_textract_expense"}
+{"doc_id": "AE-0008", "variant": "clean_pdf", "field": "invoice_date", "truth": "2025-10-20", "prediction": "2025-11-19", "outcome": "incorrect", "rendered": "20/10/2025", "tool": "aws_textract_expense"}
 {"doc_id": "AE-0008", "variant": "clean_pdf", "field": "due_date", "truth": "2025-11-19", "prediction": "", "outcome": "incorrect", "rendered": "19/11/2025", "tool": "aws_textract_expense"}
 {"doc_id": "AE-0008", "variant": "clean_pdf", "field": "currency", "truth": "AED", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "AE-0008", "variant": "clean_pdf", "field": "subtotal", "truth": "83254.14", "prediction": "1. 83,254.14", "outcome": "incorrect", "rendered": "83,254.14 د.إ", "tool": "aws_textract_expense"}
@@ -410,12 +409,10 @@
 {"doc_id": "BR-0002", "variant": "phone_photo", "field": "tax_rates", "truth": ["17", "1.65", "7.6"], "prediction": ["1.65", "17"], "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "BR-0003", "variant": "clean_pdf", "field": "vendor_tax_id", "truth": "98691084000150", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "BR-0003", "variant": "clean_pdf", "field": "invoice_number", "truth": "NF-e nº 946851", "prediction": "NF-e n° 946851", "outcome": "incorrect", "rendered": "NF-e nº 946851", "tool": "aws_textract_expense"}
-{"doc_id": "BR-0003", "variant": "clean_pdf", "field": "invoice_date", "truth": "2025-04-05", "prediction": "05/04/2025", "outcome": "incorrect", "rendered": "05/04/2025", "tool": "aws_textract_expense"}
 {"doc_id": "BR-0003", "variant": "clean_pdf", "field": "due_date", "truth": "2025-05-20", "prediction": null, "outcome": "incorrect", "rendered": "20/05/2025", "tool": "aws_textract_expense"}
 {"doc_id": "BR-0003", "variant": "clean_pdf", "field": "currency", "truth": "BRL", "prediction": "USD", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "BR-0003", "variant": "scan", "field": "vendor_tax_id", "truth": "98691084000150", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "BR-0003", "variant": "scan", "field": "invoice_number", "truth": "NF-e nº 946851", "prediction": null, "outcome": "incorrect", "rendered": "NF-e nº 946851", "tool": "aws_textract_expense"}
-{"doc_id": "BR-0003", "variant": "scan", "field": "invoice_date", "truth": "2025-04-05", "prediction": "05/04/2025", "outcome": "incorrect", "rendered": "05/04/2025", "tool": "aws_textract_expense"}
 {"doc_id": "BR-0003", "variant": "scan", "field": "due_date", "truth": "2025-05-20", "prediction": null, "outcome": "incorrect", "rendered": "20/05/2025", "tool": "aws_textract_expense"}
 {"doc_id": "BR-0003", "variant": "scan", "field": "currency", "truth": "BRL", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "BR-0003", "variant": "scan", "field": "subtotal", "truth": "168679.44", "prediction": null, "outcome": "incorrect", "rendered": "R$168.679,44", "tool": "aws_textract_expense"}
@@ -431,7 +428,6 @@
 {"doc_id": "BR-0003", "variant": "scan", "field": "line_item_count", "truth": 21, "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "BR-0003", "variant": "bad_scan", "field": "vendor_tax_id", "truth": "98691084000150", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "BR-0003", "variant": "bad_scan", "field": "invoice_number", "truth": "NF-e nº 946851", "prediction": "NF-e n° 946851", "outcome": "incorrect", "rendered": "NF-e nº 946851", "tool": "aws_textract_expense"}
-{"doc_id": "BR-0003", "variant": "bad_scan", "field": "invoice_date", "truth": "2025-04-05", "prediction": "05/04/2025", "outcome": "incorrect", "rendered": "05/04/2025", "tool": "aws_textract_expense"}
 {"doc_id": "BR-0003", "variant": "bad_scan", "field": "due_date", "truth": "2025-05-20", "prediction": null, "outcome": "incorrect", "rendered": "20/05/2025", "tool": "aws_textract_expense"}
 {"doc_id": "BR-0003", "variant": "bad_scan", "field": "currency", "truth": "BRL", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "BR-0003", "variant": "bad_scan", "field": "subtotal", "truth": "168679.44", "prediction": null, "outcome": "incorrect", "rendered": "R$168.679,44", "tool": "aws_textract_expense"}
@@ -448,7 +444,6 @@
 {"doc_id": "BR-0003", "variant": "bad_scan", "field": "line_item_count", "truth": 21, "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "BR-0003", "variant": "phone_photo", "field": "vendor_tax_id", "truth": "98691084000150", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "BR-0003", "variant": "phone_photo", "field": "invoice_number", "truth": "NF-e nº 946851", "prediction": "NF-e n° 946851", "outcome": "incorrect", "rendered": "NF-e nº 946851", "tool": "aws_textract_expense"}
-{"doc_id": "BR-0003", "variant": "phone_photo", "field": "invoice_date", "truth": "2025-04-05", "prediction": "05/04/2025", "outcome": "incorrect", "rendered": "05/04/2025", "tool": "aws_textract_expense"}
 {"doc_id": "BR-0003", "variant": "phone_photo", "field": "due_date", "truth": "2025-05-20", "prediction": null, "outcome": "incorrect", "rendered": "20/05/2025", "tool": "aws_textract_expense"}
 {"doc_id": "BR-0003", "variant": "phone_photo", "field": "currency", "truth": "BRL", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "BR-0003", "variant": "phone_photo", "field": "subtotal", "truth": "168679.44", "prediction": null, "outcome": "incorrect", "rendered": "R$168.679,44", "tool": "aws_textract_expense"}
@@ -464,19 +459,16 @@
 {"doc_id": "BR-0003", "variant": "phone_photo", "field": "line_item_count", "truth": 21, "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "BR-0004", "variant": "clean_pdf", "field": "vendor_tax_id", "truth": "80480622000101", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "BR-0004", "variant": "clean_pdf", "field": "invoice_number", "truth": "NF-e nº 006803", "prediction": "NF-e n° 006803", "outcome": "incorrect", "rendered": "NF-e nº 006803", "tool": "aws_textract_expense"}
-{"doc_id": "BR-0004", "variant": "clean_pdf", "field": "invoice_date", "truth": "2025-02-11", "prediction": "11/02/2025", "outcome": "incorrect", "rendered": "11/02/2025", "tool": "aws_textract_expense"}
 {"doc_id": "BR-0004", "variant": "clean_pdf", "field": "due_date", "truth": "2025-02-26", "prediction": null, "outcome": "incorrect", "rendered": "26/02/2025", "tool": "aws_textract_expense"}
 {"doc_id": "BR-0004", "variant": "clean_pdf", "field": "currency", "truth": "BRL", "prediction": "USD", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "BR-0004", "variant": "clean_pdf", "field": "tax_total", "truth": "5853.52", "prediction": "3.866,55", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "BR-0004", "variant": "scan", "field": "vendor_tax_id", "truth": "80480622000101", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "BR-0004", "variant": "scan", "field": "invoice_number", "truth": "NF-e nº 006803", "prediction": "NF-e n° 006803", "outcome": "incorrect", "rendered": "NF-e nº 006803", "tool": "aws_textract_expense"}
-{"doc_id": "BR-0004", "variant": "scan", "field": "invoice_date", "truth": "2025-02-11", "prediction": "11/02/2025", "outcome": "incorrect", "rendered": "11/02/2025", "tool": "aws_textract_expense"}
 {"doc_id": "BR-0004", "variant": "scan", "field": "due_date", "truth": "2025-02-26", "prediction": null, "outcome": "incorrect", "rendered": "26/02/2025", "tool": "aws_textract_expense"}
 {"doc_id": "BR-0004", "variant": "scan", "field": "currency", "truth": "BRL", "prediction": "USD", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "BR-0004", "variant": "scan", "field": "tax_total", "truth": "5853.52", "prediction": "3.866,55", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "BR-0004", "variant": "bad_scan", "field": "vendor_tax_id", "truth": "80480622000101", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "BR-0004", "variant": "bad_scan", "field": "invoice_number", "truth": "NF-e nº 006803", "prediction": "NF-e n° 006803", "outcome": "incorrect", "rendered": "NF-e nº 006803", "tool": "aws_textract_expense"}
-{"doc_id": "BR-0004", "variant": "bad_scan", "field": "invoice_date", "truth": "2025-02-11", "prediction": "11/02/2025", "outcome": "incorrect", "rendered": "11/02/2025", "tool": "aws_textract_expense"}
 {"doc_id": "BR-0004", "variant": "bad_scan", "field": "due_date", "truth": "2025-02-26", "prediction": null, "outcome": "incorrect", "rendered": "26/02/2025", "tool": "aws_textract_expense"}
 {"doc_id": "BR-0004", "variant": "bad_scan", "field": "currency", "truth": "BRL", "prediction": "USD", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "BR-0004", "variant": "bad_scan", "field": "subtotal", "truth": "21480.83", "prediction": "R$21,480,83", "outcome": "incorrect", "rendered": "R$21.480,83", "tool": "aws_textract_expense"}
@@ -484,7 +476,6 @@
 {"doc_id": "BR-0004", "variant": "bad_scan", "field": "tax_rates", "truth": ["18", "1.65", "7.6"], "prediction": ["1.65", "18"], "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "BR-0004", "variant": "phone_photo", "field": "vendor_tax_id", "truth": "80480622000101", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "BR-0004", "variant": "phone_photo", "field": "invoice_number", "truth": "NF-e nº 006803", "prediction": "NF-e n° 006803", "outcome": "incorrect", "rendered": "NF-e nº 006803", "tool": "aws_textract_expense"}
-{"doc_id": "BR-0004", "variant": "phone_photo", "field": "invoice_date", "truth": "2025-02-11", "prediction": "11/02/2025", "outcome": "incorrect", "rendered": "11/02/2025", "tool": "aws_textract_expense"}
 {"doc_id": "BR-0004", "variant": "phone_photo", "field": "due_date", "truth": "2025-02-26", "prediction": null, "outcome": "incorrect", "rendered": "26/02/2025", "tool": "aws_textract_expense"}
 {"doc_id": "BR-0004", "variant": "phone_photo", "field": "currency", "truth": "BRL", "prediction": "USD", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "BR-0004", "variant": "phone_photo", "field": "tax_total", "truth": "5853.52", "prediction": "3.866,55", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
@@ -532,42 +523,34 @@
 {"doc_id": "BR-0006", "variant": "phone_photo", "field": "currency", "truth": "BRL", "prediction": "USD", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "BR-0007", "variant": "clean_pdf", "field": "vendor_tax_id", "truth": "33637151000104", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "BR-0007", "variant": "clean_pdf", "field": "invoice_number", "truth": "NF-e nº 951607", "prediction": null, "outcome": "incorrect", "rendered": "NF-e nº 951607", "tool": "aws_textract_expense"}
-{"doc_id": "BR-0007", "variant": "clean_pdf", "field": "invoice_date", "truth": "2026-04-03", "prediction": "03/04/2026", "outcome": "incorrect", "rendered": "03/04/2026", "tool": "aws_textract_expense"}
 {"doc_id": "BR-0007", "variant": "clean_pdf", "field": "due_date", "truth": "2026-06-02", "prediction": null, "outcome": "incorrect", "rendered": "02/06/2026", "tool": "aws_textract_expense"}
 {"doc_id": "BR-0007", "variant": "clean_pdf", "field": "currency", "truth": "BRL", "prediction": "USD", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "BR-0007", "variant": "clean_pdf", "field": "subtotal", "truth": "50893.16", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "BR-0007", "variant": "scan", "field": "vendor_tax_id", "truth": "33637151000104", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "BR-0007", "variant": "scan", "field": "invoice_number", "truth": "NF-e nº 951607", "prediction": null, "outcome": "incorrect", "rendered": "NF-e nº 951607", "tool": "aws_textract_expense"}
-{"doc_id": "BR-0007", "variant": "scan", "field": "invoice_date", "truth": "2026-04-03", "prediction": "03/04/2026", "outcome": "incorrect", "rendered": "03/04/2026", "tool": "aws_textract_expense"}
 {"doc_id": "BR-0007", "variant": "scan", "field": "due_date", "truth": "2026-06-02", "prediction": null, "outcome": "incorrect", "rendered": "02/06/2026", "tool": "aws_textract_expense"}
 {"doc_id": "BR-0007", "variant": "scan", "field": "currency", "truth": "BRL", "prediction": "USD", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "BR-0007", "variant": "scan", "field": "subtotal", "truth": "50893.16", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "BR-0007", "variant": "bad_scan", "field": "vendor_tax_id", "truth": "33637151000104", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "BR-0007", "variant": "bad_scan", "field": "invoice_number", "truth": "NF-e nº 951607", "prediction": null, "outcome": "incorrect", "rendered": "NF-e nº 951607", "tool": "aws_textract_expense"}
-{"doc_id": "BR-0007", "variant": "bad_scan", "field": "invoice_date", "truth": "2026-04-03", "prediction": "03/04/2026", "outcome": "incorrect", "rendered": "03/04/2026", "tool": "aws_textract_expense"}
 {"doc_id": "BR-0007", "variant": "bad_scan", "field": "due_date", "truth": "2026-06-02", "prediction": null, "outcome": "incorrect", "rendered": "02/06/2026", "tool": "aws_textract_expense"}
 {"doc_id": "BR-0007", "variant": "bad_scan", "field": "currency", "truth": "BRL", "prediction": "USD", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "BR-0007", "variant": "bad_scan", "field": "subtotal", "truth": "50893.16", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "BR-0007", "variant": "phone_photo", "field": "vendor_tax_id", "truth": "33637151000104", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "BR-0007", "variant": "phone_photo", "field": "invoice_number", "truth": "NF-e nº 951607", "prediction": null, "outcome": "incorrect", "rendered": "NF-e nº 951607", "tool": "aws_textract_expense"}
-{"doc_id": "BR-0007", "variant": "phone_photo", "field": "invoice_date", "truth": "2026-04-03", "prediction": "03/04/2026", "outcome": "incorrect", "rendered": "03/04/2026", "tool": "aws_textract_expense"}
 {"doc_id": "BR-0007", "variant": "phone_photo", "field": "due_date", "truth": "2026-06-02", "prediction": null, "outcome": "incorrect", "rendered": "02/06/2026", "tool": "aws_textract_expense"}
 {"doc_id": "BR-0007", "variant": "phone_photo", "field": "currency", "truth": "BRL", "prediction": "USD", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "BR-0007", "variant": "phone_photo", "field": "subtotal", "truth": "50893.16", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "BR-0008", "variant": "clean_pdf", "field": "vendor_tax_id", "truth": "47890532000105", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "BR-0008", "variant": "clean_pdf", "field": "invoice_number", "truth": "NF-e nº 109493", "prediction": "NF-e n° 109493", "outcome": "incorrect", "rendered": "NF-e nº 109493", "tool": "aws_textract_expense"}
-{"doc_id": "BR-0008", "variant": "clean_pdf", "field": "invoice_date", "truth": "2026-11-12", "prediction": "12/11/2026", "outcome": "incorrect", "rendered": "12/11/2026", "tool": "aws_textract_expense"}
 {"doc_id": "BR-0008", "variant": "scan", "field": "vendor_tax_id", "truth": "47890532000105", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "BR-0008", "variant": "scan", "field": "invoice_number", "truth": "NF-e nº 109493", "prediction": "NF-e n° 109493", "outcome": "incorrect", "rendered": "NF-e nº 109493", "tool": "aws_textract_expense"}
-{"doc_id": "BR-0008", "variant": "scan", "field": "invoice_date", "truth": "2026-11-12", "prediction": "12/11/2026", "outcome": "incorrect", "rendered": "12/11/2026", "tool": "aws_textract_expense"}
 {"doc_id": "BR-0008", "variant": "bad_scan", "field": "vendor_name", "truth": "Rio Informática Ltda.", "prediction": "Rio Informatica Ltda.", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "BR-0008", "variant": "bad_scan", "field": "vendor_tax_id", "truth": "47890532000105", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "BR-0008", "variant": "bad_scan", "field": "invoice_number", "truth": "NF-e nº 109493", "prediction": "NF-e n° 109493", "outcome": "incorrect", "rendered": "NF-e nº 109493", "tool": "aws_textract_expense"}
-{"doc_id": "BR-0008", "variant": "bad_scan", "field": "invoice_date", "truth": "2026-11-12", "prediction": "12/11/2026", "outcome": "incorrect", "rendered": "12/11/2026", "tool": "aws_textract_expense"}
 {"doc_id": "BR-0008", "variant": "bad_scan", "field": "line_item_count", "truth": 12, "prediction": 10, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "BR-0008", "variant": "phone_photo", "field": "vendor_tax_id", "truth": "47890532000105", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "BR-0008", "variant": "phone_photo", "field": "invoice_number", "truth": "NF-e nº 109493", "prediction": "NF-e n° 109493", "outcome": "incorrect", "rendered": "NF-e nº 109493", "tool": "aws_textract_expense"}
-{"doc_id": "BR-0008", "variant": "phone_photo", "field": "invoice_date", "truth": "2026-11-12", "prediction": "12/11/2026", "outcome": "incorrect", "rendered": "12/11/2026", "tool": "aws_textract_expense"}
 {"doc_id": "CN-0001", "variant": "clean_pdf", "field": "vendor_name", "truth": "青岛海润食品有限公司", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "CN-0001", "variant": "clean_pdf", "field": "vendor_tax_id", "truth": "5C7873499HDDD392PX", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "CN-0001", "variant": "clean_pdf", "field": "invoice_number", "truth": "89066384", "prediction": "2026", "outcome": "incorrect", "rendered": "89066384", "tool": "aws_textract_expense"}
@@ -785,93 +768,70 @@
 {"doc_id": "CN-0008", "variant": "phone_photo", "field": "due_date", "truth": "2026-02-19", "prediction": null, "outcome": "incorrect", "rendered": "2026年2月19日", "tool": "aws_textract_expense"}
 {"doc_id": "CN-0008", "variant": "phone_photo", "field": "currency", "truth": "CNY", "prediction": "JPY", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "DE-0001", "variant": "clean_pdf", "field": "vendor_tax_id", "truth": "DE281832473", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "DE-0001", "variant": "clean_pdf", "field": "invoice_date", "truth": "2025-02-10", "prediction": "10.02.2025", "outcome": "incorrect", "rendered": "10.02.2025", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0001", "variant": "clean_pdf", "field": "due_date", "truth": "2025-02-25", "prediction": null, "outcome": "incorrect", "rendered": "25.02.2025", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0001", "variant": "clean_pdf", "field": "payment_account", "truth": "DE81880488951124868635", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "DE-0001", "variant": "scan", "field": "invoice_date", "truth": "2025-02-10", "prediction": "10.02.2025", "outcome": "incorrect", "rendered": "10.02.2025", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0001", "variant": "scan", "field": "due_date", "truth": "2025-02-25", "prediction": null, "outcome": "incorrect", "rendered": "25.02.2025", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0001", "variant": "scan", "field": "payment_account", "truth": "DE81880488951124868635", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "DE-0001", "variant": "scan", "field": "line_item_count", "truth": 9, "prediction": 8, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "DE-0001", "variant": "bad_scan", "field": "invoice_date", "truth": "2025-02-10", "prediction": "10.02.2025", "outcome": "incorrect", "rendered": "10.02.2025", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0001", "variant": "bad_scan", "field": "due_date", "truth": "2025-02-25", "prediction": null, "outcome": "incorrect", "rendered": "25.02.2025", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0001", "variant": "bad_scan", "field": "payment_account", "truth": "DE81880488951124868635", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "DE-0001", "variant": "bad_scan", "field": "line_item_count", "truth": 9, "prediction": 8, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "DE-0001", "variant": "phone_photo", "field": "invoice_date", "truth": "2025-02-10", "prediction": "10.02.2025", "outcome": "incorrect", "rendered": "10.02.2025", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0001", "variant": "phone_photo", "field": "due_date", "truth": "2025-02-25", "prediction": null, "outcome": "incorrect", "rendered": "25.02.2025", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0001", "variant": "phone_photo", "field": "payment_account", "truth": "DE81880488951124868635", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "DE-0002", "variant": "clean_pdf", "field": "vendor_tax_id", "truth": "DE823982674", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "DE-0002", "variant": "clean_pdf", "field": "invoice_date", "truth": "2025-03-12", "prediction": "12.03.2025", "outcome": "incorrect", "rendered": "12.03.2025", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0002", "variant": "clean_pdf", "field": "due_date", "truth": "2025-03-27", "prediction": null, "outcome": "incorrect", "rendered": "27.03.2025", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0002", "variant": "clean_pdf", "field": "subtotal", "truth": "9142.60", "prediction": "9.142,60 € (EUR)", "outcome": "incorrect", "rendered": "9.142,60 € (EUR)", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0002", "variant": "clean_pdf", "field": "total", "truth": "9782.58", "prediction": "9.782,58 € (EUR)", "outcome": "incorrect", "rendered": "9.782,58 € (EUR)", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0002", "variant": "clean_pdf", "field": "payment_account", "truth": "DE78471506976304761465", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "DE-0002", "variant": "scan", "field": "vendor_tax_id", "truth": "DE823982674", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "DE-0002", "variant": "scan", "field": "invoice_date", "truth": "2025-03-12", "prediction": "12.03.2025", "outcome": "incorrect", "rendered": "12.03.2025", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0002", "variant": "scan", "field": "due_date", "truth": "2025-03-27", "prediction": null, "outcome": "incorrect", "rendered": "27.03.2025", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0002", "variant": "scan", "field": "subtotal", "truth": "9142.60", "prediction": "9.142,60 € (EUR)", "outcome": "incorrect", "rendered": "9.142,60 € (EUR)", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0002", "variant": "scan", "field": "total", "truth": "9782.58", "prediction": "9.782,58 € (EUR)", "outcome": "incorrect", "rendered": "9.782,58 € (EUR)", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0002", "variant": "scan", "field": "payment_account", "truth": "DE78471506976304761465", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "DE-0002", "variant": "bad_scan", "field": "vendor_tax_id", "truth": "DE823982674", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "DE-0002", "variant": "bad_scan", "field": "invoice_number", "truth": "RE-2025-7086", "prediction": null, "outcome": "incorrect", "rendered": "RE-2025-7086", "tool": "aws_textract_expense"}
-{"doc_id": "DE-0002", "variant": "bad_scan", "field": "invoice_date", "truth": "2025-03-12", "prediction": "12.03.2025", "outcome": "incorrect", "rendered": "12.03.2025", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0002", "variant": "bad_scan", "field": "due_date", "truth": "2025-03-27", "prediction": null, "outcome": "incorrect", "rendered": "27.03.2025", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0002", "variant": "bad_scan", "field": "subtotal", "truth": "9142.60", "prediction": "9.142,60 € (EUR)", "outcome": "incorrect", "rendered": "9.142,60 € (EUR)", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0002", "variant": "bad_scan", "field": "total", "truth": "9782.58", "prediction": "9.782,58 € (EUR)", "outcome": "incorrect", "rendered": "9.782,58 € (EUR)", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0002", "variant": "bad_scan", "field": "payment_account", "truth": "DE78471506976304761465", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "DE-0002", "variant": "phone_photo", "field": "vendor_tax_id", "truth": "DE823982674", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "DE-0002", "variant": "phone_photo", "field": "invoice_date", "truth": "2025-03-12", "prediction": "12.03.2025", "outcome": "incorrect", "rendered": "12.03.2025", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0002", "variant": "phone_photo", "field": "due_date", "truth": "2025-03-27", "prediction": null, "outcome": "incorrect", "rendered": "27.03.2025", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0002", "variant": "phone_photo", "field": "subtotal", "truth": "9142.60", "prediction": "9.142,60 € (EUR)", "outcome": "incorrect", "rendered": "9.142,60 € (EUR)", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0002", "variant": "phone_photo", "field": "total", "truth": "9782.58", "prediction": "9.782,58 € (EUR)", "outcome": "incorrect", "rendered": "9.782,58 € (EUR)", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0002", "variant": "phone_photo", "field": "payment_account", "truth": "DE78471506976304761465", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "DE-0003", "variant": "clean_pdf", "field": "vendor_tax_id", "truth": "DE545419853", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "DE-0003", "variant": "clean_pdf", "field": "invoice_date", "truth": "2025-09-07", "prediction": "07.09.2025", "outcome": "incorrect", "rendered": "07.09.2025", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0003", "variant": "clean_pdf", "field": "payment_account", "truth": "DE61696999181250339257", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "DE-0003", "variant": "scan", "field": "vendor_tax_id", "truth": "DE545419853", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "DE-0003", "variant": "scan", "field": "invoice_date", "truth": "2025-09-07", "prediction": "07.09.2025", "outcome": "incorrect", "rendered": "07.09.2025", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0003", "variant": "scan", "field": "payment_account", "truth": "DE61696999181250339257", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "DE-0003", "variant": "bad_scan", "field": "vendor_tax_id", "truth": "DE545419853", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "DE-0003", "variant": "bad_scan", "field": "invoice_date", "truth": "2025-09-07", "prediction": "07.09.2025", "outcome": "incorrect", "rendered": "07.09.2025", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0003", "variant": "bad_scan", "field": "payment_account", "truth": "DE61696999181250339257", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "DE-0003", "variant": "phone_photo", "field": "vendor_tax_id", "truth": "DE545419853", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "DE-0003", "variant": "phone_photo", "field": "invoice_date", "truth": "2025-09-07", "prediction": "07.09.2025", "outcome": "incorrect", "rendered": "07.09.2025", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0003", "variant": "phone_photo", "field": "due_date", "truth": "2025-09-22", "prediction": null, "outcome": "incorrect", "rendered": "22.09.2025", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0003", "variant": "phone_photo", "field": "payment_account", "truth": "DE61696999181250339257", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "DE-0004", "variant": "clean_pdf", "field": "vendor_tax_id", "truth": "DE402632305", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "DE-0004", "variant": "clean_pdf", "field": "invoice_date", "truth": "2025-01-05", "prediction": "05.01.2025", "outcome": "incorrect", "rendered": "05.01.2025", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0004", "variant": "clean_pdf", "field": "due_date", "truth": "2025-03-06", "prediction": null, "outcome": "incorrect", "rendered": "06.03.2025", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0004", "variant": "clean_pdf", "field": "tax_total", "truth": "1348.08", "prediction": "831,82", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "DE-0004", "variant": "scan", "field": "invoice_date", "truth": "2025-01-05", "prediction": "05.01.2025", "outcome": "incorrect", "rendered": "05.01.2025", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0004", "variant": "scan", "field": "due_date", "truth": "2025-03-06", "prediction": null, "outcome": "incorrect", "rendered": "06.03.2025", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0004", "variant": "scan", "field": "tax_total", "truth": "1348.08", "prediction": "831,82", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "DE-0004", "variant": "bad_scan", "field": "invoice_date", "truth": "2025-01-05", "prediction": "05.01.2025", "outcome": "incorrect", "rendered": "05.01.2025", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0004", "variant": "bad_scan", "field": "due_date", "truth": "2025-03-06", "prediction": null, "outcome": "incorrect", "rendered": "06.03.2025", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0004", "variant": "bad_scan", "field": "tax_total", "truth": "1348.08", "prediction": "831,82", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "DE-0004", "variant": "bad_scan", "field": "line_item_count", "truth": 4, "prediction": 3, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "DE-0004", "variant": "phone_photo", "field": "invoice_date", "truth": "2025-01-05", "prediction": "05.01.2025", "outcome": "incorrect", "rendered": "05.01.2025", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0004", "variant": "phone_photo", "field": "due_date", "truth": "2025-03-06", "prediction": null, "outcome": "incorrect", "rendered": "06.03.2025", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0004", "variant": "phone_photo", "field": "tax_total", "truth": "1348.08", "prediction": "831,82", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "DE-0005", "variant": "clean_pdf", "field": "due_date", "truth": "2026-04-02", "prediction": "02.04.2026", "outcome": "incorrect", "rendered": "02.04.2026", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0005", "variant": "clean_pdf", "field": "payment_account", "truth": "DE28100026105551859276", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "DE-0005", "variant": "scan", "field": "due_date", "truth": "2026-04-02", "prediction": "02.04.2026", "outcome": "incorrect", "rendered": "02.04.2026", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0005", "variant": "scan", "field": "payment_account", "truth": "DE28100026105551859276", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "DE-0005", "variant": "bad_scan", "field": "due_date", "truth": "2026-04-02", "prediction": "02.04.2026", "outcome": "incorrect", "rendered": "02.04.2026", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0005", "variant": "bad_scan", "field": "payment_account", "truth": "DE28100026105551859276", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "DE-0005", "variant": "phone_photo", "field": "due_date", "truth": "2026-04-02", "prediction": "02.04.2026", "outcome": "incorrect", "rendered": "02.04.2026", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0005", "variant": "phone_photo", "field": "payment_account", "truth": "DE28100026105551859276", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "DE-0006", "variant": "clean_pdf", "field": "vendor_tax_id", "truth": "DE422344561", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "DE-0006", "variant": "clean_pdf", "field": "invoice_date", "truth": "2026-05-04", "prediction": "04.05.2026", "outcome": "incorrect", "rendered": "04.05.2026", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0006", "variant": "clean_pdf", "field": "due_date", "truth": "2026-05-18", "prediction": null, "outcome": "incorrect", "rendered": "18.05.2026", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0006", "variant": "clean_pdf", "field": "payment_account", "truth": "DE71803246261789289843", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "DE-0006", "variant": "scan", "field": "vendor_tax_id", "truth": "DE422344561", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "DE-0006", "variant": "scan", "field": "invoice_date", "truth": "2026-05-04", "prediction": null, "outcome": "incorrect", "rendered": "04.05.2026", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0006", "variant": "scan", "field": "due_date", "truth": "2026-05-18", "prediction": null, "outcome": "incorrect", "rendered": "18.05.2026", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0006", "variant": "scan", "field": "payment_account", "truth": "DE71803246261789289843", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "DE-0006", "variant": "bad_scan", "field": "invoice_date", "truth": "2026-05-04", "prediction": "04.05.2026", "outcome": "incorrect", "rendered": "04.05.2026", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0006", "variant": "bad_scan", "field": "due_date", "truth": "2026-05-18", "prediction": null, "outcome": "incorrect", "rendered": "18.05.2026", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0006", "variant": "bad_scan", "field": "payment_account", "truth": "DE71803246261789289843", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "DE-0006", "variant": "phone_photo", "field": "vendor_tax_id", "truth": "DE422344561", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "DE-0006", "variant": "phone_photo", "field": "invoice_date", "truth": "2026-05-04", "prediction": "04.05.2026", "outcome": "incorrect", "rendered": "04.05.2026", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0006", "variant": "phone_photo", "field": "due_date", "truth": "2026-05-18", "prediction": null, "outcome": "incorrect", "rendered": "18.05.2026", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0006", "variant": "phone_photo", "field": "payment_account", "truth": "DE71803246261789289843", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "DE-0007", "variant": "clean_pdf", "field": "vendor_tax_id", "truth": "DE294983927", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
@@ -927,31 +887,18 @@
 {"doc_id": "DE-0007", "variant": "phone_photo", "field": "payment_account", "truth": "DE39707139707716329479", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "DE-0007", "variant": "phone_photo", "field": "line_item_count", "truth": 23, "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "DE-0008", "variant": "clean_pdf", "field": "vendor_tax_id", "truth": "DE092881955", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "DE-0008", "variant": "clean_pdf", "field": "invoice_date", "truth": "2026-09-03", "prediction": "03.09.2026", "outcome": "incorrect", "rendered": "03.09.2026", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0008", "variant": "clean_pdf", "field": "due_date", "truth": "2026-10-03", "prediction": null, "outcome": "incorrect", "rendered": "03.10.2026", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0008", "variant": "clean_pdf", "field": "payment_account", "truth": "DE98087118284325490461", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "DE-0008", "variant": "scan", "field": "vendor_tax_id", "truth": "DE092881955", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "DE-0008", "variant": "scan", "field": "invoice_date", "truth": "2026-09-03", "prediction": "03.09.2026", "outcome": "incorrect", "rendered": "03.09.2026", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0008", "variant": "scan", "field": "due_date", "truth": "2026-10-03", "prediction": null, "outcome": "incorrect", "rendered": "03.10.2026", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0008", "variant": "scan", "field": "payment_account", "truth": "DE98087118284325490461", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "DE-0008", "variant": "bad_scan", "field": "invoice_date", "truth": "2026-09-03", "prediction": "03.09.2026", "outcome": "incorrect", "rendered": "03.09.2026", "tool": "aws_textract_expense"}
-{"doc_id": "DE-0008", "variant": "bad_scan", "field": "due_date", "truth": "2026-10-03", "prediction": "03.10.2026", "outcome": "incorrect", "rendered": "03.10.2026", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0008", "variant": "bad_scan", "field": "payment_account", "truth": "DE98087118284325490461", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "DE-0008", "variant": "bad_scan", "field": "line_item_count", "truth": 8, "prediction": 6, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "DE-0008", "variant": "phone_photo", "field": "invoice_date", "truth": "2026-09-03", "prediction": "03.09.2026", "outcome": "incorrect", "rendered": "03.09.2026", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0008", "variant": "phone_photo", "field": "due_date", "truth": "2026-10-03", "prediction": null, "outcome": "incorrect", "rendered": "03.10.2026", "tool": "aws_textract_expense"}
 {"doc_id": "DE-0008", "variant": "phone_photo", "field": "payment_account", "truth": "DE98087118284325490461", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "GB-0001", "variant": "clean_pdf", "field": "invoice_date", "truth": "2026-08-04", "prediction": "04/08/2026", "outcome": "incorrect", "rendered": "04/08/2026", "tool": "aws_textract_expense"}
-{"doc_id": "GB-0001", "variant": "clean_pdf", "field": "due_date", "truth": "2026-09-03", "prediction": "03/09/2026", "outcome": "incorrect", "rendered": "03/09/2026", "tool": "aws_textract_expense"}
 {"doc_id": "GB-0001", "variant": "clean_pdf", "field": "payment_account", "truth": "GB39R5JCPTXU1UUYSLUAXF", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "GB-0001", "variant": "scan", "field": "invoice_date", "truth": "2026-08-04", "prediction": "04/08/2026", "outcome": "incorrect", "rendered": "04/08/2026", "tool": "aws_textract_expense"}
-{"doc_id": "GB-0001", "variant": "scan", "field": "due_date", "truth": "2026-09-03", "prediction": "03/09/2026", "outcome": "incorrect", "rendered": "03/09/2026", "tool": "aws_textract_expense"}
 {"doc_id": "GB-0001", "variant": "scan", "field": "payment_account", "truth": "GB39R5JCPTXU1UUYSLUAXF", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "GB-0001", "variant": "bad_scan", "field": "invoice_date", "truth": "2026-08-04", "prediction": "04/08/2026", "outcome": "incorrect", "rendered": "04/08/2026", "tool": "aws_textract_expense"}
-{"doc_id": "GB-0001", "variant": "bad_scan", "field": "due_date", "truth": "2026-09-03", "prediction": "03/09/2026", "outcome": "incorrect", "rendered": "03/09/2026", "tool": "aws_textract_expense"}
 {"doc_id": "GB-0001", "variant": "bad_scan", "field": "payment_account", "truth": "GB39R5JCPTXU1UUYSLUAXF", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "GB-0001", "variant": "phone_photo", "field": "invoice_date", "truth": "2026-08-04", "prediction": "04/08/2026", "outcome": "incorrect", "rendered": "04/08/2026", "tool": "aws_textract_expense"}
-{"doc_id": "GB-0001", "variant": "phone_photo", "field": "due_date", "truth": "2026-09-03", "prediction": "03/09/2026", "outcome": "incorrect", "rendered": "03/09/2026", "tool": "aws_textract_expense"}
 {"doc_id": "GB-0001", "variant": "phone_photo", "field": "payment_account", "truth": "GB39R5JCPTXU1UUYSLUAXF", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "GB-0002", "variant": "clean_pdf", "field": "subtotal", "truth": "40084.06", "prediction": "£40,084.06 (GBP)", "outcome": "incorrect", "rendered": "£40,084.06 (GBP)", "tool": "aws_textract_expense"}
 {"doc_id": "GB-0002", "variant": "clean_pdf", "field": "total", "truth": "48100.87", "prediction": "£48,100.87 (GBP)", "outcome": "incorrect", "rendered": "£48,100.87 (GBP)", "tool": "aws_textract_expense"}
@@ -1008,43 +955,27 @@
 {"doc_id": "GB-0003", "variant": "phone_photo", "field": "due_date", "truth": "2025-06-23", "prediction": null, "outcome": "incorrect", "rendered": "23/06/2025", "tool": "aws_textract_expense"}
 {"doc_id": "GB-0003", "variant": "phone_photo", "field": "payment_account", "truth": "GB229AQ4GIU2GT74P4P5GI", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "GB-0003", "variant": "phone_photo", "field": "line_item_count", "truth": 20, "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "GB-0004", "variant": "clean_pdf", "field": "invoice_date", "truth": "2025-05-01", "prediction": "01/05/2025", "outcome": "incorrect", "rendered": "01/05/2025", "tool": "aws_textract_expense"}
 {"doc_id": "GB-0004", "variant": "clean_pdf", "field": "payment_account", "truth": "GB5963JVFHJJB60JZBLNPC", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "GB-0004", "variant": "scan", "field": "vendor_tax_id", "truth": "GB311380177", "prediction": "GB 3 311 3801 77", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "GB-0004", "variant": "scan", "field": "invoice_date", "truth": "2025-05-01", "prediction": "01/05/2025", "outcome": "incorrect", "rendered": "01/05/2025", "tool": "aws_textract_expense"}
 {"doc_id": "GB-0004", "variant": "scan", "field": "payment_account", "truth": "GB5963JVFHJJB60JZBLNPC", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "GB-0004", "variant": "bad_scan", "field": "invoice_date", "truth": "2025-05-01", "prediction": "01/05/2025", "outcome": "incorrect", "rendered": "01/05/2025", "tool": "aws_textract_expense"}
 {"doc_id": "GB-0004", "variant": "bad_scan", "field": "payment_account", "truth": "GB5963JVFHJJB60JZBLNPC", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "GB-0004", "variant": "phone_photo", "field": "invoice_date", "truth": "2025-05-01", "prediction": "01/05/2025", "outcome": "incorrect", "rendered": "01/05/2025", "tool": "aws_textract_expense"}
 {"doc_id": "GB-0004", "variant": "phone_photo", "field": "payment_account", "truth": "GB5963JVFHJJB60JZBLNPC", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "GB-0004", "variant": "phone_photo", "field": "line_item_count", "truth": 8, "prediction": 7, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "GB-0005", "variant": "clean_pdf", "field": "vendor_tax_id", "truth": "GB467337977", "prediction": "GB 3 467 3379 77", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "GB-0005", "variant": "clean_pdf", "field": "invoice_date", "truth": "2026-04-12", "prediction": "12/04/2026", "outcome": "incorrect", "rendered": "12/04/2026", "tool": "aws_textract_expense"}
-{"doc_id": "GB-0005", "variant": "scan", "field": "invoice_date", "truth": "2026-04-12", "prediction": "12/04/2026", "outcome": "incorrect", "rendered": "12/04/2026", "tool": "aws_textract_expense"}
 {"doc_id": "GB-0005", "variant": "bad_scan", "field": "vendor_tax_id", "truth": "GB467337977", "prediction": "GB 1 467 3379 77", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "GB-0005", "variant": "bad_scan", "field": "invoice_date", "truth": "2026-04-12", "prediction": "12/04/2026", "outcome": "incorrect", "rendered": "12/04/2026", "tool": "aws_textract_expense"}
-{"doc_id": "GB-0005", "variant": "phone_photo", "field": "invoice_date", "truth": "2026-04-12", "prediction": "12/04/2026", "outcome": "incorrect", "rendered": "12/04/2026", "tool": "aws_textract_expense"}
 {"doc_id": "GB-0006", "variant": "bad_scan", "field": "vendor_tax_id", "truth": "GB718582990", "prediction": "G8 718 5829 90", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "GB-0006", "variant": "phone_photo", "field": "vendor_tax_id", "truth": "GB718582990", "prediction": "GB 718 5829 9 90", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "GB-0007", "variant": "clean_pdf", "field": "invoice_date", "truth": "2026-01-05", "prediction": "05/01/2026", "outcome": "incorrect", "rendered": "05/01/2026", "tool": "aws_textract_expense"}
 {"doc_id": "GB-0007", "variant": "clean_pdf", "field": "payment_account", "truth": "GB35IJTDFK7A58XA0C8IBL", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "GB-0007", "variant": "scan", "field": "invoice_date", "truth": "2026-01-05", "prediction": "05/01/2026", "outcome": "incorrect", "rendered": "05/01/2026", "tool": "aws_textract_expense"}
 {"doc_id": "GB-0007", "variant": "scan", "field": "payment_account", "truth": "GB35IJTDFK7A58XA0C8IBL", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "GB-0007", "variant": "bad_scan", "field": "vendor_tax_id", "truth": "GB504308217", "prediction": "GB 8 504 3082 17", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "GB-0007", "variant": "bad_scan", "field": "invoice_date", "truth": "2026-01-05", "prediction": "05/01/2026", "outcome": "incorrect", "rendered": "05/01/2026", "tool": "aws_textract_expense"}
 {"doc_id": "GB-0007", "variant": "bad_scan", "field": "payment_account", "truth": "GB35IJTDFK7A58XA0C8IBL", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "GB-0007", "variant": "bad_scan", "field": "line_item_count", "truth": 11, "prediction": 10, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "GB-0007", "variant": "phone_photo", "field": "invoice_date", "truth": "2026-01-05", "prediction": "05/01/2026", "outcome": "incorrect", "rendered": "05/01/2026", "tool": "aws_textract_expense"}
 {"doc_id": "GB-0007", "variant": "phone_photo", "field": "payment_account", "truth": "GB35IJTDFK7A58XA0C8IBL", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "GB-0008", "variant": "clean_pdf", "field": "invoice_date", "truth": "2026-04-10", "prediction": "10/04/2026", "outcome": "incorrect", "rendered": "10/04/2026", "tool": "aws_textract_expense"}
 {"doc_id": "GB-0008", "variant": "clean_pdf", "field": "payment_account", "truth": "GB72VQZGI26SAGISAKQ8T8", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "GB-0008", "variant": "scan", "field": "vendor_tax_id", "truth": "GB774119239", "prediction": "GB 774 41192", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "GB-0008", "variant": "scan", "field": "invoice_date", "truth": "2026-04-10", "prediction": "10/04/2026", "outcome": "incorrect", "rendered": "10/04/2026", "tool": "aws_textract_expense"}
 {"doc_id": "GB-0008", "variant": "scan", "field": "payment_account", "truth": "GB72VQZGI26SAGISAKQ8T8", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "GB-0008", "variant": "bad_scan", "field": "vendor_tax_id", "truth": "GB774119239", "prediction": "GB 1774119239", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "GB-0008", "variant": "bad_scan", "field": "invoice_date", "truth": "2026-04-10", "prediction": "10/04/2026", "outcome": "incorrect", "rendered": "10/04/2026", "tool": "aws_textract_expense"}
 {"doc_id": "GB-0008", "variant": "bad_scan", "field": "payment_account", "truth": "GB72VQZGI26SAGISAKQ8T8", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "GB-0008", "variant": "phone_photo", "field": "invoice_date", "truth": "2026-04-10", "prediction": "10/04/2026", "outcome": "incorrect", "rendered": "10/04/2026", "tool": "aws_textract_expense"}
 {"doc_id": "GB-0008", "variant": "phone_photo", "field": "payment_account", "truth": "GB72VQZGI26SAGISAKQ8T8", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "ID-0001", "variant": "clean_pdf", "field": "vendor_tax_id", "truth": "837600676278651", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "ID-0001", "variant": "clean_pdf", "field": "invoice_date", "truth": "2025-07-11", "prediction": null, "outcome": "incorrect", "rendered": "11/07/2025", "tool": "aws_textract_expense"}
@@ -1055,7 +986,6 @@
 {"doc_id": "ID-0001", "variant": "scan", "field": "due_date", "truth": "2025-08-25", "prediction": null, "outcome": "incorrect", "rendered": "25/08/2025", "tool": "aws_textract_expense"}
 {"doc_id": "ID-0001", "variant": "scan", "field": "currency", "truth": "IDR", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "ID-0001", "variant": "bad_scan", "field": "vendor_tax_id", "truth": "837600676278651", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "ID-0001", "variant": "bad_scan", "field": "invoice_date", "truth": "2025-07-11", "prediction": "11/07/2025", "outcome": "incorrect", "rendered": "11/07/2025", "tool": "aws_textract_expense"}
 {"doc_id": "ID-0001", "variant": "bad_scan", "field": "due_date", "truth": "2025-08-25", "prediction": null, "outcome": "incorrect", "rendered": "25/08/2025", "tool": "aws_textract_expense"}
 {"doc_id": "ID-0001", "variant": "bad_scan", "field": "currency", "truth": "IDR", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "ID-0001", "variant": "phone_photo", "field": "vendor_tax_id", "truth": "837600676278651", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
@@ -1083,12 +1013,10 @@
 {"doc_id": "ID-0002", "variant": "phone_photo", "field": "subtotal", "truth": "59732000.00", "prediction": "Rp59.732.000,00 (IDR)", "outcome": "incorrect", "rendered": "Rp59.732.000,00 (IDR)", "tool": "aws_textract_expense"}
 {"doc_id": "ID-0002", "variant": "phone_photo", "field": "total", "truth": "66302520.00", "prediction": "Rp66.302.520,00 (IDR)", "outcome": "incorrect", "rendered": "Rp66.302.520,00 (IDR)", "tool": "aws_textract_expense"}
 {"doc_id": "ID-0003", "variant": "clean_pdf", "field": "vendor_tax_id", "truth": "226631455426923", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "ID-0003", "variant": "clean_pdf", "field": "invoice_date", "truth": "2025-03-05", "prediction": "05/03/2025", "outcome": "incorrect", "rendered": "05/03/2025", "tool": "aws_textract_expense"}
 {"doc_id": "ID-0003", "variant": "clean_pdf", "field": "due_date", "truth": "2025-04-04", "prediction": null, "outcome": "incorrect", "rendered": "04/04/2025", "tool": "aws_textract_expense"}
 {"doc_id": "ID-0003", "variant": "clean_pdf", "field": "currency", "truth": "IDR", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "ID-0003", "variant": "clean_pdf", "field": "line_item_count", "truth": 25, "prediction": 22, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "ID-0003", "variant": "scan", "field": "vendor_tax_id", "truth": "226631455426923", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "ID-0003", "variant": "scan", "field": "invoice_date", "truth": "2025-03-05", "prediction": "05/03/2025", "outcome": "incorrect", "rendered": "05/03/2025", "tool": "aws_textract_expense"}
 {"doc_id": "ID-0003", "variant": "scan", "field": "due_date", "truth": "2025-04-04", "prediction": null, "outcome": "incorrect", "rendered": "04/04/2025", "tool": "aws_textract_expense"}
 {"doc_id": "ID-0003", "variant": "scan", "field": "currency", "truth": "IDR", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "ID-0003", "variant": "scan", "field": "subtotal", "truth": "391550500.00", "prediction": null, "outcome": "incorrect", "rendered": "Rp391 550 500.00", "tool": "aws_textract_expense"}
@@ -1122,7 +1050,6 @@
 {"doc_id": "ID-0003", "variant": "bad_scan", "field": "line_item_count", "truth": 25, "prediction": 3, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "ID-0003", "variant": "phone_photo", "field": "vendor_tax_id", "truth": "226631455426923", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "ID-0003", "variant": "phone_photo", "field": "invoice_number", "truth": "INV/2025/III/3518", "prediction": "INV/2025/II/3518", "outcome": "incorrect", "rendered": "INV/2025/III/3518", "tool": "aws_textract_expense"}
-{"doc_id": "ID-0003", "variant": "phone_photo", "field": "invoice_date", "truth": "2025-03-05", "prediction": "05/03/2025", "outcome": "incorrect", "rendered": "05/03/2025", "tool": "aws_textract_expense"}
 {"doc_id": "ID-0003", "variant": "phone_photo", "field": "due_date", "truth": "2025-04-04", "prediction": null, "outcome": "incorrect", "rendered": "04/04/2025", "tool": "aws_textract_expense"}
 {"doc_id": "ID-0003", "variant": "phone_photo", "field": "currency", "truth": "IDR", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "ID-0003", "variant": "phone_photo", "field": "subtotal", "truth": "391550500.00", "prediction": null, "outcome": "incorrect", "rendered": "Rp391 550 500.00", "tool": "aws_textract_expense"}
@@ -1138,30 +1065,18 @@
 {"doc_id": "ID-0003", "variant": "phone_photo", "field": "currency", "truth": "IDR", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "ID-0003", "variant": "phone_photo", "field": "line_item_count", "truth": 25, "prediction": 3, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "ID-0004", "variant": "clean_pdf", "field": "vendor_tax_id", "truth": "406084072763504", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "ID-0004", "variant": "clean_pdf", "field": "invoice_date", "truth": "2025-04-03", "prediction": "03/04/2025", "outcome": "incorrect", "rendered": "03/04/2025", "tool": "aws_textract_expense"}
 {"doc_id": "ID-0004", "variant": "clean_pdf", "field": "due_date", "truth": "2025-05-03", "prediction": null, "outcome": "incorrect", "rendered": "03/05/2025", "tool": "aws_textract_expense"}
 {"doc_id": "ID-0004", "variant": "clean_pdf", "field": "currency", "truth": "IDR", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "ID-0004", "variant": "scan", "field": "vendor_tax_id", "truth": "406084072763504", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "ID-0004", "variant": "scan", "field": "invoice_date", "truth": "2025-04-03", "prediction": "03/04/2025", "outcome": "incorrect", "rendered": "03/04/2025", "tool": "aws_textract_expense"}
 {"doc_id": "ID-0004", "variant": "scan", "field": "due_date", "truth": "2025-05-03", "prediction": null, "outcome": "incorrect", "rendered": "03/05/2025", "tool": "aws_textract_expense"}
 {"doc_id": "ID-0004", "variant": "scan", "field": "currency", "truth": "IDR", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "ID-0004", "variant": "bad_scan", "field": "vendor_tax_id", "truth": "406084072763504", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "ID-0004", "variant": "bad_scan", "field": "invoice_date", "truth": "2025-04-03", "prediction": "03/04/2025", "outcome": "incorrect", "rendered": "03/04/2025", "tool": "aws_textract_expense"}
 {"doc_id": "ID-0004", "variant": "bad_scan", "field": "due_date", "truth": "2025-05-03", "prediction": null, "outcome": "incorrect", "rendered": "03/05/2025", "tool": "aws_textract_expense"}
 {"doc_id": "ID-0004", "variant": "bad_scan", "field": "currency", "truth": "IDR", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "ID-0004", "variant": "phone_photo", "field": "vendor_tax_id", "truth": "406084072763504", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "ID-0004", "variant": "phone_photo", "field": "invoice_date", "truth": "2025-04-03", "prediction": "03/04/2025", "outcome": "incorrect", "rendered": "03/04/2025", "tool": "aws_textract_expense"}
 {"doc_id": "ID-0004", "variant": "phone_photo", "field": "due_date", "truth": "2025-05-03", "prediction": null, "outcome": "incorrect", "rendered": "03/05/2025", "tool": "aws_textract_expense"}
 {"doc_id": "ID-0004", "variant": "phone_photo", "field": "currency", "truth": "IDR", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "ID-0005", "variant": "clean_pdf", "field": "invoice_date", "truth": "2025-08-02", "prediction": "02/08/2025", "outcome": "incorrect", "rendered": "02/08/2025", "tool": "aws_textract_expense"}
-{"doc_id": "ID-0005", "variant": "clean_pdf", "field": "due_date", "truth": "2025-09-01", "prediction": "01/09/2025", "outcome": "incorrect", "rendered": "01/09/2025", "tool": "aws_textract_expense"}
-{"doc_id": "ID-0005", "variant": "scan", "field": "invoice_date", "truth": "2025-08-02", "prediction": "02/08/2025", "outcome": "incorrect", "rendered": "02/08/2025", "tool": "aws_textract_expense"}
-{"doc_id": "ID-0005", "variant": "scan", "field": "due_date", "truth": "2025-09-01", "prediction": "01/09/2025", "outcome": "incorrect", "rendered": "01/09/2025", "tool": "aws_textract_expense"}
 {"doc_id": "ID-0005", "variant": "bad_scan", "field": "vendor_name", "truth": "PT Nusantara Elektronik", "prediction": "Elektronik\nPT Nusantara", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "ID-0005", "variant": "bad_scan", "field": "invoice_date", "truth": "2025-08-02", "prediction": "02/08/2025", "outcome": "incorrect", "rendered": "02/08/2025", "tool": "aws_textract_expense"}
-{"doc_id": "ID-0005", "variant": "bad_scan", "field": "due_date", "truth": "2025-09-01", "prediction": "01/09/2025", "outcome": "incorrect", "rendered": "01/09/2025", "tool": "aws_textract_expense"}
-{"doc_id": "ID-0005", "variant": "phone_photo", "field": "invoice_date", "truth": "2025-08-02", "prediction": "02/08/2025", "outcome": "incorrect", "rendered": "02/08/2025", "tool": "aws_textract_expense"}
-{"doc_id": "ID-0005", "variant": "phone_photo", "field": "due_date", "truth": "2025-09-01", "prediction": "01/09/2025", "outcome": "incorrect", "rendered": "01/09/2025", "tool": "aws_textract_expense"}
 {"doc_id": "ID-0006", "variant": "clean_pdf", "field": "vendor_tax_id", "truth": "031940796462772", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "ID-0006", "variant": "clean_pdf", "field": "due_date", "truth": "2025-12-20", "prediction": null, "outcome": "incorrect", "rendered": "20/12/2025", "tool": "aws_textract_expense"}
 {"doc_id": "ID-0006", "variant": "clean_pdf", "field": "currency", "truth": "IDR", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
@@ -1192,59 +1107,47 @@
 {"doc_id": "ID-0007", "variant": "phone_photo", "field": "due_date", "truth": "2025-08-12", "prediction": null, "outcome": "incorrect", "rendered": "12/08/2025", "tool": "aws_textract_expense"}
 {"doc_id": "ID-0007", "variant": "phone_photo", "field": "currency", "truth": "IDR", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "ID-0008", "variant": "clean_pdf", "field": "vendor_tax_id", "truth": "476569725415167", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "ID-0008", "variant": "clean_pdf", "field": "invoice_date", "truth": "2025-10-06", "prediction": "06/10/2025", "outcome": "incorrect", "rendered": "06/10/2025", "tool": "aws_textract_expense"}
 {"doc_id": "ID-0008", "variant": "clean_pdf", "field": "currency", "truth": "IDR", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "ID-0008", "variant": "scan", "field": "vendor_tax_id", "truth": "476569725415167", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "ID-0008", "variant": "scan", "field": "invoice_date", "truth": "2025-10-06", "prediction": "06/10/2025", "outcome": "incorrect", "rendered": "06/10/2025", "tool": "aws_textract_expense"}
 {"doc_id": "ID-0008", "variant": "scan", "field": "currency", "truth": "IDR", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "ID-0008", "variant": "scan", "field": "line_item_count", "truth": 4, "prediction": 3, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "ID-0008", "variant": "bad_scan", "field": "vendor_tax_id", "truth": "476569725415167", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "ID-0008", "variant": "bad_scan", "field": "invoice_date", "truth": "2025-10-06", "prediction": "06/10/2025", "outcome": "incorrect", "rendered": "06/10/2025", "tool": "aws_textract_expense"}
 {"doc_id": "ID-0008", "variant": "bad_scan", "field": "currency", "truth": "IDR", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "ID-0008", "variant": "bad_scan", "field": "line_item_count", "truth": 4, "prediction": 3, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "ID-0008", "variant": "phone_photo", "field": "vendor_tax_id", "truth": "476569725415167", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "ID-0008", "variant": "phone_photo", "field": "invoice_date", "truth": "2025-10-06", "prediction": "06/10/2025", "outcome": "incorrect", "rendered": "06/10/2025", "tool": "aws_textract_expense"}
 {"doc_id": "ID-0008", "variant": "phone_photo", "field": "currency", "truth": "IDR", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "IN-0001", "variant": "clean_pdf", "field": "vendor_name", "truth": "चेन्नई फूड्स प्राइवेट लिमिटेड", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "IN-0001", "variant": "clean_pdf", "field": "invoice_date", "truth": "2026-09-07", "prediction": "07/09/2026", "outcome": "incorrect", "rendered": "07/09/2026", "tool": "aws_textract_expense"}
 {"doc_id": "IN-0001", "variant": "clean_pdf", "field": "subtotal", "truth": "1075950.00", "prediction": "10,75,950.00", "outcome": "incorrect", "rendered": "₹10,75,950.00", "tool": "aws_textract_expense"}
 {"doc_id": "IN-0001", "variant": "clean_pdf", "field": "tax_total", "truth": "193671.00", "prediction": "1,93,671.00", "outcome": "incorrect", "rendered": "1,93,671.00", "tool": "aws_textract_expense"}
 {"doc_id": "IN-0001", "variant": "clean_pdf", "field": "total", "truth": "1269621.00", "prediction": "12,69,621.00", "outcome": "incorrect", "rendered": "₹12,69,621.00", "tool": "aws_textract_expense"}
 {"doc_id": "IN-0001", "variant": "scan", "field": "vendor_name", "truth": "चेन्नई फूड्स प्राइवेट लिमिटेड", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "IN-0001", "variant": "scan", "field": "invoice_date", "truth": "2026-09-07", "prediction": "07/09/2026", "outcome": "incorrect", "rendered": "07/09/2026", "tool": "aws_textract_expense"}
 {"doc_id": "IN-0001", "variant": "scan", "field": "subtotal", "truth": "1075950.00", "prediction": "10,75,950.00", "outcome": "incorrect", "rendered": "₹10,75,950.00", "tool": "aws_textract_expense"}
 {"doc_id": "IN-0001", "variant": "scan", "field": "tax_total", "truth": "193671.00", "prediction": "1,93,671.00", "outcome": "incorrect", "rendered": "1,93,671.00", "tool": "aws_textract_expense"}
 {"doc_id": "IN-0001", "variant": "scan", "field": "total", "truth": "1269621.00", "prediction": "12,69,621.00", "outcome": "incorrect", "rendered": "₹12,69,621.00", "tool": "aws_textract_expense"}
 {"doc_id": "IN-0001", "variant": "bad_scan", "field": "vendor_name", "truth": "चेन्नई फूड्स प्राइवेट लिमिटेड", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "IN-0001", "variant": "bad_scan", "field": "vendor_tax_id", "truth": "24SWDPL9121V6Z8", "prediction": "GSTIN 24SWDPL9121V6Z8", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "IN-0001", "variant": "bad_scan", "field": "invoice_date", "truth": "2026-09-07", "prediction": "07/09/2026", "outcome": "incorrect", "rendered": "07/09/2026", "tool": "aws_textract_expense"}
 {"doc_id": "IN-0001", "variant": "bad_scan", "field": "currency", "truth": "INR", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "IN-0001", "variant": "bad_scan", "field": "subtotal", "truth": "1075950.00", "prediction": "10,75,950.00", "outcome": "incorrect", "rendered": "₹10,75,950.00", "tool": "aws_textract_expense"}
 {"doc_id": "IN-0001", "variant": "bad_scan", "field": "tax_total", "truth": "193671.00", "prediction": null, "outcome": "incorrect", "rendered": "1,93,671.00", "tool": "aws_textract_expense"}
 {"doc_id": "IN-0001", "variant": "bad_scan", "field": "total", "truth": "1269621.00", "prediction": "12,69,621.00", "outcome": "incorrect", "rendered": "₹12,69,621.00", "tool": "aws_textract_expense"}
 {"doc_id": "IN-0001", "variant": "bad_scan", "field": "tax_rates", "truth": ["18"], "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "IN-0001", "variant": "phone_photo", "field": "vendor_name", "truth": "चेन्नई फूड्स प्राइवेट लिमिटेड", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "IN-0001", "variant": "phone_photo", "field": "invoice_date", "truth": "2026-09-07", "prediction": "07/09/2026", "outcome": "incorrect", "rendered": "07/09/2026", "tool": "aws_textract_expense"}
 {"doc_id": "IN-0001", "variant": "phone_photo", "field": "subtotal", "truth": "1075950.00", "prediction": "10,75,950.00", "outcome": "incorrect", "rendered": "₹10,75,950.00", "tool": "aws_textract_expense"}
 {"doc_id": "IN-0001", "variant": "phone_photo", "field": "tax_total", "truth": "193671.00", "prediction": "1,93,671.00", "outcome": "incorrect", "rendered": "1,93,671.00", "tool": "aws_textract_expense"}
 {"doc_id": "IN-0001", "variant": "phone_photo", "field": "total", "truth": "1269621.00", "prediction": "12,69,621.00", "outcome": "incorrect", "rendered": "₹12,69,621.00", "tool": "aws_textract_expense"}
 {"doc_id": "IN-0002", "variant": "clean_pdf", "field": "vendor_name", "truth": "दिल्ली ऑफिस सप्लाई प्राइवेट लिमिटेड", "prediction": "Paceft", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "IN-0002", "variant": "clean_pdf", "field": "invoice_date", "truth": "2026-09-10", "prediction": "10/09/2026", "outcome": "incorrect", "rendered": "10/09/2026", "tool": "aws_textract_expense"}
 {"doc_id": "IN-0002", "variant": "clean_pdf", "field": "subtotal", "truth": "2050.43", "prediction": "2,050.43 (INR)", "outcome": "incorrect", "rendered": "₹2,050.43 (INR)", "tool": "aws_textract_expense"}
 {"doc_id": "IN-0002", "variant": "clean_pdf", "field": "tax_total", "truth": "369.08", "prediction": "184.54", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "IN-0002", "variant": "clean_pdf", "field": "total", "truth": "2419.51", "prediction": "2,419.51 (INR)", "outcome": "incorrect", "rendered": "₹2,419.51 (INR)", "tool": "aws_textract_expense"}
 {"doc_id": "IN-0002", "variant": "scan", "field": "vendor_name", "truth": "दिल्ली ऑफिस सप्लाई प्राइवेट लिमिटेड", "prediction": "Paceft", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "IN-0002", "variant": "scan", "field": "invoice_date", "truth": "2026-09-10", "prediction": "10/09/2026", "outcome": "incorrect", "rendered": "10/09/2026", "tool": "aws_textract_expense"}
 {"doc_id": "IN-0002", "variant": "scan", "field": "subtotal", "truth": "2050.43", "prediction": "2,050.43 (INR)", "outcome": "incorrect", "rendered": "₹2,050.43 (INR)", "tool": "aws_textract_expense"}
 {"doc_id": "IN-0002", "variant": "scan", "field": "tax_total", "truth": "369.08", "prediction": "184.54", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "IN-0002", "variant": "scan", "field": "total", "truth": "2419.51", "prediction": "2,419.51 (INR)", "outcome": "incorrect", "rendered": "₹2,419.51 (INR)", "tool": "aws_textract_expense"}
 {"doc_id": "IN-0002", "variant": "bad_scan", "field": "vendor_name", "truth": "दिल्ली ऑफिस सप्लाई प्राइवेट लिमिटेड", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "IN-0002", "variant": "bad_scan", "field": "invoice_date", "truth": "2026-09-10", "prediction": "10/09/2026", "outcome": "incorrect", "rendered": "10/09/2026", "tool": "aws_textract_expense"}
 {"doc_id": "IN-0002", "variant": "bad_scan", "field": "subtotal", "truth": "2050.43", "prediction": "2,050.43 (INR)", "outcome": "incorrect", "rendered": "₹2,050.43 (INR)", "tool": "aws_textract_expense"}
 {"doc_id": "IN-0002", "variant": "bad_scan", "field": "tax_total", "truth": "369.08", "prediction": "184.54", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "IN-0002", "variant": "bad_scan", "field": "total", "truth": "2419.51", "prediction": "2,419.51 (INR)", "outcome": "incorrect", "rendered": "₹2,419.51 (INR)", "tool": "aws_textract_expense"}
 {"doc_id": "IN-0002", "variant": "phone_photo", "field": "vendor_name", "truth": "दिल्ली ऑफिस सप्लाई प्राइवेट लिमिटेड", "prediction": "Paceft", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "IN-0002", "variant": "phone_photo", "field": "invoice_date", "truth": "2026-09-10", "prediction": "10/09/2026", "outcome": "incorrect", "rendered": "10/09/2026", "tool": "aws_textract_expense"}
 {"doc_id": "IN-0002", "variant": "phone_photo", "field": "subtotal", "truth": "2050.43", "prediction": "2,050.43 (INR)", "outcome": "incorrect", "rendered": "₹2,050.43 (INR)", "tool": "aws_textract_expense"}
 {"doc_id": "IN-0002", "variant": "phone_photo", "field": "tax_total", "truth": "369.08", "prediction": "184.54", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "IN-0002", "variant": "phone_photo", "field": "total", "truth": "2419.51", "prediction": "₹2,419.51 (INR)", "outcome": "incorrect", "rendered": "₹2,419.51 (INR)", "tool": "aws_textract_expense"}
@@ -1256,12 +1159,8 @@
 {"doc_id": "IN-0003", "variant": "bad_scan", "field": "total", "truth": "151762.03", "prediction": "1,51,762.03", "outcome": "incorrect", "rendered": "₹1,51,762.03", "tool": "aws_textract_expense"}
 {"doc_id": "IN-0003", "variant": "phone_photo", "field": "subtotal", "truth": "135501.82", "prediction": "1,35,501.82", "outcome": "incorrect", "rendered": "₹1,35,501.82", "tool": "aws_textract_expense"}
 {"doc_id": "IN-0003", "variant": "phone_photo", "field": "total", "truth": "151762.03", "prediction": "1,51,762.03", "outcome": "incorrect", "rendered": "₹1,51,762.03", "tool": "aws_textract_expense"}
-{"doc_id": "IN-0004", "variant": "clean_pdf", "field": "invoice_date", "truth": "2026-09-10", "prediction": "10/09/2026", "outcome": "incorrect", "rendered": "10/09/2026", "tool": "aws_textract_expense"}
 {"doc_id": "IN-0004", "variant": "clean_pdf", "field": "total", "truth": "84788.08", "prediction": "88,788.08", "outcome": "incorrect", "rendered": "₹84,788.08", "tool": "aws_textract_expense"}
-{"doc_id": "IN-0004", "variant": "scan", "field": "invoice_date", "truth": "2026-09-10", "prediction": "10/09/2026", "outcome": "incorrect", "rendered": "10/09/2026", "tool": "aws_textract_expense"}
 {"doc_id": "IN-0004", "variant": "bad_scan", "field": "vendor_tax_id", "truth": "27XSEVB2968C3ZZ", "prediction": "27XSEVB2968C3Z2", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "IN-0004", "variant": "bad_scan", "field": "invoice_date", "truth": "2026-09-10", "prediction": "10/09/2026", "outcome": "incorrect", "rendered": "10/09/2026", "tool": "aws_textract_expense"}
-{"doc_id": "IN-0004", "variant": "phone_photo", "field": "invoice_date", "truth": "2026-09-10", "prediction": "10/09/2026", "outcome": "incorrect", "rendered": "10/09/2026", "tool": "aws_textract_expense"}
 {"doc_id": "IN-0004", "variant": "phone_photo", "field": "currency", "truth": "INR", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "IN-0004", "variant": "phone_photo", "field": "total", "truth": "84788.08", "prediction": "88,788.08", "outcome": "incorrect", "rendered": "₹84,788.08", "tool": "aws_textract_expense"}
 {"doc_id": "IN-0005", "variant": "clean_pdf", "field": "vendor_name", "truth": "चेन्नई फूड्स प्राइवेट लिमिटेड", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
@@ -1326,37 +1225,25 @@
 {"doc_id": "IN-0006", "variant": "phone_photo", "field": "vendor_name", "truth": "चेन्नई फूड्स प्राइवेट लिमिटेड", "prediction": "PAPS", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "IN-0006", "variant": "phone_photo", "field": "subtotal", "truth": "188880.00", "prediction": "1,88,880.00", "outcome": "incorrect", "rendered": "₹1,88,880.00", "tool": "aws_textract_expense"}
 {"doc_id": "IN-0006", "variant": "phone_photo", "field": "total", "truth": "198324.00", "prediction": "1,98,324.00", "outcome": "incorrect", "rendered": "₹1,98,324.00", "tool": "aws_textract_expense"}
-{"doc_id": "IN-0007", "variant": "clean_pdf", "field": "invoice_date", "truth": "2026-04-01", "prediction": "01/04/2026", "outcome": "incorrect", "rendered": "01/04/2026", "tool": "aws_textract_expense"}
 {"doc_id": "IN-0007", "variant": "clean_pdf", "field": "subtotal", "truth": "918685.63", "prediction": "₹9,18,685.63", "outcome": "incorrect", "rendered": "₹9,18,685.63", "tool": "aws_textract_expense"}
 {"doc_id": "IN-0007", "variant": "clean_pdf", "field": "tax_total", "truth": "110242.28", "prediction": "55,121.14", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "IN-0007", "variant": "clean_pdf", "field": "total", "truth": "1028927.91", "prediction": "10,28,927.91", "outcome": "incorrect", "rendered": "₹10,28,927.91", "tool": "aws_textract_expense"}
 {"doc_id": "IN-0007", "variant": "scan", "field": "vendor_name", "truth": "Jaipur Handicrafts Emporium Pvt. Ltd.", "prediction": "Handicrafts Emporium Pvt. Ltd.", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "IN-0007", "variant": "scan", "field": "invoice_date", "truth": "2026-04-01", "prediction": "01/04/2026", "outcome": "incorrect", "rendered": "01/04/2026", "tool": "aws_textract_expense"}
 {"doc_id": "IN-0007", "variant": "scan", "field": "subtotal", "truth": "918685.63", "prediction": "₹9,18,685.63", "outcome": "incorrect", "rendered": "₹9,18,685.63", "tool": "aws_textract_expense"}
 {"doc_id": "IN-0007", "variant": "scan", "field": "tax_total", "truth": "110242.28", "prediction": "55,121.14", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "IN-0007", "variant": "scan", "field": "total", "truth": "1028927.91", "prediction": "10,28,927.91", "outcome": "incorrect", "rendered": "₹10,28,927.91", "tool": "aws_textract_expense"}
-{"doc_id": "IN-0007", "variant": "bad_scan", "field": "invoice_date", "truth": "2026-04-01", "prediction": "01/04/2026", "outcome": "incorrect", "rendered": "01/04/2026", "tool": "aws_textract_expense"}
 {"doc_id": "IN-0007", "variant": "bad_scan", "field": "subtotal", "truth": "918685.63", "prediction": "$9,18,685.63", "outcome": "incorrect", "rendered": "₹9,18,685.63", "tool": "aws_textract_expense"}
 {"doc_id": "IN-0007", "variant": "bad_scan", "field": "tax_total", "truth": "110242.28", "prediction": "55,121.14", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "IN-0007", "variant": "bad_scan", "field": "total", "truth": "1028927.91", "prediction": "10,28,927.91", "outcome": "incorrect", "rendered": "₹10,28,927.91", "tool": "aws_textract_expense"}
-{"doc_id": "IN-0007", "variant": "phone_photo", "field": "invoice_date", "truth": "2026-04-01", "prediction": "01/04/2026", "outcome": "incorrect", "rendered": "01/04/2026", "tool": "aws_textract_expense"}
 {"doc_id": "IN-0007", "variant": "phone_photo", "field": "subtotal", "truth": "918685.63", "prediction": "₹9,18,685.63", "outcome": "incorrect", "rendered": "₹9,18,685.63", "tool": "aws_textract_expense"}
 {"doc_id": "IN-0007", "variant": "phone_photo", "field": "tax_total", "truth": "110242.28", "prediction": "55,121.14", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "IN-0007", "variant": "phone_photo", "field": "total", "truth": "1028927.91", "prediction": "10,28,927.91", "outcome": "incorrect", "rendered": "₹10,28,927.91", "tool": "aws_textract_expense"}
-{"doc_id": "IN-0008", "variant": "clean_pdf", "field": "invoice_date", "truth": "2026-05-11", "prediction": "11/05/2026", "outcome": "incorrect", "rendered": "11/05/2026", "tool": "aws_textract_expense"}
-{"doc_id": "IN-0008", "variant": "clean_pdf", "field": "due_date", "truth": "2026-06-10", "prediction": "10/06/2026", "outcome": "incorrect", "rendered": "10/06/2026", "tool": "aws_textract_expense"}
 {"doc_id": "IN-0008", "variant": "clean_pdf", "field": "subtotal", "truth": "328980.50", "prediction": "INR 3,28,980.50", "outcome": "incorrect", "rendered": "INR 3,28,980.50", "tool": "aws_textract_expense"}
 {"doc_id": "IN-0008", "variant": "clean_pdf", "field": "total", "truth": "388196.99", "prediction": "INR 3,88,196.99", "outcome": "incorrect", "rendered": "INR 3,88,196.99", "tool": "aws_textract_expense"}
-{"doc_id": "IN-0008", "variant": "scan", "field": "invoice_date", "truth": "2026-05-11", "prediction": "11/05/2026", "outcome": "incorrect", "rendered": "11/05/2026", "tool": "aws_textract_expense"}
-{"doc_id": "IN-0008", "variant": "scan", "field": "due_date", "truth": "2026-06-10", "prediction": "10/06/2026", "outcome": "incorrect", "rendered": "10/06/2026", "tool": "aws_textract_expense"}
 {"doc_id": "IN-0008", "variant": "scan", "field": "subtotal", "truth": "328980.50", "prediction": "INR 3,28,980.50", "outcome": "incorrect", "rendered": "INR 3,28,980.50", "tool": "aws_textract_expense"}
 {"doc_id": "IN-0008", "variant": "scan", "field": "total", "truth": "388196.99", "prediction": "INR 3,88,196.99", "outcome": "incorrect", "rendered": "INR 3,88,196.99", "tool": "aws_textract_expense"}
-{"doc_id": "IN-0008", "variant": "bad_scan", "field": "invoice_date", "truth": "2026-05-11", "prediction": "11/05/2026", "outcome": "incorrect", "rendered": "11/05/2026", "tool": "aws_textract_expense"}
-{"doc_id": "IN-0008", "variant": "bad_scan", "field": "due_date", "truth": "2026-06-10", "prediction": "10/06/2026", "outcome": "incorrect", "rendered": "10/06/2026", "tool": "aws_textract_expense"}
 {"doc_id": "IN-0008", "variant": "bad_scan", "field": "subtotal", "truth": "328980.50", "prediction": "INR 3,28,980.50", "outcome": "incorrect", "rendered": "INR 3,28,980.50", "tool": "aws_textract_expense"}
 {"doc_id": "IN-0008", "variant": "bad_scan", "field": "total", "truth": "388196.99", "prediction": "INR 3,88,196.99", "outcome": "incorrect", "rendered": "INR 3,88,196.99", "tool": "aws_textract_expense"}
-{"doc_id": "IN-0008", "variant": "phone_photo", "field": "invoice_date", "truth": "2026-05-11", "prediction": "11/05/2026", "outcome": "incorrect", "rendered": "11/05/2026", "tool": "aws_textract_expense"}
-{"doc_id": "IN-0008", "variant": "phone_photo", "field": "due_date", "truth": "2026-06-10", "prediction": "10/06/2026", "outcome": "incorrect", "rendered": "10/06/2026", "tool": "aws_textract_expense"}
 {"doc_id": "IN-0008", "variant": "phone_photo", "field": "subtotal", "truth": "328980.50", "prediction": "INR 3,28,980.50", "outcome": "incorrect", "rendered": "INR 3,28,980.50", "tool": "aws_textract_expense"}
 {"doc_id": "IN-0008", "variant": "phone_photo", "field": "total", "truth": "388196.99", "prediction": "INR 3,88,196.99", "outcome": "incorrect", "rendered": "INR 3,88,196.99", "tool": "aws_textract_expense"}
 {"doc_id": "JP-0001", "variant": "clean_pdf", "field": "vendor_name", "truth": "広島機工株式会社", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
@@ -1719,7 +1606,6 @@
 {"doc_id": "KR-0003", "variant": "bad_scan", "field": "vendor_name", "truth": "대전전자 주식회사", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "KR-0003", "variant": "bad_scan", "field": "vendor_tax_id", "truth": "1016358213", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "KR-0003", "variant": "bad_scan", "field": "invoice_date", "truth": "2026-08-05", "prediction": "2026.08.05.", "outcome": "incorrect", "rendered": "2026. 08. 05.", "tool": "aws_textract_expense"}
-{"doc_id": "KR-0003", "variant": "bad_scan", "field": "due_date", "truth": "2026-09-19", "prediction": "2026.09.19", "outcome": "incorrect", "rendered": "2026. 09. 19.", "tool": "aws_textract_expense"}
 {"doc_id": "KR-0003", "variant": "bad_scan", "field": "currency", "truth": "KRW", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "KR-0003", "variant": "bad_scan", "field": "subtotal", "truth": "28195400", "prediction": "W28,195,400", "outcome": "incorrect", "rendered": "₩28,195,400", "tool": "aws_textract_expense"}
 {"doc_id": "KR-0003", "variant": "bad_scan", "field": "tax_total", "truth": "2819540", "prediction": "2,819,540", "outcome": "incorrect", "rendered": "2,819,540", "tool": "aws_textract_expense"}
@@ -1949,7 +1835,6 @@
 {"doc_id": "MX-0001", "variant": "phone_photo", "field": "payment_account", "truth": "012155456276210946", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "MX-0002", "variant": "clean_pdf", "field": "vendor_tax_id", "truth": "DST150217C8N", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "MX-0002", "variant": "clean_pdf", "field": "invoice_number", "truth": "FOLIO-5804", "prediction": null, "outcome": "incorrect", "rendered": "FOLIO-5804", "tool": "aws_textract_expense"}
-{"doc_id": "MX-0002", "variant": "clean_pdf", "field": "invoice_date", "truth": "2025-10-05", "prediction": "05/10/2025", "outcome": "incorrect", "rendered": "05/10/2025", "tool": "aws_textract_expense"}
 {"doc_id": "MX-0002", "variant": "clean_pdf", "field": "due_date", "truth": "2025-12-04", "prediction": null, "outcome": "incorrect", "rendered": "04/12/2025", "tool": "aws_textract_expense"}
 {"doc_id": "MX-0002", "variant": "clean_pdf", "field": "currency", "truth": "MXN", "prediction": "USD", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "MX-0002", "variant": "clean_pdf", "field": "subtotal", "truth": "143733.50", "prediction": "$143,733.50 (MXN)", "outcome": "incorrect", "rendered": "$143,733.50 (MXN)", "tool": "aws_textract_expense"}
@@ -1958,7 +1843,6 @@
 {"doc_id": "MX-0002", "variant": "scan", "field": "vendor_name", "truth": "Distribuidora del Norte S.A. de C.V.", "prediction": "del Norte S.A. de C.V.", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "MX-0002", "variant": "scan", "field": "vendor_tax_id", "truth": "DST150217C8N", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "MX-0002", "variant": "scan", "field": "invoice_number", "truth": "FOLIO-5804", "prediction": null, "outcome": "incorrect", "rendered": "FOLIO-5804", "tool": "aws_textract_expense"}
-{"doc_id": "MX-0002", "variant": "scan", "field": "invoice_date", "truth": "2025-10-05", "prediction": "05/10/2025", "outcome": "incorrect", "rendered": "05/10/2025", "tool": "aws_textract_expense"}
 {"doc_id": "MX-0002", "variant": "scan", "field": "due_date", "truth": "2025-12-04", "prediction": null, "outcome": "incorrect", "rendered": "04/12/2025", "tool": "aws_textract_expense"}
 {"doc_id": "MX-0002", "variant": "scan", "field": "currency", "truth": "MXN", "prediction": "USD", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "MX-0002", "variant": "scan", "field": "subtotal", "truth": "143733.50", "prediction": "$143,733.50 (MXN)", "outcome": "incorrect", "rendered": "$143,733.50 (MXN)", "tool": "aws_textract_expense"}
@@ -1967,7 +1851,6 @@
 {"doc_id": "MX-0002", "variant": "scan", "field": "line_item_count", "truth": 5, "prediction": 4, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "MX-0002", "variant": "bad_scan", "field": "vendor_tax_id", "truth": "DST150217C8N", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "MX-0002", "variant": "bad_scan", "field": "invoice_number", "truth": "FOLIO-5804", "prediction": null, "outcome": "incorrect", "rendered": "FOLIO-5804", "tool": "aws_textract_expense"}
-{"doc_id": "MX-0002", "variant": "bad_scan", "field": "invoice_date", "truth": "2025-10-05", "prediction": "05/10/2025", "outcome": "incorrect", "rendered": "05/10/2025", "tool": "aws_textract_expense"}
 {"doc_id": "MX-0002", "variant": "bad_scan", "field": "due_date", "truth": "2025-12-04", "prediction": null, "outcome": "incorrect", "rendered": "04/12/2025", "tool": "aws_textract_expense"}
 {"doc_id": "MX-0002", "variant": "bad_scan", "field": "currency", "truth": "MXN", "prediction": "USD", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "MX-0002", "variant": "bad_scan", "field": "subtotal", "truth": "143733.50", "prediction": "$143,733.50 (MXN)", "outcome": "incorrect", "rendered": "$143,733.50 (MXN)", "tool": "aws_textract_expense"}
@@ -1975,7 +1858,6 @@
 {"doc_id": "MX-0002", "variant": "bad_scan", "field": "payment_account", "truth": "012516984492613797", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "MX-0002", "variant": "phone_photo", "field": "vendor_tax_id", "truth": "DST150217C8N", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "MX-0002", "variant": "phone_photo", "field": "invoice_number", "truth": "FOLIO-5804", "prediction": null, "outcome": "incorrect", "rendered": "FOLIO-5804", "tool": "aws_textract_expense"}
-{"doc_id": "MX-0002", "variant": "phone_photo", "field": "invoice_date", "truth": "2025-10-05", "prediction": "05/10/2025", "outcome": "incorrect", "rendered": "05/10/2025", "tool": "aws_textract_expense"}
 {"doc_id": "MX-0002", "variant": "phone_photo", "field": "due_date", "truth": "2025-12-04", "prediction": null, "outcome": "incorrect", "rendered": "04/12/2025", "tool": "aws_textract_expense"}
 {"doc_id": "MX-0002", "variant": "phone_photo", "field": "currency", "truth": "MXN", "prediction": "USD", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "MX-0002", "variant": "phone_photo", "field": "subtotal", "truth": "143733.50", "prediction": "$143,733.50 (MXN)", "outcome": "incorrect", "rendered": "$143,733.50 (MXN)", "tool": "aws_textract_expense"}
@@ -2043,43 +1925,35 @@
 {"doc_id": "MX-0003", "variant": "phone_photo", "field": "line_item_count", "truth": 22, "prediction": 2, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "MX-0004", "variant": "clean_pdf", "field": "vendor_name", "truth": "Jose Antonio Ramirez Cuellar", "prediction": "J", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "MX-0004", "variant": "clean_pdf", "field": "vendor_tax_id", "truth": "JSE150119602", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "MX-0004", "variant": "clean_pdf", "field": "invoice_date", "truth": "2026-08-04", "prediction": "04/08/2026", "outcome": "incorrect", "rendered": "04/08/2026", "tool": "aws_textract_expense"}
 {"doc_id": "MX-0004", "variant": "clean_pdf", "field": "due_date", "truth": "2026-09-03", "prediction": null, "outcome": "incorrect", "rendered": "03/09/2026", "tool": "aws_textract_expense"}
 {"doc_id": "MX-0004", "variant": "clean_pdf", "field": "currency", "truth": "MXN", "prediction": "USD", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "MX-0004", "variant": "clean_pdf", "field": "payment_account", "truth": "044963718922670916", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "MX-0004", "variant": "scan", "field": "vendor_name", "truth": "Jose Antonio Ramirez Cuellar", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "MX-0004", "variant": "scan", "field": "vendor_tax_id", "truth": "JSE150119602", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "MX-0004", "variant": "scan", "field": "invoice_number", "truth": "FOLIO-4682", "prediction": null, "outcome": "incorrect", "rendered": "FOLIO-4682", "tool": "aws_textract_expense"}
-{"doc_id": "MX-0004", "variant": "scan", "field": "invoice_date", "truth": "2026-08-04", "prediction": "04/08/2026", "outcome": "incorrect", "rendered": "04/08/2026", "tool": "aws_textract_expense"}
 {"doc_id": "MX-0004", "variant": "scan", "field": "due_date", "truth": "2026-09-03", "prediction": null, "outcome": "incorrect", "rendered": "03/09/2026", "tool": "aws_textract_expense"}
 {"doc_id": "MX-0004", "variant": "scan", "field": "currency", "truth": "MXN", "prediction": "USD", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "MX-0004", "variant": "scan", "field": "payment_account", "truth": "044963718922670916", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "MX-0004", "variant": "bad_scan", "field": "vendor_name", "truth": "Jose Antonio Ramirez Cuellar", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "MX-0004", "variant": "bad_scan", "field": "vendor_tax_id", "truth": "JSE150119602", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "MX-0004", "variant": "bad_scan", "field": "invoice_number", "truth": "FOLIO-4682", "prediction": null, "outcome": "incorrect", "rendered": "FOLIO-4682", "tool": "aws_textract_expense"}
-{"doc_id": "MX-0004", "variant": "bad_scan", "field": "invoice_date", "truth": "2026-08-04", "prediction": "04/08/2026", "outcome": "incorrect", "rendered": "04/08/2026", "tool": "aws_textract_expense"}
 {"doc_id": "MX-0004", "variant": "bad_scan", "field": "due_date", "truth": "2026-09-03", "prediction": null, "outcome": "incorrect", "rendered": "03/09/2026", "tool": "aws_textract_expense"}
 {"doc_id": "MX-0004", "variant": "bad_scan", "field": "currency", "truth": "MXN", "prediction": "USD", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "MX-0004", "variant": "bad_scan", "field": "payment_account", "truth": "044963718922670916", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "MX-0004", "variant": "phone_photo", "field": "vendor_name", "truth": "Jose Antonio Ramirez Cuellar", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "MX-0004", "variant": "phone_photo", "field": "vendor_tax_id", "truth": "JSE150119602", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "MX-0004", "variant": "phone_photo", "field": "invoice_number", "truth": "FOLIO-4682", "prediction": null, "outcome": "incorrect", "rendered": "FOLIO-4682", "tool": "aws_textract_expense"}
-{"doc_id": "MX-0004", "variant": "phone_photo", "field": "invoice_date", "truth": "2026-08-04", "prediction": "04/08/2026", "outcome": "incorrect", "rendered": "04/08/2026", "tool": "aws_textract_expense"}
 {"doc_id": "MX-0004", "variant": "phone_photo", "field": "due_date", "truth": "2026-09-03", "prediction": null, "outcome": "incorrect", "rendered": "03/09/2026", "tool": "aws_textract_expense"}
 {"doc_id": "MX-0004", "variant": "phone_photo", "field": "currency", "truth": "MXN", "prediction": "USD", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "MX-0004", "variant": "phone_photo", "field": "payment_account", "truth": "044963718922670916", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "MX-0005", "variant": "clean_pdf", "field": "vendor_tax_id", "truth": "LGS220415F6K", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "MX-0005", "variant": "clean_pdf", "field": "due_date", "truth": "2025-12-09", "prediction": "09/12/2025", "outcome": "incorrect", "rendered": "09/12/2025", "tool": "aws_textract_expense"}
 {"doc_id": "MX-0005", "variant": "clean_pdf", "field": "payment_account", "truth": "002003512263108928", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "MX-0005", "variant": "scan", "field": "vendor_tax_id", "truth": "LGS220415F6K", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "MX-0005", "variant": "scan", "field": "due_date", "truth": "2025-12-09", "prediction": "09/12/2025", "outcome": "incorrect", "rendered": "09/12/2025", "tool": "aws_textract_expense"}
 {"doc_id": "MX-0005", "variant": "scan", "field": "payment_account", "truth": "002003512263108928", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "MX-0005", "variant": "bad_scan", "field": "vendor_name", "truth": "Logística Pacífico S. de R.L.", "prediction": "Pacifico S. de R.L.", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "MX-0005", "variant": "bad_scan", "field": "vendor_tax_id", "truth": "LGS220415F6K", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "MX-0005", "variant": "bad_scan", "field": "due_date", "truth": "2025-12-09", "prediction": "09/12/2025", "outcome": "incorrect", "rendered": "09/12/2025", "tool": "aws_textract_expense"}
 {"doc_id": "MX-0005", "variant": "bad_scan", "field": "payment_account", "truth": "002003512263108928", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "MX-0005", "variant": "phone_photo", "field": "vendor_tax_id", "truth": "LGS220415F6K", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "MX-0005", "variant": "phone_photo", "field": "due_date", "truth": "2025-12-09", "prediction": "09/12/2025", "outcome": "incorrect", "rendered": "09/12/2025", "tool": "aws_textract_expense"}
 {"doc_id": "MX-0005", "variant": "phone_photo", "field": "payment_account", "truth": "002003512263108928", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "MX-0006", "variant": "clean_pdf", "field": "vendor_tax_id", "truth": "TEC110517UUJ", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "MX-0006", "variant": "clean_pdf", "field": "invoice_number", "truth": "FOLIO-7403", "prediction": null, "outcome": "incorrect", "rendered": "FOLIO-7403", "tool": "aws_textract_expense"}
@@ -2101,7 +1975,6 @@
 {"doc_id": "MX-0006", "variant": "phone_photo", "field": "currency", "truth": "MXN", "prediction": "USD", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "MX-0007", "variant": "clean_pdf", "field": "vendor_tax_id", "truth": "MAR1005146X7", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "MX-0007", "variant": "clean_pdf", "field": "invoice_number", "truth": "FOLIO-3775", "prediction": null, "outcome": "incorrect", "rendered": "FOLIO-3775", "tool": "aws_textract_expense"}
-{"doc_id": "MX-0007", "variant": "clean_pdf", "field": "invoice_date", "truth": "2025-06-10", "prediction": "10/06/2025", "outcome": "incorrect", "rendered": "10/06/2025", "tool": "aws_textract_expense"}
 {"doc_id": "MX-0007", "variant": "clean_pdf", "field": "due_date", "truth": "2025-06-25", "prediction": null, "outcome": "incorrect", "rendered": "25/06/2025", "tool": "aws_textract_expense"}
 {"doc_id": "MX-0007", "variant": "clean_pdf", "field": "currency", "truth": "MXN", "prediction": "USD", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "MX-0007", "variant": "clean_pdf", "field": "payment_account", "truth": "036885545829775367", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
@@ -2125,25 +1998,21 @@
 {"doc_id": "MX-0007", "variant": "phone_photo", "field": "payment_account", "truth": "036885545829775367", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "MX-0008", "variant": "clean_pdf", "field": "vendor_tax_id", "truth": "DST150217C8N", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "MX-0008", "variant": "clean_pdf", "field": "invoice_number", "truth": "FOLIO-7342", "prediction": null, "outcome": "incorrect", "rendered": "FOLIO-7342", "tool": "aws_textract_expense"}
-{"doc_id": "MX-0008", "variant": "clean_pdf", "field": "invoice_date", "truth": "2025-08-07", "prediction": "07/08/2025", "outcome": "incorrect", "rendered": "07/08/2025", "tool": "aws_textract_expense"}
 {"doc_id": "MX-0008", "variant": "clean_pdf", "field": "due_date", "truth": "2025-09-06", "prediction": null, "outcome": "incorrect", "rendered": "06/09/2025", "tool": "aws_textract_expense"}
 {"doc_id": "MX-0008", "variant": "clean_pdf", "field": "currency", "truth": "MXN", "prediction": "USD", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "MX-0008", "variant": "clean_pdf", "field": "payment_account", "truth": "002101695319655953", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "MX-0008", "variant": "scan", "field": "vendor_name", "truth": "Distribuidora del Norte S.A. de C.V.", "prediction": "del Norte S.A. de C.V.", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "MX-0008", "variant": "scan", "field": "vendor_tax_id", "truth": "DST150217C8N", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "MX-0008", "variant": "scan", "field": "invoice_number", "truth": "FOLIO-7342", "prediction": null, "outcome": "incorrect", "rendered": "FOLIO-7342", "tool": "aws_textract_expense"}
-{"doc_id": "MX-0008", "variant": "scan", "field": "invoice_date", "truth": "2025-08-07", "prediction": "07/08/2025", "outcome": "incorrect", "rendered": "07/08/2025", "tool": "aws_textract_expense"}
 {"doc_id": "MX-0008", "variant": "scan", "field": "due_date", "truth": "2025-09-06", "prediction": null, "outcome": "incorrect", "rendered": "06/09/2025", "tool": "aws_textract_expense"}
 {"doc_id": "MX-0008", "variant": "scan", "field": "currency", "truth": "MXN", "prediction": "USD", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "MX-0008", "variant": "scan", "field": "payment_account", "truth": "002101695319655953", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "MX-0008", "variant": "bad_scan", "field": "vendor_tax_id", "truth": "DST150217C8N", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "MX-0008", "variant": "bad_scan", "field": "invoice_number", "truth": "FOLIO-7342", "prediction": null, "outcome": "incorrect", "rendered": "FOLIO-7342", "tool": "aws_textract_expense"}
-{"doc_id": "MX-0008", "variant": "bad_scan", "field": "invoice_date", "truth": "2025-08-07", "prediction": "07/08/2025", "outcome": "incorrect", "rendered": "07/08/2025", "tool": "aws_textract_expense"}
 {"doc_id": "MX-0008", "variant": "bad_scan", "field": "due_date", "truth": "2025-09-06", "prediction": null, "outcome": "incorrect", "rendered": "06/09/2025", "tool": "aws_textract_expense"}
 {"doc_id": "MX-0008", "variant": "bad_scan", "field": "currency", "truth": "MXN", "prediction": "USD", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "MX-0008", "variant": "bad_scan", "field": "payment_account", "truth": "002101695319655953", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "MX-0008", "variant": "phone_photo", "field": "vendor_tax_id", "truth": "DST150217C8N", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "MX-0008", "variant": "phone_photo", "field": "invoice_date", "truth": "2025-08-07", "prediction": "07/08/2025", "outcome": "incorrect", "rendered": "07/08/2025", "tool": "aws_textract_expense"}
 {"doc_id": "MX-0008", "variant": "phone_photo", "field": "due_date", "truth": "2025-09-06", "prediction": null, "outcome": "incorrect", "rendered": "06/09/2025", "tool": "aws_textract_expense"}
 {"doc_id": "MX-0008", "variant": "phone_photo", "field": "currency", "truth": "MXN", "prediction": "USD", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "MX-0008", "variant": "phone_photo", "field": "payment_account", "truth": "002101695319655953", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
@@ -2245,7 +2114,7 @@
 {"doc_id": "SA-0003", "variant": "clean_pdf", "field": "vendor_name", "truth": "شركة الخليج للمقاولات", "prediction": "orgleall will 5 is", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "SA-0003", "variant": "clean_pdf", "field": "vendor_tax_id", "truth": "388236525907923", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "SA-0003", "variant": "clean_pdf", "field": "invoice_number", "truth": "INV-2025-8057", "prediction": "pj", "outcome": "incorrect", "rendered": "INV-2025-8057", "tool": "aws_textract_expense"}
-{"doc_id": "SA-0003", "variant": "clean_pdf", "field": "invoice_date", "truth": "2025-12-18", "prediction": "02/01/2026", "outcome": "incorrect", "rendered": "18/12/2025", "tool": "aws_textract_expense"}
+{"doc_id": "SA-0003", "variant": "clean_pdf", "field": "invoice_date", "truth": "2025-12-18", "prediction": "2026-01-02", "outcome": "incorrect", "rendered": "18/12/2025", "tool": "aws_textract_expense"}
 {"doc_id": "SA-0003", "variant": "clean_pdf", "field": "due_date", "truth": "2026-01-02", "prediction": "gleriw ll just", "outcome": "incorrect", "rendered": "02/01/2026", "tool": "aws_textract_expense"}
 {"doc_id": "SA-0003", "variant": "clean_pdf", "field": "currency", "truth": "SAR", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "SA-0003", "variant": "clean_pdf", "field": "subtotal", "truth": "235375.70", "prediction": "235,375.70\nw.s", "outcome": "incorrect", "rendered": "235,375.70 ر.س", "tool": "aws_textract_expense"}
@@ -2334,7 +2203,7 @@
 {"doc_id": "SA-0004", "variant": "scan", "field": "vendor_name", "truth": "شركة الخليج للمقاولات", "prediction": "orgleal rebill \"Sis", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "SA-0004", "variant": "scan", "field": "vendor_tax_id", "truth": "334449375480967", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "SA-0004", "variant": "scan", "field": "invoice_number", "truth": "INV-2026-4405", "prediction": null, "outcome": "incorrect", "rendered": "INV-2026-4405", "tool": "aws_textract_expense"}
-{"doc_id": "SA-0004", "variant": "scan", "field": "invoice_date", "truth": "2026-10-08", "prediction": "22/11/2026", "outcome": "incorrect", "rendered": "08/10/2026", "tool": "aws_textract_expense"}
+{"doc_id": "SA-0004", "variant": "scan", "field": "invoice_date", "truth": "2026-10-08", "prediction": "2026-11-22", "outcome": "incorrect", "rendered": "08/10/2026", "tool": "aws_textract_expense"}
 {"doc_id": "SA-0004", "variant": "scan", "field": "due_date", "truth": "2026-11-22", "prediction": "", "outcome": "incorrect", "rendered": "22/11/2026", "tool": "aws_textract_expense"}
 {"doc_id": "SA-0004", "variant": "scan", "field": "currency", "truth": "SAR", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "SA-0004", "variant": "scan", "field": "subtotal", "truth": "120950.83", "prediction": "w. 120,950.83", "outcome": "incorrect", "rendered": "120,950.83 ر.س", "tool": "aws_textract_expense"}
@@ -2365,7 +2234,7 @@
 {"doc_id": "SA-0005", "variant": "clean_pdf", "field": "vendor_name", "truth": "شركة الرياض للتجارة المحدودة", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "SA-0005", "variant": "clean_pdf", "field": "vendor_tax_id", "truth": "304717301078408", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "SA-0005", "variant": "clean_pdf", "field": "invoice_number", "truth": "INV-2025-6259", "prediction": "pj", "outcome": "incorrect", "rendered": "INV-2025-6259", "tool": "aws_textract_expense"}
-{"doc_id": "SA-0005", "variant": "clean_pdf", "field": "invoice_date", "truth": "2025-02-03", "prediction": "05/03/2025", "outcome": "incorrect", "rendered": "03/02/2025", "tool": "aws_textract_expense"}
+{"doc_id": "SA-0005", "variant": "clean_pdf", "field": "invoice_date", "truth": "2025-02-03", "prediction": "2025-03-05", "outcome": "incorrect", "rendered": "03/02/2025", "tool": "aws_textract_expense"}
 {"doc_id": "SA-0005", "variant": "clean_pdf", "field": "due_date", "truth": "2025-03-05", "prediction": null, "outcome": "incorrect", "rendered": "05/03/2025", "tool": "aws_textract_expense"}
 {"doc_id": "SA-0005", "variant": "clean_pdf", "field": "currency", "truth": "SAR", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "SA-0005", "variant": "clean_pdf", "field": "subtotal", "truth": "103062.54", "prediction": "103,062.54\nw.s", "outcome": "incorrect", "rendered": "103,062.54 ر.س", "tool": "aws_textract_expense"}
@@ -2395,8 +2264,6 @@
 {"doc_id": "SA-0005", "variant": "phone_photo", "field": "vendor_name", "truth": "شركة الرياض للتجارة المحدودة", "prediction": "Ejho", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "SA-0005", "variant": "phone_photo", "field": "vendor_tax_id", "truth": "304717301078408", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "SA-0005", "variant": "phone_photo", "field": "invoice_number", "truth": "INV-2025-6259", "prediction": "p33)", "outcome": "incorrect", "rendered": "INV-2025-6259", "tool": "aws_textract_expense"}
-{"doc_id": "SA-0005", "variant": "phone_photo", "field": "invoice_date", "truth": "2025-02-03", "prediction": "03/02/2025", "outcome": "incorrect", "rendered": "03/02/2025", "tool": "aws_textract_expense"}
-{"doc_id": "SA-0005", "variant": "phone_photo", "field": "due_date", "truth": "2025-03-05", "prediction": "05/03/2025", "outcome": "incorrect", "rendered": "05/03/2025", "tool": "aws_textract_expense"}
 {"doc_id": "SA-0005", "variant": "phone_photo", "field": "currency", "truth": "SAR", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "SA-0005", "variant": "phone_photo", "field": "tax_total", "truth": "15459.38", "prediction": null, "outcome": "incorrect", "rendered": "15,459.38", "tool": "aws_textract_expense"}
 {"doc_id": "SA-0005", "variant": "phone_photo", "field": "tax_rates", "truth": ["15"], "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
@@ -2453,7 +2320,6 @@
 {"doc_id": "SA-0007", "variant": "clean_pdf", "field": "vendor_name", "truth": "شركة الخليج للمقاولات", "prediction": "organ rubill 25 is", "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "SA-0007", "variant": "clean_pdf", "field": "vendor_tax_id", "truth": "354376180149609", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "SA-0007", "variant": "clean_pdf", "field": "invoice_number", "truth": "INV-2026-6951", "prediction": null, "outcome": "incorrect", "rendered": "INV-2026-6951", "tool": "aws_textract_expense"}
-{"doc_id": "SA-0007", "variant": "clean_pdf", "field": "invoice_date", "truth": "2026-04-12", "prediction": "12/04/2026", "outcome": "incorrect", "rendered": "12/04/2026", "tool": "aws_textract_expense"}
 {"doc_id": "SA-0007", "variant": "clean_pdf", "field": "due_date", "truth": "2026-05-12", "prediction": null, "outcome": "incorrect", "rendered": "12/05/2026", "tool": "aws_textract_expense"}
 {"doc_id": "SA-0007", "variant": "clean_pdf", "field": "currency", "truth": "SAR", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "SA-0007", "variant": "clean_pdf", "field": "subtotal", "truth": "8314.00", "prediction": null, "outcome": "incorrect", "rendered": "8,314.00 ر.س", "tool": "aws_textract_expense"}
@@ -2477,7 +2343,6 @@
 {"doc_id": "SA-0007", "variant": "bad_scan", "field": "vendor_name", "truth": "شركة الخليج للمقاولات", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "SA-0007", "variant": "bad_scan", "field": "vendor_tax_id", "truth": "354376180149609", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "SA-0007", "variant": "bad_scan", "field": "invoice_number", "truth": "INV-2026-6951", "prediction": null, "outcome": "incorrect", "rendered": "INV-2026-6951", "tool": "aws_textract_expense"}
-{"doc_id": "SA-0007", "variant": "bad_scan", "field": "invoice_date", "truth": "2026-04-12", "prediction": "12/04/2026", "outcome": "incorrect", "rendered": "12/04/2026", "tool": "aws_textract_expense"}
 {"doc_id": "SA-0007", "variant": "bad_scan", "field": "due_date", "truth": "2026-05-12", "prediction": null, "outcome": "incorrect", "rendered": "12/05/2026", "tool": "aws_textract_expense"}
 {"doc_id": "SA-0007", "variant": "bad_scan", "field": "currency", "truth": "SAR", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "SA-0007", "variant": "bad_scan", "field": "subtotal", "truth": "8314.00", "prediction": null, "outcome": "incorrect", "rendered": "8,314.00 ر.س", "tool": "aws_textract_expense"}
@@ -2738,35 +2603,17 @@
 {"doc_id": "TH-0008", "variant": "phone_photo", "field": "invoice_date", "truth": "2025-07-08", "prediction": "23 ASAMAU 2568", "outcome": "incorrect", "rendered": "8 ก.ค. 2568", "tool": "aws_textract_expense"}
 {"doc_id": "TH-0008", "variant": "phone_photo", "field": "due_date", "truth": "2025-07-23", "prediction": "23 ASAMAU 2568", "outcome": "incorrect", "rendered": "23 กรกฎาคม 2568", "tool": "aws_textract_expense"}
 {"doc_id": "TH-0008", "variant": "phone_photo", "field": "currency", "truth": "THB", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "US-0002", "variant": "clean_pdf", "field": "due_date", "truth": "2025-10-06", "prediction": "10/06/2025", "outcome": "incorrect", "rendered": "10/06/2025", "tool": "aws_textract_expense"}
 {"doc_id": "US-0002", "variant": "clean_pdf", "field": "subtotal", "truth": "15324.00", "prediction": "$15,324.00 (USD)", "outcome": "incorrect", "rendered": "$15,324.00 (USD)", "tool": "aws_textract_expense"}
 {"doc_id": "US-0002", "variant": "clean_pdf", "field": "total", "truth": "16588.23", "prediction": "$16,588.23 (USD)", "outcome": "incorrect", "rendered": "$16,588.23 (USD)", "tool": "aws_textract_expense"}
-{"doc_id": "US-0002", "variant": "scan", "field": "due_date", "truth": "2025-10-06", "prediction": "10/06/2025", "outcome": "incorrect", "rendered": "10/06/2025", "tool": "aws_textract_expense"}
 {"doc_id": "US-0002", "variant": "scan", "field": "subtotal", "truth": "15324.00", "prediction": "$15,324.00 (USD)", "outcome": "incorrect", "rendered": "$15,324.00 (USD)", "tool": "aws_textract_expense"}
 {"doc_id": "US-0002", "variant": "scan", "field": "total", "truth": "16588.23", "prediction": "$16,588.23 (USD)", "outcome": "incorrect", "rendered": "$16,588.23 (USD)", "tool": "aws_textract_expense"}
 {"doc_id": "US-0002", "variant": "bad_scan", "field": "vendor_tax_id", "truth": "550743148", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "US-0002", "variant": "bad_scan", "field": "due_date", "truth": "2025-10-06", "prediction": "10/06/2025", "outcome": "incorrect", "rendered": "10/06/2025", "tool": "aws_textract_expense"}
 {"doc_id": "US-0002", "variant": "bad_scan", "field": "subtotal", "truth": "15324.00", "prediction": "$15,324.00 (USD)", "outcome": "incorrect", "rendered": "$15,324.00 (USD)", "tool": "aws_textract_expense"}
 {"doc_id": "US-0002", "variant": "bad_scan", "field": "total", "truth": "16588.23", "prediction": "$16,588.23 (USD)", "outcome": "incorrect", "rendered": "$16,588.23 (USD)", "tool": "aws_textract_expense"}
-{"doc_id": "US-0002", "variant": "phone_photo", "field": "due_date", "truth": "2025-10-06", "prediction": "10/06/2025", "outcome": "incorrect", "rendered": "10/06/2025", "tool": "aws_textract_expense"}
 {"doc_id": "US-0002", "variant": "phone_photo", "field": "subtotal", "truth": "15324.00", "prediction": "$15,324.00 (USD)", "outcome": "incorrect", "rendered": "$15,324.00 (USD)", "tool": "aws_textract_expense"}
 {"doc_id": "US-0002", "variant": "phone_photo", "field": "total", "truth": "16588.23", "prediction": "$16,588.23 (USD)", "outcome": "incorrect", "rendered": "$16,588.23 (USD)", "tool": "aws_textract_expense"}
-{"doc_id": "US-0004", "variant": "clean_pdf", "field": "invoice_date", "truth": "2026-06-08", "prediction": "06/08/2026", "outcome": "incorrect", "rendered": "06/08/2026", "tool": "aws_textract_expense"}
-{"doc_id": "US-0004", "variant": "clean_pdf", "field": "due_date", "truth": "2026-07-08", "prediction": "07/08/2026", "outcome": "incorrect", "rendered": "07/08/2026", "tool": "aws_textract_expense"}
-{"doc_id": "US-0004", "variant": "scan", "field": "invoice_date", "truth": "2026-06-08", "prediction": "06/08/2026", "outcome": "incorrect", "rendered": "06/08/2026", "tool": "aws_textract_expense"}
-{"doc_id": "US-0004", "variant": "scan", "field": "due_date", "truth": "2026-07-08", "prediction": "07/08/2026", "outcome": "incorrect", "rendered": "07/08/2026", "tool": "aws_textract_expense"}
-{"doc_id": "US-0004", "variant": "bad_scan", "field": "invoice_date", "truth": "2026-06-08", "prediction": "06/08/2026", "outcome": "incorrect", "rendered": "06/08/2026", "tool": "aws_textract_expense"}
-{"doc_id": "US-0004", "variant": "bad_scan", "field": "due_date", "truth": "2026-07-08", "prediction": "07/08/2026", "outcome": "incorrect", "rendered": "07/08/2026", "tool": "aws_textract_expense"}
 {"doc_id": "US-0004", "variant": "bad_scan", "field": "line_item_count", "truth": 9, "prediction": 8, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "US-0004", "variant": "phone_photo", "field": "invoice_date", "truth": "2026-06-08", "prediction": "06/08/2026", "outcome": "incorrect", "rendered": "06/08/2026", "tool": "aws_textract_expense"}
-{"doc_id": "US-0004", "variant": "phone_photo", "field": "due_date", "truth": "2026-07-08", "prediction": "07/08/2026", "outcome": "incorrect", "rendered": "07/08/2026", "tool": "aws_textract_expense"}
-{"doc_id": "US-0005", "variant": "clean_pdf", "field": "invoice_date", "truth": "2025-02-06", "prediction": "02/06/2025", "outcome": "incorrect", "rendered": "02/06/2025", "tool": "aws_textract_expense"}
-{"doc_id": "US-0005", "variant": "scan", "field": "invoice_date", "truth": "2025-02-06", "prediction": "02/06/2025", "outcome": "incorrect", "rendered": "02/06/2025", "tool": "aws_textract_expense"}
-{"doc_id": "US-0005", "variant": "bad_scan", "field": "invoice_date", "truth": "2025-02-06", "prediction": "02/06/2025", "outcome": "incorrect", "rendered": "02/06/2025", "tool": "aws_textract_expense"}
-{"doc_id": "US-0005", "variant": "phone_photo", "field": "invoice_date", "truth": "2025-02-06", "prediction": "02/06/2025", "outcome": "incorrect", "rendered": "02/06/2025", "tool": "aws_textract_expense"}
-{"doc_id": "US-0006", "variant": "clean_pdf", "field": "invoice_date", "truth": "2026-06-12", "prediction": "06/12/2026", "outcome": "incorrect", "rendered": "06/12/2026", "tool": "aws_textract_expense"}
 {"doc_id": "US-0006", "variant": "clean_pdf", "field": "line_item_count", "truth": 23, "prediction": 19, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "US-0006", "variant": "scan", "field": "invoice_date", "truth": "2026-06-12", "prediction": "06/12/2026", "outcome": "incorrect", "rendered": "06/12/2026", "tool": "aws_textract_expense"}
 {"doc_id": "US-0006", "variant": "scan", "field": "currency", "truth": "USD", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "US-0006", "variant": "scan", "field": "subtotal", "truth": "47435.48", "prediction": null, "outcome": "incorrect", "rendered": "$47,435.48", "tool": "aws_textract_expense"}
 {"doc_id": "US-0006", "variant": "scan", "field": "tax_total", "truth": "2846.12", "prediction": null, "outcome": "incorrect", "rendered": "2,846.12", "tool": "aws_textract_expense"}
@@ -2779,7 +2626,6 @@
 {"doc_id": "US-0006", "variant": "scan", "field": "invoice_date", "truth": "2026-06-12", "prediction": null, "outcome": "incorrect", "rendered": "06/12/2026", "tool": "aws_textract_expense"}
 {"doc_id": "US-0006", "variant": "scan", "field": "due_date", "truth": "2026-06-27", "prediction": null, "outcome": "incorrect", "rendered": "06/27/2026", "tool": "aws_textract_expense"}
 {"doc_id": "US-0006", "variant": "scan", "field": "line_item_count", "truth": 23, "prediction": 3, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "US-0006", "variant": "bad_scan", "field": "invoice_date", "truth": "2026-06-12", "prediction": "06/12/2026", "outcome": "incorrect", "rendered": "06/12/2026", "tool": "aws_textract_expense"}
 {"doc_id": "US-0006", "variant": "bad_scan", "field": "currency", "truth": "USD", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "US-0006", "variant": "bad_scan", "field": "subtotal", "truth": "47435.48", "prediction": null, "outcome": "incorrect", "rendered": "$47,435.48", "tool": "aws_textract_expense"}
 {"doc_id": "US-0006", "variant": "bad_scan", "field": "tax_total", "truth": "2846.12", "prediction": null, "outcome": "incorrect", "rendered": "2,846.12", "tool": "aws_textract_expense"}
@@ -2792,7 +2638,6 @@
 {"doc_id": "US-0006", "variant": "bad_scan", "field": "invoice_date", "truth": "2026-06-12", "prediction": null, "outcome": "incorrect", "rendered": "06/12/2026", "tool": "aws_textract_expense"}
 {"doc_id": "US-0006", "variant": "bad_scan", "field": "due_date", "truth": "2026-06-27", "prediction": null, "outcome": "incorrect", "rendered": "06/27/2026", "tool": "aws_textract_expense"}
 {"doc_id": "US-0006", "variant": "bad_scan", "field": "line_item_count", "truth": 23, "prediction": 3, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "US-0006", "variant": "phone_photo", "field": "invoice_date", "truth": "2026-06-12", "prediction": "06/12/2026", "outcome": "incorrect", "rendered": "06/12/2026", "tool": "aws_textract_expense"}
 {"doc_id": "US-0006", "variant": "phone_photo", "field": "currency", "truth": "USD", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
 {"doc_id": "US-0006", "variant": "phone_photo", "field": "subtotal", "truth": "47435.48", "prediction": null, "outcome": "incorrect", "rendered": "$47,435.48", "tool": "aws_textract_expense"}
 {"doc_id": "US-0006", "variant": "phone_photo", "field": "tax_total", "truth": "2846.12", "prediction": null, "outcome": "incorrect", "rendered": "2,846.12", "tool": "aws_textract_expense"}
@@ -2805,11 +2650,7 @@
 {"doc_id": "US-0006", "variant": "phone_photo", "field": "invoice_date", "truth": "2026-06-12", "prediction": null, "outcome": "incorrect", "rendered": "06/12/2026", "tool": "aws_textract_expense"}
 {"doc_id": "US-0006", "variant": "phone_photo", "field": "due_date", "truth": "2026-06-27", "prediction": null, "outcome": "incorrect", "rendered": "06/27/2026", "tool": "aws_textract_expense"}
 {"doc_id": "US-0006", "variant": "phone_photo", "field": "line_item_count", "truth": 23, "prediction": 3, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "US-0007", "variant": "clean_pdf", "field": "invoice_date", "truth": "2026-12-02", "prediction": "12/02/2026", "outcome": "incorrect", "rendered": "12/02/2026", "tool": "aws_textract_expense"}
-{"doc_id": "US-0007", "variant": "scan", "field": "invoice_date", "truth": "2026-12-02", "prediction": "12/02/2026", "outcome": "incorrect", "rendered": "12/02/2026", "tool": "aws_textract_expense"}
-{"doc_id": "US-0007", "variant": "bad_scan", "field": "invoice_date", "truth": "2026-12-02", "prediction": "12/02/2026", "outcome": "incorrect", "rendered": "12/02/2026", "tool": "aws_textract_expense"}
 {"doc_id": "US-0007", "variant": "bad_scan", "field": "line_item_count", "truth": 8, "prediction": 7, "outcome": "incorrect", "rendered": null, "tool": "aws_textract_expense"}
-{"doc_id": "US-0007", "variant": "phone_photo", "field": "invoice_date", "truth": "2026-12-02", "prediction": "12/02/2026", "outcome": "incorrect", "rendered": "12/02/2026", "tool": "aws_textract_expense"}
 {"doc_id": "US-0008", "variant": "clean_pdf", "field": "subtotal", "truth": "34579.56", "prediction": "$34,579.56 (USD)", "outcome": "incorrect", "rendered": "$34,579.56 (USD)", "tool": "aws_textract_expense"}
 {"doc_id": "US-0008", "variant": "clean_pdf", "field": "total", "truth": "38072.10", "prediction": "$38,072.10 (USD)", "outcome": "incorrect", "rendered": "$38,072.10 (USD)", "tool": "aws_textract_expense"}
 {"doc_id": "US-0008", "variant": "scan", "field": "subtotal", "truth": "34579.56", "prediction": "$34,579.56 (USD)", "outcome": "incorrect", "rendered": "$34,579.56 (USD)", "tool": "aws_textract_expense"}
