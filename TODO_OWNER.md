@@ -18,29 +18,19 @@ Things only the owner can do or decide. See build spec C3.8 / C4.
 
 ## Milestone 3 review (Textract investigation follow-ups)
 
-Owner decisions queued from the 2026-09-20 Textract investigation
-(#23 fixed the mapping bugs; these two policies remain):
+Owner decisions from the 2026-09-20 Textract investigation — both ruled and
+implemented (see DECISIONS.md #23–#25):
 
-- [ ] **Q1 — Locale-conventional dates.** Current rule (#22): a non-ISO date
-  counts only when self-evident (a part >12). Textract returns dates in the
-  document's own convention (`10.02.2025` on a German invoice = correct
-  value, ambiguous form) and scores wrong — 158 correct-in-locale date
-  reads across the public split. Option B: accept a date that is correct
-  under the document's country convention (applied symmetrically to all
-  tools; active misreads still fail). Agent recommendation: B — it extends
-  #22's principle that the document's own packaging isn't a wrong value.
-  With B + Q2-strict, Texact field accuracy rises ~4-5pp; exact-match is
-  unaffected by Q1 (currency gates it).
-- [ ] **Q2 — Currency-from-symbol.** Textract never returned `currency`
-  (0/910 though the schema supports it), so exact-match 0.0% is structurally
-  unreachable for it under strict scoring. Option: allow deriving currency
-  from a currency symbol in a returned amount ("$" + US → USD; ¥ needs
-  country). Agent recommendation: **keep strict** — deriving currency from
-  symbols crosses B3.1's "no fixing on the vendor's behalf" line (¥/CNY-JPY
-  genuinely requires external knowledge). Publish 0.0% with the structural
-  explanation on the methodology page and let field accuracy carry the
-  comparison. If you prefer the symbol rule, it applies to every tool
-  symmetrically and needs re-scoring (free, from cache).
+- [x] ~~Q1 — Locale-conventional dates~~ — **Approved 2026-09-20 as adapter
+  normalization** (not scoring relaxation): the Textract adapter converts
+  echoed numeric dates to ISO using the document's own country convention
+  (doc-ID prefix, never ground truth); comparator bar unchanged.
+  Implemented in #25 — Textract exact-match 3.7% → 7.2% on both splits;
+  Gemini/GPT-5.6 unmoved (544/544 ISO-native).
+- [x] ~~Q2 — Currency-from-symbol~~ — **Closed strict 2026-09-20**: no
+  symbol derivation. Currency scoring stands as measured after the #24
+  sibling-key fix (187/455 absent, 84/455 wrong-code — genuine findings,
+  documented for the methodology page and failure gallery).
 
 ## Vendor ToS notes (owner research, 2026-09-20)
 
@@ -87,9 +77,10 @@ Owner decisions queued from the 2026-09-20 Textract investigation
   actually registered.
 - [ ] Create vendor accounts and API keys; add to `.env` (template in
   `.env.example`) — needed for Milestone 2 smoke runs.
-- [ ] **Review each vendor's terms of service for restrictions on publishing
-  benchmarks.** Exclude any that prohibit it; note exclusions on the
-  methodology page (M3).
+- [x] ~~Review each vendor's terms of service for restrictions on publishing
+  benchmarks~~ — **Done 2026-09-20**, recorded in the launch gate above and
+  DECISIONS.md #26 (AWS clear; Gemini API clear; OpenAI risk knowingly
+  accepted).
 - [ ] **Verify the tax-rate table in `config.yaml` looks realistic** (spec B2.2).
   Internal consistency is what matters for scoring, but rates should be
   plausible: US state sales tax, GB 20, DE 19/7, IN GST slabs, CN 13/9/6,
