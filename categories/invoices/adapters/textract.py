@@ -52,6 +52,41 @@ _VENDOR_TAX_TYPES = {"VENDOR_VAT_NUMBER", "VENDOR_GST_NUMBER"}
 _TAX_RATE_RE = re.compile(r"([0-9]+(?:[.,][0-9]+)?)\s*%")
 _CURRENCY_PRIORITY = ("TOTAL", "SUBTOTAL", "TAX")
 
+# Numeric date layout each country's documents actually use (DECISIONS #25).
+# Used to resolve locale-formatted dates the API echoes verbatim; the
+# country comes from the doc-ID prefix (document metadata, never ground
+# truth). YMD strings parse the same everywhere.
+_DATE_CONVENTION = {
+    "US": "MDY",
+    "GB": "DMY", "DE": "DMY", "IN": "DMY", "BR": "DMY", "MX": "DMY",
+    "SA": "DMY", "AE": "DMY", "ID": "DMY", "TH": "DMY",
+    "CN": "YMD", "JP": "YMD", "KR": "YMD",
+}
+_DMY_RE = re.compile(r"^(\d{1,2})[./-](\d{1,2})[./-](\d{4})$")
+_MDY_RE = _DMY_RE
+_YMD_RE = re.compile(r"^(\d{4})[./-](\d{1,2})[./-](\d{1,2})$")
+
+
+def _locale_date(value: str, convention: str | None) -> str:
+    """Convert a locale-formatted numeric date to ISO using the document's
+    own convention. Returns the input unchanged when it doesn't match."""
+    from datetime import date as _date
+    if value is None:
+        return value
+    s = str(value).strip()
+    if m := _YMD_RE.match(s):
+        y, mo, d = int(m[1]), int(m[2]), int(m[3])
+    elif convention == "DMY" and (m := _DMY_RE.match(s)):
+        d, mo, y = int(m[1]), int(m[2]), int(m[3])
+    elif convention == "MDY" and (m := _MDY_RE.match(s)):
+        mo, d, y = int(m[1]), int(m[2]), int(m[3])
+    else:
+        return value
+    try:
+        return _date(y, mo, d).isoformat()
+    except ValueError:
+        return value
+
 _TRANSIENT = ("ThrottlingException", "ServiceUnavailable", "InternalError",
               "ProvisionedThroughputExceededException", "RequestLimitExceeded")
 
@@ -120,6 +155,8 @@ class TextractAdapter:
         tax_rates: set[str] = set()
         vendor_tax_id: tuple[int, str] | None = None   # (priority, value)
         currency: tuple[int, str] | None = None        # (priority, code)
+        doc_id = (raw.meta or {}).get("doc_id") or ""
+        convention = _DATE_CONVENTION.get(doc_id[:2].upper())
 
         for expense in raw.payload.get("ExpenseDocuments", []):
             for field in expense.get("SummaryFields", []):
@@ -153,6 +190,8 @@ class TextractAdapter:
 
                 canonical = FIELD_MAP.get(ftype)
                 if canonical and canonical not in seen:
+                    if canonical in ("invoice_date", "due_date"):
+                        value = _locale_date(value, convention)   # #25
                     out[canonical] = value
                     seen.add(canonical)
                 if ftype == "NAME":

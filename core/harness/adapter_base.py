@@ -42,6 +42,8 @@ class RawResult:
     cost_usd: Decimal = Decimal("0")
     error: str | None = None            # non-None = this call failed
     transient: bool = False             # True = retryable
+    meta: dict | None = None            # document context (e.g. doc_id) for
+                                        # canonicalization; never answers
 
 
 class TransientError(Exception):

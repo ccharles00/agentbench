@@ -85,6 +85,7 @@ def score_split(config: dict, category: str, split: str, tools: str = "all",
                     payload=rec.get("raw"),
                     latency_ms=float(latency or 0),
                     cost_usd=Decimal(rec.get("cost_usd", "0") or 0),
+                    meta={"doc_id": rec.get("doc_id")},
                 ))
 
             rows, exact, _failed = score_document(

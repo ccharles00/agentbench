@@ -37,5 +37,16 @@ endif
 score:
 	$(PY) -m core.cli score --category invoices --split $(SPLIT)
 
+build-api:
+	PYTHONPATH=. $(PY) api-build/build_api.py
+
+build-site:
+	PYTHONPATH=. $(PY) site/build_site.py
+
+build: build-api build-site
+
+serve:
+	$(PY) -m http.server 8080 --directory site
+
 test:
 	$(PY) -m pytest -q

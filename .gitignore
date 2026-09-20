@@ -28,3 +28,8 @@ cache/
 
 # Private-split failure rows contain private-document content — never publish
 results/*/private/failures.jsonl
+
+# Generated site artifacts (rebuilt via make build)
+site/api/
+site/index.html
+site/llms.txt

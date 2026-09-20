@@ -128,6 +128,25 @@ class TestTextract:
             RawResult(payload=payload))
         assert out["currency"] == "JPY"
 
+    def test_locale_dates_use_document_convention(self):
+        # DECISIONS #25: doc-ID country resolves the echoed numeric date
+        def _raw(doc_id, value):
+            return RawResult(payload=_tx_payload(
+                [("INVOICE_RECEIPT_DATE", value)]), meta={"doc_id": doc_id})
+
+        t = tx.TextractAdapter.__new__(tx.TextractAdapter)
+        assert t.to_canonical(_raw("DE-0001", "10.02.2025"))["invoice_date"] == "2025-02-10"
+        assert t.to_canonical(_raw("US-0001", "06/08/2026"))["invoice_date"] == "2026-06-08"
+        assert t.to_canonical(_raw("TH-0001", "04/03/2026"))["invoice_date"] == "2026-03-04"
+        assert t.to_canonical(_raw("JP-0001", "2025.05.28"))["invoice_date"] == "2025-05-28"
+        # ISO passes through; invalid dates under the convention stay wrong
+        assert t.to_canonical(_raw("DE-0001", "2025-02-10"))["invoice_date"] == "2025-02-10"
+        assert t.to_canonical(_raw("US-0001", "02/30/2026"))["invoice_date"] == "02/30/2026"
+        # no doc context -> no conversion
+        assert t.to_canonical(RawResult(
+            payload=_tx_payload([("INVOICE_RECEIPT_DATE", "10.02.2025")]))
+        )["invoice_date"] == "10.02.2025"
+
     def test_values_untouched(self):
         # label mapping only — a German-formatted total must stay as returned
         raw = RawResult(payload=_tx_payload([("TOTAL", "1.234,56")]))

@@ -313,3 +313,28 @@ next agent working in this repo doesn't have to guess or re-litigate them.
     artifacts. Q2 (currency-from-symbol) consequently shrinks to the
     187-doc absent remainder and is recommended closed: keep strict
     scoring, let the methodology state the decomposition.
+
+25. **Locale-conventional dates and currency policy, 2026-09-20 (owner
+    rulings).** Owner independently verified #24's findings from
+    failures.jsonl, added one more wrong-code case (4 KR documents predicted
+    as **SEK** — blind currency-symbol guessing; failure-gallery material
+    alongside ¥→JPY), and ruled:
+    - **Q1 — approved as adapter normalization, not scoring relaxation.**
+      The Textract adapter converts echoed numeric dates to ISO using the
+      document's own country convention, derived from the doc-ID prefix
+      (document metadata, never ground truth; a German invoice is visibly
+      German). DMY for GB/DE/IN/BR/MX/SA/AE/ID/TH, MDY for US, YMD for
+      CN/JP/KR; strings that don't match the convention or don't form a
+      valid date pass through unchanged and score wrong honestly. The
+      comparator bar stays ISO-vs-ISO. Verified beforehand: Gemini and
+      GPT-5.6 return 544/544 ISO dates natively — the rule is symmetric,
+      Textract is effectively its only beneficiary (158 correct-in-locale
+      reads in the public split).
+    - **Q2 — closed strict.** No currency-from-symbol derivation. The
+      methodology page states the decomposition: 187/455 genuinely absent
+      (SA/AE/ID/KR/TH — symbols with no code mapping) and 84/455 wrong code
+      (misidentification, not formatting): ¥→JPY on all 20 returning CN
+      documents, USD on all BR/MX documents carrying a code, KR→SEK ×4.
+    - Effects (re-canonicalized from cache): Textract exact-match
+      3.7% → **7.2% public (33/455) and 7.2% private (33/455)**, field
+      accuracy 50.8% / 50.6%. Gemini and OpenAI unchanged.
