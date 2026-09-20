@@ -30,8 +30,8 @@ cache/
 results/*/private/failures.jsonl
 
 # Generated site artifacts (rebuilt via make build)
-site/api/
-site/index.html
+site/*.html
 site/llms.txt
+site/api/
 site/img/
 site/tools/
