@@ -2,7 +2,15 @@
 
 Things only the owner can do or decide. See build spec C3.8 / C4.
 
-## Milestone 1 review (now)
+## Milestone 2 review (now)
+
+- [ ] **Top up the OpenAI credit balance** (~\$0.10 needed) and rerun
+  `.\.venv\Scripts\python.exe -m core.cli run --category invoices --split private --tools openai_chat --confirm`
+  to finish its last 13 documents; then `bench score --split private` refreshes
+  the committed results. M2 is accepted without it (442/455 measured), but the
+  full 455 closes the gap cleanly.
+
+## Milestone 1 review
 
 - [ ] **Eyeball the contact sheets** in `data/public/contact_sheets/` — now at
   review resolution (1000px thumbnails, 2-column grids). Flag anything
