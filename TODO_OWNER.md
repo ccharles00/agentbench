@@ -46,11 +46,29 @@ Owner decisions queued from the 2026-09-20 Textract investigation
 ## Vendor ToS notes (owner research, 2026-09-20)
 
 - AWS Service Terms: benchmark disclosure permitted; no prior consent
-  required, methodological transparency suffices (we have it).
-- **Google Cloud terms DO require prior written consent for benchmark
-  disclosure** — relevant when/if Google Document AI becomes tool #4
-  (note: the Gemini API used here is the AI Studio/developers API, not
-  Google Cloud; re-check which terms apply per tool before publishing).
+  required, methodological transparency suffices (we have it). **Clear.**
+- Gemini API Additional Terms of Service (the AI Studio/developers terms
+  that actually apply here, confirmed distinct from Google Cloud's): no
+  benchmark-disclosure clause at all. Only restriction is "competitive
+  use" (developing competing models, reverse-engineering weights) —
+  doesn't apply to measuring task performance. **Clear.**
+  (Google Cloud terms DO require prior written consent for benchmark
+  disclosure — stays relevant only if Google Document AI becomes tool #4.)
+- **🔒 OpenAI — unresolved, real clause, needs your judgment before
+  publishing.** The OpenAI Services Agreement (governs API use; checked
+  directly, not the consumer Terms of Use) has no benchmark carve-out,
+  but Section 10, "No Publicity," reads: *"Except with express prior
+  written permission in each instance, neither Party will: (i) include
+  the other Party's name or logo on their websites, media, or marketing
+  materials; or (ii) make any public statement about its relationship
+  with the other Party or this Agreement."* Ambiguous whether an
+  independent, factual benchmark comparison ("GPT-5.6-terra — 64.6%")
+  counts as "including the other Party's name" in the sense this clause
+  means, or whether it's really aimed at implying a formal partnership.
+  No exemption for comparative testing exists either way, unlike AWS.
+  Recommend: a real legal read, or a direct email to OpenAI asking
+  whether independent benchmark publication is covered, before the site
+  goes live with OpenAI's name and results on it.
 
 ## Milestone 2 review
 
