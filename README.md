@@ -34,7 +34,16 @@ make fonts        # download Noto fonts pinned in fonts.lock (SHA256-verified)
 make generate     # generate the public split (data/public)
 make selfcheck    # run the B2.8 self-checks
 make test         # unit tests
+make run          # cost estimate only (CONFIRM=1 make run executes paid runs)
+make score        # score cached results into results/<split>
+make build        # build the static site + agent JSON API + llms.txt
+make serve        # serve the site at http://localhost:8080
 ```
+
+The MCP server: `python mcp-server/server.py` (stdio; reads the built site
+API — run `make build` first). Deploy is ToS-gated: the GitHub Pages
+workflow is manual-trigger only until the owner's vendor ToS review
+completes (TODO_OWNER.md).
 
 Milestone 1 acceptance: `make generate && make selfcheck` passes for the public
 split, and the owner has reviewed the contact sheets in
