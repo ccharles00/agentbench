@@ -338,3 +338,28 @@ next agent working in this repo doesn't have to guess or re-litigate them.
     - Effects (re-canonicalized from cache): Textract exact-match
       3.7% → **7.2% public (33/455) and 7.2% private (33/455)**, field
       accuracy 50.8% / 50.6%. Gemini and OpenAI unchanged.
+
+26. **OpenAI ToS risk, 2026-09-20 (owner ruling): name OpenAI on the
+    leaderboard, same as AWS and Google.** The vendor ToS review (spec
+    C4) found AWS's terms explicitly permit benchmark disclosure and the
+    Gemini API's terms (the AI Studio/developers terms that actually
+    apply here — confirmed distinct from Google Cloud, which does require
+    prior consent) carry no benchmark restriction at all. OpenAI's
+    Services Agreement (the terms governing API use, not the consumer
+    Terms of Use) has no equivalent benchmark carve-out. Its Section 10,
+    "No Publicity," reads: *"Except with express prior written permission
+    in each instance, neither Party will: (i) include the other Party's
+    name or logo on their websites, media, or marketing materials; or
+    (ii) make any public statement about its relationship with the other
+    Party or this Agreement."* Genuinely ambiguous applied to an
+    independent, factual benchmark result — arguably aimed at preventing
+    an implied partnership/endorsement, not at blocking third-party
+    performance measurement, but no explicit exemption says so either
+    way. Owner reviewed this directly (not delegated to the coding agent,
+    per spec C4/C3.2's line on legal judgment calls) and chose to proceed
+    with naming OpenAI/GPT-5.6-terra on the public leaderboard, methodology
+    page, and failure gallery identically to AWS and Google — a knowingly
+    accepted risk, not an overlooked one. If this changes (e.g. a
+    complaint from OpenAI, or a clearer answer obtained later), the fix is
+    narrow: pull OpenAI's row from public-facing pages while keeping it in
+    the raw results/DECISIONS.md record.

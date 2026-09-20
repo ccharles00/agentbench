@@ -4,18 +4,17 @@ Things only the owner can do or decide. See build spec C3.8 / C4.
 
 ## 🔒 LAUNCH GATE — Milestone 3 is built; deploy is blocked on you
 
-- [ ] **Vendor ToS review (spec C4) — the only blocker to going live.**
-  Everything is built and staged: 10-page site (leaderboard, heatmaps,
-  24-card failure gallery, methodology, neutrality, corrections log, tool
-  pages, API docs), static JSON API + llms.txt, MCP server (stdio,
-  tested). The deploy workflow (.github/workflows/deploy-site.yml) is
-  manual-trigger ONLY — nothing publishes until you trigger it. Review
-  AWS / Google / OpenAI terms for benchmark disclosure (your 2026-09-20
-  note: AWS permissive; Google Cloud needs prior written consent — but
-  the Gemini API is the developers/AI Studio API, not Google Cloud, so
-  check those terms), then trigger the workflow to go live.
+- [x] ~~Vendor ToS review (spec C4)~~ — **Decided 2026-09-20:** AWS and the
+  Gemini API terms are clear (no benchmark restriction). OpenAI's "No
+  Publicity" clause is ambiguous as applied to independent benchmark
+  results, and the owner has accepted that risk rather than seeking
+  further legal clearance or excluding OpenAI — see DECISIONS.md #26.
+  **This was the only blocker.** The deploy workflow
+  (.github/workflows/deploy-site.yml) is still manual-trigger ONLY —
+  triggering it is now purely the owner's call, whenever ready.
 - [ ] Choose project name (leaning AssayMark) and confirm before launch
-  branding; placeholder `agentbench` everywhere it's user-visible.
+  branding; placeholder `agentbench` everywhere it's user-visible. Not a
+  hard blocker — can launch on `agentbench` and rename later.
 
 ## Milestone 3 review (Textract investigation follow-ups)
 
@@ -54,21 +53,12 @@ Owner decisions queued from the 2026-09-20 Textract investigation
   doesn't apply to measuring task performance. **Clear.**
   (Google Cloud terms DO require prior written consent for benchmark
   disclosure — stays relevant only if Google Document AI becomes tool #4.)
-- **🔒 OpenAI — unresolved, real clause, needs your judgment before
-  publishing.** The OpenAI Services Agreement (governs API use; checked
-  directly, not the consumer Terms of Use) has no benchmark carve-out,
-  but Section 10, "No Publicity," reads: *"Except with express prior
-  written permission in each instance, neither Party will: (i) include
-  the other Party's name or logo on their websites, media, or marketing
-  materials; or (ii) make any public statement about its relationship
-  with the other Party or this Agreement."* Ambiguous whether an
-  independent, factual benchmark comparison ("GPT-5.6-terra — 64.6%")
-  counts as "including the other Party's name" in the sense this clause
-  means, or whether it's really aimed at implying a formal partnership.
-  No exemption for comparative testing exists either way, unlike AWS.
-  Recommend: a real legal read, or a direct email to OpenAI asking
-  whether independent benchmark publication is covered, before the site
-  goes live with OpenAI's name and results on it.
+- **OpenAI — decided 2026-09-20, see DECISIONS.md #26.** The OpenAI
+  Services Agreement's "No Publicity" clause (Section 10) is ambiguous as
+  applied to independent benchmark results (no explicit carve-out, unlike
+  AWS). Owner reviewed and chose to proceed, naming OpenAI/GPT-5.6-terra
+  on the leaderboard the same as AWS and Google. Risk accepted knowingly,
+  not overlooked — full clause text and reasoning in DECISIONS.md.
 
 ## Milestone 2 review
 
