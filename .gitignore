@@ -25,3 +25,6 @@ data/public/contact_sheets/
 
 # Raw vendor responses (regenerable only by paid runs; results/ is canonical)
 cache/
+
+# Private-split failure rows contain private-document content — never publish
+results/*/private/failures.jsonl

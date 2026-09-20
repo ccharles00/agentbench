@@ -1,0 +1,61 @@
+{
+  "category": "invoices",
+  "dataset_version": "2026.1",
+  "split": "private",
+  "generated_at": "2026-09-20",
+  "methodology": "categories/invoices/site_copy.md + DECISIONS.md",
+  "tools": {
+    "google_gemini_flash": {
+      "tool_version": "gemini-3.8-flash",
+      "display_name": "Google Gemini (Flash)",
+      "skipped_not_run": 0,
+      "documents": {
+        "successes": 343,
+        "count": 455,
+        "rate": 0.7538,
+        "wilson95": [
+          0.7122,
+          0.7912
+        ],
+        "metric": "document_exact_match"
+      },
+      "field_accuracy": {
+        "successes": 4945,
+        "count": 5412,
+        "rate": 0.9137,
+        "wilson95": [
+          0.9059,
+          0.9209
+        ],
+        "metric": "field_accuracy"
+      },
+      "hallucination_rate": {
+        "successes": 0,
+        "count": 5412,
+        "rate": 0.0,
+        "wilson95": [
+          0.0,
+          0.0007
+        ],
+        "metric": "hallucination_rate"
+      },
+      "api_failure_rate": {
+        "successes": 0,
+        "count": 455,
+        "rate": 0.0,
+        "wilson95": [
+          0.0,
+          0.0084
+        ],
+        "metric": "api_failure_rate"
+      },
+      "mean_cost_per_doc_usd": 0.002,
+      "cost_per_correct_doc_usd": 0.002654,
+      "latency_ms": {
+        "p50": 4130.3,
+        "p95": 12323.4
+      },
+      "total_cost_usd": 0.910201
+    }
+  }
+}

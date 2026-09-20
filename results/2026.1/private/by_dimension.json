@@ -1,0 +1,5182 @@
+{
+  "category": "invoices",
+  "dataset_version": "2026.1",
+  "split": "private",
+  "generated_at": "2026-09-20",
+  "methodology": "categories/invoices/site_copy.md + DECISIONS.md",
+  "tools": {
+    "google_gemini_flash": {
+      "country": {
+        "AE": {
+          "documents": {
+            "successes": 29,
+            "count": 35,
+            "rate": 0.8286,
+            "wilson95": [
+              0.6732,
+              0.919
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 384,
+            "count": 420,
+            "rate": 0.9143,
+            "wilson95": [
+              0.8836,
+              0.9374
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 420,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0091
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 35,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0989
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.002071,
+          "cost_per_correct_doc_usd": 0.002499,
+          "latency_ms": {
+            "p50": 4622.8,
+            "p95": 8749.2
+          },
+          "total_cost_usd": 0.072483
+        },
+        "BR": {
+          "documents": {
+            "successes": 18,
+            "count": 35,
+            "rate": 0.5143,
+            "wilson95": [
+              0.3557,
+              0.6701
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 373,
+            "count": 420,
+            "rate": 0.8881,
+            "wilson95": [
+              0.8544,
+              0.9148
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 420,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0091
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 35,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0989
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.001994,
+          "cost_per_correct_doc_usd": 0.003877,
+          "latency_ms": {
+            "p50": 11248.0,
+            "p95": 45867.2
+          },
+          "total_cost_usd": 0.069781
+        },
+        "CN": {
+          "documents": {
+            "successes": 27,
+            "count": 35,
+            "rate": 0.7714,
+            "wilson95": [
+              0.6098,
+              0.8793
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 385,
+            "count": 420,
+            "rate": 0.9167,
+            "wilson95": [
+              0.8863,
+              0.9395
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 420,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0091
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 35,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0989
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.001976,
+          "cost_per_correct_doc_usd": 0.002562,
+          "latency_ms": {
+            "p50": 3698.2,
+            "p95": 7396.0
+          },
+          "total_cost_usd": 0.069164
+        },
+        "DE": {
+          "documents": {
+            "successes": 29,
+            "count": 35,
+            "rate": 0.8286,
+            "wilson95": [
+              0.6732,
+              0.919
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 387,
+            "count": 420,
+            "rate": 0.9214,
+            "wilson95": [
+              0.8917,
+              0.9435
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 420,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0091
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 35,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0989
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.002014,
+          "cost_per_correct_doc_usd": 0.002431,
+          "latency_ms": {
+            "p50": 4062.0,
+            "p95": 8168.7
+          },
+          "total_cost_usd": 0.070503
+        },
+        "GB": {
+          "documents": {
+            "successes": 28,
+            "count": 35,
+            "rate": 0.8,
+            "wilson95": [
+              0.6411,
+              0.8996
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 386,
+            "count": 420,
+            "rate": 0.919,
+            "wilson95": [
+              0.889,
+              0.9415
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 420,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0091
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 35,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0989
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.002013,
+          "cost_per_correct_doc_usd": 0.002517,
+          "latency_ms": {
+            "p50": 4014.1,
+            "p95": 8747.7
+          },
+          "total_cost_usd": 0.070469
+        },
+        "ID": {
+          "documents": {
+            "successes": 27,
+            "count": 35,
+            "rate": 0.7714,
+            "wilson95": [
+              0.6098,
+              0.8793
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 388,
+            "count": 420,
+            "rate": 0.9238,
+            "wilson95": [
+              0.8944,
+              0.9455
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 420,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0091
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 35,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0989
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.002039,
+          "cost_per_correct_doc_usd": 0.002643,
+          "latency_ms": {
+            "p50": 5930.3,
+            "p95": 12235.9
+          },
+          "total_cost_usd": 0.071361
+        },
+        "IN": {
+          "documents": {
+            "successes": 18,
+            "count": 35,
+            "rate": 0.5143,
+            "wilson95": [
+              0.3557,
+              0.6701
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 376,
+            "count": 420,
+            "rate": 0.8952,
+            "wilson95": [
+              0.8623,
+              0.921
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 420,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0091
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 35,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0989
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.002002,
+          "cost_per_correct_doc_usd": 0.003893,
+          "latency_ms": {
+            "p50": 3967.5,
+            "p95": 6811.3
+          },
+          "total_cost_usd": 0.070068
+        },
+        "JP": {
+          "documents": {
+            "successes": 25,
+            "count": 35,
+            "rate": 0.7143,
+            "wilson95": [
+              0.5495,
+              0.8367
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 362,
+            "count": 396,
+            "rate": 0.9141,
+            "wilson95": [
+              0.8824,
+              0.9379
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 396,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0096
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 35,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0989
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.001963,
+          "cost_per_correct_doc_usd": 0.002749,
+          "latency_ms": {
+            "p50": 4222.6,
+            "p95": 12357.2
+          },
+          "total_cost_usd": 0.068718
+        },
+        "KR": {
+          "documents": {
+            "successes": 32,
+            "count": 35,
+            "rate": 0.9143,
+            "wilson95": [
+              0.7762,
+              0.9704
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 387,
+            "count": 420,
+            "rate": 0.9214,
+            "wilson95": [
+              0.8917,
+              0.9435
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 420,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0091
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 35,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0989
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.001957,
+          "cost_per_correct_doc_usd": 0.00214,
+          "latency_ms": {
+            "p50": 3437.9,
+            "p95": 6221.4
+          },
+          "total_cost_usd": 0.068483
+        },
+        "MX": {
+          "documents": {
+            "successes": 28,
+            "count": 35,
+            "rate": 0.8,
+            "wilson95": [
+              0.6411,
+              0.8996
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 383,
+            "count": 420,
+            "rate": 0.9119,
+            "wilson95": [
+              0.8809,
+              0.9354
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 420,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0091
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 35,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0989
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.002003,
+          "cost_per_correct_doc_usd": 0.002504,
+          "latency_ms": {
+            "p50": 3748.1,
+            "p95": 7694.5
+          },
+          "total_cost_usd": 0.070114
+        },
+        "SA": {
+          "documents": {
+            "successes": 28,
+            "count": 35,
+            "rate": 0.8,
+            "wilson95": [
+              0.6411,
+              0.8996
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 385,
+            "count": 420,
+            "rate": 0.9167,
+            "wilson95": [
+              0.8863,
+              0.9395
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 420,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0091
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 35,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0989
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.00205,
+          "cost_per_correct_doc_usd": 0.002563,
+          "latency_ms": {
+            "p50": 4598.1,
+            "p95": 8652.4
+          },
+          "total_cost_usd": 0.07176
+        },
+        "TH": {
+          "documents": {
+            "successes": 25,
+            "count": 35,
+            "rate": 0.7143,
+            "wilson95": [
+              0.5495,
+              0.8367
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 386,
+            "count": 420,
+            "rate": 0.919,
+            "wilson95": [
+              0.889,
+              0.9415
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 420,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0091
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 35,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0989
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.001985,
+          "cost_per_correct_doc_usd": 0.002779,
+          "latency_ms": {
+            "p50": 3601.9,
+            "p95": 4831.3
+          },
+          "total_cost_usd": 0.069475
+        },
+        "US": {
+          "documents": {
+            "successes": 29,
+            "count": 35,
+            "rate": 0.8286,
+            "wilson95": [
+              0.6732,
+              0.919
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 363,
+            "count": 396,
+            "rate": 0.9167,
+            "wilson95": [
+              0.8853,
+              0.94
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 396,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0096
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 35,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0989
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.001938,
+          "cost_per_correct_doc_usd": 0.002339,
+          "latency_ms": {
+            "p50": 3460.9,
+            "p95": 5309.4
+          },
+          "total_cost_usd": 0.067821
+        }
+      },
+      "language": {
+        "['ar', 'en']": {
+          "documents": {
+            "successes": 49,
+            "count": 62,
+            "rate": 0.7903,
+            "wilson95": [
+              0.6736,
+              0.8732
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 673,
+            "count": 744,
+            "rate": 0.9046,
+            "wilson95": [
+              0.8813,
+              0.9237
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 744,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0051
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 62,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0583
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.002058,
+          "cost_per_correct_doc_usd": 0.002604,
+          "latency_ms": {
+            "p50": 4619.9,
+            "p95": 8628.9
+          },
+          "total_cost_usd": 0.127581
+        },
+        "['en']": {
+          "documents": {
+            "successes": 97,
+            "count": 110,
+            "rate": 0.8818,
+            "wilson95": [
+              0.8082,
+              0.9296
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 1225,
+            "count": 1292,
+            "rate": 0.9481,
+            "wilson95": [
+              0.9347,
+              0.959
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 1292,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.003
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 110,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0337
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.001988,
+          "cost_per_correct_doc_usd": 0.002254,
+          "latency_ms": {
+            "p50": 3725.8,
+            "p95": 7185.9
+          },
+          "total_cost_usd": 0.21866
+        },
+        "['pt']": {
+          "documents": {
+            "successes": 14,
+            "count": 31,
+            "rate": 0.4516,
+            "wilson95": [
+              0.2916,
+              0.6223
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 325,
+            "count": 372,
+            "rate": 0.8737,
+            "wilson95": [
+              0.836,
+              0.9036
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 372,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0102
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 31,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.1103
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.001992,
+          "cost_per_correct_doc_usd": 0.004412,
+          "latency_ms": {
+            "p50": 12322.5,
+            "p95": 48041.3
+          },
+          "total_cost_usd": 0.061761
+        },
+        "['zh']": {
+          "documents": {
+            "successes": 20,
+            "count": 27,
+            "rate": 0.7407,
+            "wilson95": [
+              0.5532,
+              0.8683
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 290,
+            "count": 324,
+            "rate": 0.8951,
+            "wilson95": [
+              0.8569,
+              0.9239
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 324,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0117
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 27,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.1246
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.00197,
+          "cost_per_correct_doc_usd": 0.00266,
+          "latency_ms": {
+            "p50": 3698.2,
+            "p95": 7723.2
+          },
+          "total_cost_usd": 0.053194
+        },
+        "['zh', 'en']": {
+          "documents": {
+            "successes": 3,
+            "count": 4,
+            "rate": 0.75,
+            "wilson95": [
+              0.3006,
+              0.9544
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 47,
+            "count": 48,
+            "rate": 0.9792,
+            "wilson95": [
+              0.891,
+              0.9963
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 48,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0741
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 4,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.4899
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.001989,
+          "cost_per_correct_doc_usd": 0.002652,
+          "latency_ms": {
+            "p50": 4129.6,
+            "p95": 5648.5
+          },
+          "total_cost_usd": 0.007957
+        },
+        "['de']": {
+          "documents": {
+            "successes": 25,
+            "count": 31,
+            "rate": 0.8065,
+            "wilson95": [
+              0.6372,
+              0.9081
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 339,
+            "count": 372,
+            "rate": 0.9113,
+            "wilson95": [
+              0.878,
+              0.9361
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 372,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0102
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 31,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.1103
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.002023,
+          "cost_per_correct_doc_usd": 0.002509,
+          "latency_ms": {
+            "p50": 4062.0,
+            "p95": 8725.5
+          },
+          "total_cost_usd": 0.062715
+        },
+        "['id']": {
+          "documents": {
+            "successes": 19,
+            "count": 27,
+            "rate": 0.7037,
+            "wilson95": [
+              0.5152,
+              0.8415
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 292,
+            "count": 324,
+            "rate": 0.9012,
+            "wilson95": [
+              0.8639,
+              0.9292
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 324,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0117
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 27,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.1246
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.002038,
+          "cost_per_correct_doc_usd": 0.002896,
+          "latency_ms": {
+            "p50": 5713.3,
+            "p95": 12287.1
+          },
+          "total_cost_usd": 0.055021
+        },
+        "['id', 'en']": {
+          "documents": {
+            "successes": 4,
+            "count": 4,
+            "rate": 1.0,
+            "wilson95": [
+              0.5101,
+              1.0
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 48,
+            "count": 48,
+            "rate": 1.0,
+            "wilson95": [
+              0.9259,
+              1.0
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 48,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0741
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 4,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.4899
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.002054,
+          "cost_per_correct_doc_usd": 0.002054,
+          "latency_ms": {
+            "p50": 7127.1,
+            "p95": 10891.3
+          },
+          "total_cost_usd": 0.008217
+        },
+        "['hi']": {
+          "documents": {
+            "successes": 11,
+            "count": 20,
+            "rate": 0.55,
+            "wilson95": [
+              0.3421,
+              0.7418
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 231,
+            "count": 240,
+            "rate": 0.9625,
+            "wilson95": [
+              0.9303,
+              0.9801
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 240,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0158
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 20,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.1611
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.002011,
+          "cost_per_correct_doc_usd": 0.003656,
+          "latency_ms": {
+            "p50": 4109.7,
+            "p95": 6243.0
+          },
+          "total_cost_usd": 0.040214
+        },
+        "['hi', 'en']": {
+          "documents": {
+            "successes": 3,
+            "count": 11,
+            "rate": 0.2727,
+            "wilson95": [
+              0.0975,
+              0.5656
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 97,
+            "count": 132,
+            "rate": 0.7348,
+            "wilson95": [
+              0.6537,
+              0.8027
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 132,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0283
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 11,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.2588
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.001982,
+          "cost_per_correct_doc_usd": 0.007268,
+          "latency_ms": {
+            "p50": 3295.0,
+            "p95": 6859.9
+          },
+          "total_cost_usd": 0.021803
+        },
+        "['ja']": {
+          "documents": {
+            "successes": 17,
+            "count": 27,
+            "rate": 0.6296,
+            "wilson95": [
+              0.4423,
+              0.7847
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 274,
+            "count": 308,
+            "rate": 0.8896,
+            "wilson95": [
+              0.8497,
+              0.9199
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 308,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0123
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 27,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.1246
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.001956,
+          "cost_per_correct_doc_usd": 0.003107,
+          "latency_ms": {
+            "p50": 4410.6,
+            "p95": 14075.5
+          },
+          "total_cost_usd": 0.052818
+        },
+        "['ja', 'en']": {
+          "documents": {
+            "successes": 4,
+            "count": 4,
+            "rate": 1.0,
+            "wilson95": [
+              0.5101,
+              1.0
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 44,
+            "count": 44,
+            "rate": 1.0,
+            "wilson95": [
+              0.9197,
+              1.0
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 44,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0803
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 4,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.4899
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.001966,
+          "cost_per_correct_doc_usd": 0.001966,
+          "latency_ms": {
+            "p50": 3824.4,
+            "p95": 6178.0
+          },
+          "total_cost_usd": 0.007863
+        },
+        "['ko']": {
+          "documents": {
+            "successes": 24,
+            "count": 27,
+            "rate": 0.8889,
+            "wilson95": [
+              0.7194,
+              0.9615
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 291,
+            "count": 324,
+            "rate": 0.8981,
+            "wilson95": [
+              0.8604,
+              0.9266
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 324,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0117
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 27,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.1246
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.001951,
+          "cost_per_correct_doc_usd": 0.002195,
+          "latency_ms": {
+            "p50": 3686.0,
+            "p95": 5966.9
+          },
+          "total_cost_usd": 0.052682
+        },
+        "['ko', 'en']": {
+          "documents": {
+            "successes": 4,
+            "count": 4,
+            "rate": 1.0,
+            "wilson95": [
+              0.5101,
+              1.0
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 48,
+            "count": 48,
+            "rate": 1.0,
+            "wilson95": [
+              0.9259,
+              1.0
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 48,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0741
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 4,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.4899
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.001951,
+          "cost_per_correct_doc_usd": 0.001951,
+          "latency_ms": {
+            "p50": 3114.5,
+            "p95": 4196.9
+          },
+          "total_cost_usd": 0.007803
+        },
+        "['es']": {
+          "documents": {
+            "successes": 24,
+            "count": 31,
+            "rate": 0.7742,
+            "wilson95": [
+              0.6019,
+              0.886
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 335,
+            "count": 372,
+            "rate": 0.9005,
+            "wilson95": [
+              0.8659,
+              0.927
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 372,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0102
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 31,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.1103
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.001999,
+          "cost_per_correct_doc_usd": 0.002582,
+          "latency_ms": {
+            "p50": 3748.1,
+            "p95": 8260.9
+          },
+          "total_cost_usd": 0.061966
+        },
+        "['ar']": {
+          "documents": {
+            "successes": 4,
+            "count": 4,
+            "rate": 1.0,
+            "wilson95": [
+              0.5101,
+              1.0
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 48,
+            "count": 48,
+            "rate": 1.0,
+            "wilson95": [
+              0.9259,
+              1.0
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 48,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0741
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 4,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.4899
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.002097,
+          "cost_per_correct_doc_usd": 0.002097,
+          "latency_ms": {
+            "p50": 4567.0,
+            "p95": 13056.8
+          },
+          "total_cost_usd": 0.008388
+        },
+        "['th']": {
+          "documents": {
+            "successes": 16,
+            "count": 20,
+            "rate": 0.8,
+            "wilson95": [
+              0.584,
+              0.9193
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 236,
+            "count": 240,
+            "rate": 0.9833,
+            "wilson95": [
+              0.9579,
+              0.9935
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 240,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0158
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 20,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.1611
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.001995,
+          "cost_per_correct_doc_usd": 0.002494,
+          "latency_ms": {
+            "p50": 3644.8,
+            "p95": 4802.1
+          },
+          "total_cost_usd": 0.039901
+        },
+        "['th', 'en']": {
+          "documents": {
+            "successes": 5,
+            "count": 11,
+            "rate": 0.4545,
+            "wilson95": [
+              0.2127,
+              0.7199
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 102,
+            "count": 132,
+            "rate": 0.7727,
+            "wilson95": [
+              0.6941,
+              0.8359
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 132,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0283
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 11,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.2588
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.001969,
+          "cost_per_correct_doc_usd": 0.004331,
+          "latency_ms": {
+            "p50": 3670.7,
+            "p95": 6290.7
+          },
+          "total_cost_usd": 0.021656
+        }
+      },
+      "script": {
+        "['Arab', 'Latn']": {
+          "documents": {
+            "successes": 49,
+            "count": 62,
+            "rate": 0.7903,
+            "wilson95": [
+              0.6736,
+              0.8732
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 673,
+            "count": 744,
+            "rate": 0.9046,
+            "wilson95": [
+              0.8813,
+              0.9237
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 744,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0051
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 62,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0583
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.002058,
+          "cost_per_correct_doc_usd": 0.002604,
+          "latency_ms": {
+            "p50": 4619.9,
+            "p95": 8628.9
+          },
+          "total_cost_usd": 0.127581
+        },
+        "['Latn']": {
+          "documents": {
+            "successes": 183,
+            "count": 234,
+            "rate": 0.7821,
+            "wilson95": [
+              0.7248,
+              0.8302
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 2564,
+            "count": 2780,
+            "rate": 0.9223,
+            "wilson95": [
+              0.9118,
+              0.9317
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 2780,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0014
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 234,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0162
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.002001,
+          "cost_per_correct_doc_usd": 0.002559,
+          "latency_ms": {
+            "p50": 4162.2,
+            "p95": 17611.6
+          },
+          "total_cost_usd": 0.468339
+        },
+        "['Hani']": {
+          "documents": {
+            "successes": 20,
+            "count": 27,
+            "rate": 0.7407,
+            "wilson95": [
+              0.5532,
+              0.8683
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 290,
+            "count": 324,
+            "rate": 0.8951,
+            "wilson95": [
+              0.8569,
+              0.9239
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 324,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0117
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 27,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.1246
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.00197,
+          "cost_per_correct_doc_usd": 0.00266,
+          "latency_ms": {
+            "p50": 3698.2,
+            "p95": 7723.2
+          },
+          "total_cost_usd": 0.053194
+        },
+        "['Hani', 'Latn']": {
+          "documents": {
+            "successes": 3,
+            "count": 4,
+            "rate": 0.75,
+            "wilson95": [
+              0.3006,
+              0.9544
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 47,
+            "count": 48,
+            "rate": 0.9792,
+            "wilson95": [
+              0.891,
+              0.9963
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 48,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0741
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 4,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.4899
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.001989,
+          "cost_per_correct_doc_usd": 0.002652,
+          "latency_ms": {
+            "p50": 4129.6,
+            "p95": 5648.5
+          },
+          "total_cost_usd": 0.007957
+        },
+        "['Deva']": {
+          "documents": {
+            "successes": 11,
+            "count": 20,
+            "rate": 0.55,
+            "wilson95": [
+              0.3421,
+              0.7418
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 231,
+            "count": 240,
+            "rate": 0.9625,
+            "wilson95": [
+              0.9303,
+              0.9801
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 240,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0158
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 20,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.1611
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.002011,
+          "cost_per_correct_doc_usd": 0.003656,
+          "latency_ms": {
+            "p50": 4109.7,
+            "p95": 6243.0
+          },
+          "total_cost_usd": 0.040214
+        },
+        "['Deva', 'Latn']": {
+          "documents": {
+            "successes": 3,
+            "count": 11,
+            "rate": 0.2727,
+            "wilson95": [
+              0.0975,
+              0.5656
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 97,
+            "count": 132,
+            "rate": 0.7348,
+            "wilson95": [
+              0.6537,
+              0.8027
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 132,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0283
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 11,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.2588
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.001982,
+          "cost_per_correct_doc_usd": 0.007268,
+          "latency_ms": {
+            "p50": 3295.0,
+            "p95": 6859.9
+          },
+          "total_cost_usd": 0.021803
+        },
+        "['Jpan']": {
+          "documents": {
+            "successes": 17,
+            "count": 27,
+            "rate": 0.6296,
+            "wilson95": [
+              0.4423,
+              0.7847
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 274,
+            "count": 308,
+            "rate": 0.8896,
+            "wilson95": [
+              0.8497,
+              0.9199
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 308,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0123
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 27,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.1246
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.001956,
+          "cost_per_correct_doc_usd": 0.003107,
+          "latency_ms": {
+            "p50": 4410.6,
+            "p95": 14075.5
+          },
+          "total_cost_usd": 0.052818
+        },
+        "['Jpan', 'Latn']": {
+          "documents": {
+            "successes": 4,
+            "count": 4,
+            "rate": 1.0,
+            "wilson95": [
+              0.5101,
+              1.0
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 44,
+            "count": 44,
+            "rate": 1.0,
+            "wilson95": [
+              0.9197,
+              1.0
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 44,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0803
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 4,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.4899
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.001966,
+          "cost_per_correct_doc_usd": 0.001966,
+          "latency_ms": {
+            "p50": 3824.4,
+            "p95": 6178.0
+          },
+          "total_cost_usd": 0.007863
+        },
+        "['Hang']": {
+          "documents": {
+            "successes": 24,
+            "count": 27,
+            "rate": 0.8889,
+            "wilson95": [
+              0.7194,
+              0.9615
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 291,
+            "count": 324,
+            "rate": 0.8981,
+            "wilson95": [
+              0.8604,
+              0.9266
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 324,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0117
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 27,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.1246
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.001951,
+          "cost_per_correct_doc_usd": 0.002195,
+          "latency_ms": {
+            "p50": 3686.0,
+            "p95": 5966.9
+          },
+          "total_cost_usd": 0.052682
+        },
+        "['Hang', 'Latn']": {
+          "documents": {
+            "successes": 4,
+            "count": 4,
+            "rate": 1.0,
+            "wilson95": [
+              0.5101,
+              1.0
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 48,
+            "count": 48,
+            "rate": 1.0,
+            "wilson95": [
+              0.9259,
+              1.0
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 48,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0741
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 4,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.4899
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.001951,
+          "cost_per_correct_doc_usd": 0.001951,
+          "latency_ms": {
+            "p50": 3114.5,
+            "p95": 4196.9
+          },
+          "total_cost_usd": 0.007803
+        },
+        "['Arab']": {
+          "documents": {
+            "successes": 4,
+            "count": 4,
+            "rate": 1.0,
+            "wilson95": [
+              0.5101,
+              1.0
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 48,
+            "count": 48,
+            "rate": 1.0,
+            "wilson95": [
+              0.9259,
+              1.0
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 48,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0741
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 4,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.4899
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.002097,
+          "cost_per_correct_doc_usd": 0.002097,
+          "latency_ms": {
+            "p50": 4567.0,
+            "p95": 13056.8
+          },
+          "total_cost_usd": 0.008388
+        },
+        "['Thai']": {
+          "documents": {
+            "successes": 16,
+            "count": 20,
+            "rate": 0.8,
+            "wilson95": [
+              0.584,
+              0.9193
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 236,
+            "count": 240,
+            "rate": 0.9833,
+            "wilson95": [
+              0.9579,
+              0.9935
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 240,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0158
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 20,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.1611
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.001995,
+          "cost_per_correct_doc_usd": 0.002494,
+          "latency_ms": {
+            "p50": 3644.8,
+            "p95": 4802.1
+          },
+          "total_cost_usd": 0.039901
+        },
+        "['Latn', 'Thai']": {
+          "documents": {
+            "successes": 5,
+            "count": 11,
+            "rate": 0.4545,
+            "wilson95": [
+              0.2127,
+              0.7199
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 102,
+            "count": 132,
+            "rate": 0.7727,
+            "wilson95": [
+              0.6941,
+              0.8359
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 132,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0283
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 11,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.2588
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.001969,
+          "cost_per_correct_doc_usd": 0.004331,
+          "latency_ms": {
+            "p50": 3670.7,
+            "p95": 6290.7
+          },
+          "total_cost_usd": 0.021656
+        }
+      },
+      "calendar": {
+        "gregorian": {
+          "documents": {
+            "successes": 318,
+            "count": 420,
+            "rate": 0.7571,
+            "wilson95": [
+              0.7139,
+              0.7957
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 4583,
+            "count": 5016,
+            "rate": 0.9137,
+            "wilson95": [
+              0.9056,
+              0.9211
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 5016,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0008
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 420,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0091
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.002004,
+          "cost_per_correct_doc_usd": 0.002646,
+          "latency_ms": {
+            "p50": 4127.8,
+            "p95": 12322.6
+          },
+          "total_cost_usd": 0.841483
+        },
+        "japanese_era": {
+          "documents": {
+            "successes": 25,
+            "count": 35,
+            "rate": 0.7143,
+            "wilson95": [
+              0.5495,
+              0.8367
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 362,
+            "count": 396,
+            "rate": 0.9141,
+            "wilson95": [
+              0.8824,
+              0.9379
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 396,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0096
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 35,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0989
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.001963,
+          "cost_per_correct_doc_usd": 0.002749,
+          "latency_ms": {
+            "p50": 4222.6,
+            "p95": 12357.2
+          },
+          "total_cost_usd": 0.068718
+        }
+      },
+      "number_format": {
+        "native": {
+          "documents": {
+            "successes": 328,
+            "count": 432,
+            "rate": 0.7593,
+            "wilson95": [
+              0.7168,
+              0.7972
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 4702,
+            "count": 5136,
+            "rate": 0.9155,
+            "wilson95": [
+              0.9076,
+              0.9228
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 5136,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0007
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 432,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0088
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.001998,
+          "cost_per_correct_doc_usd": 0.002631,
+          "latency_ms": {
+            "p50": 4091.8,
+            "p95": 12337.7
+          },
+          "total_cost_usd": 0.863051
+        },
+        "foreign": {
+          "documents": {
+            "successes": 15,
+            "count": 23,
+            "rate": 0.6522,
+            "wilson95": [
+              0.4489,
+              0.8119
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 243,
+            "count": 276,
+            "rate": 0.8804,
+            "wilson95": [
+              0.8368,
+              0.9136
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 276,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0137
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 23,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.1431
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.00205,
+          "cost_per_correct_doc_usd": 0.003143,
+          "latency_ms": {
+            "p50": 4473.7,
+            "p95": 12086.8
+          },
+          "total_cost_usd": 0.04715
+        }
+      },
+      "digits": {
+        "western": {
+          "documents": {
+            "successes": 332,
+            "count": 443,
+            "rate": 0.7494,
+            "wilson95": [
+              0.7071,
+              0.7875
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 4803,
+            "count": 5268,
+            "rate": 0.9117,
+            "wilson95": [
+              0.9038,
+              0.9191
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 5268,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0007
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 443,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0086
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.001998,
+          "cost_per_correct_doc_usd": 0.002666,
+          "latency_ms": {
+            "p50": 4103.7,
+            "p95": 12325.1
+          },
+          "total_cost_usd": 0.885256
+        },
+        "arabic_indic": {
+          "documents": {
+            "successes": 11,
+            "count": 12,
+            "rate": 0.9167,
+            "wilson95": [
+              0.6461,
+              0.9851
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 142,
+            "count": 144,
+            "rate": 0.9861,
+            "wilson95": [
+              0.9508,
+              0.9962
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 144,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.026
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 12,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.2425
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.002079,
+          "cost_per_correct_doc_usd": 0.002268,
+          "latency_ms": {
+            "p50": 4455.8,
+            "p95": 5666.1
+          },
+          "total_cost_usd": 0.024945
+        }
+      },
+      "tax_mode": {
+        "exclusive": {
+          "documents": {
+            "successes": 332,
+            "count": 435,
+            "rate": 0.7632,
+            "wilson95": [
+              0.7211,
+              0.8008
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 4724,
+            "count": 5180,
+            "rate": 0.912,
+            "wilson95": [
+              0.9039,
+              0.9194
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 5180,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0007
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 435,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0088
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.002003,
+          "cost_per_correct_doc_usd": 0.002624,
+          "latency_ms": {
+            "p50": 4080.9,
+            "p95": 10255.0
+          },
+          "total_cost_usd": 0.871206
+        },
+        "inclusive": {
+          "documents": {
+            "successes": 7,
+            "count": 16,
+            "rate": 0.4375,
+            "wilson95": [
+              0.231,
+              0.6682
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 173,
+            "count": 184,
+            "rate": 0.9402,
+            "wilson95": [
+              0.8961,
+              0.9663
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 184,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0205
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 16,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.1936
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.00195,
+          "cost_per_correct_doc_usd": 0.004458,
+          "latency_ms": {
+            "p50": 15047.2,
+            "p95": 29870.3
+          },
+          "total_cost_usd": 0.031207
+        },
+        "reverse_charge": {
+          "documents": {
+            "successes": 4,
+            "count": 4,
+            "rate": 1.0,
+            "wilson95": [
+              0.5101,
+              1.0
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 48,
+            "count": 48,
+            "rate": 1.0,
+            "wilson95": [
+              0.9259,
+              1.0
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 48,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0741
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 4,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.4899
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.001947,
+          "cost_per_correct_doc_usd": 0.001947,
+          "latency_ms": {
+            "p50": 3601.8,
+            "p95": 4332.1
+          },
+          "total_cost_usd": 0.007788
+        }
+      },
+      "cross_border": {
+        "False": {
+          "documents": {
+            "successes": 303,
+            "count": 415,
+            "rate": 0.7301,
+            "wilson95": [
+              0.6854,
+              0.7706
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 4469,
+            "count": 4936,
+            "rate": 0.9054,
+            "wilson95": [
+              0.8969,
+              0.9132
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 4936,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0008
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 415,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0092
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.002,
+          "cost_per_correct_doc_usd": 0.002739,
+          "latency_ms": {
+            "p50": 4197.7,
+            "p95": 12334.6
+          },
+          "total_cost_usd": 0.829965
+        },
+        "True": {
+          "documents": {
+            "successes": 40,
+            "count": 40,
+            "rate": 1.0,
+            "wilson95": [
+              0.9124,
+              1.0
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 476,
+            "count": 476,
+            "rate": 1.0,
+            "wilson95": [
+              0.992,
+              1.0
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 476,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.008
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 40,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0876
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.002006,
+          "cost_per_correct_doc_usd": 0.002006,
+          "latency_ms": {
+            "p50": 3875.2,
+            "p95": 6827.4
+          },
+          "total_cost_usd": 0.080236
+        }
+      },
+      "language_mode": {
+        "bilingual": {
+          "documents": {
+            "successes": 72,
+            "count": 100,
+            "rate": 0.72,
+            "wilson95": [
+              0.6251,
+              0.7986
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 1059,
+            "count": 1196,
+            "rate": 0.8855,
+            "wilson95": [
+              0.8662,
+              0.9023
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 1196,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0032
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 100,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.037
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.002029,
+          "cost_per_correct_doc_usd": 0.002818,
+          "latency_ms": {
+            "p50": 4482.5,
+            "p95": 8507.3
+          },
+          "total_cost_usd": 0.20288
+        },
+        "english": {
+          "documents": {
+            "successes": 40,
+            "count": 40,
+            "rate": 1.0,
+            "wilson95": [
+              0.9124,
+              1.0
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 476,
+            "count": 476,
+            "rate": 1.0,
+            "wilson95": [
+              0.992,
+              1.0
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 476,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.008
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 40,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0876
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.002009,
+          "cost_per_correct_doc_usd": 0.002009,
+          "latency_ms": {
+            "p50": 4021.1,
+            "p95": 6827.4
+          },
+          "total_cost_usd": 0.080369
+        },
+        "native": {
+          "documents": {
+            "successes": 231,
+            "count": 315,
+            "rate": 0.7333,
+            "wilson95": [
+              0.6819,
+              0.7791
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 3410,
+            "count": 3740,
+            "rate": 0.9118,
+            "wilson95": [
+              0.9022,
+              0.9204
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 3740,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.001
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 315,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.012
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.00199,
+          "cost_per_correct_doc_usd": 0.002714,
+          "latency_ms": {
+            "p50": 4056.6,
+            "p95": 14833.5
+          },
+          "total_cost_usd": 0.626951
+        }
+      },
+      "ambiguous_date": {
+        "False": {
+          "documents": {
+            "successes": 287,
+            "count": 387,
+            "rate": 0.7416,
+            "wilson95": [
+              0.6958,
+              0.7827
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 4151,
+            "count": 4604,
+            "rate": 0.9016,
+            "wilson95": [
+              0.8927,
+              0.9099
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 4604,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0008
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 387,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0098
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.001997,
+          "cost_per_correct_doc_usd": 0.002693,
+          "latency_ms": {
+            "p50": 4100.5,
+            "p95": 10966.6
+          },
+          "total_cost_usd": 0.773003
+        },
+        "True": {
+          "documents": {
+            "successes": 56,
+            "count": 68,
+            "rate": 0.8235,
+            "wilson95": [
+              0.7164,
+              0.8961
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 794,
+            "count": 808,
+            "rate": 0.9827,
+            "wilson95": [
+              0.9711,
+              0.9897
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 808,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0047
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 68,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0535
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.002018,
+          "cost_per_correct_doc_usd": 0.00245,
+          "latency_ms": {
+            "p50": 4541.6,
+            "p95": 21468.5
+          },
+          "total_cost_usd": 0.137198
+        }
+      },
+      "withholding": {
+        "False": {
+          "documents": {
+            "successes": 336,
+            "count": 447,
+            "rate": 0.7517,
+            "wilson95": [
+              0.7096,
+              0.7895
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 4850,
+            "count": 5316,
+            "rate": 0.9123,
+            "wilson95": [
+              0.9044,
+              0.9196
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 5316,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0007
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 447,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0085
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.002,
+          "cost_per_correct_doc_usd": 0.002661,
+          "latency_ms": {
+            "p50": 4147.1,
+            "p95": 12324.5
+          },
+          "total_cost_usd": 0.894041
+        },
+        "True": {
+          "documents": {
+            "successes": 7,
+            "count": 8,
+            "rate": 0.875,
+            "wilson95": [
+              0.5291,
+              0.9776
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 95,
+            "count": 96,
+            "rate": 0.9896,
+            "wilson95": [
+              0.9433,
+              0.9982
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 96,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0385
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 8,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.3244
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.00202,
+          "cost_per_correct_doc_usd": 0.002309,
+          "latency_ms": {
+            "p50": 3840.6,
+            "p95": 8736.4
+          },
+          "total_cost_usd": 0.01616
+        }
+      },
+      "template": {
+        "ae_a": {
+          "documents": {
+            "successes": 13,
+            "count": 19,
+            "rate": 0.6842,
+            "wilson95": [
+              0.4601,
+              0.8464
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 192,
+            "count": 228,
+            "rate": 0.8421,
+            "wilson95": [
+              0.7892,
+              0.8837
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 228,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0166
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 19,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.1682
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.002064,
+          "cost_per_correct_doc_usd": 0.003016,
+          "latency_ms": {
+            "p50": 4576.4,
+            "p95": 9323.0
+          },
+          "total_cost_usd": 0.039207
+        },
+        "ae_b": {
+          "documents": {
+            "successes": 8,
+            "count": 8,
+            "rate": 1.0,
+            "wilson95": [
+              0.6756,
+              1.0
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 96,
+            "count": 96,
+            "rate": 1.0,
+            "wilson95": [
+              0.9615,
+              1.0
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 96,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0385
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 8,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.3244
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.002071,
+          "cost_per_correct_doc_usd": 0.002071,
+          "latency_ms": {
+            "p50": 4915.6,
+            "p95": 6300.6
+          },
+          "total_cost_usd": 0.016566
+        },
+        "ae_c": {
+          "documents": {
+            "successes": 8,
+            "count": 8,
+            "rate": 1.0,
+            "wilson95": [
+              0.6756,
+              1.0
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 96,
+            "count": 96,
+            "rate": 1.0,
+            "wilson95": [
+              0.9615,
+              1.0
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 96,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0385
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 8,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.3244
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.002089,
+          "cost_per_correct_doc_usd": 0.002089,
+          "latency_ms": {
+            "p50": 5178.3,
+            "p95": 8346.8
+          },
+          "total_cost_usd": 0.01671
+        },
+        "br_a": {
+          "documents": {
+            "successes": 6,
+            "count": 15,
+            "rate": 0.4,
+            "wilson95": [
+              0.1982,
+              0.6425
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 143,
+            "count": 180,
+            "rate": 0.7944,
+            "wilson95": [
+              0.7296,
+              0.847
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 180,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0209
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 15,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.2039
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.00198,
+          "cost_per_correct_doc_usd": 0.00495,
+          "latency_ms": {
+            "p50": 6846.8,
+            "p95": 41979.8
+          },
+          "total_cost_usd": 0.029698
+        },
+        "br_b": {
+          "documents": {
+            "successes": 10,
+            "count": 12,
+            "rate": 0.8333,
+            "wilson95": [
+              0.552,
+              0.953
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 142,
+            "count": 144,
+            "rate": 0.9861,
+            "wilson95": [
+              0.9508,
+              0.9962
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 144,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.026
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 12,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.2425
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.002014,
+          "cost_per_correct_doc_usd": 0.002416,
+          "latency_ms": {
+            "p50": 11785.2,
+            "p95": 26238.4
+          },
+          "total_cost_usd": 0.024165
+        },
+        "br_c": {
+          "documents": {
+            "successes": 2,
+            "count": 8,
+            "rate": 0.25,
+            "wilson95": [
+              0.0715,
+              0.5907
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 88,
+            "count": 96,
+            "rate": 0.9167,
+            "wilson95": [
+              0.8441,
+              0.9572
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 96,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0385
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 8,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.3244
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.00199,
+          "cost_per_correct_doc_usd": 0.007959,
+          "latency_ms": {
+            "p50": 20984.8,
+            "p95": 49671.9
+          },
+          "total_cost_usd": 0.015919
+        },
+        "cn_c": {
+          "documents": {
+            "successes": 12,
+            "count": 12,
+            "rate": 1.0,
+            "wilson95": [
+              0.7575,
+              1.0
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 144,
+            "count": 144,
+            "rate": 1.0,
+            "wilson95": [
+              0.974,
+              1.0
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 144,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.026
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 12,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.2425
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.001943,
+          "cost_per_correct_doc_usd": 0.001943,
+          "latency_ms": {
+            "p50": 3592.4,
+            "p95": 5916.6
+          },
+          "total_cost_usd": 0.023319
+        },
+        "cn_a": {
+          "documents": {
+            "successes": 10,
+            "count": 12,
+            "rate": 0.8333,
+            "wilson95": [
+              0.552,
+              0.953
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 142,
+            "count": 144,
+            "rate": 0.9861,
+            "wilson95": [
+              0.9508,
+              0.9962
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 144,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.026
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 12,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.2425
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.001999,
+          "cost_per_correct_doc_usd": 0.002399,
+          "latency_ms": {
+            "p50": 3442.6,
+            "p95": 5241.7
+          },
+          "total_cost_usd": 0.023994
+        },
+        "cn_b": {
+          "documents": {
+            "successes": 5,
+            "count": 11,
+            "rate": 0.4545,
+            "wilson95": [
+              0.2127,
+              0.7199
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 99,
+            "count": 132,
+            "rate": 0.75,
+            "wilson95": [
+              0.6698,
+              0.8161
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 132,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0283
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 11,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.2588
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.001986,
+          "cost_per_correct_doc_usd": 0.00437,
+          "latency_ms": {
+            "p50": 4902.6,
+            "p95": 10162.4
+          },
+          "total_cost_usd": 0.021851
+        },
+        "de_a": {
+          "documents": {
+            "successes": 13,
+            "count": 19,
+            "rate": 0.6842,
+            "wilson95": [
+              0.4601,
+              0.8464
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 195,
+            "count": 228,
+            "rate": 0.8553,
+            "wilson95": [
+              0.8037,
+              0.895
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 228,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0166
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 19,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.1682
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.001993,
+          "cost_per_correct_doc_usd": 0.002914,
+          "latency_ms": {
+            "p50": 4291.5,
+            "p95": 7627.0
+          },
+          "total_cost_usd": 0.037876
+        },
+        "de_b": {
+          "documents": {
+            "successes": 8,
+            "count": 8,
+            "rate": 1.0,
+            "wilson95": [
+              0.6756,
+              1.0
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 96,
+            "count": 96,
+            "rate": 1.0,
+            "wilson95": [
+              0.9615,
+              1.0
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 96,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0385
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 8,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.3244
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.002052,
+          "cost_per_correct_doc_usd": 0.002052,
+          "latency_ms": {
+            "p50": 4219.4,
+            "p95": 5623.2
+          },
+          "total_cost_usd": 0.016414
+        },
+        "de_c": {
+          "documents": {
+            "successes": 8,
+            "count": 8,
+            "rate": 1.0,
+            "wilson95": [
+              0.6756,
+              1.0
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 96,
+            "count": 96,
+            "rate": 1.0,
+            "wilson95": [
+              0.9615,
+              1.0
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 96,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0385
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 8,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.3244
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.002027,
+          "cost_per_correct_doc_usd": 0.002027,
+          "latency_ms": {
+            "p50": 3702.1,
+            "p95": 7962.2
+          },
+          "total_cost_usd": 0.016213
+        },
+        "gb_a": {
+          "documents": {
+            "successes": 9,
+            "count": 15,
+            "rate": 0.6,
+            "wilson95": [
+              0.3575,
+              0.8018
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 147,
+            "count": 180,
+            "rate": 0.8167,
+            "wilson95": [
+              0.7537,
+              0.8664
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 180,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0209
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 15,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.2039
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.002005,
+          "cost_per_correct_doc_usd": 0.003341,
+          "latency_ms": {
+            "p50": 4014.1,
+            "p95": 8747.7
+          },
+          "total_cost_usd": 0.030071
+        },
+        "gb_b": {
+          "documents": {
+            "successes": 12,
+            "count": 12,
+            "rate": 1.0,
+            "wilson95": [
+              0.7575,
+              1.0
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 144,
+            "count": 144,
+            "rate": 1.0,
+            "wilson95": [
+              0.974,
+              1.0
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 144,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.026
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 12,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.2425
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.002013,
+          "cost_per_correct_doc_usd": 0.002013,
+          "latency_ms": {
+            "p50": 3707.6,
+            "p95": 7104.5
+          },
+          "total_cost_usd": 0.024157
+        },
+        "gb_c": {
+          "documents": {
+            "successes": 7,
+            "count": 8,
+            "rate": 0.875,
+            "wilson95": [
+              0.5291,
+              0.9776
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 95,
+            "count": 96,
+            "rate": 0.9896,
+            "wilson95": [
+              0.9433,
+              0.9982
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 96,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0385
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 8,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.3244
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.00203,
+          "cost_per_correct_doc_usd": 0.00232,
+          "latency_ms": {
+            "p50": 4336.9,
+            "p95": 5426.7
+          },
+          "total_cost_usd": 0.016242
+        },
+        "id_a": {
+          "documents": {
+            "successes": 13,
+            "count": 19,
+            "rate": 0.6842,
+            "wilson95": [
+              0.4601,
+              0.8464
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 198,
+            "count": 228,
+            "rate": 0.8684,
+            "wilson95": [
+              0.8184,
+              0.9063
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 228,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0166
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 19,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.1682
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.002025,
+          "cost_per_correct_doc_usd": 0.00296,
+          "latency_ms": {
+            "p50": 6202.2,
+            "p95": 12210.4
+          },
+          "total_cost_usd": 0.038484
+        },
+        "id_b": {
+          "documents": {
+            "successes": 7,
+            "count": 8,
+            "rate": 0.875,
+            "wilson95": [
+              0.5291,
+              0.9776
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 95,
+            "count": 96,
+            "rate": 0.9896,
+            "wilson95": [
+              0.9433,
+              0.9982
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 96,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0385
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 8,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.3244
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.002057,
+          "cost_per_correct_doc_usd": 0.002351,
+          "latency_ms": {
+            "p50": 5779.6,
+            "p95": 9118.1
+          },
+          "total_cost_usd": 0.016455
+        },
+        "id_c": {
+          "documents": {
+            "successes": 7,
+            "count": 8,
+            "rate": 0.875,
+            "wilson95": [
+              0.5291,
+              0.9776
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 95,
+            "count": 96,
+            "rate": 0.9896,
+            "wilson95": [
+              0.9433,
+              0.9982
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 96,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0385
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 8,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.3244
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.002053,
+          "cost_per_correct_doc_usd": 0.002346,
+          "latency_ms": {
+            "p50": 5439.4,
+            "p95": 12305.5
+          },
+          "total_cost_usd": 0.016422
+        },
+        "in_a": {
+          "documents": {
+            "successes": 7,
+            "count": 15,
+            "rate": 0.4667,
+            "wilson95": [
+              0.2481,
+              0.6988
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 145,
+            "count": 180,
+            "rate": 0.8056,
+            "wilson95": [
+              0.7416,
+              0.8567
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 180,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0209
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 15,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.2039
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.00199,
+          "cost_per_correct_doc_usd": 0.004264,
+          "latency_ms": {
+            "p50": 3514.1,
+            "p95": 6811.3
+          },
+          "total_cost_usd": 0.029846
+        },
+        "in_b": {
+          "documents": {
+            "successes": 8,
+            "count": 12,
+            "rate": 0.6667,
+            "wilson95": [
+              0.3906,
+              0.8619
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 140,
+            "count": 144,
+            "rate": 0.9722,
+            "wilson95": [
+              0.9308,
+              0.9891
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 144,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.026
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 12,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.2425
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.00201,
+          "cost_per_correct_doc_usd": 0.003015,
+          "latency_ms": {
+            "p50": 4077.3,
+            "p95": 6529.7
+          },
+          "total_cost_usd": 0.024123
+        },
+        "in_c": {
+          "documents": {
+            "successes": 3,
+            "count": 8,
+            "rate": 0.375,
+            "wilson95": [
+              0.1368,
+              0.6943
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 91,
+            "count": 96,
+            "rate": 0.9479,
+            "wilson95": [
+              0.8838,
+              0.9776
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 96,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0385
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 8,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.3244
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.002012,
+          "cost_per_correct_doc_usd": 0.005366,
+          "latency_ms": {
+            "p50": 3615.4,
+            "p95": 5746.9
+          },
+          "total_cost_usd": 0.016099
+        },
+        "jp_a": {
+          "documents": {
+            "successes": 14,
+            "count": 16,
+            "rate": 0.875,
+            "wilson95": [
+              0.6398,
+              0.965
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 174,
+            "count": 176,
+            "rate": 0.9886,
+            "wilson95": [
+              0.9595,
+              0.9969
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 176,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0214
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 16,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.1936
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.001966,
+          "cost_per_correct_doc_usd": 0.002247,
+          "latency_ms": {
+            "p50": 4138.7,
+            "p95": 12769.5
+          },
+          "total_cost_usd": 0.031461
+        },
+        "jp_b": {
+          "documents": {
+            "successes": 7,
+            "count": 15,
+            "rate": 0.4667,
+            "wilson95": [
+              0.2481,
+              0.6988
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 144,
+            "count": 176,
+            "rate": 0.8182,
+            "wilson95": [
+              0.7546,
+              0.8682
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 176,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0214
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 15,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.2039
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.00196,
+          "cost_per_correct_doc_usd": 0.004201,
+          "latency_ms": {
+            "p50": 4716.0,
+            "p95": 10227.1
+          },
+          "total_cost_usd": 0.029405
+        },
+        "jp_c": {
+          "documents": {
+            "successes": 4,
+            "count": 4,
+            "rate": 1.0,
+            "wilson95": [
+              0.5101,
+              1.0
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 44,
+            "count": 44,
+            "rate": 1.0,
+            "wilson95": [
+              0.9197,
+              1.0
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 44,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0803
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 4,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.4899
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.001963,
+          "cost_per_correct_doc_usd": 0.001963,
+          "latency_ms": {
+            "p50": 3579.6,
+            "p95": 4129.7
+          },
+          "total_cost_usd": 0.007852
+        },
+        "kr_a": {
+          "documents": {
+            "successes": 16,
+            "count": 16,
+            "rate": 1.0,
+            "wilson95": [
+              0.8064,
+              1.0
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 192,
+            "count": 192,
+            "rate": 1.0,
+            "wilson95": [
+              0.9804,
+              1.0
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 192,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0196
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 16,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.1936
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.001964,
+          "cost_per_correct_doc_usd": 0.001964,
+          "latency_ms": {
+            "p50": 3256.4,
+            "p95": 5118.8
+          },
+          "total_cost_usd": 0.031425
+        },
+        "kr_b": {
+          "documents": {
+            "successes": 8,
+            "count": 11,
+            "rate": 0.7273,
+            "wilson95": [
+              0.4344,
+              0.9025
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 99,
+            "count": 132,
+            "rate": 0.75,
+            "wilson95": [
+              0.6698,
+              0.8161
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 132,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0283
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 11,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.2588
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.001937,
+          "cost_per_correct_doc_usd": 0.002663,
+          "latency_ms": {
+            "p50": 3577.0,
+            "p95": 4974.1
+          },
+          "total_cost_usd": 0.021302
+        },
+        "kr_c": {
+          "documents": {
+            "successes": 8,
+            "count": 8,
+            "rate": 1.0,
+            "wilson95": [
+              0.6756,
+              1.0
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 96,
+            "count": 96,
+            "rate": 1.0,
+            "wilson95": [
+              0.9615,
+              1.0
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 96,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0385
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 8,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.3244
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.001969,
+          "cost_per_correct_doc_usd": 0.001969,
+          "latency_ms": {
+            "p50": 4808.5,
+            "p95": 6350.0
+          },
+          "total_cost_usd": 0.015756
+        },
+        "mx_a": {
+          "documents": {
+            "successes": 9,
+            "count": 15,
+            "rate": 0.6,
+            "wilson95": [
+              0.3575,
+              0.8018
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 144,
+            "count": 180,
+            "rate": 0.8,
+            "wilson95": [
+              0.7356,
+              0.8519
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 180,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0209
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 15,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.2039
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.001961,
+          "cost_per_correct_doc_usd": 0.003268,
+          "latency_ms": {
+            "p50": 4282.7,
+            "p95": 7694.5
+          },
+          "total_cost_usd": 0.029413
+        },
+        "mx_b": {
+          "documents": {
+            "successes": 12,
+            "count": 12,
+            "rate": 1.0,
+            "wilson95": [
+              0.7575,
+              1.0
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 144,
+            "count": 144,
+            "rate": 1.0,
+            "wilson95": [
+              0.974,
+              1.0
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 144,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.026
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 12,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.2425
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.002034,
+          "cost_per_correct_doc_usd": 0.002034,
+          "latency_ms": {
+            "p50": 3824.5,
+            "p95": 5612.4
+          },
+          "total_cost_usd": 0.024404
+        },
+        "mx_c": {
+          "documents": {
+            "successes": 7,
+            "count": 8,
+            "rate": 0.875,
+            "wilson95": [
+              0.5291,
+              0.9776
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 95,
+            "count": 96,
+            "rate": 0.9896,
+            "wilson95": [
+              0.9433,
+              0.9982
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 96,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0385
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 8,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.3244
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.002037,
+          "cost_per_correct_doc_usd": 0.002328,
+          "latency_ms": {
+            "p50": 3685.7,
+            "p95": 8383.8
+          },
+          "total_cost_usd": 0.016297
+        },
+        "sa_a": {
+          "documents": {
+            "successes": 13,
+            "count": 19,
+            "rate": 0.6842,
+            "wilson95": [
+              0.4601,
+              0.8464
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 195,
+            "count": 228,
+            "rate": 0.8553,
+            "wilson95": [
+              0.8037,
+              0.895
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 228,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0166
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 19,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.1682
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.002042,
+          "cost_per_correct_doc_usd": 0.002984,
+          "latency_ms": {
+            "p50": 4437.9,
+            "p95": 8190.0
+          },
+          "total_cost_usd": 0.038793
+        },
+        "sa_b": {
+          "documents": {
+            "successes": 7,
+            "count": 8,
+            "rate": 0.875,
+            "wilson95": [
+              0.5291,
+              0.9776
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 94,
+            "count": 96,
+            "rate": 0.9792,
+            "wilson95": [
+              0.9272,
+              0.9943
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 96,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0385
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 8,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.3244
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.002088,
+          "cost_per_correct_doc_usd": 0.002386,
+          "latency_ms": {
+            "p50": 4525.3,
+            "p95": 6083.3
+          },
+          "total_cost_usd": 0.016701
+        },
+        "sa_c": {
+          "documents": {
+            "successes": 8,
+            "count": 8,
+            "rate": 1.0,
+            "wilson95": [
+              0.6756,
+              1.0
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 96,
+            "count": 96,
+            "rate": 1.0,
+            "wilson95": [
+              0.9615,
+              1.0
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 96,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0385
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 8,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.3244
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.002033,
+          "cost_per_correct_doc_usd": 0.002033,
+          "latency_ms": {
+            "p50": 5235.9,
+            "p95": 12458.7
+          },
+          "total_cost_usd": 0.016266
+        },
+        "th_a": {
+          "documents": {
+            "successes": 13,
+            "count": 19,
+            "rate": 0.6842,
+            "wilson95": [
+              0.4601,
+              0.8464
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 198,
+            "count": 228,
+            "rate": 0.8684,
+            "wilson95": [
+              0.8184,
+              0.9063
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 228,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0166
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 19,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.1682
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.001978,
+          "cost_per_correct_doc_usd": 0.002891,
+          "latency_ms": {
+            "p50": 3531.2,
+            "p95": 5204.6
+          },
+          "total_cost_usd": 0.037586
+        },
+        "th_b": {
+          "documents": {
+            "successes": 4,
+            "count": 8,
+            "rate": 0.5,
+            "wilson95": [
+              0.2152,
+              0.7848
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 92,
+            "count": 96,
+            "rate": 0.9583,
+            "wilson95": [
+              0.8977,
+              0.9837
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 96,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0385
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 8,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.3244
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.001983,
+          "cost_per_correct_doc_usd": 0.003966,
+          "latency_ms": {
+            "p50": 3645.3,
+            "p95": 4515.9
+          },
+          "total_cost_usd": 0.015863
+        },
+        "th_c": {
+          "documents": {
+            "successes": 8,
+            "count": 8,
+            "rate": 1.0,
+            "wilson95": [
+              0.6756,
+              1.0
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 96,
+            "count": 96,
+            "rate": 1.0,
+            "wilson95": [
+              0.9615,
+              1.0
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 96,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0385
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 8,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.3244
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.002003,
+          "cost_per_correct_doc_usd": 0.002003,
+          "latency_ms": {
+            "p50": 3584.4,
+            "p95": 4605.4
+          },
+          "total_cost_usd": 0.016026
+        },
+        "us_a": {
+          "documents": {
+            "successes": 9,
+            "count": 15,
+            "rate": 0.6,
+            "wilson95": [
+              0.3575,
+              0.8018
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 143,
+            "count": 176,
+            "rate": 0.8125,
+            "wilson95": [
+              0.7484,
+              0.8633
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 176,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0214
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 15,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.2039
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.001948,
+          "cost_per_correct_doc_usd": 0.003246,
+          "latency_ms": {
+            "p50": 3298.8,
+            "p95": 5426.9
+          },
+          "total_cost_usd": 0.029212
+        },
+        "us_b": {
+          "documents": {
+            "successes": 12,
+            "count": 12,
+            "rate": 1.0,
+            "wilson95": [
+              0.7575,
+              1.0
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 132,
+            "count": 132,
+            "rate": 1.0,
+            "wilson95": [
+              0.9717,
+              1.0
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 132,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0283
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 12,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.2425
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.001927,
+          "cost_per_correct_doc_usd": 0.001927,
+          "latency_ms": {
+            "p50": 3457.3,
+            "p95": 5029.5
+          },
+          "total_cost_usd": 0.023129
+        },
+        "us_c": {
+          "documents": {
+            "successes": 8,
+            "count": 8,
+            "rate": 1.0,
+            "wilson95": [
+              0.6756,
+              1.0
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 88,
+            "count": 88,
+            "rate": 1.0,
+            "wilson95": [
+              0.9582,
+              1.0
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 88,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0418
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 8,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.3244
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.001935,
+          "cost_per_correct_doc_usd": 0.001935,
+          "latency_ms": {
+            "p50": 3505.0,
+            "p95": 4109.9
+          },
+          "total_cost_usd": 0.015479
+        }
+      },
+      "variant": {
+        "clean_pdf": {
+          "documents": {
+            "successes": 94,
+            "count": 104,
+            "rate": 0.9038,
+            "wilson95": [
+              0.832,
+              0.9469
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 1226,
+            "count": 1236,
+            "rate": 0.9919,
+            "wilson95": [
+              0.9852,
+              0.9956
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 1236,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0031
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 104,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0356
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.001747,
+          "cost_per_correct_doc_usd": 0.001933,
+          "latency_ms": {
+            "p50": 3197.2,
+            "p95": 11991.7
+          },
+          "total_cost_usd": 0.181687
+        },
+        "scan": {
+          "documents": {
+            "successes": 88,
+            "count": 117,
+            "rate": 0.7521,
+            "wilson95": [
+              0.6667,
+              0.8215
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 1246,
+            "count": 1392,
+            "rate": 0.8951,
+            "wilson95": [
+              0.8779,
+              0.9101
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 1392,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0028
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 117,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0318
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.002074,
+          "cost_per_correct_doc_usd": 0.002757,
+          "latency_ms": {
+            "p50": 4859.7,
+            "p95": 16351.2
+          },
+          "total_cost_usd": 0.242655
+        },
+        "bad_scan": {
+          "documents": {
+            "successes": 75,
+            "count": 117,
+            "rate": 0.641,
+            "wilson95": [
+              0.5509,
+              0.7222
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 1229,
+            "count": 1392,
+            "rate": 0.8829,
+            "wilson95": [
+              0.8649,
+              0.8987
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 1392,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0028
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 117,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0318
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.002075,
+          "cost_per_correct_doc_usd": 0.003238,
+          "latency_ms": {
+            "p50": 3953.8,
+            "p95": 10414.4
+          },
+          "total_cost_usd": 0.242819
+        },
+        "phone_photo": {
+          "documents": {
+            "successes": 86,
+            "count": 117,
+            "rate": 0.735,
+            "wilson95": [
+              0.6485,
+              0.8066
+            ],
+            "metric": "document_exact_match"
+          },
+          "field_accuracy": {
+            "successes": 1244,
+            "count": 1392,
+            "rate": 0.8937,
+            "wilson95": [
+              0.8764,
+              0.9088
+            ],
+            "metric": "field_accuracy"
+          },
+          "hallucination_rate": {
+            "successes": 0,
+            "count": 1392,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0028
+            ],
+            "metric": "hallucination_rate"
+          },
+          "api_failure_rate": {
+            "successes": 0,
+            "count": 117,
+            "rate": 0.0,
+            "wilson95": [
+              0.0,
+              0.0318
+            ],
+            "metric": "api_failure_rate"
+          },
+          "mean_cost_per_doc_usd": 0.002077,
+          "cost_per_correct_doc_usd": 0.002826,
+          "latency_ms": {
+            "p50": 4080.9,
+            "p95": 12763.8
+          },
+          "total_cost_usd": 0.24304
+        }
+      }
+    }
+  }
+}
