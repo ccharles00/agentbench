@@ -1,0 +1,467 @@
+{"doc_id": "AE-0001", "variant": "bad_scan", "field": "vendor_tax_id", "truth": "151450357719435", "prediction": "101450357719435", "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "AE-0003", "variant": "scan", "field": "subtotal", "truth": "240368.92", "prediction": null, "outcome": "incorrect", "rendered": "240,368.92 د.إ", "tool": "google_gemini_flash"}
+{"doc_id": "AE-0003", "variant": "scan", "field": "tax_total", "truth": "12018.46", "prediction": null, "outcome": "incorrect", "rendered": "12,018.46", "tool": "google_gemini_flash"}
+{"doc_id": "AE-0003", "variant": "scan", "field": "total", "truth": "252387.38", "prediction": null, "outcome": "incorrect", "rendered": "252,387.38 د.إ", "tool": "google_gemini_flash"}
+{"doc_id": "AE-0003", "variant": "scan", "field": "tax_rates", "truth": ["5"], "prediction": [], "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "AE-0003", "variant": "scan", "field": "payment_account", "truth": "AE125486807519503945411", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "AE-0003", "variant": "scan", "field": "line_item_count", "truth": 25, "prediction": 21, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "AE-0003", "variant": "scan", "field": "vendor_name", "truth": "أبوظبي للتوريدات ش.ذ.م.م", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "AE-0003", "variant": "scan", "field": "vendor_tax_id", "truth": "102082544678639", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "AE-0003", "variant": "scan", "field": "invoice_number", "truth": "TINV/2026/2555", "prediction": null, "outcome": "incorrect", "rendered": "TINV/2026/2555", "tool": "google_gemini_flash"}
+{"doc_id": "AE-0003", "variant": "scan", "field": "invoice_date", "truth": "2026-02-28", "prediction": null, "outcome": "incorrect", "rendered": "28/02/2026", "tool": "google_gemini_flash"}
+{"doc_id": "AE-0003", "variant": "scan", "field": "due_date", "truth": "2026-03-30", "prediction": null, "outcome": "incorrect", "rendered": "30/03/2026", "tool": "google_gemini_flash"}
+{"doc_id": "AE-0003", "variant": "scan", "field": "line_item_count", "truth": 25, "prediction": 4, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "AE-0003", "variant": "bad_scan", "field": "subtotal", "truth": "240368.92", "prediction": null, "outcome": "incorrect", "rendered": "240,368.92 د.إ", "tool": "google_gemini_flash"}
+{"doc_id": "AE-0003", "variant": "bad_scan", "field": "tax_total", "truth": "12018.46", "prediction": null, "outcome": "incorrect", "rendered": "12,018.46", "tool": "google_gemini_flash"}
+{"doc_id": "AE-0003", "variant": "bad_scan", "field": "total", "truth": "252387.38", "prediction": null, "outcome": "incorrect", "rendered": "252,387.38 د.إ", "tool": "google_gemini_flash"}
+{"doc_id": "AE-0003", "variant": "bad_scan", "field": "tax_rates", "truth": ["5"], "prediction": [], "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "AE-0003", "variant": "bad_scan", "field": "payment_account", "truth": "AE125486807519503945411", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "AE-0003", "variant": "bad_scan", "field": "line_item_count", "truth": 25, "prediction": 21, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "AE-0003", "variant": "bad_scan", "field": "vendor_name", "truth": "أبوظبي للتوريدات ش.ذ.م.م", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "AE-0003", "variant": "bad_scan", "field": "vendor_tax_id", "truth": "102082544678639", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "AE-0003", "variant": "bad_scan", "field": "invoice_number", "truth": "TINV/2026/2555", "prediction": null, "outcome": "incorrect", "rendered": "TINV/2026/2555", "tool": "google_gemini_flash"}
+{"doc_id": "AE-0003", "variant": "bad_scan", "field": "invoice_date", "truth": "2026-02-28", "prediction": null, "outcome": "incorrect", "rendered": "28/02/2026", "tool": "google_gemini_flash"}
+{"doc_id": "AE-0003", "variant": "bad_scan", "field": "due_date", "truth": "2026-03-30", "prediction": null, "outcome": "incorrect", "rendered": "30/03/2026", "tool": "google_gemini_flash"}
+{"doc_id": "AE-0003", "variant": "phone_photo", "field": "subtotal", "truth": "240368.92", "prediction": null, "outcome": "incorrect", "rendered": "240,368.92 د.إ", "tool": "google_gemini_flash"}
+{"doc_id": "AE-0003", "variant": "phone_photo", "field": "tax_total", "truth": "12018.46", "prediction": null, "outcome": "incorrect", "rendered": "12,018.46", "tool": "google_gemini_flash"}
+{"doc_id": "AE-0003", "variant": "phone_photo", "field": "total", "truth": "252387.38", "prediction": null, "outcome": "incorrect", "rendered": "252,387.38 د.إ", "tool": "google_gemini_flash"}
+{"doc_id": "AE-0003", "variant": "phone_photo", "field": "tax_rates", "truth": ["5"], "prediction": [], "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "AE-0003", "variant": "phone_photo", "field": "payment_account", "truth": "AE125486807519503945411", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "AE-0003", "variant": "phone_photo", "field": "line_item_count", "truth": 25, "prediction": 21, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "AE-0003", "variant": "phone_photo", "field": "vendor_name", "truth": "أبوظبي للتوريدات ش.ذ.م.م", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "AE-0003", "variant": "phone_photo", "field": "vendor_tax_id", "truth": "102082544678639", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "AE-0003", "variant": "phone_photo", "field": "invoice_number", "truth": "TINV/2026/2555", "prediction": null, "outcome": "incorrect", "rendered": "TINV/2026/2555", "tool": "google_gemini_flash"}
+{"doc_id": "AE-0003", "variant": "phone_photo", "field": "invoice_date", "truth": "2026-02-28", "prediction": null, "outcome": "incorrect", "rendered": "28/02/2026", "tool": "google_gemini_flash"}
+{"doc_id": "AE-0003", "variant": "phone_photo", "field": "due_date", "truth": "2026-03-30", "prediction": null, "outcome": "incorrect", "rendered": "30/03/2026", "tool": "google_gemini_flash"}
+{"doc_id": "AE-0003", "variant": "phone_photo", "field": "line_item_count", "truth": 25, "prediction": 4, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "BR-0001", "variant": "bad_scan", "field": "invoice_number", "truth": "NF-e nº 044763", "prediction": "044763", "outcome": "incorrect", "rendered": "NF-e nº 044763", "tool": "google_gemini_flash"}
+{"doc_id": "BR-0002", "variant": "clean_pdf", "field": "invoice_number", "truth": "NF-e nº 122022", "prediction": "122022", "outcome": "incorrect", "rendered": "NF-e nº 122022", "tool": "google_gemini_flash"}
+{"doc_id": "BR-0003", "variant": "scan", "field": "invoice_number", "truth": "NF-e nº 946851", "prediction": "946851", "outcome": "incorrect", "rendered": "NF-e nº 946851", "tool": "google_gemini_flash"}
+{"doc_id": "BR-0003", "variant": "scan", "field": "subtotal", "truth": "168679.44", "prediction": null, "outcome": "incorrect", "rendered": "R$168.679,44", "tool": "google_gemini_flash"}
+{"doc_id": "BR-0003", "variant": "scan", "field": "tax_total", "truth": "30362.30", "prediction": null, "outcome": "incorrect", "rendered": "30.362,30", "tool": "google_gemini_flash"}
+{"doc_id": "BR-0003", "variant": "scan", "field": "total", "truth": "199041.74", "prediction": null, "outcome": "incorrect", "rendered": "R$199.041,74", "tool": "google_gemini_flash"}
+{"doc_id": "BR-0003", "variant": "scan", "field": "tax_rates", "truth": ["18"], "prediction": [], "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "BR-0003", "variant": "scan", "field": "vendor_name", "truth": "Belo Horizonte Papelaria Eireli", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "BR-0003", "variant": "scan", "field": "vendor_tax_id", "truth": "98691084000150", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "BR-0003", "variant": "scan", "field": "invoice_number", "truth": "NF-e nº 946851", "prediction": null, "outcome": "incorrect", "rendered": "NF-e nº 946851", "tool": "google_gemini_flash"}
+{"doc_id": "BR-0003", "variant": "scan", "field": "invoice_date", "truth": "2025-04-05", "prediction": null, "outcome": "incorrect", "rendered": "05/04/2025", "tool": "google_gemini_flash"}
+{"doc_id": "BR-0003", "variant": "scan", "field": "due_date", "truth": "2025-05-20", "prediction": null, "outcome": "incorrect", "rendered": "20/05/2025", "tool": "google_gemini_flash"}
+{"doc_id": "BR-0003", "variant": "scan", "field": "line_item_count", "truth": 21, "prediction": 0, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "BR-0003", "variant": "bad_scan", "field": "invoice_number", "truth": "NF-e nº 946851", "prediction": "946851", "outcome": "incorrect", "rendered": "NF-e nº 946851", "tool": "google_gemini_flash"}
+{"doc_id": "BR-0003", "variant": "bad_scan", "field": "subtotal", "truth": "168679.44", "prediction": null, "outcome": "incorrect", "rendered": "R$168.679,44", "tool": "google_gemini_flash"}
+{"doc_id": "BR-0003", "variant": "bad_scan", "field": "tax_total", "truth": "30362.30", "prediction": null, "outcome": "incorrect", "rendered": "30.362,30", "tool": "google_gemini_flash"}
+{"doc_id": "BR-0003", "variant": "bad_scan", "field": "total", "truth": "199041.74", "prediction": null, "outcome": "incorrect", "rendered": "R$199.041,74", "tool": "google_gemini_flash"}
+{"doc_id": "BR-0003", "variant": "bad_scan", "field": "tax_rates", "truth": ["18"], "prediction": [], "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "BR-0003", "variant": "bad_scan", "field": "vendor_name", "truth": "Belo Horizonte Papelaria Eireli", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "BR-0003", "variant": "bad_scan", "field": "vendor_tax_id", "truth": "98691084000150", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "BR-0003", "variant": "bad_scan", "field": "invoice_number", "truth": "NF-e nº 946851", "prediction": null, "outcome": "incorrect", "rendered": "NF-e nº 946851", "tool": "google_gemini_flash"}
+{"doc_id": "BR-0003", "variant": "bad_scan", "field": "invoice_date", "truth": "2025-04-05", "prediction": null, "outcome": "incorrect", "rendered": "05/04/2025", "tool": "google_gemini_flash"}
+{"doc_id": "BR-0003", "variant": "bad_scan", "field": "due_date", "truth": "2025-05-20", "prediction": null, "outcome": "incorrect", "rendered": "20/05/2025", "tool": "google_gemini_flash"}
+{"doc_id": "BR-0003", "variant": "bad_scan", "field": "line_item_count", "truth": 21, "prediction": 0, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "BR-0003", "variant": "phone_photo", "field": "subtotal", "truth": "168679.44", "prediction": null, "outcome": "incorrect", "rendered": "R$168.679,44", "tool": "google_gemini_flash"}
+{"doc_id": "BR-0003", "variant": "phone_photo", "field": "tax_total", "truth": "30362.30", "prediction": null, "outcome": "incorrect", "rendered": "30.362,30", "tool": "google_gemini_flash"}
+{"doc_id": "BR-0003", "variant": "phone_photo", "field": "total", "truth": "199041.74", "prediction": null, "outcome": "incorrect", "rendered": "R$199.041,74", "tool": "google_gemini_flash"}
+{"doc_id": "BR-0003", "variant": "phone_photo", "field": "tax_rates", "truth": ["18"], "prediction": [], "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "BR-0003", "variant": "phone_photo", "field": "vendor_name", "truth": "Belo Horizonte Papelaria Eireli", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "BR-0003", "variant": "phone_photo", "field": "vendor_tax_id", "truth": "98691084000150", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "BR-0003", "variant": "phone_photo", "field": "invoice_number", "truth": "NF-e nº 946851", "prediction": null, "outcome": "incorrect", "rendered": "NF-e nº 946851", "tool": "google_gemini_flash"}
+{"doc_id": "BR-0003", "variant": "phone_photo", "field": "invoice_date", "truth": "2025-04-05", "prediction": null, "outcome": "incorrect", "rendered": "05/04/2025", "tool": "google_gemini_flash"}
+{"doc_id": "BR-0003", "variant": "phone_photo", "field": "due_date", "truth": "2025-05-20", "prediction": null, "outcome": "incorrect", "rendered": "20/05/2025", "tool": "google_gemini_flash"}
+{"doc_id": "BR-0003", "variant": "phone_photo", "field": "line_item_count", "truth": 21, "prediction": 0, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "BR-0004", "variant": "scan", "field": "invoice_number", "truth": "NF-e nº 006803", "prediction": "006803", "outcome": "incorrect", "rendered": "NF-e nº 006803", "tool": "google_gemini_flash"}
+{"doc_id": "BR-0004", "variant": "bad_scan", "field": "invoice_number", "truth": "NF-e nº 006803", "prediction": "006803", "outcome": "incorrect", "rendered": "NF-e nº 006803", "tool": "google_gemini_flash"}
+{"doc_id": "BR-0005", "variant": "clean_pdf", "field": "invoice_number", "truth": "NF-e nº 103007", "prediction": "103007", "outcome": "incorrect", "rendered": "NF-e nº 103007", "tool": "google_gemini_flash"}
+{"doc_id": "BR-0005", "variant": "clean_pdf", "field": "subtotal", "truth": "100977.00", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "BR-0005", "variant": "bad_scan", "field": "invoice_number", "truth": "NF-e nº 103007", "prediction": "103007", "outcome": "incorrect", "rendered": "NF-e nº 103007", "tool": "google_gemini_flash"}
+{"doc_id": "BR-0005", "variant": "bad_scan", "field": "subtotal", "truth": "100977.00", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "BR-0006", "variant": "bad_scan", "field": "invoice_number", "truth": "NF-e nº 614121", "prediction": "614121", "outcome": "incorrect", "rendered": "NF-e nº 614121", "tool": "google_gemini_flash"}
+{"doc_id": "BR-0007", "variant": "clean_pdf", "field": "invoice_number", "truth": "NF-e nº 951607", "prediction": "951607", "outcome": "incorrect", "rendered": "NF-e nº 951607", "tool": "google_gemini_flash"}
+{"doc_id": "BR-0007", "variant": "bad_scan", "field": "invoice_number", "truth": "NF-e nº 951607", "prediction": "951607", "outcome": "incorrect", "rendered": "NF-e nº 951607", "tool": "google_gemini_flash"}
+{"doc_id": "BR-0007", "variant": "bad_scan", "field": "subtotal", "truth": "50893.16", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "CN-0003", "variant": "bad_scan", "field": "vendor_tax_id", "truth": "5P890573UH839XA5A3", "prediction": "SP890573UH839XASA3", "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "CN-0005", "variant": "bad_scan", "field": "vendor_tax_id", "truth": "5C7873499HDDD392PX", "prediction": "5C7873499HD00392PX", "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "CN-0007", "variant": "scan", "field": "subtotal", "truth": "469541.17", "prediction": null, "outcome": "incorrect", "rendered": "¥469,541.17", "tool": "google_gemini_flash"}
+{"doc_id": "CN-0007", "variant": "scan", "field": "tax_total", "truth": "51617.77", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "CN-0007", "variant": "scan", "field": "total", "truth": "521158.94", "prediction": null, "outcome": "incorrect", "rendered": "¥521,158.94", "tool": "google_gemini_flash"}
+{"doc_id": "CN-0007", "variant": "scan", "field": "tax_rates", "truth": ["13", "6"], "prediction": [], "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "CN-0007", "variant": "scan", "field": "vendor_name", "truth": "上海东方贸易有限公司", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "CN-0007", "variant": "scan", "field": "vendor_tax_id", "truth": "5E220087WYACLXDM9N", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "CN-0007", "variant": "scan", "field": "invoice_number", "truth": "INV202604301", "prediction": null, "outcome": "incorrect", "rendered": "INV202604301", "tool": "google_gemini_flash"}
+{"doc_id": "CN-0007", "variant": "scan", "field": "invoice_date", "truth": "2026-04-21", "prediction": null, "outcome": "incorrect", "rendered": "2026年4月21日", "tool": "google_gemini_flash"}
+{"doc_id": "CN-0007", "variant": "scan", "field": "due_date", "truth": "2026-05-21", "prediction": null, "outcome": "incorrect", "rendered": "2026年5月21日", "tool": "google_gemini_flash"}
+{"doc_id": "CN-0007", "variant": "scan", "field": "line_item_count", "truth": 19, "prediction": 0, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "CN-0007", "variant": "bad_scan", "field": "subtotal", "truth": "469541.17", "prediction": null, "outcome": "incorrect", "rendered": "¥469,541.17", "tool": "google_gemini_flash"}
+{"doc_id": "CN-0007", "variant": "bad_scan", "field": "tax_total", "truth": "51617.77", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "CN-0007", "variant": "bad_scan", "field": "total", "truth": "521158.94", "prediction": null, "outcome": "incorrect", "rendered": "¥521,158.94", "tool": "google_gemini_flash"}
+{"doc_id": "CN-0007", "variant": "bad_scan", "field": "tax_rates", "truth": ["13", "6"], "prediction": [], "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "CN-0007", "variant": "bad_scan", "field": "vendor_name", "truth": "上海东方贸易有限公司", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "CN-0007", "variant": "bad_scan", "field": "vendor_tax_id", "truth": "5E220087WYACLXDM9N", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "CN-0007", "variant": "bad_scan", "field": "invoice_number", "truth": "INV202604301", "prediction": null, "outcome": "incorrect", "rendered": "INV202604301", "tool": "google_gemini_flash"}
+{"doc_id": "CN-0007", "variant": "bad_scan", "field": "invoice_date", "truth": "2026-04-21", "prediction": null, "outcome": "incorrect", "rendered": "2026年4月21日", "tool": "google_gemini_flash"}
+{"doc_id": "CN-0007", "variant": "bad_scan", "field": "due_date", "truth": "2026-05-21", "prediction": null, "outcome": "incorrect", "rendered": "2026年5月21日", "tool": "google_gemini_flash"}
+{"doc_id": "CN-0007", "variant": "bad_scan", "field": "line_item_count", "truth": 19, "prediction": 0, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "CN-0007", "variant": "phone_photo", "field": "subtotal", "truth": "469541.17", "prediction": null, "outcome": "incorrect", "rendered": "¥469,541.17", "tool": "google_gemini_flash"}
+{"doc_id": "CN-0007", "variant": "phone_photo", "field": "tax_total", "truth": "51617.77", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "CN-0007", "variant": "phone_photo", "field": "total", "truth": "521158.94", "prediction": null, "outcome": "incorrect", "rendered": "¥521,158.94", "tool": "google_gemini_flash"}
+{"doc_id": "CN-0007", "variant": "phone_photo", "field": "tax_rates", "truth": ["13", "6"], "prediction": [], "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "CN-0007", "variant": "phone_photo", "field": "vendor_name", "truth": "上海东方贸易有限公司", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "CN-0007", "variant": "phone_photo", "field": "vendor_tax_id", "truth": "5E220087WYACLXDM9N", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "CN-0007", "variant": "phone_photo", "field": "invoice_number", "truth": "INV202604301", "prediction": null, "outcome": "incorrect", "rendered": "INV202604301", "tool": "google_gemini_flash"}
+{"doc_id": "CN-0007", "variant": "phone_photo", "field": "invoice_date", "truth": "2026-04-21", "prediction": null, "outcome": "incorrect", "rendered": "2026年4月21日", "tool": "google_gemini_flash"}
+{"doc_id": "CN-0007", "variant": "phone_photo", "field": "due_date", "truth": "2026-05-21", "prediction": null, "outcome": "incorrect", "rendered": "2026年5月21日", "tool": "google_gemini_flash"}
+{"doc_id": "CN-0007", "variant": "phone_photo", "field": "line_item_count", "truth": 19, "prediction": 0, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "CN-0008", "variant": "bad_scan", "field": "vendor_tax_id", "truth": "5P890573UH839XA5A3", "prediction": "5P890573UH839XASA3", "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "DE-0007", "variant": "scan", "field": "subtotal", "truth": "74129.16", "prediction": null, "outcome": "incorrect", "rendered": "74.129,16 €", "tool": "google_gemini_flash"}
+{"doc_id": "DE-0007", "variant": "scan", "field": "tax_total", "truth": "7320.91", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "DE-0007", "variant": "scan", "field": "total", "truth": "81450.07", "prediction": null, "outcome": "incorrect", "rendered": "81.450,07 €", "tool": "google_gemini_flash"}
+{"doc_id": "DE-0007", "variant": "scan", "field": "tax_rates", "truth": ["19", "7"], "prediction": [], "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "DE-0007", "variant": "scan", "field": "payment_account", "truth": "DE39707139707716329479", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "DE-0007", "variant": "scan", "field": "vendor_name", "truth": "Rhein Main Consulting GmbH", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "DE-0007", "variant": "scan", "field": "vendor_tax_id", "truth": "DE294983927", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "DE-0007", "variant": "scan", "field": "invoice_number", "truth": "RE-2025-4914", "prediction": null, "outcome": "incorrect", "rendered": "RE-2025-4914", "tool": "google_gemini_flash"}
+{"doc_id": "DE-0007", "variant": "scan", "field": "invoice_date", "truth": "2025-09-21", "prediction": null, "outcome": "incorrect", "rendered": "21.09.2025", "tool": "google_gemini_flash"}
+{"doc_id": "DE-0007", "variant": "scan", "field": "due_date", "truth": "2025-11-20", "prediction": null, "outcome": "incorrect", "rendered": "20.11.2025", "tool": "google_gemini_flash"}
+{"doc_id": "DE-0007", "variant": "scan", "field": "line_item_count", "truth": 23, "prediction": 0, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "DE-0007", "variant": "bad_scan", "field": "subtotal", "truth": "74129.16", "prediction": null, "outcome": "incorrect", "rendered": "74.129,16 €", "tool": "google_gemini_flash"}
+{"doc_id": "DE-0007", "variant": "bad_scan", "field": "tax_total", "truth": "7320.91", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "DE-0007", "variant": "bad_scan", "field": "total", "truth": "81450.07", "prediction": null, "outcome": "incorrect", "rendered": "81.450,07 €", "tool": "google_gemini_flash"}
+{"doc_id": "DE-0007", "variant": "bad_scan", "field": "tax_rates", "truth": ["19", "7"], "prediction": [], "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "DE-0007", "variant": "bad_scan", "field": "payment_account", "truth": "DE39707139707716329479", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "DE-0007", "variant": "bad_scan", "field": "vendor_name", "truth": "Rhein Main Consulting GmbH", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "DE-0007", "variant": "bad_scan", "field": "vendor_tax_id", "truth": "DE294983927", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "DE-0007", "variant": "bad_scan", "field": "invoice_number", "truth": "RE-2025-4914", "prediction": null, "outcome": "incorrect", "rendered": "RE-2025-4914", "tool": "google_gemini_flash"}
+{"doc_id": "DE-0007", "variant": "bad_scan", "field": "invoice_date", "truth": "2025-09-21", "prediction": null, "outcome": "incorrect", "rendered": "21.09.2025", "tool": "google_gemini_flash"}
+{"doc_id": "DE-0007", "variant": "bad_scan", "field": "due_date", "truth": "2025-11-20", "prediction": null, "outcome": "incorrect", "rendered": "20.11.2025", "tool": "google_gemini_flash"}
+{"doc_id": "DE-0007", "variant": "bad_scan", "field": "line_item_count", "truth": 23, "prediction": 0, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "DE-0007", "variant": "phone_photo", "field": "subtotal", "truth": "74129.16", "prediction": null, "outcome": "incorrect", "rendered": "74.129,16 €", "tool": "google_gemini_flash"}
+{"doc_id": "DE-0007", "variant": "phone_photo", "field": "tax_total", "truth": "7320.91", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "DE-0007", "variant": "phone_photo", "field": "total", "truth": "81450.07", "prediction": null, "outcome": "incorrect", "rendered": "81.450,07 €", "tool": "google_gemini_flash"}
+{"doc_id": "DE-0007", "variant": "phone_photo", "field": "tax_rates", "truth": ["19", "7"], "prediction": [], "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "DE-0007", "variant": "phone_photo", "field": "payment_account", "truth": "DE39707139707716329479", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "DE-0007", "variant": "phone_photo", "field": "vendor_name", "truth": "Rhein Main Consulting GmbH", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "DE-0007", "variant": "phone_photo", "field": "vendor_tax_id", "truth": "DE294983927", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "DE-0007", "variant": "phone_photo", "field": "invoice_number", "truth": "RE-2025-4914", "prediction": null, "outcome": "incorrect", "rendered": "RE-2025-4914", "tool": "google_gemini_flash"}
+{"doc_id": "DE-0007", "variant": "phone_photo", "field": "invoice_date", "truth": "2025-09-21", "prediction": null, "outcome": "incorrect", "rendered": "21.09.2025", "tool": "google_gemini_flash"}
+{"doc_id": "DE-0007", "variant": "phone_photo", "field": "due_date", "truth": "2025-11-20", "prediction": null, "outcome": "incorrect", "rendered": "20.11.2025", "tool": "google_gemini_flash"}
+{"doc_id": "DE-0007", "variant": "phone_photo", "field": "line_item_count", "truth": 23, "prediction": 0, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "GB-0003", "variant": "scan", "field": "subtotal", "truth": "48869.05", "prediction": null, "outcome": "incorrect", "rendered": "£48,869.05", "tool": "google_gemini_flash"}
+{"doc_id": "GB-0003", "variant": "scan", "field": "tax_total", "truth": "9773.81", "prediction": null, "outcome": "incorrect", "rendered": "9,773.81", "tool": "google_gemini_flash"}
+{"doc_id": "GB-0003", "variant": "scan", "field": "total", "truth": "58642.86", "prediction": null, "outcome": "incorrect", "rendered": "£58,642.86", "tool": "google_gemini_flash"}
+{"doc_id": "GB-0003", "variant": "scan", "field": "tax_rates", "truth": ["20"], "prediction": [], "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "GB-0003", "variant": "scan", "field": "payment_account", "truth": "GB229AQ4GIU2GT74P4P5GI", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "GB-0003", "variant": "scan", "field": "vendor_name", "truth": "Cotswold IT Services Ltd", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "GB-0003", "variant": "scan", "field": "vendor_tax_id", "truth": "GB055711940", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "GB-0003", "variant": "scan", "field": "invoice_number", "truth": "INV/2025/6920", "prediction": null, "outcome": "incorrect", "rendered": "INV/2025/6920", "tool": "google_gemini_flash"}
+{"doc_id": "GB-0003", "variant": "scan", "field": "invoice_date", "truth": "2025-05-24", "prediction": null, "outcome": "incorrect", "rendered": "24/05/2025", "tool": "google_gemini_flash"}
+{"doc_id": "GB-0003", "variant": "scan", "field": "due_date", "truth": "2025-06-23", "prediction": null, "outcome": "incorrect", "rendered": "23/06/2025", "tool": "google_gemini_flash"}
+{"doc_id": "GB-0003", "variant": "scan", "field": "line_item_count", "truth": 20, "prediction": 0, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "GB-0003", "variant": "bad_scan", "field": "subtotal", "truth": "48869.05", "prediction": null, "outcome": "incorrect", "rendered": "£48,869.05", "tool": "google_gemini_flash"}
+{"doc_id": "GB-0003", "variant": "bad_scan", "field": "tax_total", "truth": "9773.81", "prediction": null, "outcome": "incorrect", "rendered": "9,773.81", "tool": "google_gemini_flash"}
+{"doc_id": "GB-0003", "variant": "bad_scan", "field": "total", "truth": "58642.86", "prediction": null, "outcome": "incorrect", "rendered": "£58,642.86", "tool": "google_gemini_flash"}
+{"doc_id": "GB-0003", "variant": "bad_scan", "field": "tax_rates", "truth": ["20"], "prediction": [], "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "GB-0003", "variant": "bad_scan", "field": "payment_account", "truth": "GB229AQ4GIU2GT74P4P5GI", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "GB-0003", "variant": "bad_scan", "field": "vendor_name", "truth": "Cotswold IT Services Ltd", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "GB-0003", "variant": "bad_scan", "field": "vendor_tax_id", "truth": "GB055711940", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "GB-0003", "variant": "bad_scan", "field": "invoice_number", "truth": "INV/2025/6920", "prediction": null, "outcome": "incorrect", "rendered": "INV/2025/6920", "tool": "google_gemini_flash"}
+{"doc_id": "GB-0003", "variant": "bad_scan", "field": "invoice_date", "truth": "2025-05-24", "prediction": null, "outcome": "incorrect", "rendered": "24/05/2025", "tool": "google_gemini_flash"}
+{"doc_id": "GB-0003", "variant": "bad_scan", "field": "due_date", "truth": "2025-06-23", "prediction": null, "outcome": "incorrect", "rendered": "23/06/2025", "tool": "google_gemini_flash"}
+{"doc_id": "GB-0003", "variant": "bad_scan", "field": "payment_account", "truth": "GB229AQ4GIU2GT74P4P5GI", "prediction": "GB229AQ4GIU2GT74P4PSGI", "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "GB-0003", "variant": "bad_scan", "field": "line_item_count", "truth": 20, "prediction": 0, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "GB-0003", "variant": "phone_photo", "field": "subtotal", "truth": "48869.05", "prediction": null, "outcome": "incorrect", "rendered": "£48,869.05", "tool": "google_gemini_flash"}
+{"doc_id": "GB-0003", "variant": "phone_photo", "field": "tax_total", "truth": "9773.81", "prediction": null, "outcome": "incorrect", "rendered": "9,773.81", "tool": "google_gemini_flash"}
+{"doc_id": "GB-0003", "variant": "phone_photo", "field": "total", "truth": "58642.86", "prediction": null, "outcome": "incorrect", "rendered": "£58,642.86", "tool": "google_gemini_flash"}
+{"doc_id": "GB-0003", "variant": "phone_photo", "field": "tax_rates", "truth": ["20"], "prediction": [], "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "GB-0003", "variant": "phone_photo", "field": "payment_account", "truth": "GB229AQ4GIU2GT74P4P5GI", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "GB-0003", "variant": "phone_photo", "field": "vendor_name", "truth": "Cotswold IT Services Ltd", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "GB-0003", "variant": "phone_photo", "field": "vendor_tax_id", "truth": "GB055711940", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "GB-0003", "variant": "phone_photo", "field": "invoice_number", "truth": "INV/2025/6920", "prediction": null, "outcome": "incorrect", "rendered": "INV/2025/6920", "tool": "google_gemini_flash"}
+{"doc_id": "GB-0003", "variant": "phone_photo", "field": "invoice_date", "truth": "2025-05-24", "prediction": null, "outcome": "incorrect", "rendered": "24/05/2025", "tool": "google_gemini_flash"}
+{"doc_id": "GB-0003", "variant": "phone_photo", "field": "due_date", "truth": "2025-06-23", "prediction": null, "outcome": "incorrect", "rendered": "23/06/2025", "tool": "google_gemini_flash"}
+{"doc_id": "GB-0003", "variant": "phone_photo", "field": "line_item_count", "truth": 20, "prediction": 0, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "GB-0007", "variant": "bad_scan", "field": "payment_account", "truth": "GB35IJTDFK7A58XA0C8IBL", "prediction": "GB351JTDFK7A58XA0C8IBL", "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "GB-0008", "variant": "bad_scan", "field": "payment_account", "truth": "GB72VQZGI26SAGISAKQ8T8", "prediction": "GB72VQZG1265AGISAKQ8T8", "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "ID-0003", "variant": "scan", "field": "subtotal", "truth": "391550500.00", "prediction": null, "outcome": "incorrect", "rendered": "Rp391 550 500.00", "tool": "google_gemini_flash"}
+{"doc_id": "ID-0003", "variant": "scan", "field": "tax_total", "truth": "43070555.00", "prediction": null, "outcome": "incorrect", "rendered": "43 070 555.00", "tool": "google_gemini_flash"}
+{"doc_id": "ID-0003", "variant": "scan", "field": "total", "truth": "434621055.00", "prediction": null, "outcome": "incorrect", "rendered": "Rp434 621 055.00", "tool": "google_gemini_flash"}
+{"doc_id": "ID-0003", "variant": "scan", "field": "tax_rates", "truth": ["11"], "prediction": [], "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "ID-0003", "variant": "scan", "field": "line_item_count", "truth": 25, "prediction": 22, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "ID-0003", "variant": "scan", "field": "vendor_name", "truth": "PT Borneo Paperindo", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "ID-0003", "variant": "scan", "field": "vendor_tax_id", "truth": "226631455426923", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "ID-0003", "variant": "scan", "field": "invoice_number", "truth": "INV/2025/III/3518", "prediction": null, "outcome": "incorrect", "rendered": "INV/2025/III/3518", "tool": "google_gemini_flash"}
+{"doc_id": "ID-0003", "variant": "scan", "field": "invoice_date", "truth": "2025-03-05", "prediction": null, "outcome": "incorrect", "rendered": "05/03/2025", "tool": "google_gemini_flash"}
+{"doc_id": "ID-0003", "variant": "scan", "field": "due_date", "truth": "2025-04-04", "prediction": null, "outcome": "incorrect", "rendered": "04/04/2025", "tool": "google_gemini_flash"}
+{"doc_id": "ID-0003", "variant": "scan", "field": "line_item_count", "truth": 25, "prediction": 3, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "ID-0003", "variant": "bad_scan", "field": "subtotal", "truth": "391550500.00", "prediction": null, "outcome": "incorrect", "rendered": "Rp391 550 500.00", "tool": "google_gemini_flash"}
+{"doc_id": "ID-0003", "variant": "bad_scan", "field": "tax_total", "truth": "43070555.00", "prediction": null, "outcome": "incorrect", "rendered": "43 070 555.00", "tool": "google_gemini_flash"}
+{"doc_id": "ID-0003", "variant": "bad_scan", "field": "total", "truth": "434621055.00", "prediction": null, "outcome": "incorrect", "rendered": "Rp434 621 055.00", "tool": "google_gemini_flash"}
+{"doc_id": "ID-0003", "variant": "bad_scan", "field": "tax_rates", "truth": ["11"], "prediction": [], "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "ID-0003", "variant": "bad_scan", "field": "line_item_count", "truth": 25, "prediction": 22, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "ID-0003", "variant": "bad_scan", "field": "vendor_name", "truth": "PT Borneo Paperindo", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "ID-0003", "variant": "bad_scan", "field": "vendor_tax_id", "truth": "226631455426923", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "ID-0003", "variant": "bad_scan", "field": "invoice_number", "truth": "INV/2025/III/3518", "prediction": null, "outcome": "incorrect", "rendered": "INV/2025/III/3518", "tool": "google_gemini_flash"}
+{"doc_id": "ID-0003", "variant": "bad_scan", "field": "invoice_date", "truth": "2025-03-05", "prediction": null, "outcome": "incorrect", "rendered": "05/03/2025", "tool": "google_gemini_flash"}
+{"doc_id": "ID-0003", "variant": "bad_scan", "field": "due_date", "truth": "2025-04-04", "prediction": null, "outcome": "incorrect", "rendered": "04/04/2025", "tool": "google_gemini_flash"}
+{"doc_id": "ID-0003", "variant": "bad_scan", "field": "line_item_count", "truth": 25, "prediction": 3, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "ID-0003", "variant": "phone_photo", "field": "subtotal", "truth": "391550500.00", "prediction": null, "outcome": "incorrect", "rendered": "Rp391 550 500.00", "tool": "google_gemini_flash"}
+{"doc_id": "ID-0003", "variant": "phone_photo", "field": "tax_total", "truth": "43070555.00", "prediction": null, "outcome": "incorrect", "rendered": "43 070 555.00", "tool": "google_gemini_flash"}
+{"doc_id": "ID-0003", "variant": "phone_photo", "field": "total", "truth": "434621055.00", "prediction": null, "outcome": "incorrect", "rendered": "Rp434 621 055.00", "tool": "google_gemini_flash"}
+{"doc_id": "ID-0003", "variant": "phone_photo", "field": "tax_rates", "truth": ["11"], "prediction": [], "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "ID-0003", "variant": "phone_photo", "field": "line_item_count", "truth": 25, "prediction": 22, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "ID-0003", "variant": "phone_photo", "field": "vendor_name", "truth": "PT Borneo Paperindo", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "ID-0003", "variant": "phone_photo", "field": "vendor_tax_id", "truth": "226631455426923", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "ID-0003", "variant": "phone_photo", "field": "invoice_number", "truth": "INV/2025/III/3518", "prediction": null, "outcome": "incorrect", "rendered": "INV/2025/III/3518", "tool": "google_gemini_flash"}
+{"doc_id": "ID-0003", "variant": "phone_photo", "field": "invoice_date", "truth": "2025-03-05", "prediction": null, "outcome": "incorrect", "rendered": "05/03/2025", "tool": "google_gemini_flash"}
+{"doc_id": "ID-0003", "variant": "phone_photo", "field": "due_date", "truth": "2025-04-04", "prediction": null, "outcome": "incorrect", "rendered": "04/04/2025", "tool": "google_gemini_flash"}
+{"doc_id": "ID-0003", "variant": "phone_photo", "field": "line_item_count", "truth": 25, "prediction": 3, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "IN-0004", "variant": "bad_scan", "field": "vendor_tax_id", "truth": "27XSEVB2968C3ZZ", "prediction": "27XSEVB2968C3Z2", "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "IN-0005", "variant": "clean_pdf", "field": "tax_total", "truth": "2315211.71", "prediction": "2315211.70", "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "IN-0005", "variant": "scan", "field": "subtotal", "truth": "12862287.22", "prediction": null, "outcome": "incorrect", "rendered": "₹1,28,62,287.22", "tool": "google_gemini_flash"}
+{"doc_id": "IN-0005", "variant": "scan", "field": "tax_total", "truth": "2315211.71", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "IN-0005", "variant": "scan", "field": "total", "truth": "15177498.93", "prediction": null, "outcome": "incorrect", "rendered": "₹1,51,77,498.93", "tool": "google_gemini_flash"}
+{"doc_id": "IN-0005", "variant": "scan", "field": "tax_rates", "truth": ["9", "9"], "prediction": [], "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "IN-0005", "variant": "scan", "field": "vendor_name", "truth": "चेन्नई फूड्स प्राइवेट लिमिटेड", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "IN-0005", "variant": "scan", "field": "vendor_tax_id", "truth": "24SWDPL9121V6Z8", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "IN-0005", "variant": "scan", "field": "invoice_number", "truth": "TAX/25/26/739", "prediction": null, "outcome": "incorrect", "rendered": "TAX/25/26/739", "tool": "google_gemini_flash"}
+{"doc_id": "IN-0005", "variant": "scan", "field": "invoice_date", "truth": "2025-11-15", "prediction": null, "outcome": "incorrect", "rendered": "15/11/2025", "tool": "google_gemini_flash"}
+{"doc_id": "IN-0005", "variant": "scan", "field": "due_date", "truth": "2025-12-15", "prediction": null, "outcome": "incorrect", "rendered": "15/12/2025", "tool": "google_gemini_flash"}
+{"doc_id": "IN-0005", "variant": "scan", "field": "tax_total", "truth": "2315211.71", "prediction": "2315211.70", "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "IN-0005", "variant": "scan", "field": "line_item_count", "truth": 23, "prediction": 0, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "IN-0005", "variant": "bad_scan", "field": "subtotal", "truth": "12862287.22", "prediction": null, "outcome": "incorrect", "rendered": "₹1,28,62,287.22", "tool": "google_gemini_flash"}
+{"doc_id": "IN-0005", "variant": "bad_scan", "field": "tax_total", "truth": "2315211.71", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "IN-0005", "variant": "bad_scan", "field": "total", "truth": "15177498.93", "prediction": null, "outcome": "incorrect", "rendered": "₹1,51,77,498.93", "tool": "google_gemini_flash"}
+{"doc_id": "IN-0005", "variant": "bad_scan", "field": "tax_rates", "truth": ["9", "9"], "prediction": [], "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "IN-0005", "variant": "bad_scan", "field": "vendor_name", "truth": "चेन्नई फूड्स प्राइवेट लिमिटेड", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "IN-0005", "variant": "bad_scan", "field": "vendor_tax_id", "truth": "24SWDPL9121V6Z8", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "IN-0005", "variant": "bad_scan", "field": "invoice_number", "truth": "TAX/25/26/739", "prediction": null, "outcome": "incorrect", "rendered": "TAX/25/26/739", "tool": "google_gemini_flash"}
+{"doc_id": "IN-0005", "variant": "bad_scan", "field": "invoice_date", "truth": "2025-11-15", "prediction": null, "outcome": "incorrect", "rendered": "15/11/2025", "tool": "google_gemini_flash"}
+{"doc_id": "IN-0005", "variant": "bad_scan", "field": "due_date", "truth": "2025-12-15", "prediction": null, "outcome": "incorrect", "rendered": "15/12/2025", "tool": "google_gemini_flash"}
+{"doc_id": "IN-0005", "variant": "bad_scan", "field": "tax_total", "truth": "2315211.71", "prediction": "2315211.70", "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "IN-0005", "variant": "bad_scan", "field": "line_item_count", "truth": 23, "prediction": 0, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "IN-0005", "variant": "phone_photo", "field": "subtotal", "truth": "12862287.22", "prediction": null, "outcome": "incorrect", "rendered": "₹1,28,62,287.22", "tool": "google_gemini_flash"}
+{"doc_id": "IN-0005", "variant": "phone_photo", "field": "tax_total", "truth": "2315211.71", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "IN-0005", "variant": "phone_photo", "field": "total", "truth": "15177498.93", "prediction": null, "outcome": "incorrect", "rendered": "₹1,51,77,498.93", "tool": "google_gemini_flash"}
+{"doc_id": "IN-0005", "variant": "phone_photo", "field": "tax_rates", "truth": ["9", "9"], "prediction": [], "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "IN-0005", "variant": "phone_photo", "field": "vendor_name", "truth": "चेन्नई फूड्स प्राइवेट लिमिटेड", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "IN-0005", "variant": "phone_photo", "field": "vendor_tax_id", "truth": "24SWDPL9121V6Z8", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "IN-0005", "variant": "phone_photo", "field": "invoice_number", "truth": "TAX/25/26/739", "prediction": null, "outcome": "incorrect", "rendered": "TAX/25/26/739", "tool": "google_gemini_flash"}
+{"doc_id": "IN-0005", "variant": "phone_photo", "field": "invoice_date", "truth": "2025-11-15", "prediction": null, "outcome": "incorrect", "rendered": "15/11/2025", "tool": "google_gemini_flash"}
+{"doc_id": "IN-0005", "variant": "phone_photo", "field": "due_date", "truth": "2025-12-15", "prediction": null, "outcome": "incorrect", "rendered": "15/12/2025", "tool": "google_gemini_flash"}
+{"doc_id": "IN-0005", "variant": "phone_photo", "field": "tax_total", "truth": "2315211.71", "prediction": "2315211.70", "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "IN-0005", "variant": "phone_photo", "field": "line_item_count", "truth": 23, "prediction": 0, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "IN-0006", "variant": "bad_scan", "field": "vendor_name", "truth": "चेन्नई फूड्स प्राइवेट लिमिटेड", "prediction": "चेन्नै फूड्स प्राइवेट लिमिटेड", "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "JP-0004", "variant": "clean_pdf", "field": "subtotal", "truth": "304818", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "JP-0004", "variant": "scan", "field": "subtotal", "truth": "304818", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "JP-0004", "variant": "bad_scan", "field": "subtotal", "truth": "304818", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "JP-0004", "variant": "phone_photo", "field": "subtotal", "truth": "304818", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "JP-0006", "variant": "scan", "field": "subtotal", "truth": "3254400", "prediction": null, "outcome": "incorrect", "rendered": "¥3,254,400", "tool": "google_gemini_flash"}
+{"doc_id": "JP-0006", "variant": "scan", "field": "tax_total", "truth": "279904", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "JP-0006", "variant": "scan", "field": "total", "truth": "3534304", "prediction": null, "outcome": "incorrect", "rendered": "¥3,534,304", "tool": "google_gemini_flash"}
+{"doc_id": "JP-0006", "variant": "scan", "field": "tax_rates", "truth": ["10", "8"], "prediction": [], "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "JP-0006", "variant": "scan", "field": "vendor_name", "truth": "広島機工株式会社", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "JP-0006", "variant": "scan", "field": "vendor_tax_id", "truth": "T3049351232455", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "JP-0006", "variant": "scan", "field": "invoice_number", "truth": "INV-2025-81698", "prediction": null, "outcome": "incorrect", "rendered": "INV-2025-81698", "tool": "google_gemini_flash"}
+{"doc_id": "JP-0006", "variant": "scan", "field": "invoice_date", "truth": "2025-12-27", "prediction": null, "outcome": "incorrect", "rendered": "令和7年12月27日", "tool": "google_gemini_flash"}
+{"doc_id": "JP-0006", "variant": "scan", "field": "due_date", "truth": "2026-01-10", "prediction": null, "outcome": "incorrect", "rendered": "令和8年1月10日", "tool": "google_gemini_flash"}
+{"doc_id": "JP-0006", "variant": "scan", "field": "line_item_count", "truth": 21, "prediction": 0, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "JP-0006", "variant": "bad_scan", "field": "subtotal", "truth": "3254400", "prediction": null, "outcome": "incorrect", "rendered": "¥3,254,400", "tool": "google_gemini_flash"}
+{"doc_id": "JP-0006", "variant": "bad_scan", "field": "tax_total", "truth": "279904", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "JP-0006", "variant": "bad_scan", "field": "total", "truth": "3534304", "prediction": null, "outcome": "incorrect", "rendered": "¥3,534,304", "tool": "google_gemini_flash"}
+{"doc_id": "JP-0006", "variant": "bad_scan", "field": "tax_rates", "truth": ["10", "8"], "prediction": [], "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "JP-0006", "variant": "bad_scan", "field": "vendor_name", "truth": "広島機工株式会社", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "JP-0006", "variant": "bad_scan", "field": "vendor_tax_id", "truth": "T3049351232455", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "JP-0006", "variant": "bad_scan", "field": "invoice_number", "truth": "INV-2025-81698", "prediction": null, "outcome": "incorrect", "rendered": "INV-2025-81698", "tool": "google_gemini_flash"}
+{"doc_id": "JP-0006", "variant": "bad_scan", "field": "invoice_date", "truth": "2025-12-27", "prediction": null, "outcome": "incorrect", "rendered": "令和7年12月27日", "tool": "google_gemini_flash"}
+{"doc_id": "JP-0006", "variant": "bad_scan", "field": "due_date", "truth": "2026-01-10", "prediction": null, "outcome": "incorrect", "rendered": "令和8年1月10日", "tool": "google_gemini_flash"}
+{"doc_id": "JP-0006", "variant": "bad_scan", "field": "line_item_count", "truth": 21, "prediction": 0, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "JP-0006", "variant": "phone_photo", "field": "subtotal", "truth": "3254400", "prediction": null, "outcome": "incorrect", "rendered": "¥3,254,400", "tool": "google_gemini_flash"}
+{"doc_id": "JP-0006", "variant": "phone_photo", "field": "tax_total", "truth": "279904", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "JP-0006", "variant": "phone_photo", "field": "total", "truth": "3534304", "prediction": null, "outcome": "incorrect", "rendered": "¥3,534,304", "tool": "google_gemini_flash"}
+{"doc_id": "JP-0006", "variant": "phone_photo", "field": "tax_rates", "truth": ["10", "8"], "prediction": [], "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "JP-0006", "variant": "phone_photo", "field": "vendor_name", "truth": "広島機工株式会社", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "JP-0006", "variant": "phone_photo", "field": "vendor_tax_id", "truth": "T3049351232455", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "JP-0006", "variant": "phone_photo", "field": "invoice_number", "truth": "INV-2025-81698", "prediction": null, "outcome": "incorrect", "rendered": "INV-2025-81698", "tool": "google_gemini_flash"}
+{"doc_id": "JP-0006", "variant": "phone_photo", "field": "invoice_date", "truth": "2025-12-27", "prediction": null, "outcome": "incorrect", "rendered": "令和7年12月27日", "tool": "google_gemini_flash"}
+{"doc_id": "JP-0006", "variant": "phone_photo", "field": "due_date", "truth": "2026-01-10", "prediction": null, "outcome": "incorrect", "rendered": "令和8年1月10日", "tool": "google_gemini_flash"}
+{"doc_id": "JP-0006", "variant": "phone_photo", "field": "line_item_count", "truth": 21, "prediction": 0, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "KR-0006", "variant": "scan", "field": "subtotal", "truth": "78393250", "prediction": null, "outcome": "incorrect", "rendered": "₩78,393,250", "tool": "google_gemini_flash"}
+{"doc_id": "KR-0006", "variant": "scan", "field": "tax_total", "truth": "7839325", "prediction": null, "outcome": "incorrect", "rendered": "7,839,325", "tool": "google_gemini_flash"}
+{"doc_id": "KR-0006", "variant": "scan", "field": "total", "truth": "86232575", "prediction": null, "outcome": "incorrect", "rendered": "₩86,232,575", "tool": "google_gemini_flash"}
+{"doc_id": "KR-0006", "variant": "scan", "field": "tax_rates", "truth": ["10"], "prediction": [], "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "KR-0006", "variant": "scan", "field": "line_item_count", "truth": 24, "prediction": 22, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "KR-0006", "variant": "scan", "field": "vendor_name", "truth": "서울오피스 주식회사", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "KR-0006", "variant": "scan", "field": "vendor_tax_id", "truth": "2288712718", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "KR-0006", "variant": "scan", "field": "invoice_number", "truth": "2026-1712", "prediction": null, "outcome": "incorrect", "rendered": "2026-1712", "tool": "google_gemini_flash"}
+{"doc_id": "KR-0006", "variant": "scan", "field": "invoice_date", "truth": "2026-07-11", "prediction": null, "outcome": "incorrect", "rendered": "2026. 07. 11.", "tool": "google_gemini_flash"}
+{"doc_id": "KR-0006", "variant": "scan", "field": "due_date", "truth": "2026-08-10", "prediction": null, "outcome": "incorrect", "rendered": "2026. 08. 10.", "tool": "google_gemini_flash"}
+{"doc_id": "KR-0006", "variant": "scan", "field": "line_item_count", "truth": 24, "prediction": 2, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "KR-0006", "variant": "bad_scan", "field": "subtotal", "truth": "78393250", "prediction": null, "outcome": "incorrect", "rendered": "₩78,393,250", "tool": "google_gemini_flash"}
+{"doc_id": "KR-0006", "variant": "bad_scan", "field": "tax_total", "truth": "7839325", "prediction": null, "outcome": "incorrect", "rendered": "7,839,325", "tool": "google_gemini_flash"}
+{"doc_id": "KR-0006", "variant": "bad_scan", "field": "total", "truth": "86232575", "prediction": null, "outcome": "incorrect", "rendered": "₩86,232,575", "tool": "google_gemini_flash"}
+{"doc_id": "KR-0006", "variant": "bad_scan", "field": "tax_rates", "truth": ["10"], "prediction": [], "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "KR-0006", "variant": "bad_scan", "field": "line_item_count", "truth": 24, "prediction": 22, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "KR-0006", "variant": "bad_scan", "field": "vendor_name", "truth": "서울오피스 주식회사", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "KR-0006", "variant": "bad_scan", "field": "vendor_tax_id", "truth": "2288712718", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "KR-0006", "variant": "bad_scan", "field": "invoice_number", "truth": "2026-1712", "prediction": null, "outcome": "incorrect", "rendered": "2026-1712", "tool": "google_gemini_flash"}
+{"doc_id": "KR-0006", "variant": "bad_scan", "field": "invoice_date", "truth": "2026-07-11", "prediction": null, "outcome": "incorrect", "rendered": "2026. 07. 11.", "tool": "google_gemini_flash"}
+{"doc_id": "KR-0006", "variant": "bad_scan", "field": "due_date", "truth": "2026-08-10", "prediction": null, "outcome": "incorrect", "rendered": "2026. 08. 10.", "tool": "google_gemini_flash"}
+{"doc_id": "KR-0006", "variant": "bad_scan", "field": "line_item_count", "truth": 24, "prediction": 2, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "KR-0006", "variant": "phone_photo", "field": "subtotal", "truth": "78393250", "prediction": null, "outcome": "incorrect", "rendered": "₩78,393,250", "tool": "google_gemini_flash"}
+{"doc_id": "KR-0006", "variant": "phone_photo", "field": "tax_total", "truth": "7839325", "prediction": null, "outcome": "incorrect", "rendered": "7,839,325", "tool": "google_gemini_flash"}
+{"doc_id": "KR-0006", "variant": "phone_photo", "field": "total", "truth": "86232575", "prediction": null, "outcome": "incorrect", "rendered": "₩86,232,575", "tool": "google_gemini_flash"}
+{"doc_id": "KR-0006", "variant": "phone_photo", "field": "tax_rates", "truth": ["10"], "prediction": [], "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "KR-0006", "variant": "phone_photo", "field": "line_item_count", "truth": 24, "prediction": 22, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "KR-0006", "variant": "phone_photo", "field": "vendor_name", "truth": "서울오피스 주식회사", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "KR-0006", "variant": "phone_photo", "field": "vendor_tax_id", "truth": "2288712718", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "KR-0006", "variant": "phone_photo", "field": "invoice_number", "truth": "2026-1712", "prediction": null, "outcome": "incorrect", "rendered": "2026-1712", "tool": "google_gemini_flash"}
+{"doc_id": "KR-0006", "variant": "phone_photo", "field": "invoice_date", "truth": "2026-07-11", "prediction": null, "outcome": "incorrect", "rendered": "2026. 07. 11.", "tool": "google_gemini_flash"}
+{"doc_id": "KR-0006", "variant": "phone_photo", "field": "due_date", "truth": "2026-08-10", "prediction": null, "outcome": "incorrect", "rendered": "2026. 08. 10.", "tool": "google_gemini_flash"}
+{"doc_id": "KR-0006", "variant": "phone_photo", "field": "line_item_count", "truth": 24, "prediction": 2, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "MX-0002", "variant": "bad_scan", "field": "payment_account", "truth": "012516984492613797", "prediction": "012516984492813797", "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "MX-0003", "variant": "scan", "field": "subtotal", "truth": "416532.48", "prediction": null, "outcome": "incorrect", "rendered": "$416,532.48", "tool": "google_gemini_flash"}
+{"doc_id": "MX-0003", "variant": "scan", "field": "tax_total", "truth": "66645.21", "prediction": null, "outcome": "incorrect", "rendered": "66,645.21", "tool": "google_gemini_flash"}
+{"doc_id": "MX-0003", "variant": "scan", "field": "total", "truth": "483177.69", "prediction": null, "outcome": "incorrect", "rendered": "$483,177.69", "tool": "google_gemini_flash"}
+{"doc_id": "MX-0003", "variant": "scan", "field": "tax_rates", "truth": ["16"], "prediction": [], "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "MX-0003", "variant": "scan", "field": "payment_account", "truth": "036951851049964534", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "MX-0003", "variant": "scan", "field": "line_item_count", "truth": 22, "prediction": 20, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "MX-0003", "variant": "scan", "field": "vendor_name", "truth": "Tecnología del Valle S.A. de C.V.", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "MX-0003", "variant": "scan", "field": "vendor_tax_id", "truth": "TEC110517UUJ", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "MX-0003", "variant": "scan", "field": "invoice_number", "truth": "FOLIO-5687", "prediction": null, "outcome": "incorrect", "rendered": "FOLIO-5687", "tool": "google_gemini_flash"}
+{"doc_id": "MX-0003", "variant": "scan", "field": "invoice_date", "truth": "2026-01-15", "prediction": null, "outcome": "incorrect", "rendered": "15/01/2026", "tool": "google_gemini_flash"}
+{"doc_id": "MX-0003", "variant": "scan", "field": "due_date", "truth": "2026-02-14", "prediction": null, "outcome": "incorrect", "rendered": "14/02/2026", "tool": "google_gemini_flash"}
+{"doc_id": "MX-0003", "variant": "scan", "field": "line_item_count", "truth": 22, "prediction": 2, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "MX-0003", "variant": "bad_scan", "field": "subtotal", "truth": "416532.48", "prediction": null, "outcome": "incorrect", "rendered": "$416,532.48", "tool": "google_gemini_flash"}
+{"doc_id": "MX-0003", "variant": "bad_scan", "field": "tax_total", "truth": "66645.21", "prediction": null, "outcome": "incorrect", "rendered": "66,645.21", "tool": "google_gemini_flash"}
+{"doc_id": "MX-0003", "variant": "bad_scan", "field": "total", "truth": "483177.69", "prediction": null, "outcome": "incorrect", "rendered": "$483,177.69", "tool": "google_gemini_flash"}
+{"doc_id": "MX-0003", "variant": "bad_scan", "field": "tax_rates", "truth": ["16"], "prediction": [], "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "MX-0003", "variant": "bad_scan", "field": "payment_account", "truth": "036951851049964534", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "MX-0003", "variant": "bad_scan", "field": "line_item_count", "truth": 22, "prediction": 20, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "MX-0003", "variant": "bad_scan", "field": "vendor_name", "truth": "Tecnología del Valle S.A. de C.V.", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "MX-0003", "variant": "bad_scan", "field": "vendor_tax_id", "truth": "TEC110517UUJ", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "MX-0003", "variant": "bad_scan", "field": "invoice_number", "truth": "FOLIO-5687", "prediction": null, "outcome": "incorrect", "rendered": "FOLIO-5687", "tool": "google_gemini_flash"}
+{"doc_id": "MX-0003", "variant": "bad_scan", "field": "invoice_date", "truth": "2026-01-15", "prediction": null, "outcome": "incorrect", "rendered": "15/01/2026", "tool": "google_gemini_flash"}
+{"doc_id": "MX-0003", "variant": "bad_scan", "field": "due_date", "truth": "2026-02-14", "prediction": null, "outcome": "incorrect", "rendered": "14/02/2026", "tool": "google_gemini_flash"}
+{"doc_id": "MX-0003", "variant": "bad_scan", "field": "line_item_count", "truth": 22, "prediction": 2, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "MX-0003", "variant": "phone_photo", "field": "subtotal", "truth": "416532.48", "prediction": null, "outcome": "incorrect", "rendered": "$416,532.48", "tool": "google_gemini_flash"}
+{"doc_id": "MX-0003", "variant": "phone_photo", "field": "tax_total", "truth": "66645.21", "prediction": null, "outcome": "incorrect", "rendered": "66,645.21", "tool": "google_gemini_flash"}
+{"doc_id": "MX-0003", "variant": "phone_photo", "field": "total", "truth": "483177.69", "prediction": null, "outcome": "incorrect", "rendered": "$483,177.69", "tool": "google_gemini_flash"}
+{"doc_id": "MX-0003", "variant": "phone_photo", "field": "tax_rates", "truth": ["16"], "prediction": [], "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "MX-0003", "variant": "phone_photo", "field": "payment_account", "truth": "036951851049964534", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "MX-0003", "variant": "phone_photo", "field": "line_item_count", "truth": 22, "prediction": 20, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "MX-0003", "variant": "phone_photo", "field": "vendor_name", "truth": "Tecnología del Valle S.A. de C.V.", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "MX-0003", "variant": "phone_photo", "field": "vendor_tax_id", "truth": "TEC110517UUJ", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "MX-0003", "variant": "phone_photo", "field": "invoice_number", "truth": "FOLIO-5687", "prediction": null, "outcome": "incorrect", "rendered": "FOLIO-5687", "tool": "google_gemini_flash"}
+{"doc_id": "MX-0003", "variant": "phone_photo", "field": "invoice_date", "truth": "2026-01-15", "prediction": null, "outcome": "incorrect", "rendered": "15/01/2026", "tool": "google_gemini_flash"}
+{"doc_id": "MX-0003", "variant": "phone_photo", "field": "due_date", "truth": "2026-02-14", "prediction": null, "outcome": "incorrect", "rendered": "14/02/2026", "tool": "google_gemini_flash"}
+{"doc_id": "MX-0003", "variant": "phone_photo", "field": "line_item_count", "truth": 22, "prediction": 2, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "MX-0004", "variant": "bad_scan", "field": "total", "truth": "182175.85", "prediction": "221668.52", "outcome": "incorrect", "rendered": "$182,175.85", "tool": "google_gemini_flash"}
+{"doc_id": "MX-0006", "variant": "bad_scan", "field": "vendor_tax_id", "truth": "TEC110517UUJ", "prediction": "TEC110517UU8", "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "MX-0008", "variant": "bad_scan", "field": "vendor_tax_id", "truth": "DST150217C8N", "prediction": "DST150217CBN", "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "SA-0001", "variant": "bad_scan", "field": "due_date", "truth": "2026-06-23", "prediction": "2026-07-23", "outcome": "incorrect", "rendered": "٢٣/٠٦/٢٠٢٦", "tool": "google_gemini_flash"}
+{"doc_id": "SA-0002", "variant": "bad_scan", "field": "invoice_date", "truth": "2026-03-23", "prediction": "2026-03-26", "outcome": "incorrect", "rendered": "٢٣/٠٣/٢٠٢٦", "tool": "google_gemini_flash"}
+{"doc_id": "SA-0002", "variant": "bad_scan", "field": "due_date", "truth": "2026-04-22", "prediction": "2026-04-26", "outcome": "incorrect", "rendered": "٢٢/٠٤/٢٠٢٦", "tool": "google_gemini_flash"}
+{"doc_id": "SA-0003", "variant": "scan", "field": "subtotal", "truth": "235375.70", "prediction": null, "outcome": "incorrect", "rendered": "235,375.70 ر.س", "tool": "google_gemini_flash"}
+{"doc_id": "SA-0003", "variant": "scan", "field": "tax_total", "truth": "35306.36", "prediction": null, "outcome": "incorrect", "rendered": "35,306.36", "tool": "google_gemini_flash"}
+{"doc_id": "SA-0003", "variant": "scan", "field": "total", "truth": "270682.06", "prediction": null, "outcome": "incorrect", "rendered": "270,682.06 ر.س", "tool": "google_gemini_flash"}
+{"doc_id": "SA-0003", "variant": "scan", "field": "tax_rates", "truth": ["15"], "prediction": [], "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "SA-0003", "variant": "scan", "field": "payment_account", "truth": "SA469342383037657071443871", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "SA-0003", "variant": "scan", "field": "line_item_count", "truth": 24, "prediction": 23, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "SA-0003", "variant": "scan", "field": "vendor_name", "truth": "شركة الخليج للمقاولات", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "SA-0003", "variant": "scan", "field": "vendor_tax_id", "truth": "388236525907923", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "SA-0003", "variant": "scan", "field": "invoice_number", "truth": "INV-2025-8057", "prediction": null, "outcome": "incorrect", "rendered": "INV-2025-8057", "tool": "google_gemini_flash"}
+{"doc_id": "SA-0003", "variant": "scan", "field": "invoice_date", "truth": "2025-12-18", "prediction": null, "outcome": "incorrect", "rendered": "18/12/2025", "tool": "google_gemini_flash"}
+{"doc_id": "SA-0003", "variant": "scan", "field": "due_date", "truth": "2026-01-02", "prediction": null, "outcome": "incorrect", "rendered": "02/01/2026", "tool": "google_gemini_flash"}
+{"doc_id": "SA-0003", "variant": "scan", "field": "line_item_count", "truth": 24, "prediction": 1, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "SA-0003", "variant": "bad_scan", "field": "subtotal", "truth": "235375.70", "prediction": null, "outcome": "incorrect", "rendered": "235,375.70 ر.س", "tool": "google_gemini_flash"}
+{"doc_id": "SA-0003", "variant": "bad_scan", "field": "tax_total", "truth": "35306.36", "prediction": null, "outcome": "incorrect", "rendered": "35,306.36", "tool": "google_gemini_flash"}
+{"doc_id": "SA-0003", "variant": "bad_scan", "field": "total", "truth": "270682.06", "prediction": null, "outcome": "incorrect", "rendered": "270,682.06 ر.س", "tool": "google_gemini_flash"}
+{"doc_id": "SA-0003", "variant": "bad_scan", "field": "tax_rates", "truth": ["15"], "prediction": [], "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "SA-0003", "variant": "bad_scan", "field": "payment_account", "truth": "SA469342383037657071443871", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "SA-0003", "variant": "bad_scan", "field": "line_item_count", "truth": 24, "prediction": 23, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "SA-0003", "variant": "bad_scan", "field": "vendor_name", "truth": "شركة الخليج للمقاولات", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "SA-0003", "variant": "bad_scan", "field": "vendor_tax_id", "truth": "388236525907923", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "SA-0003", "variant": "bad_scan", "field": "invoice_number", "truth": "INV-2025-8057", "prediction": null, "outcome": "incorrect", "rendered": "INV-2025-8057", "tool": "google_gemini_flash"}
+{"doc_id": "SA-0003", "variant": "bad_scan", "field": "invoice_date", "truth": "2025-12-18", "prediction": null, "outcome": "incorrect", "rendered": "18/12/2025", "tool": "google_gemini_flash"}
+{"doc_id": "SA-0003", "variant": "bad_scan", "field": "due_date", "truth": "2026-01-02", "prediction": null, "outcome": "incorrect", "rendered": "02/01/2026", "tool": "google_gemini_flash"}
+{"doc_id": "SA-0003", "variant": "bad_scan", "field": "line_item_count", "truth": 24, "prediction": 1, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "SA-0003", "variant": "phone_photo", "field": "subtotal", "truth": "235375.70", "prediction": null, "outcome": "incorrect", "rendered": "235,375.70 ر.س", "tool": "google_gemini_flash"}
+{"doc_id": "SA-0003", "variant": "phone_photo", "field": "tax_total", "truth": "35306.36", "prediction": null, "outcome": "incorrect", "rendered": "35,306.36", "tool": "google_gemini_flash"}
+{"doc_id": "SA-0003", "variant": "phone_photo", "field": "total", "truth": "270682.06", "prediction": null, "outcome": "incorrect", "rendered": "270,682.06 ر.س", "tool": "google_gemini_flash"}
+{"doc_id": "SA-0003", "variant": "phone_photo", "field": "tax_rates", "truth": ["15"], "prediction": [], "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "SA-0003", "variant": "phone_photo", "field": "payment_account", "truth": "SA469342383037657071443871", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "SA-0003", "variant": "phone_photo", "field": "line_item_count", "truth": 24, "prediction": 23, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "SA-0003", "variant": "phone_photo", "field": "vendor_name", "truth": "شركة الخليج للمقاولات", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "SA-0003", "variant": "phone_photo", "field": "vendor_tax_id", "truth": "388236525907923", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "SA-0003", "variant": "phone_photo", "field": "invoice_number", "truth": "INV-2025-8057", "prediction": null, "outcome": "incorrect", "rendered": "INV-2025-8057", "tool": "google_gemini_flash"}
+{"doc_id": "SA-0003", "variant": "phone_photo", "field": "invoice_date", "truth": "2025-12-18", "prediction": null, "outcome": "incorrect", "rendered": "18/12/2025", "tool": "google_gemini_flash"}
+{"doc_id": "SA-0003", "variant": "phone_photo", "field": "due_date", "truth": "2026-01-02", "prediction": null, "outcome": "incorrect", "rendered": "02/01/2026", "tool": "google_gemini_flash"}
+{"doc_id": "SA-0003", "variant": "phone_photo", "field": "line_item_count", "truth": 24, "prediction": 1, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "TH-0003", "variant": "scan", "field": "vendor_name", "truth": "บริษัท สยาม ออฟฟิศ ซัพพลาย จำกัด", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "TH-0003", "variant": "scan", "field": "vendor_tax_id", "truth": "8837388828535", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "TH-0003", "variant": "scan", "field": "invoice_number", "truth": "INV-2569-5424", "prediction": null, "outcome": "incorrect", "rendered": "INV-2569-5424", "tool": "google_gemini_flash"}
+{"doc_id": "TH-0003", "variant": "scan", "field": "invoice_date", "truth": "2026-09-23", "prediction": null, "outcome": "incorrect", "rendered": "23 กันยายน 2569", "tool": "google_gemini_flash"}
+{"doc_id": "TH-0003", "variant": "scan", "field": "due_date", "truth": "2026-11-07", "prediction": null, "outcome": "incorrect", "rendered": "7 พ.ย. 2569", "tool": "google_gemini_flash"}
+{"doc_id": "TH-0003", "variant": "scan", "field": "currency", "truth": "THB", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "TH-0003", "variant": "scan", "field": "subtotal", "truth": "426655.26", "prediction": null, "outcome": "incorrect", "rendered": "฿426,655.26", "tool": "google_gemini_flash"}
+{"doc_id": "TH-0003", "variant": "scan", "field": "tax_total", "truth": "29865.88", "prediction": null, "outcome": "incorrect", "rendered": "29,865.88", "tool": "google_gemini_flash"}
+{"doc_id": "TH-0003", "variant": "scan", "field": "total", "truth": "456521.14", "prediction": null, "outcome": "incorrect", "rendered": "฿456,521.14", "tool": "google_gemini_flash"}
+{"doc_id": "TH-0003", "variant": "scan", "field": "tax_rates", "truth": ["7"], "prediction": [], "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "TH-0003", "variant": "scan", "field": "line_item_count", "truth": 18, "prediction": 0, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "TH-0003", "variant": "bad_scan", "field": "vendor_name", "truth": "บริษัท สยาม ออฟฟิศ ซัพพลาย จำกัด", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "TH-0003", "variant": "bad_scan", "field": "vendor_tax_id", "truth": "8837388828535", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "TH-0003", "variant": "bad_scan", "field": "invoice_number", "truth": "INV-2569-5424", "prediction": null, "outcome": "incorrect", "rendered": "INV-2569-5424", "tool": "google_gemini_flash"}
+{"doc_id": "TH-0003", "variant": "bad_scan", "field": "invoice_date", "truth": "2026-09-23", "prediction": null, "outcome": "incorrect", "rendered": "23 กันยายน 2569", "tool": "google_gemini_flash"}
+{"doc_id": "TH-0003", "variant": "bad_scan", "field": "due_date", "truth": "2026-11-07", "prediction": null, "outcome": "incorrect", "rendered": "7 พ.ย. 2569", "tool": "google_gemini_flash"}
+{"doc_id": "TH-0003", "variant": "bad_scan", "field": "currency", "truth": "THB", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "TH-0003", "variant": "bad_scan", "field": "subtotal", "truth": "426655.26", "prediction": null, "outcome": "incorrect", "rendered": "฿426,655.26", "tool": "google_gemini_flash"}
+{"doc_id": "TH-0003", "variant": "bad_scan", "field": "tax_total", "truth": "29865.88", "prediction": null, "outcome": "incorrect", "rendered": "29,865.88", "tool": "google_gemini_flash"}
+{"doc_id": "TH-0003", "variant": "bad_scan", "field": "total", "truth": "456521.14", "prediction": null, "outcome": "incorrect", "rendered": "฿456,521.14", "tool": "google_gemini_flash"}
+{"doc_id": "TH-0003", "variant": "bad_scan", "field": "tax_rates", "truth": ["7"], "prediction": [], "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "TH-0003", "variant": "bad_scan", "field": "line_item_count", "truth": 18, "prediction": 0, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "TH-0003", "variant": "phone_photo", "field": "vendor_name", "truth": "บริษัท สยาม ออฟฟิศ ซัพพลาย จำกัด", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "TH-0003", "variant": "phone_photo", "field": "vendor_tax_id", "truth": "8837388828535", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "TH-0003", "variant": "phone_photo", "field": "invoice_number", "truth": "INV-2569-5424", "prediction": null, "outcome": "incorrect", "rendered": "INV-2569-5424", "tool": "google_gemini_flash"}
+{"doc_id": "TH-0003", "variant": "phone_photo", "field": "invoice_date", "truth": "2026-09-23", "prediction": null, "outcome": "incorrect", "rendered": "23 กันยายน 2569", "tool": "google_gemini_flash"}
+{"doc_id": "TH-0003", "variant": "phone_photo", "field": "due_date", "truth": "2026-11-07", "prediction": null, "outcome": "incorrect", "rendered": "7 พ.ย. 2569", "tool": "google_gemini_flash"}
+{"doc_id": "TH-0003", "variant": "phone_photo", "field": "currency", "truth": "THB", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "TH-0003", "variant": "phone_photo", "field": "subtotal", "truth": "426655.26", "prediction": null, "outcome": "incorrect", "rendered": "฿426,655.26", "tool": "google_gemini_flash"}
+{"doc_id": "TH-0003", "variant": "phone_photo", "field": "tax_total", "truth": "29865.88", "prediction": null, "outcome": "incorrect", "rendered": "29,865.88", "tool": "google_gemini_flash"}
+{"doc_id": "TH-0003", "variant": "phone_photo", "field": "total", "truth": "456521.14", "prediction": null, "outcome": "incorrect", "rendered": "฿456,521.14", "tool": "google_gemini_flash"}
+{"doc_id": "TH-0003", "variant": "phone_photo", "field": "tax_rates", "truth": ["7"], "prediction": [], "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "TH-0003", "variant": "phone_photo", "field": "line_item_count", "truth": 18, "prediction": 0, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "TH-0008", "variant": "clean_pdf", "field": "vendor_name", "truth": "บริษัท ธนบุรี ปริ๊นติ้ง จำกัด", "prediction": "บริษัท ธนบุรี ปริ้นติ้ง จำกัด", "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "TH-0008", "variant": "scan", "field": "vendor_name", "truth": "บริษัท ธนบุรี ปริ๊นติ้ง จำกัด", "prediction": "บริษัท ธนบุรี ปริ้นติ้ง จำกัด", "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "TH-0008", "variant": "bad_scan", "field": "vendor_name", "truth": "บริษัท ธนบุรี ปริ๊นติ้ง จำกัด", "prediction": "บริษัท ธนบุรี ปริ้นติ้ง จำกัด", "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "TH-0008", "variant": "phone_photo", "field": "vendor_name", "truth": "บริษัท ธนบุรี ปริ๊นติ้ง จำกัด", "prediction": "บริษัท ธนบุรี ปริ้นติ้ง จำกัด", "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "US-0006", "variant": "scan", "field": "subtotal", "truth": "47435.48", "prediction": null, "outcome": "incorrect", "rendered": "$47,435.48", "tool": "google_gemini_flash"}
+{"doc_id": "US-0006", "variant": "scan", "field": "tax_total", "truth": "2846.12", "prediction": null, "outcome": "incorrect", "rendered": "2,846.12", "tool": "google_gemini_flash"}
+{"doc_id": "US-0006", "variant": "scan", "field": "total", "truth": "50281.60", "prediction": null, "outcome": "incorrect", "rendered": "$50,281.60", "tool": "google_gemini_flash"}
+{"doc_id": "US-0006", "variant": "scan", "field": "tax_rates", "truth": ["6"], "prediction": [], "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "US-0006", "variant": "scan", "field": "line_item_count", "truth": 23, "prediction": 20, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "US-0006", "variant": "scan", "field": "vendor_name", "truth": "Harbor Freight Forwarding Inc.", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "US-0006", "variant": "scan", "field": "vendor_tax_id", "truth": "216398878", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "US-0006", "variant": "scan", "field": "invoice_number", "truth": "#3752", "prediction": null, "outcome": "incorrect", "rendered": "#3752", "tool": "google_gemini_flash"}
+{"doc_id": "US-0006", "variant": "scan", "field": "invoice_date", "truth": "2026-06-12", "prediction": null, "outcome": "incorrect", "rendered": "06/12/2026", "tool": "google_gemini_flash"}
+{"doc_id": "US-0006", "variant": "scan", "field": "due_date", "truth": "2026-06-27", "prediction": null, "outcome": "incorrect", "rendered": "06/27/2026", "tool": "google_gemini_flash"}
+{"doc_id": "US-0006", "variant": "scan", "field": "line_item_count", "truth": 23, "prediction": 3, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "US-0006", "variant": "bad_scan", "field": "subtotal", "truth": "47435.48", "prediction": null, "outcome": "incorrect", "rendered": "$47,435.48", "tool": "google_gemini_flash"}
+{"doc_id": "US-0006", "variant": "bad_scan", "field": "tax_total", "truth": "2846.12", "prediction": null, "outcome": "incorrect", "rendered": "2,846.12", "tool": "google_gemini_flash"}
+{"doc_id": "US-0006", "variant": "bad_scan", "field": "total", "truth": "50281.60", "prediction": null, "outcome": "incorrect", "rendered": "$50,281.60", "tool": "google_gemini_flash"}
+{"doc_id": "US-0006", "variant": "bad_scan", "field": "tax_rates", "truth": ["6"], "prediction": [], "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "US-0006", "variant": "bad_scan", "field": "line_item_count", "truth": 23, "prediction": 20, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "US-0006", "variant": "bad_scan", "field": "vendor_name", "truth": "Harbor Freight Forwarding Inc.", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "US-0006", "variant": "bad_scan", "field": "vendor_tax_id", "truth": "216398878", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "US-0006", "variant": "bad_scan", "field": "invoice_number", "truth": "#3752", "prediction": null, "outcome": "incorrect", "rendered": "#3752", "tool": "google_gemini_flash"}
+{"doc_id": "US-0006", "variant": "bad_scan", "field": "invoice_date", "truth": "2026-06-12", "prediction": null, "outcome": "incorrect", "rendered": "06/12/2026", "tool": "google_gemini_flash"}
+{"doc_id": "US-0006", "variant": "bad_scan", "field": "due_date", "truth": "2026-06-27", "prediction": null, "outcome": "incorrect", "rendered": "06/27/2026", "tool": "google_gemini_flash"}
+{"doc_id": "US-0006", "variant": "bad_scan", "field": "line_item_count", "truth": 23, "prediction": 3, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "US-0006", "variant": "phone_photo", "field": "subtotal", "truth": "47435.48", "prediction": null, "outcome": "incorrect", "rendered": "$47,435.48", "tool": "google_gemini_flash"}
+{"doc_id": "US-0006", "variant": "phone_photo", "field": "tax_total", "truth": "2846.12", "prediction": null, "outcome": "incorrect", "rendered": "2,846.12", "tool": "google_gemini_flash"}
+{"doc_id": "US-0006", "variant": "phone_photo", "field": "total", "truth": "50281.60", "prediction": null, "outcome": "incorrect", "rendered": "$50,281.60", "tool": "google_gemini_flash"}
+{"doc_id": "US-0006", "variant": "phone_photo", "field": "tax_rates", "truth": ["6"], "prediction": [], "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "US-0006", "variant": "phone_photo", "field": "line_item_count", "truth": 23, "prediction": 20, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "US-0006", "variant": "phone_photo", "field": "vendor_name", "truth": "Harbor Freight Forwarding Inc.", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "US-0006", "variant": "phone_photo", "field": "vendor_tax_id", "truth": "216398878", "prediction": null, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}
+{"doc_id": "US-0006", "variant": "phone_photo", "field": "invoice_number", "truth": "#3752", "prediction": null, "outcome": "incorrect", "rendered": "#3752", "tool": "google_gemini_flash"}
+{"doc_id": "US-0006", "variant": "phone_photo", "field": "invoice_date", "truth": "2026-06-12", "prediction": null, "outcome": "incorrect", "rendered": "06/12/2026", "tool": "google_gemini_flash"}
+{"doc_id": "US-0006", "variant": "phone_photo", "field": "due_date", "truth": "2026-06-27", "prediction": null, "outcome": "incorrect", "rendered": "06/27/2026", "tool": "google_gemini_flash"}
+{"doc_id": "US-0006", "variant": "phone_photo", "field": "line_item_count", "truth": 23, "prediction": 3, "outcome": "incorrect", "rendered": null, "tool": "google_gemini_flash"}

@@ -32,8 +32,15 @@ def norm_text(s: str) -> str:
 
 
 def norm_identifier(s: str) -> str:
+    """Strip pure formatting: whitespace, hyphens, dots, slashes; uppercase.
+
+    Spec B4.1 names spaces and hyphens; dots and slashes are added because
+    CNPJ (33.637.151/0001-04), NPWP, and GSTIN display formats are pure
+    punctuation (DECISIONS.md #21). Applied identically to truth and
+    prediction, so formatted and bare forms match either way.
+    """
     s = unicodedata.normalize("NFKC", str(s))
-    s = "".join(ch for ch in s if not ch.isspace() and ch != "-")
+    s = "".join(ch for ch in s if ch not in " \t-./")
     return s.upper()
 
 

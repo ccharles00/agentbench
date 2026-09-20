@@ -62,14 +62,20 @@ def _row(gt: dict, variant: str, field: str, pred, outcome: str) -> dict:
 
 
 def dimension_values(gt: dict, variant: str, dimensions: list[str]) -> dict:
-    """The breakdown coordinates of one (doc, variant) pair."""
+    """The breakdown coordinates of one (doc, variant) pair.
+
+    Some dimensions are top-level ground-truth keys (country, language,
+    script), some come from `dimensions`, and `variant` is per-file.
+    """
     out = {}
     gdims = gt.get("dimensions") or {}
     for dim in dimensions:
         if dim == "variant":
             out[dim] = variant
+        elif dim in ("country", "language", "script"):
+            out[dim] = gt.get(dim)
         elif dim in ("language", "script"):
-            v = gdims.get(dim)
+            v = gt.get(dim)
             out[dim] = "+".join(v) if isinstance(v, list) else v
         else:
             out[dim] = gdims.get(dim)

@@ -229,3 +229,13 @@ next agent working in this repo doesn't have to guess or re-litigate them.
       "Distribuidora del Norte S.A. de C.V." on three docs with three RFCs).
     - Self-checks validate the CN/IN/MX check characters; unit tests cover
       each algorithm.
+
+21. **Identifier normalization, 2026-09-20: dots and slashes are formatting.**
+    First live run's 10-doc spot check (M2 acceptance) caught it: CNPJs print
+    as `33.637.151/0001-04`, NPWPs as `47.656.972.5415-617`, ground truth
+    stores them bare — a tool reading the ID *exactly as printed* scored
+    wrong, which made BR and ID exact-match collapse to 3% on an artifact.
+    Spec B4.1 names "spaces and hyphens"; the comparator now also strips
+    dots and slashes, symmetrically on truth and prediction (so formatted
+    and bare forms match either way, and distinct values stay distinct).
+    Applied to `vendor_tax_id`, `invoice_number`, `payment_account`.

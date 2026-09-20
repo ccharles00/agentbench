@@ -103,6 +103,12 @@ class TestIdentifiers:
         assert identifier_comparator("DE123456789", "de 123 456-789", {}) == "correct"
         assert norm_identifier("GB82-WEST-1234") == "GB82WEST1234"
 
+    def test_dots_and_slashes_are_formatting(self):
+        # CNPJ and NPWP print formats (DECISIONS.md #21)
+        assert identifier_comparator("33637151000104", "33.637.151/0001-04", {}) == "correct"
+        assert identifier_comparator("476569725415617", "47.656.972.5415-617", {}) == "correct"
+        assert norm_identifier("33.637.151/0001-04") == "33637151000104"
+
     def test_wrong_value(self):
         assert identifier_comparator("T1234567890123", "T1234567890124", {}) == "incorrect"
 
