@@ -66,26 +66,26 @@ def score_split(config: dict, category: str, split: str, tools: str = "all",
         doc_rows: list[dict] = []
         # per (doc, variant): dimension coordinates + its rows/doc row
         units: list[tuple[dict, list[dict], dict]] = []
+        skipped = 0
 
         for doc in docs:
             gt = truths[doc.doc_id]
             rec = cache.get(tid, version, doc.sha256)
+            if rec is None:
+                skipped += 1          # never attempted — excluded, not a failure
+                continue
+            error = rec.get("error")
+            cost = float(rec.get("cost_usd", "0") or 0)
+            latency = rec.get("latency_ms")
             prediction = None
-            error = "not_run"
-            cost = 0.0
-            latency = None
-            if rec is not None:
-                error = rec.get("error")
-                cost = float(rec.get("cost_usd", "0") or 0)
-                latency = rec.get("latency_ms")
-                if not error:
-                    from core.harness.adapter_base import RawResult
-                    from decimal import Decimal
-                    prediction = adapter.to_canonical(RawResult(
-                        payload=rec.get("raw"),
-                        latency_ms=float(latency or 0),
-                        cost_usd=Decimal(rec.get("cost_usd", "0") or 0),
-                    ))
+            if not error:
+                from core.harness.adapter_base import RawResult
+                from decimal import Decimal
+                prediction = adapter.to_canonical(RawResult(
+                    payload=rec.get("raw"),
+                    latency_ms=float(latency or 0),
+                    cost_usd=Decimal(rec.get("cost_usd", "0") or 0),
+                ))
 
             rows, exact, _failed = score_document(
                 gt, prediction, doc.variant, fields, field_context)
@@ -102,6 +102,7 @@ def score_split(config: dict, category: str, split: str, tools: str = "all",
 
         summaries[tid] = {"tool_version": version,
                           "display_name": adapter.display_name,
+                          "skipped_not_run": skipped,
                           **summarize(all_rows, doc_rows)}
 
         tool_dims: dict[str, dict] = {}

@@ -18,7 +18,7 @@ from __future__ import annotations
 import argparse
 import importlib
 
-from core.config import category_manifest, load_config
+from core.config import category_manifest, load_config, load_env
 
 _COMMAND_TO_MODULE_KEY = {
     "generate": "generator_module",
@@ -62,6 +62,7 @@ def main(argv: list[str] | None = None) -> None:
 
     args = parser.parse_args(argv)
 
+    load_env()
     config = load_config()
 
     if args.command in _COMMAND_TO_MODULE_KEY:

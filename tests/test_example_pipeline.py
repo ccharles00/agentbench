@@ -15,7 +15,7 @@ from core.scoring.pipeline import score_split
 
 @pytest.fixture()
 def example_run(tmp_path):
-    config = load_config()
+    config = load_config() | {"tools": ["fake_extractor"]}   # enable the stub tool
     summary = harness_run(config, "_example", "public", confirm=True,
                           cache_root=tmp_path / "cache")
     results_dir = score_split(config, "_example", "public",
@@ -84,7 +84,7 @@ def test_failures_file_lists_non_correct(example_run):
 
 def test_second_run_is_fully_cached(example_run, tmp_path):
     _, _ = example_run
-    config = load_config()
+    config = load_config() | {"tools": ["fake_extractor"]}
     summary = harness_run(config, "_example", "public", confirm=True,
                           cache_root=tmp_path / "cache")
     assert summary["fake_extractor"]["cached"] == 3

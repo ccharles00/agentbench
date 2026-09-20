@@ -14,6 +14,9 @@ class FakeAdapter:
     tool_id = "fake_extractor"
     display_name = "Fake Extractor (test stub)"
 
+    def __init__(self, config: dict | None = None):
+        pass
+
     def version(self) -> str:
         return "1.0.0"
 

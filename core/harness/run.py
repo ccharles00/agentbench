@@ -23,6 +23,9 @@ from .cache import Cache
 
 RETRY_ATTEMPTS = 3          # beyond the first call
 BACKOFF_BASE_S = 0.5
+# HTTP-level transients (429 quota, 5xx capacity) need real waits; only
+# network blips get the fast exponential path.
+LONG_BACKOFF_S = (15, 30, 60)
 
 ALL_VARIANTS = ("clean_pdf", "scan", "bad_scan", "phone_photo")
 
@@ -33,7 +36,8 @@ def load_adapters(manifest: dict, config: dict) -> dict[str, object]:
         return {}
     registry = importlib.import_module(reg_path).REGISTRY
     enabled = set(config.get("tools") or registry.keys())   # empty = all
-    return {tid: cls() for tid, cls in sorted(registry.items()) if tid in enabled}
+    return {tid: cls(config=config) for tid, cls in sorted(registry.items())
+            if tid in enabled}
 
 
 def iter_doc_files(manifest: dict, split: str,
@@ -95,7 +99,11 @@ def call_with_retries(adapter, doc: DocFile) -> dict:
             if attempt == RETRY_ATTEMPTS:
                 return _record(adapter, doc, RawResult(
                     payload={"exception": str(exc)}, error=str(exc), transient=True))
-            time.sleep(delay)
+            msg = str(exc)
+            wait = LONG_BACKOFF_S[min(attempt, len(LONG_BACKOFF_S) - 1)] \
+                if ("HTTP 429" in msg or "HTTP 5" in msg) else delay
+            print(f"    transient ({str(exc)[:120]}); retrying in {wait}s", flush=True)
+            time.sleep(wait)
             delay *= 2
             continue
         except Exception as exc:                      # permanent failure
@@ -145,13 +153,17 @@ def run(config: dict, category: str, split: str, tools: str = "all",
         cached = failed = 0
         print(f"[{tid} v{version}] {len(docs)} documents", flush=True)
         for doc in docs:
-            if cache.get(tid, version, doc.sha256) is not None:
+            rec = cache.get(tid, version, doc.sha256)
+            if rec is not None and rec.get("error") is None:
                 cached += 1
                 continue
-            rec = call_with_retries(adapter, doc)
-            if rec["error"]:
+            record = call_with_retries(adapter, doc)
+            if record["error"]:
                 failed += 1
-            cache.put(tid, version, doc.sha256, rec)
+            cache.put(tid, version, doc.sha256, record)
+            print(f"  {doc.doc_id} [{doc.variant}] "
+                  f"{'ERROR: ' + record['error'][:100] if record['error'] else 'ok'}",
+                  flush=True)
         summary[tid] = {"tool_version": version, "documents": len(docs),
                         "cached": cached, "failed": failed}
         print(f"  cached: {cached}, new: {len(docs) - cached}, failed: {failed}",

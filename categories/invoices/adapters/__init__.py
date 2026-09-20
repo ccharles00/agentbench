@@ -2,9 +2,12 @@
 
 Adding a tool = one module in this package + an entry in REGISTRY. Each
 adapter documents the vendor API docs URL and the date they were verified
-(spec C3.4). No real adapters are registered yet — they arrive with the
-owner's API keys (TODO_OWNER.md); the LLM baselines will live here too.
+(spec C3.4).
 """
 from __future__ import annotations
 
-REGISTRY: dict[str, type] = {}
+from .gemini import GeminiAdapter
+
+REGISTRY: dict[str, type] = {
+    GeminiAdapter.tool_id: GeminiAdapter,
+}

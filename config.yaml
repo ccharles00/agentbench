@@ -33,4 +33,7 @@ tax_rates:
 
 # Harness settings (used from Milestone 2)
 budget_usd: 25
-tools: []              # enabled adapter tool_ids; owner finalizes the list
+# Enabled adapter tool_ids; model IDs live here too, not in code (spec B3.2).
+tools: [google_gemini_flash]
+tool_models:
+  google_gemini_flash: gemini-3.8-flash   # latest stable Flash, verified 2026-09-20
