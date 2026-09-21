@@ -53,22 +53,27 @@ footer { opacity: .7; font-size: .85rem; margin-top: 3rem; }
 .filter a { margin-right: .8rem; }
 """
 
-NAV = """<nav><a href="/">Leaderboard</a><a href="/heatmap.html">Heatmap</a>
-<a href="/failures.html">Failure gallery</a><a href="/methodology.html">Methodology</a>
-<a href="/neutrality.html">Neutrality</a><a href="/corrections.html">Corrections log</a>
-<a href="/api.html">API &amp; MCP</a></nav>"""
+def _nav(rel: str = "") -> str:
+    """Site nav with relative links (works under a Pages subpath)."""
+    return (f'<nav><a href="{rel}index.html">Leaderboard</a>'
+            f'<a href="{rel}heatmap.html">Heatmap</a>'
+            f'<a href="{rel}failures.html">Failure gallery</a>'
+            f'<a href="{rel}methodology.html">Methodology</a>'
+            f'<a href="{rel}neutrality.html">Neutrality</a>'
+            f'<a href="{rel}corrections.html">Corrections log</a>'
+            f'<a href="{rel}api.html">API &amp; MCP</a></nav>')
 
 
 def _load(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
-def _page(title: str, body: str) -> str:
+def _page(title: str, body: str, rel: str = "") -> str:
     return f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{html.escape(title)}</title>
-<style>{CSS}</style></head><body>{NAV}{body}
+<style>{CSS}</style></head><body>{_nav(rel)}{body}
 <footer>agentbench (working name) · dataset from summary.json at build time ·
 code MIT, data CC BY 4.0 · every rate carries a 95% Wilson interval and n ·
 built {time.strftime('%Y-%m-%d')}</footer></body></html>"""
@@ -122,7 +127,7 @@ def _leaderboard_rows(boards: dict) -> str:
         prv_em = prv["documents"] if prv else None
         gap = (f"{100 * (prv_em['rate'] - em['rate']):+.1f}pp" if prv_em else "—")
         rows.append(f"""
-<tr><td><a href="/tools/{tid}.html">{s['display_name']}</a>
+<tr><td><a href="tools/{tid}.html">{s['display_name']}</a>
 <div class="wilson">{tid} · {s['tool_version']}</div></td>
 <td class="num">{em['rate']:.1%}<div class="wilson">{em['successes']}/{em['count']} · CI {em['wilson95'][0]:.0%}–{em['wilson95'][1]:.0%}</div></td>
 <td class="num">{prv_em['rate']:.1%}<div class="wilson">public-private {gap}</div></td>
@@ -170,7 +175,7 @@ Dataset {dv}.</p>
 <th class="num">$/correct doc</th><th class="num">p50</th>
 <th class="num">Halluc.</th></tr></thead>
 <tbody>{_leaderboard_rows(boards)}</tbody></table>
-<p>See the <a href="/failures.html">failure gallery</a> for where each tool
+<p>See the <a href="failures.html">failure gallery</a> for where each tool
 breaks — degraded scans, tax-inclusive totals, currency identification.</p>"""),
                                      encoding="utf-8")
 
@@ -251,7 +256,7 @@ breaks — degraded scans, tax-inclusive totals, currency identification.</p>"""
         pred = "null" if f["prediction"] is None else str(f["prediction"])
         rendered = f.get("rendered") or ""
         cards.append(f"""<div class="card">
-<img loading="lazy" src="/img/{f['doc_id']}.png" alt="{f['doc_id']}">
+<img loading="lazy" src="img/{f['doc_id']}.png" alt="{f['doc_id']}">
 <div><span class="tag">{f['tool']}</span><span class="tag">{f['doc_id'][:2]}</span>
 <span class="tag">{f['variant']}</span><span class="tag">{f['reason']}</span></div>
 <p><strong>{f['field']}</strong> — <span class="fail">returned</span>
@@ -301,8 +306,7 @@ expected value, and how it was printed.</p>
                             f"<th class='num'>exact-match</th><th></th></tr>"
                             f"{cells}</table>")
         prv = boards.get("private", {}).get("tools", {}).get(tid)
-        (out / "tools" / f"{tid}.html").write_text(_page(
-            s["display_name"], f"""
+        body = f"""
 <h1>{html.escape(s['display_name'])}</h1>
 <p class="sub">{tid} · version {s['tool_version']} · tested on dataset {dv}</p>
 <p>Public exact-match <strong>{s['documents']['rate']:.1%}</strong>
@@ -314,9 +318,11 @@ field accuracy {s['field_accuracy']['rate']:.1%} ·
 p50 {s['latency_ms']['p50']/1000:.1f}s · hallucination
 {s['hallucination_rate']['rate']:.1%}</p>
 {''.join(dim_html)}
-<p><a href="/methodology.html">Methodology</a> ·
-<a href="/corrections.html">Corrections log</a> ·
-no vendor paid for this listing.</p>"""), encoding="utf-8")
+<p><a href="../methodology.html">Methodology</a> ·
+<a href="../corrections.html">Corrections log</a> ·
+no vendor paid for this listing.</p>"""
+        (out / "tools" / f"{tid}.html").write_text(
+            _page(s["display_name"], body, rel="../"), encoding="utf-8")
 
     # ---------- methodology ----------
     prompt_body = PROMPT_PATH.read_text(encoding="utf-8").partition("\n---\n")[2]
@@ -338,7 +344,7 @@ dataset {dv}.</p>
 <h2>Scoring</h2><p>12 fields compared under identical normalization
 (NFKC/casefold; identifiers stripped of spacing punctuation; amounts and
 dates value-exact with unambiguous display formats tolerated — decisions
-#21–#25 in the <a href="/corrections.html">corrections log</a>). Document
+#21–#25 in the <a href="corrections.html">corrections log</a>). Document
 exact-match = all scored fields correct. Every rate carries a 95% Wilson
 interval. Amounts must be right values — "1.234" for 1,234 is wrong.
 Dates must resolve to ISO Gregorian; swapped day/month is wrong.

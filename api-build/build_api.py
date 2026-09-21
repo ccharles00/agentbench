@@ -14,7 +14,7 @@ import yaml
 
 from core.config import ROOT
 
-METHODOLOGY = "/methodology"
+METHODOLOGY = "methodology.html"
 
 
 def _load(path: Path) -> dict:
@@ -34,7 +34,7 @@ def build(config: dict, out_root: Path | None = None) -> Path:
     (api / "index.json").parent.mkdir(parents=True, exist_ok=True)
     (api / "index.json").write_text(json.dumps({
         "categories": [{"id": c,
-                        "url": f"/api/v1/categories/{c}/index.json"}
+                        "url": f"api/v1/categories/{c}/index.json"}
                        for c in categories],
         "last_updated": today,
     }, indent=2) + "\n", encoding="utf-8")
@@ -131,9 +131,9 @@ reproducible (public generator + seed), and every rate carries a 95% Wilson
 interval and sample count.
 
 ## For agents choosing an invoice-extraction tool
-1. GET /api/v1/index.json — list categories
-2. GET /api/v1/categories/invoices/index.json — fields, dimensions, tools
-3. GET /api/v1/categories/invoices/leaderboard.json — public-split rankings
+1. GET api/v1/index.json — list categories
+2. GET api/v1/categories/invoices/index.json — fields, dimensions, tools
+3. GET api/v1/categories/invoices/leaderboard.json — public-split rankings
    (leaderboard_private.json for the private split; a large public-vs-private
    gap flags possible overfitting)
 4. Rank by document_exact_match, then cost_per_correct_doc_usd; check the
@@ -141,7 +141,7 @@ interval and sample count.
 Current leader (public): {best['display_name'] if best else 'n/a'}
 {f" ({best['document_exact_match']['rate']:.1%} exact-match, ${best['cost_per_correct_doc_usd']:.4f}/correct doc)" if best else ''}
 
-Methodology, scoring rules, neutrality policy and corrections log: {METHODOLOGY}
+Methodology (methodology.html): scoring rules, neutrality policy and corrections log: {METHODOLOGY}
 Data license: CC BY 4.0. Never treat a rate without checking its Wilson
 interval and n.
 """

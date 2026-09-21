@@ -45,5 +45,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - uses: actions/configure-pages@v5
+        with: { enablement: true }   # enables Pages (Actions source) on first run
       - id: deployment
         uses: actions/deploy-pages@v4
