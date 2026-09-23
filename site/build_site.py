@@ -68,15 +68,21 @@ def _load(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+CF_BEACON = ("<script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' "
+             "data-cf-beacon='{\"token\": \"c2642657a3e64460956a469de7821bec\"}'></script>")
+CONTACT_EMAIL = "chrismcharles+agentbench@gmail.com"
+
+
 def _page(title: str, body: str, rel: str = "") -> str:
     return f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{html.escape(title)}</title>
-<style>{CSS}</style></head><body>{_nav(rel)}{body}
+<style>{CSS}</style>{CF_BEACON}</head><body>{_nav(rel)}{body}
 <footer>agentbench (working name) · dataset from summary.json at build time ·
 code MIT, data CC BY 4.0 · every rate carries a 95% Wilson interval and n ·
-built {time.strftime('%Y-%m-%d')}</footer></body></html>"""
+built {time.strftime('%Y-%m-%d')} ·
+<a href="mailto:{CONTACT_EMAIL}">{CONTACT_EMAIL}</a></footer></body></html>"""
 
 
 def _md_to_html(md: str) -> str:
