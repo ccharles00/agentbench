@@ -363,3 +363,24 @@ next agent working in this repo doesn't have to guess or re-litigate them.
     complaint from OpenAI, or a clearer answer obtained later), the fix is
     narrow: pull OpenAI's row from public-facing pages while keeping it in
     the raw results/DECISIONS.md record.
+
+27. **Cloudflare Web Analytics + public contact alias, 2026-09-23.** Set
+    up under a new, separate Cloudflare account — "Oak Mountain Digital -
+    agentbench" — created specifically to keep this project's Cloudflare
+    presence isolated from SurveyRock's existing account, the same
+    pattern already used for the AWS account
+    (`oak-mountain-digital-agentbench`, 172575864458) and the personal
+    `ccharles00` GitHub login. The new account required a fresh
+    email-verification cycle before it could create a Web Analytics site
+    — an anti-abuse hold Cloudflare puts on brand-new accounts, unrelated
+    to the login's own (already long-verified) email — which only
+    cleared when the setup was clicked through manually in the UI rather
+    than via browser automation; the exact mechanism isn't understood.
+    Beacon script (JS snippet only, no DNS/zone change) wired into
+    `site/build_site.py` for hostname `ccharles00.github.io`. Public
+    contact alias set to `chrismcharles+agentbench@gmail.com` — a Gmail
+    +-tag, not a separate account, kept off `@surveyrock.com` so the
+    neutral benchmark's public contact doesn't read as tied to an
+    unrelated SaaS company; renaming it later (e.g. to `+assaymark`, if
+    the project name changes) costs nothing since mail still lands in the
+    same inbox.
